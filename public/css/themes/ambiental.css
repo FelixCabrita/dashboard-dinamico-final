@@ -1,0 +1,178 @@
+/**
+ * Tema Ambiental
+ * Paleta de tonos tierra para componentes ambientales
+ */
+
+:root.theme-ambiental {
+    /* Colores principales */
+    --color-primary: #d35400;
+    --color-primary-dark: #a04000;
+    --color-primary-light: #e67e22;
+    --color-primary-lighter: #f0b27a;
+
+    /* Colores secundarios */
+    --color-secondary: #935116;
+    --color-secondary-dark: #784212;
+    --color-secondary-light: #af601a;
+
+    /* Colores de acento */
+    --color-accent: #27ae60;
+    --color-accent-dark: #1e8449;
+    --color-accent-light: #52be80;
+
+    /* Tonos tierra variados */
+    --color-earth-1: #784212;
+    --color-earth-2: #935116;
+    --color-earth-3: #a04000;
+    --color-earth-4: #d35400;
+    --color-earth-5: #e67e22;
+    --color-earth-6: #f39c12;
+
+    /* Grises */
+    --color-gray-dark: #2c3e50;
+    --color-gray: #7f8c8d;
+    --color-gray-light: #bdc3c7;
+    --color-gray-lighter: #ecf0f1;
+
+    /* Backgrounds */
+    --bg-primary: linear-gradient(135deg, #d35400 0%, #a04000 100%);
+    --bg-secondary: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+    --bg-light: #fef5e7;
+    --bg-white: #ffffff;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(211, 84, 0, 0.1);
+    --shadow-md: 0 4px 12px rgba(211, 84, 0, 0.15);
+    --shadow-lg: 0 8px 24px rgba(211, 84, 0, 0.2);
+}
+
+/* Aplicar tema a componentes */
+.theme-ambiental .component-kpi .kpi-card {
+    border-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-ambiental .component-kpi .kpi-icon {
+    color: var(--color-primary);
+}
+
+.theme-ambiental .component-kpi .kpi-number {
+    color: var(--color-primary-dark);
+}
+
+.theme-ambiental .component-kpi .kpi-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-dark);
+}
+
+/* Tablas */
+.theme-ambiental .component-table .table-header {
+    background: var(--bg-primary);
+}
+
+.theme-ambiental .component-table table.dataTable thead th {
+    border-bottom-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-ambiental .component-table table.dataTable tbody tr:hover {
+    background: var(--bg-light);
+}
+
+.theme-ambiental .component-table .btn-datatable {
+    background: var(--color-primary);
+}
+
+.theme-ambiental .component-table .btn-datatable:hover {
+    background: var(--color-primary-dark);
+    box-shadow: var(--shadow-md);
+}
+
+.theme-ambiental .component-table .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-ambiental .component-table .dataTables_wrapper .dataTables_filter input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(211, 84, 0, 0.1);
+}
+
+/* Gráficos */
+.theme-ambiental .component-chart .chart-title {
+    color: var(--color-primary-dark);
+}
+
+.theme-ambiental .component-chart {
+    background: var(--bg-light);
+}
+
+.theme-ambiental .chart-loading::before {
+    border-top-color: var(--color-primary);
+}
+
+.theme-ambiental .chart-control-btn {
+    background: var(--color-primary);
+}
+
+.theme-ambiental .chart-control-btn:hover {
+    background: var(--color-primary-dark);
+}
+
+/* Botones genéricos */
+.theme-ambiental .btn-primary {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-ambiental .btn-primary:hover {
+    background: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+/* Enlaces */
+.theme-ambiental a {
+    color: var(--color-primary);
+}
+
+.theme-ambiental a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Badges */
+.theme-ambiental .badge-primary {
+    background: var(--color-primary);
+}
+
+.theme-ambiental .badge-secondary {
+    background: var(--color-secondary);
+}
+
+/* Alertas */
+.theme-ambiental .alert-warning {
+    background: var(--color-primary-lighter);
+    border-color: var(--color-primary);
+    color: var(--color-primary-dark);
+}
+
+/* Inputs */
+.theme-ambiental input:focus,
+.theme-ambiental select:focus,
+.theme-ambiental textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(211, 84, 0, 0.1);
+}
+
+/* Progress bars */
+.theme-ambiental .progress-bar {
+    background: var(--color-primary);
+}
+
+/* Custom scrollbar */
+.theme-ambiental ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+}
+
+.theme-ambiental ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-dark);
+}

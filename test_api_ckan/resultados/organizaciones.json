@@ -1,0 +1,62 @@
+[
+    {
+        "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+        "name": "medio_natural",
+        "title": "",
+        "num_datasets": 5,
+        "datasets": [
+            "875b1ac0-4e7d-4e5d-91f7-2e5785003a74",
+            "ff470661-8371-4ac1-8a7f-ae6c42472174",
+            "66e1a7da-dd46-4c60-8fda-2043aa38b229",
+            "6ceb9d64-0834-4737-a4a9-694d17e52b10",
+            "4530ae16-e1df-49bc-941e-3fb684dd7778"
+        ]
+    },
+    {
+        "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+        "name": "socioeconomica",
+        "title": "",
+        "num_datasets": 9,
+        "datasets": [
+            "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+            "90f5cbc4-0221-4246-992a-4cf586562650",
+            "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "f5e1c716-1236-4f41-90db-a9706f068625",
+            "2ccbd666-7e12-4c98-93bf-fb2049daa599",
+            "025d2c53-5397-40e3-95eb-e4e43ec6957c"
+        ]
+    },
+    {
+        "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+        "name": "ordenacion_del_territorio",
+        "title": "",
+        "num_datasets": 4,
+        "datasets": [
+            "38f32e49-5f02-4365-a955-ecfe11fb160a",
+            "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+            "53627dbc-d688-46b1-a70b-12afddd8a9fd",
+            "4a39d746-debb-407d-b0fb-f2aa1f4693e5"
+        ]
+    },
+    {
+        "id": "13d5a17d-5b40-4e87-8b7c-eb9602867eea",
+        "name": "division_administrativa",
+        "title": "",
+        "num_datasets": 1,
+        "datasets": [
+            "d72f6b3d-5271-4038-8629-013e1abfe608"
+        ]
+    },
+    {
+        "id": "8567cf38-47b5-4f8d-abd2-35b002a4b890",
+        "name": "prueba",
+        "title": "",
+        "num_datasets": 1,
+        "datasets": [
+            "29e69a68-c553-4f86-a3b3-b31448f18efe"
+        ]
+    }
+]

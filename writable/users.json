@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Administrador Principal",
+        "email": "admin@bosquepalencia.es",
+        "password": "$2y$10$Kw6nJpEcFNkjppZWFhW3Y.pvwtCHpvOlCNmb1eHOTxabRjhMFNeyC",
+        "role": "admin",
+        "created_at": "2025-10-20 14:00:00",
+        "updated_at": "2025-10-20 14:00:00"
+    },
+    {
+        "id": 2,
+        "name": "Felix",
+        "email": "fscabrita@gmail.com",
+        "password": "$2y$10$GO\/d6Xc7bwZsdoB3OstIc.r2sR9JMsbVejY89qJJKdcKOuWicDx66",
+        "role": "admin",
+        "created_at": "2025-10-20 22:34:04",
+        "updated_at": "2025-10-20 22:34:04"
+    }
+]

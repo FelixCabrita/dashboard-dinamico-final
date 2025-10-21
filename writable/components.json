@@ -1,0 +1,254 @@
+[
+    {
+        "id": "e39c449a-5422-4403-90fa-f4b8c69fca13",
+        "name": "TEst6",
+        "description": "fasdfadfsd",
+        "type": "kpi",
+        "config": {
+            "data_source": "fact_lulucf",
+            "dimensions": [
+                "id"
+            ],
+            "measures": [
+                "id"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "🧭",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [
+            "forestal"
+        ],
+        "metadata": {
+            "created_at": "2025-10-20T23:54:08Z",
+            "updated_at": "2025-10-20T23:54:08Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "40f25ead-fdbc-4b74-b678-117b82609069",
+        "name": "TEST 2",
+        "description": "sadfasdf",
+        "type": "kpi",
+        "config": {
+            "data_source": "fact_formaciones_matorral",
+            "dimensions": [
+                "porcentaje"
+            ],
+            "measures": [
+                "porcentaje"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "🌲",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:06:48Z",
+            "updated_at": "2025-10-21T00:06:48Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "a22135c2-c6e6-4f0f-aa2e-8cf7e7feebab",
+        "name": "asdfasdf",
+        "description": "sadfasdf",
+        "type": "table",
+        "config": {
+            "data_source": "dim_municipios",
+            "dimensions": [
+                "codigo_ine",
+                "nombre",
+                "provincia"
+            ],
+            "measures": [],
+            "aggregation": "sum",
+            "filters": [],
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "🦅",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:07:46Z",
+            "updated_at": "2025-10-21T00:07:46Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "41e231cc-2a4f-441c-8496-2088ec68dc65",
+        "name": "asdfasdf",
+        "description": "asdfasdf",
+        "type": "line_chart",
+        "config": {
+            "data_source": "fact_ifn",
+            "dimensions": [
+                "npies"
+            ],
+            "measures": [
+                "clase_diametro"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "🐻",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:08:37Z",
+            "updated_at": "2025-10-21T00:08:37Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "9282e453-9d7c-4d25-863b-92de54e0ec49",
+        "name": "UWUT ETIQUETA ",
+        "description": "",
+        "type": "kpi",
+        "config": {
+            "data_source": "fact_calidades",
+            "dimensions": [],
+            "measures": [
+                "id"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "labels": {
+                "id": "UWU"
+            },
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "🌤️",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:18:06Z",
+            "updated_at": "2025-10-21T00:18:06Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "58e23241-734d-4b19-aac2-08113f3f793d",
+        "name": "AFASDFASDFA",
+        "description": "",
+        "type": "table",
+        "config": {
+            "data_source": "fact_ifn",
+            "dimensions": [
+                "municipio_id",
+                "especie_id",
+                "ifn_version",
+                "npies"
+            ],
+            "measures": [],
+            "aggregation": "sum",
+            "filters": [],
+            "labels": {
+                "municipio_id": "sdfv",
+                "especie_id": "aSDFASD",
+                "ifn_version": "ASDFA",
+                "npies": "ASDFASE"
+            },
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:18:40Z",
+            "updated_at": "2025-10-21T00:18:40Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "5977a231-733a-4874-bbc9-25341b66086f",
+        "name": "ADFASDFGGWEF",
+        "description": "",
+        "type": "line_chart",
+        "config": {
+            "data_source": "fact_formaciones_herbaceas",
+            "dimensions": [
+                "porcentaje"
+            ],
+            "measures": [
+                "id"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "labels": {
+                "porcentaje": "afasdfasdf",
+                "id": "asdfasd"
+            },
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "💵",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [],
+        "metadata": {
+            "created_at": "2025-10-21T00:26:31Z",
+            "updated_at": "2025-10-21T00:26:31Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    },
+    {
+        "id": "eb05ee19-c2e4-4500-8aa7-d1af4bc7df8a",
+        "name": "DGDFSG",
+        "description": "SDFGSDF",
+        "type": "line_chart",
+        "config": {
+            "data_source": "fact_existencias",
+            "dimensions": [
+                "vsc"
+            ],
+            "measures": [
+                "vcc"
+            ],
+            "aggregation": "sum",
+            "filters": [],
+            "labels": {
+                "vsc": "ASDFASD",
+                "vcc": "ASDFASD"
+            },
+            "style": {
+                "color": "#6D0C6D",
+                "icon": "",
+                "unit": "",
+                "suffix": ""
+            }
+        },
+        "tags": [
+            "SDFGSDFG"
+        ],
+        "metadata": {
+            "created_at": "2025-10-21T00:34:17Z",
+            "updated_at": "2025-10-21T00:34:17Z",
+            "created_by": "admin@bosquepalencia.es"
+        }
+    }
+]

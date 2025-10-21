@@ -1,0 +1,331 @@
+[
+    {
+        "dataset_title": "demografia_y_empleo",
+        "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+        "resource_name": "Datos de Número de matrimonios en Castilla y León",
+        "resource_id": "f5da57d8-d0e3-4115-afa5-0cc5a8c76fcf",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "demografia_y_empleo",
+        "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+        "resource_name": "Datos de Número de defunciones en Castilla y León",
+        "resource_id": "d227ef59-bc49-42e0-be71-41ec3fde6e15",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "demografia_y_empleo",
+        "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+        "resource_name": "Datos de Número de nacimientos en Castilla y León",
+        "resource_id": "966d3cb5-d56c-4aaf-add8-3f3a70c118bd",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "demografia_y_empleo",
+        "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+        "resource_name": "Datos de Población Total por provincias y sexo",
+        "resource_id": "771bfd9e-d306-4202-bc08-dab243d38a2a",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "demografia_y_empleo",
+        "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+        "resource_name": "Número de parados y demandantes de empleo por sexo",
+        "resource_id": "c39bf47b-cd0c-4e33-9a52-bb1b865d4bde",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "turismo_y_patrimonio",
+        "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+        "resource_name": "Datos de Fiestas locales: Calendario de fiestas de caracter local",
+        "resource_id": "a9daa683-3bea-4ee8-878a-adb3a02f4361",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "turismo_y_patrimonio",
+        "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+        "resource_name": "Datos de Registro de Turismo de Castilla y León",
+        "resource_id": "36eb1908-2707-45ef-9abc-dad2e29df446",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "turismo_y_patrimonio",
+        "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+        "resource_name": "Datos de Hostelería con entrega a domicilio",
+        "resource_id": "f387c6c0-2877-4f2c-a004-00750d6e0a3a",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "servicios_y_comercio",
+        "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+        "resource_name": "Datos de Registro de centros sanitarios de Castilla y León",
+        "resource_id": "e293d9fb-771d-4971-a650-b040325386ac",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "servicios_y_comercio",
+        "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+        "resource_name": "Datos de Centros de carácter social",
+        "resource_id": "e213894d-2fc2-4094-a0f8-0b8a00358968",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "servicios_y_comercio",
+        "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+        "resource_name": "Talleres de reparación de vehículos",
+        "resource_id": "ef9612ab-af2a-4a8f-9f68-2499672c95da",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "servicios_y_comercio",
+        "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+        "resource_name": "Directorio de talleres artesanos de Castilla y León",
+        "resource_id": "8549b5a6-9e27-4491-897f-50268cb1d3ab",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "servicios_y_comercio",
+        "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+        "resource_name": "Cartera de servicios de atención primaria",
+        "resource_id": "4e7c4cd0-82a8-4f34-a835-3885f22162fa",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Datos de Registro de cooperativas",
+        "resource_id": "afee4c93-f6ab-45ad-ba21-c9e8099b4667",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Datos de Registro de agentes de cooperación para el desarrollo de Castilla y León",
+        "resource_id": "b551375f-6bbe-420e-9952-54ac9c17f99f",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Asociaciones de pacientes",
+        "resource_id": "84139f7d-4dda-47d9-8aee-ba853085e74b",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Registro de asociaciones de Castilla y León",
+        "resource_id": "1275e3a3-68fe-4b21-b1a3-4aa5b8981fae",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Entidades Asociativas Agroalimentarias prioritarias de carácter regional",
+        "resource_id": "44811d5c-f98d-48ae-88c6-56187988f436",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Asociaciones Forestales",
+        "resource_id": "85116a07-08ea-4d2e-9452-225994031d4e",
+        "format": "XLS"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Asociaciones de espeleogia",
+        "resource_id": "7d94d3e2-d8d6-4e65-84af-051d6b3b0ab9",
+        "format": "XLS"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Asociaciones de Escalada",
+        "resource_id": "d921621f-e04f-440e-bec1-c077b60a0849",
+        "format": "XLS"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Grupos de Acción Local",
+        "resource_id": "1ffec1fc-4b8c-4c41-9f73-8a0b9df52709",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "asociaciones_y_grupos_locales",
+        "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+        "resource_name": "Directorio de Asociaciones de Consumidores",
+        "resource_id": "89c84d12-9c6f-4f68-b906-a7ea79861572",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "industria_y_economia",
+        "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+        "resource_name": "Datos de Registro de Artesanos Alimentarios",
+        "resource_id": "4991497a-d348-4ed9-a09b-b84c5781b480",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "industria_y_economia",
+        "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+        "resource_name": "Directorio de talleres artesanos de CyL",
+        "resource_id": "72ce9681-6a75-4916-b596-7875a270770b",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "industria_y_economia",
+        "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+        "resource_name": "Empresas de trabajo forestales",
+        "resource_id": "c5daa405-632a-4d1b-a541-14347e406da3",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "industria_y_economia",
+        "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+        "resource_name": "Datos de Directorio de industrias culturales",
+        "resource_id": "282d4572-8727-41ec-8468-26c2f57a9aac",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Terrenos cinegéticos",
+        "resource_id": "c8f3aed1-1342-4b14-abb4-7fa1e19475aa",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Listado de cotos de caza de Castilla y León",
+        "resource_id": "663f9cdc-fdc3-4472-9260-4cd1c143a5ec",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Resultados de temporadas cinegéticas",
+        "resource_id": "4bf1cec1-cab8-4745-8bd1-cefa624c2845",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Licencias de caza y pesca",
+        "resource_id": "5e8dd115-4d0a-492d-8a95-53fa39dc1441",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Censo de superficies agrarias en Castilla y León",
+        "resource_id": "2efe1793-b1ca-453f-96fa-2cbb3deee6ee",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Explotaciones ganaderas de apícola",
+        "resource_id": "7773f19b-84a9-48ef-be55-2c3893d66395",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "agricultura_y_ganaderia",
+        "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+        "resource_name": "Datos de Superficies de cultivos herbáceos",
+        "resource_id": "421963f1-61ab-4b17-aa75-05e0a73b3e25",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "flora_y_fauna",
+        "dataset_id": "ff470661-8371-4ac1-8a7f-ae6c42472174",
+        "resource_name": "Datos de Explotaciones acuícolas",
+        "resource_id": "59ba658c-226f-4ae8-a3d0-21fe96261788",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "flora_y_fauna",
+        "dataset_id": "ff470661-8371-4ac1-8a7f-ae6c42472174",
+        "resource_name": "Datos de Incendios forestales",
+        "resource_id": "f74b444d-e0f9-4638-916e-ad595bf5f0dc",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "educacion_y_cultura",
+        "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+        "resource_name": "Datos de Red de Teatros",
+        "resource_id": "da343c31-1955-4efa-ad61-49545ad02a88",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "educacion_y_cultura",
+        "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+        "resource_name": "Datos de Directorio de Centros Docentes",
+        "resource_id": "9c1d89fb-3667-4772-80a2-caf1f043862e",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "educacion_y_cultura",
+        "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+        "resource_name": "Datos de Registro de infraestructuras culturales",
+        "resource_id": "1af32ff8-36f0-4d84-a73f-93874a9378cf",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "educacion_y_cultura",
+        "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+        "resource_name": "Datos de Red de Circuitos escénicos",
+        "resource_id": "0ccc69bc-ad8c-412d-bc6b-a07e4041a3f7",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "normativa_y_planificacion",
+        "dataset_id": "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+        "resource_name": "Datos de Planes y programas",
+        "resource_id": "5c96988a-7b8a-4f4c-8c77-5c6f73f98010",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "normativa_y_planificacion",
+        "dataset_id": "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+        "resource_name": "Datos de Licitación de obras públicas",
+        "resource_id": "e666aa19-a09b-4159-91aa-ece964403385",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "general",
+        "dataset_id": "d72f6b3d-5271-4038-8629-013e1abfe608",
+        "resource_name": "Datos de Asociaciones juveniles",
+        "resource_id": "c0c157fe-20eb-460e-8c2c-0c1dc4ac64fd",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "general",
+        "dataset_id": "d72f6b3d-5271-4038-8629-013e1abfe608",
+        "resource_name": "Datos de Registro de municipios de Castilla y León",
+        "resource_id": "41c0aa65-3964-4926-836d-d501f9e55e52",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "prueba1",
+        "dataset_id": "29e69a68-c553-4f86-a3b3-b31448f18efe",
+        "resource_name": "Puntos de Interés CSV",
+        "resource_id": "d2797989-2c6d-4cdf-9adc-19f63325e14e",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "transportes",
+        "dataset_id": "025d2c53-5397-40e3-95eb-e4e43ec6957c",
+        "resource_name": "Datos de Catálogo de carreteras sin clasificar",
+        "resource_id": "e65a35c6-f9cb-40a2-bbee-bc9f2516154c",
+        "format": "CSV"
+    },
+    {
+        "dataset_title": "transportes",
+        "dataset_id": "025d2c53-5397-40e3-95eb-e4e43ec6957c",
+        "resource_name": "Datos de Catálogo de la red regional de carreteras (tramificada)",
+        "resource_id": "af35d49b-730a-42c4-845a-06c185281531",
+        "format": "CSV"
+    }
+]

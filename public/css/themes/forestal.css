@@ -1,0 +1,178 @@
+/**
+ * Tema Forestal
+ * Paleta de tonos verdes para componentes forestales
+ */
+
+:root.theme-forestal {
+    /* Colores principales */
+    --color-primary: #27ae60;
+    --color-primary-dark: #1e8449;
+    --color-primary-light: #58d68d;
+    --color-primary-lighter: #abebc6;
+
+    /* Colores secundarios */
+    --color-secondary: #16a085;
+    --color-secondary-dark: #138d75;
+    --color-secondary-light: #48c9b0;
+
+    /* Colores de acento */
+    --color-accent: #f39c12;
+    --color-accent-dark: #d68910;
+    --color-accent-light: #f8c471;
+
+    /* Tonos verdes variados */
+    --color-forest-1: #145a32;
+    --color-forest-2: #1e8449;
+    --color-forest-3: #27ae60;
+    --color-forest-4: #52be80;
+    --color-forest-5: #7dcea0;
+    --color-forest-6: #a9dfbf;
+
+    /* Grises */
+    --color-gray-dark: #2c3e50;
+    --color-gray: #7f8c8d;
+    --color-gray-light: #bdc3c7;
+    --color-gray-lighter: #ecf0f1;
+
+    /* Backgrounds */
+    --bg-primary: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+    --bg-secondary: linear-gradient(135deg, #16a085 0%, #138d75 100%);
+    --bg-light: #e8f8f5;
+    --bg-white: #ffffff;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(39, 174, 96, 0.1);
+    --shadow-md: 0 4px 12px rgba(39, 174, 96, 0.15);
+    --shadow-lg: 0 8px 24px rgba(39, 174, 96, 0.2);
+}
+
+/* Aplicar tema a componentes */
+.theme-forestal .component-kpi .kpi-card {
+    border-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-forestal .component-kpi .kpi-icon {
+    color: var(--color-primary);
+}
+
+.theme-forestal .component-kpi .kpi-number {
+    color: var(--color-primary-dark);
+}
+
+.theme-forestal .component-kpi .kpi-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-dark);
+}
+
+/* Tablas */
+.theme-forestal .component-table .table-header {
+    background: var(--bg-primary);
+}
+
+.theme-forestal .component-table table.dataTable thead th {
+    border-bottom-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-forestal .component-table table.dataTable tbody tr:hover {
+    background: var(--bg-light);
+}
+
+.theme-forestal .component-table .btn-datatable {
+    background: var(--color-primary);
+}
+
+.theme-forestal .component-table .btn-datatable:hover {
+    background: var(--color-primary-dark);
+    box-shadow: var(--shadow-md);
+}
+
+.theme-forestal .component-table .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-forestal .component-table .dataTables_wrapper .dataTables_filter input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
+}
+
+/* Gráficos */
+.theme-forestal .component-chart .chart-title {
+    color: var(--color-primary-dark);
+}
+
+.theme-forestal .component-chart {
+    background: var(--bg-light);
+}
+
+.theme-forestal .chart-loading::before {
+    border-top-color: var(--color-primary);
+}
+
+.theme-forestal .chart-control-btn {
+    background: var(--color-primary);
+}
+
+.theme-forestal .chart-control-btn:hover {
+    background: var(--color-primary-dark);
+}
+
+/* Botones genéricos */
+.theme-forestal .btn-primary {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-forestal .btn-primary:hover {
+    background: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+/* Enlaces */
+.theme-forestal a {
+    color: var(--color-primary);
+}
+
+.theme-forestal a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Badges */
+.theme-forestal .badge-primary {
+    background: var(--color-primary);
+}
+
+.theme-forestal .badge-secondary {
+    background: var(--color-secondary);
+}
+
+/* Alertas */
+.theme-forestal .alert-success {
+    background: var(--color-primary-lighter);
+    border-color: var(--color-primary);
+    color: var(--color-primary-dark);
+}
+
+/* Inputs */
+.theme-forestal input:focus,
+.theme-forestal select:focus,
+.theme-forestal textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
+}
+
+/* Progress bars */
+.theme-forestal .progress-bar {
+    background: var(--color-primary);
+}
+
+/* Custom scrollbar */
+.theme-forestal ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+}
+
+.theme-forestal ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-dark);
+}

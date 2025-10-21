@@ -1,0 +1,532 @@
+{
+    "fecha_test": "2025-10-21 16:34:47",
+    "servidor": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com",
+    "recursos_probados": [
+        {
+            "nombre": "Registro de municipios de Castilla y León",
+            "resource_id": "41c0aa65-3964-4926-836d-d501f9e55e52",
+            "dataset": "general",
+            "tests": {
+                "consulta_basica": {
+                    "nombre": "Consulta básica",
+                    "http_code": 200,
+                    "tiempo_ms": 426.24,
+                    "exito": true,
+                    "total_registros": 2248,
+                    "campos": [
+                        "_id",
+                        "Municipio",
+                        "Cod_Municipio",
+                        "Provincia",
+                        "Cod_Provincia",
+                        "Cod_INE",
+                        "Población",
+                        "Mancomunidades",
+                        "Entidades_Locales_Menores",
+                        "Comarca",
+                        "Longitud",
+                        "Latitud",
+                        "CoordenadaX",
+                        "CoordenadaY",
+                        "Posición",
+                        "presencia_de_comercio"
+                    ],
+                    "tipos_campos": [
+                        {
+                            "id": "_id",
+                            "type": "int"
+                        },
+                        {
+                            "id": "Municipio",
+                            "type": "text"
+                        },
+                        {
+                            "id": "Cod_Municipio",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Provincia",
+                            "type": "text"
+                        },
+                        {
+                            "id": "Cod_Provincia",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Cod_INE",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Población",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Mancomunidades",
+                            "type": "text"
+                        },
+                        {
+                            "id": "Entidades_Locales_Menores",
+                            "type": "text"
+                        },
+                        {
+                            "id": "Comarca",
+                            "type": "text"
+                        },
+                        {
+                            "id": "Longitud",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Latitud",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "CoordenadaX",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "CoordenadaY",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "Posición",
+                            "type": "text"
+                        },
+                        {
+                            "id": "presencia_de_comercio",
+                            "type": "numeric"
+                        }
+                    ],
+                    "ejemplo_registro": {
+                        "_id": 1,
+                        "Municipio": "TORDILLOS",
+                        "Cod_Municipio": 324,
+                        "Provincia": "SALAMANCA",
+                        "Cod_Provincia": 37,
+                        "Cod_INE": 37324,
+                        "Población": 316,
+                        "Mancomunidades": "MARGAÑÁN",
+                        "Entidades_Locales_Menores": "",
+                        "Comarca": "",
+                        "Longitud": -5.352762,
+                        "Latitud": 40.853505,
+                        "CoordenadaX": 301683.5,
+                        "CoordenadaY": 4525159.2,
+                        "Posición": "40.853505, -5.352762",
+                        "presencia_de_comercio": 0
+                    }
+                },
+                "paginacion": {
+                    "nombre": "Paginación",
+                    "http_code": 200,
+                    "tiempo_ms": 406.85,
+                    "exito": true,
+                    "registros_obtenidos": 5
+                },
+                "ordenamiento": {
+                    "nombre": "Ordenamiento",
+                    "campo": "Municipio",
+                    "http_code": 200,
+                    "tiempo_ms": 416.73,
+                    "exito": true
+                },
+                "seleccion_campos": {
+                    "nombre": "Selección de campos",
+                    "campos_solicitados": [
+                        "Municipio",
+                        "Cod_Municipio",
+                        "Provincia"
+                    ],
+                    "http_code": 200,
+                    "tiempo_ms": 409.74,
+                    "exito": true,
+                    "campos_devueltos": [
+                        "Municipio",
+                        "Cod_Municipio",
+                        "Provincia"
+                    ]
+                },
+                "busqueda_texto": {
+                    "nombre": "Búsqueda de texto",
+                    "termino": "Palencia",
+                    "http_code": 200,
+                    "tiempo_ms": 416.11,
+                    "exito": true,
+                    "resultados_encontrados": 193,
+                    "registros_obtenidos": 10
+                },
+                "filtro_campo": {
+                    "nombre": "Filtro por campo",
+                    "campo": "Municipio",
+                    "valor": "TORDILLOS",
+                    "http_code": 200,
+                    "tiempo_ms": 418,
+                    "exito": true,
+                    "resultados": 1
+                }
+            }
+        },
+        {
+            "nombre": "Población Total por provincias y sexo",
+            "resource_id": "771bfd9e-d306-4202-bc08-dab243d38a2a",
+            "dataset": "demografia_y_empleo",
+            "tests": {
+                "consulta_basica": {
+                    "nombre": "Consulta básica",
+                    "http_code": 200,
+                    "tiempo_ms": 419.05,
+                    "exito": true,
+                    "total_registros": 594,
+                    "campos": [
+                        "_id",
+                        "FECHA",
+                        "SEXO",
+                        "PROVINCIA",
+                        "POBLACIÓN"
+                    ],
+                    "tipos_campos": [
+                        {
+                            "id": "_id",
+                            "type": "int"
+                        },
+                        {
+                            "id": "FECHA",
+                            "type": "numeric"
+                        },
+                        {
+                            "id": "SEXO",
+                            "type": "text"
+                        },
+                        {
+                            "id": "PROVINCIA",
+                            "type": "text"
+                        },
+                        {
+                            "id": "POBLACIÓN",
+                            "type": "numeric"
+                        }
+                    ],
+                    "ejemplo_registro": {
+                        "_id": 1,
+                        "FECHA": 1986,
+                        "SEXO": "VARON",
+                        "PROVINCIA": "SEGOVIA",
+                        "POBLACIÓN": 75185
+                    }
+                },
+                "paginacion": {
+                    "nombre": "Paginación",
+                    "http_code": 200,
+                    "tiempo_ms": 417.46,
+                    "exito": true,
+                    "registros_obtenidos": 5
+                },
+                "ordenamiento": {
+                    "nombre": "Ordenamiento",
+                    "campo": "FECHA",
+                    "http_code": 200,
+                    "tiempo_ms": 414.72,
+                    "exito": true
+                },
+                "seleccion_campos": {
+                    "nombre": "Selección de campos",
+                    "campos_solicitados": [
+                        "FECHA",
+                        "SEXO",
+                        "PROVINCIA"
+                    ],
+                    "http_code": 200,
+                    "tiempo_ms": 411.14,
+                    "exito": true,
+                    "campos_devueltos": [
+                        "FECHA",
+                        "SEXO",
+                        "PROVINCIA"
+                    ]
+                },
+                "busqueda_texto": {
+                    "nombre": "Búsqueda de texto",
+                    "termino": "Palencia",
+                    "http_code": 200,
+                    "tiempo_ms": 416.16,
+                    "exito": true,
+                    "resultados_encontrados": 66,
+                    "registros_obtenidos": 10
+                },
+                "filtro_campo": {
+                    "nombre": "Filtro por campo",
+                    "campo": "SEXO",
+                    "valor": "VARON",
+                    "http_code": 200,
+                    "tiempo_ms": 411.66,
+                    "exito": true,
+                    "resultados": 297
+                }
+            }
+        },
+        {
+            "nombre": "Incendios forestales",
+            "resource_id": "f74b444d-e0f9-4638-916e-ad595bf5f0dc",
+            "dataset": "flora_y_fauna",
+            "tests": {
+                "consulta_basica": {
+                    "nombre": "Consulta básica",
+                    "http_code": 200,
+                    "tiempo_ms": 433.84,
+                    "exito": true,
+                    "total_registros": 20608,
+                    "campos": [
+                        "_id",
+                        "FECHA DEL PARTE",
+                        "HORA DEL PARTE",
+                        "PROVINCIA",
+                        "CAUSA PROBABLE",
+                        "TÉRMINO MUNICIPAL",
+                        "NIVEL",
+                        "FECHA DE INICIO",
+                        "HORA DE INICIO",
+                        "MEDIOS DE EXTINCIÓN",
+                        "SITUACIÓN ACTUAL",
+                        "TIPO Y HAS DE SUPERFICIE AFECTADA",
+                        "FECHA EXTINGUIDO",
+                        "HORA EXTINGUIDO",
+                        "CÓDIGO INE",
+                        "NIVEL MÁXIMO ALCANZADO",
+                        "Posición",
+                        "orden"
+                    ],
+                    "tipos_campos": [
+                        {
+                            "id": "_id",
+                            "type": "int"
+                        },
+                        {
+                            "id": "FECHA DEL PARTE",
+                            "type": "timestamp",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "HORA DEL PARTE",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "PROVINCIA",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "CAUSA PROBABLE",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "TÉRMINO MUNICIPAL",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "NIVEL",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "FECHA DE INICIO",
+                            "type": "timestamp",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "HORA DE INICIO",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "MEDIOS DE EXTINCIÓN",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "SITUACIÓN ACTUAL",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "TIPO Y HAS DE SUPERFICIE AFECTADA",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "FECHA EXTINGUIDO",
+                            "type": "timestamp",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "HORA EXTINGUIDO",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "CÓDIGO INE",
+                            "type": "numeric",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "NIVEL MÁXIMO ALCANZADO",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": "text"
+                            }
+                        },
+                        {
+                            "id": "Posición",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        },
+                        {
+                            "id": "orden",
+                            "type": "text",
+                            "info": {
+                                "label": "",
+                                "notes": "",
+                                "type_override": ""
+                            }
+                        }
+                    ],
+                    "ejemplo_registro": {
+                        "_id": 1,
+                        "FECHA DEL PARTE": "2019-07-01T00:00:00",
+                        "HORA DEL PARTE": "19:00",
+                        "PROVINCIA": "SORIA",
+                        "CAUSA PROBABLE": "RAYOS",
+                        "TÉRMINO MUNICIPAL": "MATAMALA DE ALMAZAN",
+                        "NIVEL": "0",
+                        "FECHA DE INICIO": "2019-07-01T00:00:00",
+                        "HORA DE INICIO": "18:13",
+                        "MEDIOS DE EXTINCIÓN": "2 A.M.; HT-GARRAY; 1 BRIF; 2 AUTOBOMBAS; 1 CUADRILLAS DE TIERRA",
+                        "SITUACIÓN ACTUAL": "ACTIVO",
+                        "TIPO Y HAS DE SUPERFICIE AFECTADA": "FORESTAL:ARBOLADO: 1,10 HA. PINUS PINASTER;",
+                        "FECHA EXTINGUIDO": null,
+                        "HORA EXTINGUIDO": "",
+                        "CÓDIGO INE": null,
+                        "NIVEL MÁXIMO ALCANZADO": "",
+                        "Posición": "",
+                        "orden": "2019-07-01 19:00 SORIA"
+                    }
+                },
+                "paginacion": {
+                    "nombre": "Paginación",
+                    "http_code": 200,
+                    "tiempo_ms": 420.01,
+                    "exito": true,
+                    "registros_obtenidos": 5
+                },
+                "ordenamiento": {
+                    "nombre": "Ordenamiento",
+                    "campo": "FECHA DEL PARTE",
+                    "http_code": 200,
+                    "tiempo_ms": 442.63,
+                    "exito": true
+                },
+                "seleccion_campos": {
+                    "nombre": "Selección de campos",
+                    "campos_solicitados": [
+                        "FECHA DEL PARTE",
+                        "HORA DEL PARTE",
+                        "PROVINCIA"
+                    ],
+                    "http_code": 200,
+                    "tiempo_ms": 414.19,
+                    "exito": true,
+                    "campos_devueltos": [
+                        "FECHA DEL PARTE",
+                        "HORA DEL PARTE",
+                        "PROVINCIA"
+                    ]
+                },
+                "busqueda_texto": {
+                    "nombre": "Búsqueda de texto",
+                    "termino": "Palencia",
+                    "http_code": 200,
+                    "tiempo_ms": 514.7,
+                    "exito": true,
+                    "resultados_encontrados": 1952,
+                    "registros_obtenidos": 10
+                },
+                "filtro_campo": {
+                    "nombre": "Filtro por campo",
+                    "campo": "FECHA DEL PARTE",
+                    "valor": "2019-07-01T00:00:00",
+                    "http_code": 200,
+                    "tiempo_ms": 533.19,
+                    "exito": true,
+                    "resultados": 27
+                }
+            }
+        }
+    ],
+    "tests_ejecutados": 18,
+    "tests_exitosos": 18,
+    "tests_fallidos": 0
+}

@@ -1,0 +1,244 @@
+/**
+ * Estilos para Componentes Gráfico
+ * Chart.js con diseño personalizado
+ */
+
+/* Contenedor de gráfico */
+.component-chart {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header del gráfico */
+.chart-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chart-title {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.chart-description {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+/* Contenedor del canvas */
+.chart-container {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 16px;
+}
+
+.chart-container canvas {
+    max-height: 500px;
+}
+
+/* Footer del gráfico */
+.chart-footer {
+    padding-top: 12px;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.chart-footer small {
+    color: #6c757d;
+    font-size: 13px;
+}
+
+/* Loading state */
+.chart-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.chart-loading::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #6D0C6D;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 12px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .component-chart {
+        padding: 16px;
+    }
+
+    .chart-title {
+        font-size: 18px;
+    }
+
+    .chart-description {
+        font-size: 13px;
+    }
+
+    .chart-container {
+        min-height: 250px;
+    }
+
+    .chart-container canvas {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .component-chart {
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .chart-title {
+        font-size: 16px;
+    }
+
+    .chart-container {
+        min-height: 200px;
+    }
+
+    .chart-container canvas {
+        max-height: 300px;
+    }
+
+    .chart-footer small {
+        font-size: 12px;
+    }
+}
+
+/* Variantes de color para temas */
+.component-chart.forestal .chart-title {
+    color: #27ae60;
+}
+
+.component-chart.forestal .chart-loading::before {
+    border-top-color: #27ae60;
+}
+
+.component-chart.hidrico .chart-title {
+    color: #3498db;
+}
+
+.component-chart.hidrico .chart-loading::before {
+    border-top-color: #3498db;
+}
+
+.component-chart.ambiental .chart-title {
+    color: #d35400;
+}
+
+.component-chart.ambiental .chart-loading::before {
+    border-top-color: #d35400;
+}
+
+.component-chart.corporativo .chart-title {
+    color: #6D0C6D;
+}
+
+.component-chart.corporativo .chart-loading::before {
+    border-top-color: #6D0C6D;
+}
+
+/* Estilos adicionales para leyendas Chart.js */
+.component-chart .chartjs-legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.component-chart .chartjs-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #34495e;
+}
+
+.component-chart .chartjs-legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+}
+
+/* Tooltips personalizados */
+.chartjs-tooltip {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    pointer-events: none;
+}
+
+/* Controles de zoom (si se implementa plugin) */
+.chart-controls {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.chart-control-btn {
+    padding: 6px 12px;
+    background: #6D0C6D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chart-control-btn:hover {
+    background: #4a0848;
+    transform: translateY(-2px);
+}
+
+.chart-control-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Animaciones de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.component-chart {
+    animation: fadeInUp 0.6s ease;
+}

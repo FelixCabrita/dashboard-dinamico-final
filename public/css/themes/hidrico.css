@@ -1,0 +1,178 @@
+/**
+ * Tema Hídrico
+ * Paleta de tonos azules para componentes hídricos
+ */
+
+:root.theme-hidrico {
+    /* Colores principales */
+    --color-primary: #3498db;
+    --color-primary-dark: #2471a3;
+    --color-primary-light: #5dade2;
+    --color-primary-lighter: #aed6f1;
+
+    /* Colores secundarios */
+    --color-secondary: #1abc9c;
+    --color-secondary-dark: #16a085;
+    --color-secondary-light: #48c9b0;
+
+    /* Colores de acento */
+    --color-accent: #9b59b6;
+    --color-accent-dark: #7d3c98;
+    --color-accent-light: #bb8fce;
+
+    /* Tonos azules variados */
+    --color-water-1: #154360;
+    --color-water-2: #1f618d;
+    --color-water-3: #2e86c1;
+    --color-water-4: #3498db;
+    --color-water-5: #5dade2;
+    --color-water-6: #85c1e9;
+
+    /* Grises */
+    --color-gray-dark: #2c3e50;
+    --color-gray: #7f8c8d;
+    --color-gray-light: #bdc3c7;
+    --color-gray-lighter: #ecf0f1;
+
+    /* Backgrounds */
+    --bg-primary: linear-gradient(135deg, #3498db 0%, #2471a3 100%);
+    --bg-secondary: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+    --bg-light: #ebf5fb;
+    --bg-white: #ffffff;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(52, 152, 219, 0.1);
+    --shadow-md: 0 4px 12px rgba(52, 152, 219, 0.15);
+    --shadow-lg: 0 8px 24px rgba(52, 152, 219, 0.2);
+}
+
+/* Aplicar tema a componentes */
+.theme-hidrico .component-kpi .kpi-card {
+    border-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-hidrico .component-kpi .kpi-icon {
+    color: var(--color-primary);
+}
+
+.theme-hidrico .component-kpi .kpi-number {
+    color: var(--color-primary-dark);
+}
+
+.theme-hidrico .component-kpi .kpi-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-dark);
+}
+
+/* Tablas */
+.theme-hidrico .component-table .table-header {
+    background: var(--bg-primary);
+}
+
+.theme-hidrico .component-table table.dataTable thead th {
+    border-bottom-color: var(--color-primary);
+    background: var(--bg-light);
+}
+
+.theme-hidrico .component-table table.dataTable tbody tr:hover {
+    background: var(--bg-light);
+}
+
+.theme-hidrico .component-table .btn-datatable {
+    background: var(--color-primary);
+}
+
+.theme-hidrico .component-table .btn-datatable:hover {
+    background: var(--color-primary-dark);
+    box-shadow: var(--shadow-md);
+}
+
+.theme-hidrico .component-table .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-hidrico .component-table .dataTables_wrapper .dataTables_filter input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* Gráficos */
+.theme-hidrico .component-chart .chart-title {
+    color: var(--color-primary-dark);
+}
+
+.theme-hidrico .component-chart {
+    background: var(--bg-light);
+}
+
+.theme-hidrico .chart-loading::before {
+    border-top-color: var(--color-primary);
+}
+
+.theme-hidrico .chart-control-btn {
+    background: var(--color-primary);
+}
+
+.theme-hidrico .chart-control-btn:hover {
+    background: var(--color-primary-dark);
+}
+
+/* Botones genéricos */
+.theme-hidrico .btn-primary {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.theme-hidrico .btn-primary:hover {
+    background: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+/* Enlaces */
+.theme-hidrico a {
+    color: var(--color-primary);
+}
+
+.theme-hidrico a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Badges */
+.theme-hidrico .badge-primary {
+    background: var(--color-primary);
+}
+
+.theme-hidrico .badge-secondary {
+    background: var(--color-secondary);
+}
+
+/* Alertas */
+.theme-hidrico .alert-info {
+    background: var(--color-primary-lighter);
+    border-color: var(--color-primary);
+    color: var(--color-primary-dark);
+}
+
+/* Inputs */
+.theme-hidrico input:focus,
+.theme-hidrico select:focus,
+.theme-hidrico textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* Progress bars */
+.theme-hidrico .progress-bar {
+    background: var(--color-primary);
+}
+
+/* Custom scrollbar */
+.theme-hidrico ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+}
+
+.theme-hidrico ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-dark);
+}

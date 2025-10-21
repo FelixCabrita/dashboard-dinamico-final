@@ -1,0 +1,555 @@
+fid,n_FORmat,FormArbust,NAMEUNIT,IDmuni,Area_ha,Perc
+1,0,Sin formación arbustiva,Velilla del Río Carrión,"34199",3431.522,17.25
+3,263,Sabino enebrales rastreros,Velilla del Río Carrión,"34199",1646.107,8.275
+7,231,Piornales de montaña,Velilla del Río Carrión,"34199",941.71,4.734
+25,213,Brezales,Velilla del Río Carrión,"34199",11599.113,58.308
+54,221,Jarales mixtos o mezclados (Cistus spp. pl.),Velilla del Río Carrión,"34199",2.394,0.012
+55,111,Orlas espinares y afines (dom. Rosaceae),Velilla del Río Carrión,"34199",239.617,1.205
+56,214,Gayubares (Arctostaphylos uva-ursi),Velilla del Río Carrión,"34199",189.118,0.951
+120,232,Escobonales/xesteiras,Velilla del Río Carrión,"34199",1242.014,6.243
+143,263,Sabino enebrales rastreros,Santibáñez de la Peña,"34171",915.564,8.194
+144,0,Sin formación arbustiva,Santibáñez de la Peña,"34171",3563.206,31.888
+175,111,Orlas espinares y afines (dom. Rosaceae),Población de Campos,"34132",6.665,0.287
+178,0,Sin formación arbustiva,Revenga de Campos,"34152",2240.611,100
+181,0,Sin formación arbustiva,Villovieco,"34246",2347.737,99.783
+183,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Villovieco,"34246",5.101,0.217
+186,111,Orlas espinares y afines (dom. Rosaceae),Marcilla de Campos,"34101",5.456,0.25
+187,0,Sin formación arbustiva,Lantadilla,"34092",2812.606,97.173
+188,111,Orlas espinares y afines (dom. Rosaceae),Itero de la Vega,"34089",29.004,1.386
+189,111,Orlas espinares y afines (dom. Rosaceae),Lantadilla,"34092",64.757,2.237
+191,0,Sin formación arbustiva,Itero de la Vega,"34089",2041.548,97.541
+223,263,Sabino enebrales rastreros,Guardo,"34080",0.133,0.002
+232,0,Sin formación arbustiva,Guardo,"34080",1749.95,27.853
+288,213,Brezales,Santibáñez de la Peña,"34171",3931.724,35.186
+358,0,Sin formación arbustiva,Boadilla del Camino,"34034",2861.987,99.863
+361,111,Orlas espinares y afines (dom. Rosaceae),Frómista,"34074",28.158,0.604
+367,0,Sin formación arbustiva,Población de Campos,"34132",2313.707,99.479
+369,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Población de Campos,"34132",2.04,0.088
+372,254,Tomillares y agrupaciones fisonómicamente afines,Población de Campos,"34132",3.406,0.146
+373,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Boadilla del Camino,"34034",3.932,0.137
+374,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Itero de la Vega,"34089",18.935,0.905
+385,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Itero de la Vega,"34089",3.527,0.169
+418,231,Piornales de montaña,Santibáñez de la Peña,"34171",16.611,0.149
+472,0,Sin formación arbustiva,Cervera de Pisuerga,"34056",7765.952,23.811
+605,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Velilla del Río Carrión,"34199",234.113,1.177
+613,213,Brezales,Cervera de Pisuerga,"34056",9760.426,29.926
+674,215,Arandanales (Vaccinium myrtillus u otras),Santibáñez de la Peña,"34171",68.361,0.612
+684,111,Orlas espinares y afines (dom. Rosaceae),Santibáñez de la Peña,"34171",444.848,3.981
+714,235,Carquesales (carqueixales) (Pterospartum tridentatum),Velilla del Río Carrión,"34199",178.405,0.897
+761,232,Escobonales/xesteiras,Santibáñez de la Peña,"34171",266.628,2.386
+769,0,Sin formación arbustiva,Castrejón de la Peña,"34049",5501.293,51.701
+771,263,Sabino enebrales rastreros,Castrejón de la Peña,"34049",900.044,8.459
+775,213,Brezales,Castrejón de la Peña,"34049",1686.455,15.849
+794,111,Orlas espinares y afines (dom. Rosaceae),Castrejón de la Peña,"34049",88.015,0.827
+808,111,Orlas espinares y afines (dom. Rosaceae),Cervera de Pisuerga,"34056",2413.045,7.398
+815,111,Orlas espinares y afines (dom. Rosaceae),Dehesa de Montejo,"34067",102.627,2.344
+819,215,Arandanales (Vaccinium myrtillus u otras),Cervera de Pisuerga,"34056",27.204,0.083
+833,232,Escobonales/xesteiras,Cervera de Pisuerga,"34056",4117.957,12.626
+853,213,Brezales,Buenavista de Valdavia,"34037",3297.056,40.387
+854,213,Brezales,La Puebla de Valdavia,"34140",1495.258,50.687
+855,0,Sin formación arbustiva,Buenavista de Valdavia,"34037",4242.794,51.972
+858,214,Gayubares (Arctostaphylos uva-ursi),Buenavista de Valdavia,"34037",67.626,0.828
+865,213,Brezales,Báscones de Ojeda,"34028",619.452,33.367
+867,213,Brezales,Revilla de Collazos,"34154",1006.365,48.951
+869,214,Gayubares (Arctostaphylos uva-ursi),Báscones de Ojeda,"34028",0.84,0.045
+885,0,Sin formación arbustiva,Báscones de Ojeda,"34028",1110.833,59.836
+906,0,Sin formación arbustiva,Revilla de Collazos,"34154",1016.204,49.429
+915,213,Brezales,Collazos de Boedo,"34061",680.027,32.381
+917,213,Brezales,Villaeles de Valdavia,"34208",700.212,33.874
+923,221,Jarales mixtos o mezclados (Cistus spp. pl.),Buenavista de Valdavia,"34037",235.109,2.88
+925,221,Jarales mixtos o mezclados (Cistus spp. pl.),Revilla de Collazos,"34154",1.51,0.073
+942,0,Sin formación arbustiva,Villaeles de Valdavia,"34208",1068.28,51.68
+946,0,Sin formación arbustiva,Collazos de Boedo,"34061",1375.327,65.489
+948,221,Jarales mixtos o mezclados (Cistus spp. pl.),Collazos de Boedo,"34061",3.239,0.154
+949,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villaeles de Valdavia,"34208",270.45,13.083
+950,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villameriel,"34222",375.636,7.066
+951,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villasila de Valdavia,"34234",698.841,23.038
+957,234,"Codesares (Adenocarpus complicatus, hispanicus)",La Puebla de Valdavia,"34140",6.01,0.204
+958,111,Orlas espinares y afines (dom. Rosaceae),Buenavista de Valdavia,"34037",131.017,1.605
+959,111,Orlas espinares y afines (dom. Rosaceae),Revilla de Collazos,"34154",31.787,1.546
+1003,232,Escobonales/xesteiras,Villaeles de Valdavia,"34208",0.357,0.017
+1004,232,Escobonales/xesteiras,Villasila de Valdavia,"34234",64.758,2.135
+1006,213,Brezales,Villasila de Valdavia,"34234",656.749,21.65
+1007,0,Sin formación arbustiva,Villasila de Valdavia,"34234",1583.358,52.196
+1008,0,Sin formación arbustiva,Villanuño de Valdavia,"34228",1917.964,61.79
+1010,213,Brezales,Villanuño de Valdavia,"34228",578.532,18.638
+1076,111,Orlas espinares y afines (dom. Rosaceae),Villasila de Valdavia,"34234",17.622,0.581
+1079,111,Orlas espinares y afines (dom. Rosaceae),Villaeles de Valdavia,"34208",26.228,1.269
+1086,111,Orlas espinares y afines (dom. Rosaceae),Villanuño de Valdavia,"34228",53.723,1.731
+1087,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villanuño de Valdavia,"34228",477.876,15.395
+1129,221,Jarales mixtos o mezclados (Cistus spp. pl.),Loma de Ucieza,"34903",810.786,11.382
+1139,221,Jarales mixtos o mezclados (Cistus spp. pl.),Saldaña,"34157",494.174,3.745
+1150,213,Brezales,Saldaña,"34157",2503.544,18.973
+1151,213,Brezales,Loma de Ucieza,"34903",22.317,0.313
+1156,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villabasta de Valdavia,"34202",135.966,12.146
+1171,213,Brezales,Villabasta de Valdavia,"34202",283.49,25.325
+1179,0,Sin formación arbustiva,Saldaña,"34157",9130.746,69.197
+1180,0,Sin formación arbustiva,Villabasta de Valdavia,"34202",673.809,60.194
+1182,213,Brezales,Valderrábano,"34190",645.741,22.411
+1184,232,Escobonales/xesteiras,Buenavista de Valdavia,"34037",104.23,1.277
+1185,232,Escobonales/xesteiras,Valderrábano,"34190",204.806,7.108
+1188,111,Orlas espinares y afines (dom. Rosaceae),Valderrábano,"34190",49.948,1.733
+1201,114,Salcedas y bardagueras (Salix spp. pl.),Villaeles de Valdavia,"34208",0.733,0.035
+1202,114,Salcedas y bardagueras (Salix spp. pl.),Villasila de Valdavia,"34234",12.151,0.401
+1221,0,Sin formación arbustiva,La Puebla de Valdavia,"34140",1235.962,41.897
+1222,254,Tomillares y agrupaciones fisonómicamente afines,Buenavista de Valdavia,"34037",62.738,0.769
+1223,254,Tomillares y agrupaciones fisonómicamente afines,La Puebla de Valdavia,"34140",38.181,1.294
+1236,0,Sin formación arbustiva,Ayuela,"34020",989.43,50.092
+1237,0,Sin formación arbustiva,Pino del Río,"34129",2536.688,48.788
+1244,213,Brezales,Ayuela,"34020",859.744,43.527
+1255,254,Tomillares y agrupaciones fisonómicamente afines,Villabasta de Valdavia,"34202",26.128,2.334
+1256,254,Tomillares y agrupaciones fisonómicamente afines,Villaeles de Valdavia,"34208",0.865,0.042
+1265,254,Tomillares y agrupaciones fisonómicamente afines,Valderrábano,"34190",14.839,0.515
+1266,221,Jarales mixtos o mezclados (Cistus spp. pl.),Ayuela,"34020",47.972,2.429
+1267,221,Jarales mixtos o mezclados (Cistus spp. pl.),Valderrábano,"34190",99.763,3.462
+1286,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Buenavista de Valdavia,"34037",23.093,0.283
+1293,111,Orlas espinares y afines (dom. Rosaceae),Ayuela,"34020",53.969,2.732
+1295,111,Orlas espinares y afines (dom. Rosaceae),Tabanera de Valdavia,"34179",37.364,1.735
+1298,213,Brezales,Tabanera de Valdavia,"34179",1264.604,58.728
+1303,232,Escobonales/xesteiras,Ayuela,"34020",18.412,0.932
+1334,0,Sin formación arbustiva,Tabanera de Valdavia,"34179",847.332,39.35
+1346,213,Brezales,Pino del Río,"34129",1864.926,35.868
+1363,0,Sin formación arbustiva,Villaluenga de la Vega,"34218",2618.967,99.523
+1374,0,Sin formación arbustiva,Santervás de la Vega,"34169",5464.695,77.318
+1387,213,Brezales,Quintanilla de Onsoña,"34143",296.056,5.799
+1394,254,Tomillares y agrupaciones fisonómicamente afines,Saldaña,"34157",266.355,2.019
+1397,254,Tomillares y agrupaciones fisonómicamente afines,Quintanilla de Onsoña,"34143",84.593,1.657
+1410,0,Sin formación arbustiva,Pedrosa de la Vega,"34126",2016.261,95.749
+1420,111,Orlas espinares y afines (dom. Rosaceae),Pedrosa de la Vega,"34126",57.622,2.736
+1421,111,Orlas espinares y afines (dom. Rosaceae),Saldaña,"34157",360.935,2.735
+1446,232,Escobonales/xesteiras,Pedrosa de la Vega,"34126",6.995,0.332
+1447,232,Escobonales/xesteiras,Saldaña,"34157",423.149,3.207
+1456,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Quintanilla de Onsoña,"34143",9.175,0.18
+1463,213,Brezales,Pedrosa de la Vega,"34126",24.896,1.182
+1585,213,Brezales,Fresno del Río,"34073",1813.759,41.198
+1589,232,Escobonales/xesteiras,Fresno del Río,"34073",0.598,0.014
+1590,232,Escobonales/xesteiras,Pino del Río,"34129",156.935,3.018
+1631,249,"Aliagares, aulagares y afines",Saldaña,"34157",10.41,0.079
+1706,0,Sin formación arbustiva,Poza de la Vega,"34136",1930.958,79.496
+1715,0,Sin formación arbustiva,Valderrábano,"34190",1865.289,64.735
+1810,234,"Codesares (Adenocarpus complicatus, hispanicus)",Saldaña,"34157",3.98,0.03
+1890,111,Orlas espinares y afines (dom. Rosaceae),Poza de la Vega,"34136",49.195,2.025
+1896,213,Brezales,Poza de la Vega,"34136",447.712,18.432
+1898,111,Orlas espinares y afines (dom. Rosaceae),Pino del Río,"34129",495.005,9.52
+1937,232,Escobonales/xesteiras,Villaluenga de la Vega,"34218",3.188,0.121
+1954,213,Brezales,Santervás de la Vega,"34169",1492.178,21.112
+1957,213,Brezales,Villaluenga de la Vega,"34218",0.286,0.011
+1958,213,Brezales,Villota del Páramo,"34245",4024.455,51.621
+1959,0,Sin formación arbustiva,Villota del Páramo,"34245",3445.493,44.195
+1982,232,Escobonales/xesteiras,Santervás de la Vega,"34169",47.145,0.667
+2068,254,Tomillares y agrupaciones fisonómicamente afines,Ayuela,"34020",5.682,0.288
+2109,213,Brezales,Congosto de Valdavia,"34062",3167.95,45.965
+2115,111,Orlas espinares y afines (dom. Rosaceae),Villota del Páramo,"34245",180.32,2.313
+2125,254,Tomillares y agrupaciones fisonómicamente afines,Poza de la Vega,"34136",1.146,0.047
+2241,111,Orlas espinares y afines (dom. Rosaceae),Fresno del Río,"34073",164.955,3.747
+2253,111,Orlas espinares y afines (dom. Rosaceae),Guardo,"34080",816.197,12.991
+2254,111,Orlas espinares y afines (dom. Rosaceae),Mantinos,"34100",57.952,2.27
+2255,111,Orlas espinares y afines (dom. Rosaceae),Villalba de Guardo,"34214",69.941,2.066
+2267,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Pino del Río,"34129",145.825,2.805
+2285,253,"Esplegares, salviares y salvio-esplegares",Valderrábano,"34190",1.031,0.036
+2405,111,Orlas espinares y afines (dom. Rosaceae),Villaluenga de la Vega,"34218",9.069,0.345
+2416,111,Orlas espinares y afines (dom. Rosaceae),Congosto de Valdavia,"34062",48.256,0.7
+2417,111,Orlas espinares y afines (dom. Rosaceae),La Puebla de Valdavia,"34140",67.118,2.275
+2456,0,Sin formación arbustiva,Bárcena de Campos,"34025",990.591,68.138
+2458,254,Tomillares y agrupaciones fisonómicamente afines,Loma de Ucieza,"34903",201.793,2.833
+2462,254,Tomillares y agrupaciones fisonómicamente afines,Bárcena de Campos,"34025",0.078,0.005
+2464,213,Brezales,Bárcena de Campos,"34025",183.52,12.623
+2469,111,Orlas espinares y afines (dom. Rosaceae),Bárcena de Campos,"34025",50.562,3.478
+2471,111,Orlas espinares y afines (dom. Rosaceae),Loma de Ucieza,"34903",43.567,0.612
+2475,0,Sin formación arbustiva,Loma de Ucieza,"34903",6023.321,84.559
+2476,249,"Aliagares, aulagares y afines",Loma de Ucieza,"34903",16.436,0.231
+2554,254,Tomillares y agrupaciones fisonómicamente afines,Villasarracino,"34233",5.517,0.269
+2563,111,Orlas espinares y afines (dom. Rosaceae),San Mamés de Campos,"34163",3.445,0.222
+2564,111,Orlas espinares y afines (dom. Rosaceae),Valde-Ucieza,"34192",5.729,0.135
+2565,254,Tomillares y agrupaciones fisonómicamente afines,San Mamés de Campos,"34163",24.71,1.59
+2566,254,Tomillares y agrupaciones fisonómicamente afines,Valde-Ucieza,"34192",9.751,0.229
+2567,0,Sin formación arbustiva,San Mamés de Campos,"34163",1525.686,98.188
+2572,263,Sabino enebrales rastreros,Cervera de Pisuerga,"34056",1415.444,4.34
+2573,254,Tomillares y agrupaciones fisonómicamente afines,Arconada,"34015",5.554,0.286
+2574,254,Tomillares y agrupaciones fisonómicamente afines,Villaherreros,"34211",0.073,0.002
+2575,254,Tomillares y agrupaciones fisonómicamente afines,Villalcázar de Sirga,"34215",6.209,0.244
+2585,254,Tomillares y agrupaciones fisonómicamente afines,Nogal de las Huertas,"34112",77.062,5.583
+2607,0,Sin formación arbustiva,Valde-Ucieza,"34192",4232.676,99.384
+2608,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Valde-Ucieza,"34192",10.77,0.253
+2614,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Loma de Ucieza,"34903",4.985,0.07
+2618,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",La Serna,"34175",1.528,0.124
+2642,111,Orlas espinares y afines (dom. Rosaceae),Quintanilla de Onsoña,"34143",26.812,0.525
+2644,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Quintanilla de Onsoña,"34143",151.582,2.969
+2657,0,Sin formación arbustiva,Quintanilla de Onsoña,"34143",4537.511,88.871
+2695,213,Brezales,Dehesa de Montejo,"34067",756.873,17.287
+2703,232,Escobonales/xesteiras,Dehesa de Montejo,"34067",310.067,7.082
+2707,0,Sin formación arbustiva,Dehesa de Montejo,"34067",1615.123,36.889
+2711,263,Sabino enebrales rastreros,Dehesa de Montejo,"34067",366.456,8.37
+2781,215,Arandanales (Vaccinium myrtillus u otras),Velilla del Río Carrión,"34199",56.068,0.282
+2857,231,Piornales de montaña,Cervera de Pisuerga,"34056",1841.933,5.647
+2870,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Saldaña,"34157",1.907,0.014
+2900,0,Sin formación arbustiva,Renedo de la Vega,"34147",2163.824,97.271
+2915,111,Orlas espinares y afines (dom. Rosaceae),Renedo de la Vega,"34147",56.326,2.532
+2917,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Renedo de la Vega,"34147",4.389,0.197
+2931,0,Sin formación arbustiva,La Serna,"34175",1184.366,96.259
+2943,111,Orlas espinares y afines (dom. Rosaceae),La Serna,"34175",40.988,3.331
+2952,0,Sin formación arbustiva,Nogal de las Huertas,"34112",1259.887,91.28
+2961,111,Orlas espinares y afines (dom. Rosaceae),Nogal de las Huertas,"34112",36.99,2.68
+2967,0,Sin formación arbustiva,Villamoronta,"34223",1329.28,99.999
+2971,254,Tomillares y agrupaciones fisonómicamente afines,La Serna,"34175",3.518,0.286
+2976,0,Sin formación arbustiva,Villaturde,"34236",2570.241,98.286
+3015,0,Sin formación arbustiva,Carrión de los Condes,"34047",6166.334,97.375
+3022,111,Orlas espinares y afines (dom. Rosaceae),Carrión de los Condes,"34047",71.029,1.122
+3025,111,Orlas espinares y afines (dom. Rosaceae),Villaturde,"34236",44.821,1.714
+3131,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Carrión de los Condes,"34047",9.032,0.143
+3141,0,Sin formación arbustiva,Calzada de los Molinos,"34042",2474.961,95.407
+3143,111,Orlas espinares y afines (dom. Rosaceae),Calzada de los Molinos,"34042",38.48,1.483
+3176,0,Sin formación arbustiva,Villarrabé,"34231",6877.415,85.653
+3177,254,Tomillares y agrupaciones fisonómicamente afines,Villamoronta,"34223",0.007,0.001
+3178,254,Tomillares y agrupaciones fisonómicamente afines,Villarrabé,"34231",239.54,2.983
+3191,221,Jarales mixtos o mezclados (Cistus spp. pl.),Cervatos de la Cueza,"34055",280.483,3.925
+3192,221,Jarales mixtos o mezclados (Cistus spp. pl.),Ledigos,"34094",564.031,19.928
+3195,221,Jarales mixtos o mezclados (Cistus spp. pl.),Población de Arroyo,"34131",76.715,3.355
+3198,111,Orlas espinares y afines (dom. Rosaceae),Cervatos de la Cueza,"34055",43.279,0.606
+3199,111,Orlas espinares y afines (dom. Rosaceae),Ledigos,"34094",7.185,0.254
+3204,0,Sin formación arbustiva,Ledigos,"34094",2192.755,77.473
+3220,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Lagartos,"34091",11.691,0.269
+3221,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Ledigos,"34094",34.721,1.227
+3232,221,Jarales mixtos o mezclados (Cistus spp. pl.),Lagartos,"34091",550.366,12.644
+3234,221,Jarales mixtos o mezclados (Cistus spp. pl.),Villarrabé,"34231",0.186,0.002
+3253,254,Tomillares y agrupaciones fisonómicamente afines,Bustillo del Páramo de Carrión,"34039",295.783,9.479
+3256,111,Orlas espinares y afines (dom. Rosaceae),Villarrabé,"34231",135.072,1.682
+3257,111,Orlas espinares y afines (dom. Rosaceae),Bustillo del Páramo de Carrión,"34039",0.2,0.006
+3260,232,Escobonales/xesteiras,Bustillo del Páramo de Carrión,"34039",0.005,0
+3261,232,Escobonales/xesteiras,Villarrabé,"34231",36.281,0.452
+3265,254,Tomillares y agrupaciones fisonómicamente afines,Cervatos de la Cueza,"34055",30.795,0.431
+3270,232,Escobonales/xesteiras,Cervatos de la Cueza,"34055",14.675,0.205
+3282,0,Sin formación arbustiva,Cervatos de la Cueza,"34055",6592.883,92.257
+3298,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Villarrabé,"34231",9.124,0.114
+3310,0,Sin formación arbustiva,Bustillo de la Vega,"34038",1880.517,99.042
+3316,254,Tomillares y agrupaciones fisonómicamente afines,Lagartos,"34091",67.303,1.546
+3327,213,Brezales,Villarrabé,"34231",482.206,6.006
+3350,111,Orlas espinares y afines (dom. Rosaceae),Bustillo de la Vega,"34038",18.182,0.958
+3476,111,Orlas espinares y afines (dom. Rosaceae),Santervás de la Vega,"34169",8.825,0.125
+3522,254,Tomillares y agrupaciones fisonómicamente afines,Ledigos,"34094",4.131,0.146
+3534,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Nogal de las Huertas,"34112",6.31,0.457
+3539,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Carrión de los Condes,"34047",66.044,1.043
+3553,213,Brezales,Micieces de Ojeda,"34107",201.129,9.701
+3555,0,Sin formación arbustiva,Micieces de Ojeda,"34107",1603.459,77.34
+3557,213,Brezales,La Vid de Ojeda,"34093",310.648,15.471
+3560,213,Brezales,Dehesa de Romanos,"34068",367.395,17.54
+3572,0,Sin formación arbustiva,La Vid de Ojeda,"34093",1674.187,83.381
+3580,111,Orlas espinares y afines (dom. Rosaceae),Báscones de Ojeda,"34028",9.198,0.495
+3610,111,Orlas espinares y afines (dom. Rosaceae),Collazos de Boedo,"34061",10.229,0.487
+3644,0,Sin formación arbustiva,Dehesa de Romanos,"34068",1593.643,76.083
+3646,249,"Aliagares, aulagares y afines",Collazos de Boedo,"34061",31.279,1.489
+3647,249,"Aliagares, aulagares y afines",Dehesa de Romanos,"34068",133.561,6.376
+3673,213,Brezales,Aguilar de Campoo,"34004",3188.061,13.56
+3674,213,Brezales,Barruelo de Santullán,"34027",808.012,15.161
+3697,249,"Aliagares, aulagares y afines",Cervera de Pisuerga,"34056",3748.456,11.493
+3713,213,Brezales,Olmos de Ojeda,"34114",1043.123,10.069
+3722,249,"Aliagares, aulagares y afines",La Vid de Ojeda,"34093",19.074,0.95
+3751,213,Brezales,Prádanos de Ojeda,"34139",42.615,1.999
+3760,213,Brezales,Olea de Boedo,"34113",148.827,18.281
+3761,213,Brezales,Sotobañado y Priorato,"34176",626.487,24.797
+3766,0,Sin formación arbustiva,Olea de Boedo,"34113",655.496,80.518
+3837,111,Orlas espinares y afines (dom. Rosaceae),Olea de Boedo,"34113",9.774,1.201
+3855,213,Brezales,Villameriel,"34222",1579.324,29.707
+3884,111,Orlas espinares y afines (dom. Rosaceae),Sotobañado y Priorato,"34176",17.418,0.689
+3890,0,Sin formación arbustiva,Sotobañado y Priorato,"34176",1871.222,74.066
+4060,0,Sin formación arbustiva,Villameriel,"34222",3212.43,60.426
+4138,213,Brezales,Páramo de Boedo,"34122",318.617,13.996
+4141,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Cervera de Pisuerga,"34056",820.052,2.514
+4143,0,Sin formación arbustiva,Páramo de Boedo,"34122",1874.736,82.354
+4163,213,Brezales,Calahorra de Boedo,"34041",189.011,10.504
+4172,0,Sin formación arbustiva,Calahorra de Boedo,"34041",1569.297,87.215
+4191,232,Escobonales/xesteiras,Mudá,"34110",203.117,29.843
+4199,213,Brezales,Santa Cruz de Boedo,"34168",581.157,22.78
+4203,249,"Aliagares, aulagares y afines",Barruelo de Santullán,"34027",115.114,2.16
+4204,249,"Aliagares, aulagares y afines",Mudá,"34110",237.116,34.838
+4205,249,"Aliagares, aulagares y afines",Salinas de Pisuerga,"34158",561.813,26.497
+4267,249,"Aliagares, aulagares y afines",Villameriel,"34222",54.129,1.018
+4288,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Villameriel,"34222",12.223,0.23
+4311,253,"Esplegares, salviares y salvio-esplegares",Bárcena de Campos,"34025",72.998,5.021
+4312,253,"Esplegares, salviares y salvio-esplegares",Villanuño de Valdavia,"34228",75.47,2.431
+4326,221,Jarales mixtos o mezclados (Cistus spp. pl.),Bárcena de Campos,"34025",125.103,8.605
+4345,232,Escobonales/xesteiras,Bárcena de Campos,"34025",22.084,1.519
+4368,232,Escobonales/xesteiras,Villameriel,"34222",0.272,0.005
+4369,232,Escobonales/xesteiras,Villanuño de Valdavia,"34228",0.444,0.014
+4406,253,"Esplegares, salviares y salvio-esplegares",Villameriel,"34222",12.334,0.232
+4413,111,Orlas espinares y afines (dom. Rosaceae),Villameriel,"34222",50.311,0.946
+4477,0,Sin formación arbustiva,Villaprovedo,"34229",1830.663,69.301
+4505,213,Brezales,Villaprovedo,"34229",802.519,30.38
+4553,213,Brezales,Abia de las Torres,"34003",4.683,0.172
+4596,213,Brezales,Herrera de Pisuerga,"34083",709.454,7.161
+4608,236,Retamares,Salinas de Pisuerga,"34158",21.821,1.029
+4612,111,Orlas espinares y afines (dom. Rosaceae),Barruelo de Santullán,"34027",249.597,4.683
+4613,249,"Aliagares, aulagares y afines",Sotobañado y Priorato,"34176",11.302,0.447
+4616,249,"Aliagares, aulagares y afines",Páramo de Boedo,"34122",48.573,2.134
+4618,111,Orlas espinares y afines (dom. Rosaceae),Páramo de Boedo,"34122",29.809,1.309
+4623,111,Orlas espinares y afines (dom. Rosaceae),Calahorra de Boedo,"34041",7.866,0.437
+4625,249,"Aliagares, aulagares y afines",Calahorra de Boedo,"34041",33.174,1.844
+4661,111,Orlas espinares y afines (dom. Rosaceae),Espinosa de Villagonzalo,"34071",37.284,0.98
+4662,111,Orlas espinares y afines (dom. Rosaceae),Villaprovedo,"34229",8.415,0.319
+4663,111,Orlas espinares y afines (dom. Rosaceae),San Cristóbal de Boedo,"34161",16.09,1.493
+4664,111,Orlas espinares y afines (dom. Rosaceae),Santa Cruz de Boedo,"34168",18.232,0.715
+4668,213,Brezales,San Cristóbal de Boedo,"34161",112.627,10.451
+4674,213,Brezales,Espinosa de Villagonzalo,"34071",226.436,5.952
+4692,0,Sin formación arbustiva,San Cristóbal de Boedo,"34161",925.999,85.93
+4694,0,Sin formación arbustiva,Santa Cruz de Boedo,"34168",1865.464,73.121
+4704,249,"Aliagares, aulagares y afines",San Cristóbal de Boedo,"34161",22.901,2.125
+4720,249,"Aliagares, aulagares y afines",Herrera de Pisuerga,"34083",324.128,3.271
+4722,0,Sin formación arbustiva,Herrera de Pisuerga,"34083",8307.177,83.845
+4727,111,Orlas espinares y afines (dom. Rosaceae),Herrera de Pisuerga,"34083",176.738,1.784
+4776,0,Sin formación arbustiva,Aguilar de Campoo,"34004",13245.875,56.339
+4779,111,Orlas espinares y afines (dom. Rosaceae),Aguilar de Campoo,"34004",1011.463,4.302
+4918,232,Escobonales/xesteiras,Herrera de Pisuerga,"34083",3.468,0.035
+4932,249,"Aliagares, aulagares y afines",Alar del Rey,"34005",1236.459,21.35
+4934,0,Sin formación arbustiva,Alar del Rey,"34005",3271.239,56.484
+4941,221,Jarales mixtos o mezclados (Cistus spp. pl.),Alar del Rey,"34005",655.718,11.322
+4967,249,"Aliagares, aulagares y afines",Aguilar de Campoo,"34004",3426.092,14.572
+5023,253,"Esplegares, salviares y salvio-esplegares",Aguilar de Campoo,"34004",990.396,4.212
+5035,253,"Esplegares, salviares y salvio-esplegares",Pomar de Valdivia,"34135",69.247,0.855
+5036,0,Sin formación arbustiva,Pomar de Valdivia,"34135",4878.809,60.261
+5037,111,Orlas espinares y afines (dom. Rosaceae),Pomar de Valdivia,"34135",328.202,4.054
+5041,213,Brezales,Pomar de Valdivia,"34135",193.445,2.389
+5070,114,Salcedas y bardagueras (Salix spp. pl.),Herrera de Pisuerga,"34083",5.942,0.06
+5073,232,Escobonales/xesteiras,Barruelo de Santullán,"34027",931.629,17.48
+5116,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Herrera de Pisuerga,"34083",20.433,0.206
+5123,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Castrejón de la Peña,"34049",196.259,1.844
+5125,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Prádanos de Ojeda,"34139",0.1,0.005
+5127,249,"Aliagares, aulagares y afines",Prádanos de Ojeda,"34139",147.044,6.899
+5151,0,Sin formación arbustiva,Barruelo de Santullán,"34027",1530.96,28.726
+5158,236,Retamares,Dehesa de Montejo,"34067",45.055,1.029
+5181,214,Gayubares (Arctostaphylos uva-ursi),Castrejón de la Peña,"34049",311.727,2.93
+5182,214,Gayubares (Arctostaphylos uva-ursi),Dehesa de Montejo,"34067",14.976,0.342
+5183,254,Tomillares y agrupaciones fisonómicamente afines,Páramo de Boedo,"34122",4.697,0.206
+5190,249,"Aliagares, aulagares y afines",Castrejón de la Peña,"34049",151.566,1.424
+5191,254,Tomillares y agrupaciones fisonómicamente afines,Herrera de Pisuerga,"34083",65.737,0.663
+5195,256,Bolinares (Santolina spp. y Helichrysum sp.),Cervera de Pisuerga,"34056",43.979,0.135
+5200,256,Bolinares (Santolina spp. y Helichrysum sp.),Salinas de Pisuerga,"34158",71.032,3.35
+5208,254,Tomillares y agrupaciones fisonómicamente afines,Barruelo de Santullán,"34027",714.239,13.401
+5209,254,Tomillares y agrupaciones fisonómicamente afines,Salinas de Pisuerga,"34158",236.586,11.158
+5211,254,Tomillares y agrupaciones fisonómicamente afines,Aguilar de Campoo,"34004",1230.493,5.234
+5237,254,Tomillares y agrupaciones fisonómicamente afines,Alar del Rey,"34005",66.883,1.155
+5259,232,Escobonales/xesteiras,Alar del Rey,"34005",31.859,0.55
+5283,249,"Aliagares, aulagares y afines",Pomar de Valdivia,"34135",1450.903,17.921
+5309,248,"Erizonales, erizales y abrojales",Pomar de Valdivia,"34135",300.19,3.708
+5356,236,Retamares,Pomar de Valdivia,"34135",72.362,0.894
+5464,111,Orlas espinares y afines (dom. Rosaceae),Alar del Rey,"34005",87.587,1.512
+5530,213,Brezales,Alar del Rey,"34005",291.067,5.026
+5538,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Villameriel,"34222",3.413,0.064
+5555,231,Piornales de montaña,Barruelo de Santullán,"34027",780.573,14.646
+5579,261,Sabinares (Juniperus sabina),Velilla del Río Carrión,"34199",132.739,0.667
+5647,254,Tomillares y agrupaciones fisonómicamente afines,Dehesa de Montejo,"34067",77.229,1.764
+5653,0,Sin formación arbustiva,Osorno la Mayor,"34901",8636.871,96.888
+5655,249,"Aliagares, aulagares y afines",Dehesa de Montejo,"34067",546.436,12.48
+5662,111,Orlas espinares y afines (dom. Rosaceae),Osorno la Mayor,"34901",155.907,1.749
+5665,253,"Esplegares, salviares y salvio-esplegares",Osorno la Mayor,"34901",41.065,0.461
+5671,254,Tomillares y agrupaciones fisonómicamente afines,Cervera de Pisuerga,"34056",364.348,1.117
+5672,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Herrera de Pisuerga,"34083",86.787,0.876
+5673,252,"Cantuesares (Lavandula stoechas, L. pedunculata, L. viridis)",Osorno la Mayor,"34901",55.23,0.62
+5676,213,Brezales,Salinas de Pisuerga,"34158",199.641,9.416
+5684,0,Sin formación arbustiva,Espinosa de Villagonzalo,"34071",3256.864,85.61
+5689,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Herrera de Pisuerga,"34083",207.905,2.098
+5692,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Osorno la Mayor,"34901",1.107,0.012
+5698,254,Tomillares y agrupaciones fisonómicamente afines,Osorno la Mayor,"34901",0.192,0.002
+5702,249,"Aliagares, aulagares y afines",Espinosa de Villagonzalo,"34071",201.654,5.301
+5704,249,"Aliagares, aulagares y afines",Santa Cruz de Boedo,"34168",86.362,3.385
+5717,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Espinosa de Villagonzalo,"34071",3.362,0.088
+5757,214,Gayubares (Arctostaphylos uva-ursi),Pomar de Valdivia,"34135",701.36,8.663
+5768,213,Brezales,Payo de Ojeda,"34124",97.521,5.059
+5774,235,Carquesales (carqueixales) (Pterospartum tridentatum),Castrejón de la Peña,"34049",141.8,1.333
+5775,235,Carquesales (carqueixales) (Pterospartum tridentatum),Olmos de Ojeda,"34114",101.057,0.975
+5793,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Dehesa de Montejo,"34067",19.633,0.448
+5809,214,Gayubares (Arctostaphylos uva-ursi),Aguilar de Campoo,"34004",101.866,0.433
+5888,232,Escobonales/xesteiras,Espinosa de Villagonzalo,"34071",18.932,0.498
+5927,249,"Aliagares, aulagares y afines",Osorno la Mayor,"34901",1.892,0.021
+5931,253,"Esplegares, salviares y salvio-esplegares",Espinosa de Villagonzalo,"34071",59.792,1.572
+5962,111,Orlas espinares y afines (dom. Rosaceae),Abia de las Torres,"34003",58.875,2.168
+5965,232,Escobonales/xesteiras,Osorno la Mayor,"34901",14.097,0.158
+5966,232,Escobonales/xesteiras,Abia de las Torres,"34003",0.337,0.012
+5984,0,Sin formación arbustiva,Abia de las Torres,"34003",2642.769,97.306
+6014,0,Sin formación arbustiva,Villaherreros,"34211",4066.232,99.687
+6018,111,Orlas espinares y afines (dom. Rosaceae),Castrillo de Villavega,"34052",45.123,1.329
+6019,111,Orlas espinares y afines (dom. Rosaceae),Villaherreros,"34211",12.692,0.311
+6020,0,Sin formación arbustiva,Castrillo de Villavega,"34052",3331.737,98.153
+6051,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Barruelo de Santullán,"34027",199.479,3.743
+6059,233,"Piornales y matorrales retamoideos afines, no estrictamente de alta montaña",Salinas de Pisuerga,"34158",2.103,0.099
+6077,213,Brezales,Castrillo de Villavega,"34052",0.597,0.018
+6080,232,Escobonales/xesteiras,Castrillo de Villavega,"34052",2.606,0.077
+6098,254,Tomillares y agrupaciones fisonómicamente afines,Castrillo de Villavega,"34052",14.377,0.424
+6099,254,Tomillares y agrupaciones fisonómicamente afines,Villameriel,"34222",16.196,0.305
+6126,214,Gayubares (Arctostaphylos uva-ursi),Olmos de Ojeda,"34114",30.334,0.293
+6185,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Castrejón de la Peña,"34049",167.687,1.576
+6186,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Respenda de la Peña,"34151",83.682,1.275
+6207,235,Carquesales (carqueixales) (Pterospartum tridentatum),Pomar de Valdivia,"34135",9.604,0.119
+6215,213,Brezales,Respenda de la Peña,"34151",3142.43,47.862
+6227,232,Escobonales/xesteiras,Castrejón de la Peña,"34049",376.839,3.542
+6240,0,Sin formación arbustiva,Salinas de Pisuerga,"34158",869.843,41.025
+6301,2471,Tojares mixtos,Aguilar de Campoo,"34004",122.647,0.522
+6362,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Abia de las Torres,"34003",9.268,0.341
+6428,0,Sin formación arbustiva,Villasarracino,"34233",2034.723,99.264
+6433,256,Bolinares (Santolina spp. y Helichrysum sp.),Villasarracino,"34233",9.576,0.467
+6466,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Osorno la Mayor,"34901",7.961,0.089
+6467,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Marcilla de Campos,"34101",1.303,0.06
+6486,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Osornillo,"34116",30.055,1.654
+6491,0,Sin formación arbustiva,Osornillo,"34116",1765.638,97.144
+6493,114,Salcedas y bardagueras (Salix spp. pl.),Osornillo,"34116",16.338,0.899
+6518,114,Salcedas y bardagueras (Salix spp. pl.),Lantadilla,"34092",17.083,0.59
+6536,0,Sin formación arbustiva,Arconada,"34015",1937.95,99.714
+6537,0,Sin formación arbustiva,Villalcázar de Sirga,"34215",2533.267,99.68
+6539,249,"Aliagares, aulagares y afines",Bárcena de Campos,"34025",8.865,0.61
+6585,248,"Erizonales, erizales y abrojales",Aguilar de Campoo,"34004",85.798,0.365
+6622,236,Retamares,Aguilar de Campoo,"34004",16.053,0.068
+6664,256,Bolinares (Santolina spp. y Helichrysum sp.),Aguilar de Campoo,"34004",1.658,0.007
+6692,0,Sin formación arbustiva,Congosto de Valdavia,"34062",2816.738,40.869
+6909,254,Tomillares y agrupaciones fisonómicamente afines,Castrejón de la Peña,"34049",901.077,8.468
+6938,111,Orlas espinares y afines (dom. Rosaceae),Salinas de Pisuerga,"34158",73.356,3.46
+6975,221,Jarales mixtos o mezclados (Cistus spp. pl.),Pomar de Valdivia,"34135",9.172,0.113
+7251,254,Tomillares y agrupaciones fisonómicamente afines,Pomar de Valdivia,"34135",82.8,1.023
+7268,232,Escobonales/xesteiras,Congosto de Valdavia,"34062",207.573,3.012
+7269,232,Escobonales/xesteiras,La Puebla de Valdavia,"34140",9.888,0.335
+7389,232,Escobonales/xesteiras,Aguilar de Campoo,"34004",80.837,0.344
+7532,215,Arandanales (Vaccinium myrtillus u otras),Congosto de Valdavia,"34062",416.672,6.046
+7533,215,Arandanales (Vaccinium myrtillus u otras),La Puebla de Valdavia,"34140",88.647,3.005
+7534,215,Arandanales (Vaccinium myrtillus u otras),Respenda de la Peña,"34151",10.39,0.158
+7613,111,Orlas espinares y afines (dom. Rosaceae),Respenda de la Peña,"34151",126.097,1.921
+7616,0,Sin formación arbustiva,Respenda de la Peña,"34151",3005.888,45.783
+7724,253,"Esplegares, salviares y salvio-esplegares",Alar del Rey,"34005",144.515,2.495
+7725,221,Jarales mixtos o mezclados (Cistus spp. pl.),Congosto de Valdavia,"34062",114.477,1.661
+7837,0,Sin formación arbustiva,Prádanos de Ojeda,"34139",1758.049,82.479
+7839,254,Tomillares y agrupaciones fisonómicamente afines,Guardo,"34080",164.209,2.614
+7840,254,Tomillares y agrupaciones fisonómicamente afines,Santibáñez de la Peña,"34171",1020.89,9.136
+7965,253,"Esplegares, salviares y salvio-esplegares",Prádanos de Ojeda,"34139",128.573,6.032
+7966,253,"Esplegares, salviares y salvio-esplegares",Santibáñez de Ecla,"34170",568.577,22.266
+7968,221,Jarales mixtos o mezclados (Cistus spp. pl.),Prádanos de Ojeda,"34139",55.121,2.586
+7969,221,Jarales mixtos o mezclados (Cistus spp. pl.),Santibáñez de Ecla,"34170",25.166,0.986
+7978,249,"Aliagares, aulagares y afines",Santibáñez de Ecla,"34170",611.074,23.93
+8004,248,"Erizonales, erizales y abrojales",Alar del Rey,"34005",6.117,0.106
+8029,213,Brezales,Villalba de Guardo,"34214",1354.021,40
+8068,235,Carquesales (carqueixales) (Pterospartum tridentatum),Aguilar de Campoo,"34004",9.762,0.042
+8227,0,Sin formación arbustiva,Santibáñez de Ecla,"34170",1266.163,49.585
+8269,213,Brezales,Guardo,"34080",2614.69,41.617
+8270,213,Brezales,Mantinos,"34100",1567.545,61.404
+8298,0,Sin formación arbustiva,Mantinos,"34100",913.52,35.785
+8419,232,Escobonales/xesteiras,Salinas de Pisuerga,"34158",84.057,3.964
+8530,261,Sabinares (Juniperus sabina),Santibáñez de la Peña,"34171",934.482,8.363
+8744,111,Orlas espinares y afines (dom. Rosaceae),Mudá,"34110",28.531,4.192
+8868,261,Sabinares (Juniperus sabina),Guardo,"34080",365.115,5.811
+8870,232,Escobonales/xesteiras,Guardo,"34080",265.769,4.23
+9000,111,Orlas espinares y afines (dom. Rosaceae),Santibáñez de Ecla,"34170",3.506,0.137
+9049,234,"Codesares (Adenocarpus complicatus, hispanicus)",Castrejón de la Peña,"34049",18.01,0.169
+9053,261,Sabinares (Juniperus sabina),Castrejón de la Peña,"34049",69.025,0.649
+9078,234,"Codesares (Adenocarpus complicatus, hispanicus)",Congosto de Valdavia,"34062",38.174,0.554
+9079,234,"Codesares (Adenocarpus complicatus, hispanicus)",Respenda de la Peña,"34151",25.033,0.381
+9116,0,Sin formación arbustiva,Fresno del Río,"34073",2423.032,55.037
+9117,0,Sin formación arbustiva,Villalba de Guardo,"34214",1954.333,57.734
+9118,254,Tomillares y agrupaciones fisonómicamente afines,Congosto de Valdavia,"34062",49.96,0.725
+9126,254,Tomillares y agrupaciones fisonómicamente afines,Respenda de la Peña,"34151",48.354,0.736
+9132,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Congosto de Valdavia,"34062",27.541,0.4
+9200,231,Piornales de montaña,Mudá,"34110",23.939,3.517
+9214,213,Brezales,Mudá,"34110",4.232,0.622
+9352,254,Tomillares y agrupaciones fisonómicamente afines,Santibáñez de Ecla,"34170",16.565,0.649
+9370,213,Brezales,Santibáñez de Ecla,"34170",61.572,2.411
+9518,214,Gayubares (Arctostaphylos uva-ursi),Guardo,"34080",56.766,0.904
+9528,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Castrejón de la Peña,"34049",130.815,1.229
+9550,232,Escobonales/xesteiras,Respenda de la Peña,"34151",88.519,1.348
+9596,234,"Codesares (Adenocarpus complicatus, hispanicus)",Guardo,"34080",34.958,0.556
+9631,2471,Tojares mixtos,Santibáñez de Ecla,"34170",0.92,0.036
+9679,253,"Esplegares, salviares y salvio-esplegares",Cervera de Pisuerga,"34056",239.253,0.734
+9719,248,"Erizonales, erizales y abrojales",Cervera de Pisuerga,"34056",31.382,0.096
+9756,234,"Codesares (Adenocarpus complicatus, hispanicus)",Fresno del Río,"34073",0.237,0.005
+9757,234,"Codesares (Adenocarpus complicatus, hispanicus)",Villalba de Guardo,"34214",6.798,0.201
+9895,214,Gayubares (Arctostaphylos uva-ursi),Cervera de Pisuerga,"34056",23.189,0.071
+9933,248,"Erizonales, erizales y abrojales",Dehesa de Montejo,"34067",135.717,3.1
+9944,253,"Esplegares, salviares y salvio-esplegares",Dehesa de Montejo,"34067",21.146,0.483
+9970,261,Sabinares (Juniperus sabina),Dehesa de Montejo,"34067",366.994,8.382
+10106,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Báscones de Ojeda,"34028",27.812,1.498
+10107,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Olmos de Ojeda,"34114",11.627,0.112
+10108,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),La Puebla de Valdavia,"34140",8.922,0.302
+10243,0,Sin formación arbustiva,Olmos de Ojeda,"34114",7030.244,67.859
+10256,261,Sabinares (Juniperus sabina),Congosto de Valdavia,"34062",4.822,0.07
+10257,261,Sabinares (Juniperus sabina),Tabanera de Valdavia,"34179",4.025,0.187
+10326,232,Escobonales/xesteiras,Mantinos,"34100",6.291,0.246
+10340,235,Carquesales (carqueixales) (Pterospartum tridentatum),Mantinos,"34100",7.521,0.295
+10352,249,"Aliagares, aulagares y afines",Olmos de Ojeda,"34114",1575.599,15.208
+10369,249,"Aliagares, aulagares y afines",Payo de Ojeda,"34124",189.479,9.829
+10372,214,Gayubares (Arctostaphylos uva-ursi),Santibáñez de la Peña,"34171",6.308,0.056
+10462,261,Sabinares (Juniperus sabina),Cervera de Pisuerga,"34056",2.737,0.008
+10494,234,"Codesares (Adenocarpus complicatus, hispanicus)",Santibáñez de la Peña,"34171",1.777,0.016
+10505,254,Tomillares y agrupaciones fisonómicamente afines,Olmos de Ojeda,"34114",122.611,1.184
+10514,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Respenda de la Peña,"34151",24.445,0.372
+10564,253,"Esplegares, salviares y salvio-esplegares",Olmos de Ojeda,"34114",217.523,2.1
+10600,248,"Erizonales, erizales y abrojales",Olmos de Ojeda,"34114",4.598,0.044
+10612,256,Bolinares (Santolina spp. y Helichrysum sp.),Olmos de Ojeda,"34114",21.248,0.205
+10649,236,Retamares,Olmos de Ojeda,"34114",2.491,0.024
+10698,111,Orlas espinares y afines (dom. Rosaceae),Olmos de Ojeda,"34114",139.328,1.345
+10722,221,Jarales mixtos o mezclados (Cistus spp. pl.),Respenda de la Peña,"34151",5.297,0.081
+10746,221,Jarales mixtos o mezclados (Cistus spp. pl.),Olmos de Ojeda,"34114",14.522,0.14
+10842,235,Carquesales (carqueixales) (Pterospartum tridentatum),Payo de Ojeda,"34124",41.444,2.15
+10843,0,Sin formación arbustiva,Payo de Ojeda,"34124",1495.555,77.578
+10972,235,Carquesales (carqueixales) (Pterospartum tridentatum),Respenda de la Peña,"34151",5.411,0.082
+10982,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Santibáñez de la Peña,"34171",3.764,0.034
+10990,2471,Tojares mixtos,Olmos de Ojeda,"34114",18.575,0.179
+11064,232,Escobonales/xesteiras,Olmos de Ojeda,"34114",1.094,0.011
+11065,232,Escobonales/xesteiras,Payo de Ojeda,"34124",6.761,0.351
+11117,234,"Codesares (Adenocarpus complicatus, hispanicus)",Payo de Ojeda,"34124",48.23,2.502
+11146,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Payo de Ojeda,"34124",28.838,1.496
+11149,234,"Codesares (Adenocarpus complicatus, hispanicus)",Báscones de Ojeda,"34028",10.386,0.559
+11150,234,"Codesares (Adenocarpus complicatus, hispanicus)",Olmos de Ojeda,"34114",25.746,0.249
+11179,111,Orlas espinares y afines (dom. Rosaceae),Payo de Ojeda,"34124",9.746,0.506
+11266,254,Tomillares y agrupaciones fisonómicamente afines,Payo de Ojeda,"34124",10.241,0.531
+11288,253,"Esplegares, salviares y salvio-esplegares",Payo de Ojeda,"34124",0.001,0
+11315,214,Gayubares (Arctostaphylos uva-ursi),Micieces de Ojeda,"34107",107.677,5.194
+11330,249,"Aliagares, aulagares y afines",Micieces de Ojeda,"34107",143.701,6.931
+11365,111,Orlas espinares y afines (dom. Rosaceae),Micieces de Ojeda,"34107",12.101,0.584
+11392,249,"Aliagares, aulagares y afines",Báscones de Ojeda,"34028",77.944,4.199
+11452,254,Tomillares y agrupaciones fisonómicamente afines,Micieces de Ojeda,"34107",4.405,0.212
+11477,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Micieces de Ojeda,"34107",0.796,0.038
+11478,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Olmos de Ojeda,"34114",0.281,0.003
+11837,111,Orlas espinares y afines (dom. Rosaceae),La Vid de Ojeda,"34093",3.972,0.198
+11849,111,Orlas espinares y afines (dom. Rosaceae),Osornillo,"34116",5.516,0.303
+11883,0,Sin formación arbustiva,Bustillo del Páramo de Carrión,"34039",2731.468,87.534
+11890,0,Sin formación arbustiva,Frómista,"34074",4630.79,99.396
+11895,0,Sin formación arbustiva,Marcilla de Campos,"34101",2179.331,99.691
+11907,0,Sin formación arbustiva,Requena de Campos,"34149",1341.552,100
+11926,0,Sin formación arbustiva,Villarmentero de Campos,"34230",768.088,100
+11990,0,Sin formación arbustiva,Lagartos,"34091",2600.641,59.745
+11992,0,Sin formación arbustiva,Moratinos,"34109",2821.514,96.412
+11993,0,Sin formación arbustiva,Población de Arroyo,"34131",2099.763,91.82
+15384,0,Sin formación arbustiva,Mudá,"34110",183.682,26.988
+16356,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Población de Arroyo,"34131",49.67,2.172
+16358,254,Tomillares y agrupaciones fisonómicamente afines,Población de Arroyo,"34131",12.25,0.536
+16360,111,Orlas espinares y afines (dom. Rosaceae),Moratinos,"34109",13.996,0.478
+16361,111,Orlas espinares y afines (dom. Rosaceae),Población de Arroyo,"34131",11.053,0.483
+16362,249,"Aliagares, aulagares y afines",Población de Arroyo,"34131",34.297,1.5
+16377,287,Cubiertas arbustivas y subarbustivas glicohidrófilas o freatófilas,Población de Arroyo,"34131",1.154,0.05
+16378,232,Escobonales/xesteiras,Población de Arroyo,"34131",1.921,0.084
+16392,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Cervatos de la Cueza,"34055",184.1,2.576
+16448,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Bustillo del Páramo de Carrión,"34039",77.968,2.499
+16452,254,Tomillares y agrupaciones fisonómicamente afines,Calzada de los Molinos,"34042",11.943,0.46
+16453,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Bustillo del Páramo de Carrión,"34039",15.03,0.482
+16454,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Calzada de los Molinos,"34042",17.097,0.659
+16469,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Calzada de los Molinos,"34042",51.64,1.991
+16524,254,Tomillares y agrupaciones fisonómicamente afines,Carrión de los Condes,"34047",3.954,0.062
+16533,213,Brezales,Carrión de los Condes,"34047",3.044,0.048
+16537,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Villalcázar de Sirga,"34215",1.924,0.076
+16552,287,Cubiertas arbustivas y subarbustivas glicohidrófilas o freatófilas,Carrión de los Condes,"34047",13.104,0.207
+16567,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Moratinos,"34109",41.298,1.411
+16569,221,Jarales mixtos o mezclados (Cistus spp. pl.),Moratinos,"34109",43.203,1.476
+16571,254,Tomillares y agrupaciones fisonómicamente afines,Moratinos,"34109",2.659,0.091
+16583,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Lagartos,"34091",301.907,6.936
+16613,231,Piornales de montaña,Lagartos,"34091",25.409,0.584
+16615,250,Mezcla de matorrales de labiadas y tomillares (incluye pastizales leñosos),Lagartos,"34091",2.349,0.054
+16637,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Ledigos,"34094",8.182,0.289
+16648,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Lagartos,"34091",585.424,13.449
+16649,213,Brezales,Lagartos,"34091",109.68,2.52
+16650,248,"Erizonales, erizales y abrojales",Lagartos,"34091",92.1,2.116
+16654,111,Orlas espinares y afines (dom. Rosaceae),Lagartos,"34091",6.058,0.139
+16665,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Villarrabé,"34231",10.714,0.133
+16670,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Santervás de la Vega,"34169",3.986,0.056
+16676,248,"Erizonales, erizales y abrojales",Santervás de la Vega,"34169",19.679,0.278
+16684,255,"Escobillares y matorrales mixtos con predominio de Dorycnium pentaphyllum,",Villarrabé,"34231",238.828,2.974
+16726,213,Brezales,Ledigos,"34094",18.18,0.642
+16757,234,"Codesares (Adenocarpus complicatus, hispanicus)",Santervás de la Vega,"34169",31.298,0.443
+16778,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Villota del Páramo,"34245",145.835,1.871
+16984,213,Brezales,Moratinos,"34109",3.86,0.132
+16985,213,Brezales,Población de Arroyo,"34131",0.002,0
+17032,222,Jaguarzales y jaral-carpazales menores (Halimium spp. pl.),Ledigos,"34094",1.161,0.041
+17271,231,Piornales de montaña,Guardo,"34080",214.998,3.422

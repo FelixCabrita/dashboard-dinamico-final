@@ -1,0 +1,3213 @@
+{
+    "fecha_test": "2025-10-21 16:14:09",
+    "servidor": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com",
+    "datasets": [
+        {
+            "id": "875b1ac0-4e7d-4e5d-91f7-2e5785003a74",
+            "name": "incendios_y_prevencion",
+            "title": "incendios_y_prevencion",
+            "private": true,
+            "organization": {
+                "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+                "name": "medio_natural",
+                "title": ""
+            },
+            "num_resources": 46,
+            "metadata_created": "2025-08-05T07:53:11.002979",
+            "metadata_modified": "2025-10-21T07:40:38.626288",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "8212d24b-9817-4b7f-a1e4-325a9b75a175",
+                    "name": "Incendios CyL: Plan anual 2025. Áreas peligro incendios forestales",
+                    "format": "SHP",
+                    "size": 444617902,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/8212d24b-9817-4b7f-a1e4-325a9b75a175\/download\/spagobcyltemincp25pelifo_2025-02-17.zip",
+                    "created": "2025-08-05T07:59:39.643961",
+                    "last_modified": "2025-08-05T07:59:39.631986"
+                },
+                {
+                    "id": "97ee3b25-cd2c-43d2-a6f1-0e05b05500c1",
+                    "name": "Incendios CyL: Plan anual 2025. Riesgo incendios interfaz urbano-forestal",
+                    "format": "SHP",
+                    "size": 24728861,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/97ee3b25-cd2c-43d2-a6f1-0e05b05500c1\/download\/spagobcyltemincp25rieiuf_2025-02-17.zip",
+                    "created": "2025-08-05T07:59:45.294906",
+                    "last_modified": "2025-08-05T07:59:45.280233"
+                },
+                {
+                    "id": "aa25588c-ff4f-418a-b200-ee64c7324d49",
+                    "name": "Flora CyL: vulnerabilidad formaciones forestales",
+                    "format": "SHP",
+                    "size": 165620991,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/aa25588c-ff4f-418a-b200-ee64c7324d49\/download\/spagobcylmnadtsamffv_2023-03-01.zip",
+                    "created": "2025-08-05T08:00:05.924048",
+                    "last_modified": "2025-08-05T08:00:05.907761"
+                },
+                {
+                    "id": "82d9d43f-c401-4a95-b00e-460861cfa0fc",
+                    "name": "Elevaciones - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 198049607,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/82d9d43f-c401-4a95-b00e-460861cfa0fc\/download\/mapacyl10_altimetr_l_pa.zip",
+                    "created": "2025-09-23T09:16:10.670896",
+                    "last_modified": "2025-10-21T07:36:51.306841"
+                },
+                {
+                    "id": "762abfbf-bf9e-4351-9179-8bdbacb95054",
+                    "name": "Elevaciones - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 3334305,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/762abfbf-bf9e-4351-9179-8bdbacb95054\/download\/mapacyl10_altimetr_p_pa.zip",
+                    "created": "2025-09-23T09:16:12.986887",
+                    "last_modified": "2025-10-21T07:36:54.646359"
+                },
+                {
+                    "id": "38343680-27b0-40c6-86cc-a17718c1250b",
+                    "name": "Cubierta terrestre - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 68938902,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/38343680-27b0-40c6-86cc-a17718c1250b\/download\/mapacyl10_cubterre_l_pa.zip",
+                    "created": "2025-09-23T09:16:28.067667",
+                    "last_modified": "2025-10-21T07:37:08.884067"
+                },
+                {
+                    "id": "dc4490ad-61fc-4fcd-b8e0-568601e4b7d5",
+                    "name": "Cubierta terrestre - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 4737275,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/dc4490ad-61fc-4fcd-b8e0-568601e4b7d5\/download\/mapacyl10_cubterre_p_pa.zip",
+                    "created": "2025-09-23T09:16:30.653211",
+                    "last_modified": "2025-10-21T07:37:11.059428"
+                },
+                {
+                    "id": "5d5d6b1b-47e5-4e6e-b6a6-617d8997dc80",
+                    "name": "Edificaciones y construcciones - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 12956119,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/5d5d6b1b-47e5-4e6e-b6a6-617d8997dc80\/download\/mapacyl10_edifcons_l_pa.zip",
+                    "created": "2025-09-23T09:16:36.125466",
+                    "last_modified": "2025-10-21T07:37:15.162886"
+                },
+                {
+                    "id": "31939058-5824-41d6-9f11-586e6bfd6491",
+                    "name": "Edificaciones y construcciones - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 10659,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/31939058-5824-41d6-9f11-586e6bfd6491\/download\/mapacyl10_edifcons_p_pa.zip",
+                    "created": "2025-09-23T09:16:36.976369",
+                    "last_modified": "2025-10-21T07:37:17.753727"
+                },
+                {
+                    "id": "eda8b0f7-9861-4a0b-b8de-d270f296fa93",
+                    "name": "Edificaciones y construcciones - geometría polígono 1:10000",
+                    "format": "SHP",
+                    "size": 7691769,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/eda8b0f7-9861-4a0b-b8de-d270f296fa93\/download\/mapacyl10_edifcons_s_pa.zip",
+                    "created": "2025-09-23T09:16:40.002385",
+                    "last_modified": "2025-10-21T07:37:21.680264"
+                },
+                {
+                    "id": "a513896d-8e10-47d9-b4f0-8e6b70ebb4d1",
+                    "name": "Hidrografía - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 16814385,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/a513896d-8e10-47d9-b4f0-8e6b70ebb4d1\/download\/mapacyl10_hidrogra_l_pa.zip",
+                    "created": "2025-09-23T09:16:45.318924",
+                    "last_modified": "2025-10-21T07:37:26.643083"
+                },
+                {
+                    "id": "287249d5-ae99-498d-965e-35e017a4eee9",
+                    "name": "Hidrografía - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 40428,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/287249d5-ae99-498d-965e-35e017a4eee9\/download\/mapacyl10_hidrogra_p_pa.zip",
+                    "created": "2025-09-23T09:16:45.998064",
+                    "last_modified": "2025-10-21T07:37:27.808065"
+                },
+                {
+                    "id": "2758d40c-5080-484b-903f-cbc885ff860b",
+                    "name": "Sistemas de coordenadas - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 116209,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/2758d40c-5080-484b-903f-cbc885ff860b\/download\/mapacyl10_puntoref_p_pa.zip",
+                    "created": "2025-09-23T09:16:46.827080",
+                    "last_modified": "2025-10-21T07:37:28.772558"
+                },
+                {
+                    "id": "775567b5-75b9-41bf-b908-2319ff58e1bb",
+                    "name": "Redes de transporte - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 39773689,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/775567b5-75b9-41bf-b908-2319ff58e1bb\/download\/mapacyl10_redtrans_l_pa.zip",
+                    "created": "2025-09-23T09:16:55.767662",
+                    "last_modified": "2025-10-21T07:37:36.229443"
+                },
+                {
+                    "id": "5302b379-a08a-471b-815f-ddbb40fab7f8",
+                    "name": "Servicios e instalaciones - geometría línea 1:10000",
+                    "format": "SHP",
+                    "size": 700501,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/5302b379-a08a-471b-815f-ddbb40fab7f8\/download\/mapacyl10_servinst_l_pa.zip",
+                    "created": "2025-09-23T09:16:57.093571",
+                    "last_modified": "2025-10-21T07:37:37.336466"
+                },
+                {
+                    "id": "f1032687-604a-4ce8-adf5-123b2647d10b",
+                    "name": "Servicios e instalaciones - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 207915,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/f1032687-604a-4ce8-adf5-123b2647d10b\/download\/mapacyl10_servinst_p_pa.zip",
+                    "created": "2025-09-23T09:16:58.078063",
+                    "last_modified": "2025-10-21T07:37:38.195089"
+                },
+                {
+                    "id": "f05b7707-5566-46f7-8f30-4faab3de8a3b",
+                    "name": "Nombres geográficos - geometría punto 1:10000",
+                    "format": "SHP",
+                    "size": 6254062,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/f05b7707-5566-46f7-8f30-4faab3de8a3b\/download\/mapacyl10_toponimi_p_pa.zip",
+                    "created": "2025-09-23T09:17:02.892124",
+                    "last_modified": "2025-10-21T07:37:53.873439"
+                },
+                {
+                    "id": "fd6fc26e-0c1a-4450-ac82-bce56083bfac",
+                    "name": "Sistemas de coordenadas - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 13983,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/fd6fc26e-0c1a-4450-ac82-bce56083bfac\/download\/mapacyl5_puntoref_p_pa.zip",
+                    "created": "2025-09-23T09:17:03.710475",
+                    "last_modified": "2025-10-21T07:37:54.839835"
+                },
+                {
+                    "id": "c8ae92f0-9b44-457d-aa00-a29f2bbd6351",
+                    "name": "Sistemas de coordenadas (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 14271,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/c8ae92f0-9b44-457d-aa00-a29f2bbd6351\/download\/mapacyl5_puntoref_txt_pa.zip",
+                    "created": "2025-09-23T09:17:04.563579",
+                    "last_modified": "2025-10-21T07:38:01.568286"
+                },
+                {
+                    "id": "ce4fa393-9a76-4439-8805-5039bd8b1a57",
+                    "name": "Cuadrícula geográfica - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 12741125,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/ce4fa393-9a76-4439-8805-5039bd8b1a57\/download\/mapacyl5_cuadricu_l_pa.zip",
+                    "created": "2025-09-23T09:17:10.012265",
+                    "last_modified": "2025-10-21T07:38:05.461368"
+                },
+                {
+                    "id": "85ebd60f-8e3b-4ab0-ae84-f40eea9627b8",
+                    "name": "Unidades administrativas - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 767474,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/85ebd60f-8e3b-4ab0-ae84-f40eea9627b8\/download\/mapacyl5_uniadmin_l_pa.zip",
+                    "created": "2025-09-23T09:17:11.545743",
+                    "last_modified": "2025-10-21T07:38:06.969713"
+                },
+                {
+                    "id": "58b26951-0ed2-487c-bbfd-8a5ce451e265",
+                    "name": "Unidades administrativas - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 7247912,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/58b26951-0ed2-487c-bbfd-8a5ce451e265\/download\/mapacyl5_uniadmin_s_pa.zip",
+                    "created": "2025-09-23T09:17:15.001590",
+                    "last_modified": "2025-10-21T07:38:09.913739"
+                },
+                {
+                    "id": "723432a2-9181-43a0-9137-beb03da18d50",
+                    "name": "Unidades administrativas (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 686782,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/723432a2-9181-43a0-9137-beb03da18d50\/download\/mapacyl5_uniadmin_txt_pa.zip",
+                    "created": "2025-09-23T09:17:16.201789",
+                    "last_modified": "2025-10-21T07:38:11.480575"
+                },
+                {
+                    "id": "66a567f4-a851-4c03-8992-d258b12e1393",
+                    "name": "Redes de transporte - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 59315301,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/66a567f4-a851-4c03-8992-d258b12e1393\/download\/mapacyl5_redtrans_l_pa.zip",
+                    "created": "2025-09-23T09:17:31.050859",
+                    "last_modified": "2025-10-21T07:38:27.845792"
+                },
+                {
+                    "id": "197fbc91-29d5-4405-9346-9016a2fa0a59",
+                    "name": "Redes de transporte - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 546011,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/197fbc91-29d5-4405-9346-9016a2fa0a59\/download\/mapacyl5_redtrans_p_pa.zip",
+                    "created": "2025-09-23T09:17:32.257533",
+                    "last_modified": "2025-10-21T07:38:29.291198"
+                },
+                {
+                    "id": "4d92b069-8a15-4882-829e-30b2556ea227",
+                    "name": "Redes de transporte - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 19364823,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/4d92b069-8a15-4882-829e-30b2556ea227\/download\/mapacyl5_redtrans_s_pa.zip",
+                    "created": "2025-09-23T09:17:38.007525",
+                    "last_modified": "2025-10-21T07:38:34.650327"
+                },
+                {
+                    "id": "ffa9df08-38b7-4a97-8a11-3747dcc14616",
+                    "name": "Redes de transporte (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 263726,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/ffa9df08-38b7-4a97-8a11-3747dcc14616\/download\/mapacyl5_redtrans_txt_pa.zip",
+                    "created": "2025-09-23T09:17:39.200337",
+                    "last_modified": "2025-10-21T07:38:35.838185"
+                },
+                {
+                    "id": "a667aee0-e784-41b4-b29d-79d159b66bff",
+                    "name": "Hidrografía - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 24065980,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/a667aee0-e784-41b4-b29d-79d159b66bff\/download\/mapacyl5_hidrogra_l_pa.zip",
+                    "created": "2025-09-23T09:17:45.673950",
+                    "last_modified": "2025-10-21T07:38:44.649171"
+                },
+                {
+                    "id": "178a18db-627f-49be-bf43-ac4e741502b5",
+                    "name": "Hidrografía - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 56806,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/178a18db-627f-49be-bf43-ac4e741502b5\/download\/mapacyl5_hidrogra_p_pa.zip",
+                    "created": "2025-09-23T09:17:46.692225",
+                    "last_modified": "2025-10-21T07:38:46.064067"
+                },
+                {
+                    "id": "e1e3f0e7-c5b7-4e65-9d6c-d041b828c674",
+                    "name": "Hidrografía - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 3310389,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/e1e3f0e7-c5b7-4e65-9d6c-d041b828c674\/download\/mapacyl5_hidrogra_s_pa.zip",
+                    "created": "2025-09-23T09:17:48.588843",
+                    "last_modified": "2025-10-21T07:38:47.875154"
+                },
+                {
+                    "id": "cbb73eba-6511-4210-97aa-efa9e58619a4",
+                    "name": "Hidrografía (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 162435,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/cbb73eba-6511-4210-97aa-efa9e58619a4\/download\/mapacyl5_hidrogra_txt_pa.zip",
+                    "created": "2025-09-23T09:17:49.605504",
+                    "last_modified": "2025-10-21T07:38:49.194102"
+                },
+                {
+                    "id": "50f99875-4b73-432d-ad64-b7f8e1803a66",
+                    "name": "Elevaciones - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 200684104,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/50f99875-4b73-432d-ad64-b7f8e1803a66\/download\/mapacyl5_altimetr_l_pa.zip",
+                    "created": "2025-09-23T09:18:33.775239",
+                    "last_modified": "2025-10-21T07:39:33.432301"
+                },
+                {
+                    "id": "b2f52f6e-2188-46a8-9c4a-7b765cf6ccaf",
+                    "name": "Elevaciones - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 3013108,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/b2f52f6e-2188-46a8-9c4a-7b765cf6ccaf\/download\/mapacyl5_altimetr_p_pa.zip",
+                    "created": "2025-09-23T09:18:36.318149",
+                    "last_modified": "2025-10-21T07:39:36.125948"
+                },
+                {
+                    "id": "0bbed9ff-1f0f-4cfa-93ee-df1b4be84344",
+                    "name": "Elevaciones - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 80264,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/0bbed9ff-1f0f-4cfa-93ee-df1b4be84344\/download\/mapacyl5_altimetr_s_pa.zip",
+                    "created": "2025-09-23T09:18:37.104277",
+                    "last_modified": "2025-10-21T07:39:36.922448"
+                },
+                {
+                    "id": "87cd9b93-e3d8-4a3b-a89c-b335fc8f9c6b",
+                    "name": "Elevaciones (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 4049262,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/87cd9b93-e3d8-4a3b-a89c-b335fc8f9c6b\/download\/mapacyl5_altimetr_txt_pa.zip",
+                    "created": "2025-09-23T09:18:40.627456",
+                    "last_modified": "2025-10-21T07:39:41.432601"
+                },
+                {
+                    "id": "e3c8792d-576a-46dd-8b5b-d486285052d7",
+                    "name": "Cubierta terrestre - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 58952991,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/e3c8792d-576a-46dd-8b5b-d486285052d7\/download\/mapacyl5_cubterre_l_pa.zip",
+                    "created": "2025-09-23T09:18:52.546914",
+                    "last_modified": "2025-10-21T07:39:53.962015"
+                },
+                {
+                    "id": "c9efe433-424d-4288-b07f-0da02720b4c4",
+                    "name": "Cubierta terrestre - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 119736352,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/c9efe433-424d-4288-b07f-0da02720b4c4\/download\/mapacyl5_cubterre_s_pa.zip",
+                    "created": "2025-09-23T09:19:19.579188",
+                    "last_modified": "2025-10-21T07:40:20.743343"
+                },
+                {
+                    "id": "b9c455c2-a13e-47e9-a1ec-dbbff11e76fa",
+                    "name": "Cubierta terrestre (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 3841100,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/b9c455c2-a13e-47e9-a1ec-dbbff11e76fa\/download\/mapacyl5_cubterre_txt_pa.zip",
+                    "created": "2025-09-23T09:19:21.097952",
+                    "last_modified": "2025-10-21T07:40:22.331633"
+                },
+                {
+                    "id": "3dd5efa6-31b1-4fba-9ba7-691e1b2baf67",
+                    "name": "Edificaciones y construcciones - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 23036963,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/3dd5efa6-31b1-4fba-9ba7-691e1b2baf67\/download\/mapacyl5_edifcons_l_pa.zip",
+                    "created": "2025-09-23T09:19:28.031350",
+                    "last_modified": "2025-10-21T07:40:27.377262"
+                },
+                {
+                    "id": "5d6f0179-9717-4142-83ff-58cdb63b138b",
+                    "name": "Edificaciones y construcciones - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 63791,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/5d6f0179-9717-4142-83ff-58cdb63b138b\/download\/mapacyl5_edifcons_p_pa.zip",
+                    "created": "2025-09-23T09:19:28.939741",
+                    "last_modified": "2025-10-21T07:40:28.996213"
+                },
+                {
+                    "id": "a6db00f5-118e-4410-8625-87488f216ca1",
+                    "name": "Edificaciones y construcciones - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 11243473,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/a6db00f5-118e-4410-8625-87488f216ca1\/download\/mapacyl5_edifcons_s_pa.zip",
+                    "created": "2025-09-23T09:19:34.557969",
+                    "last_modified": "2025-10-21T07:40:33.033890"
+                },
+                {
+                    "id": "3ede38bc-c75c-41f7-9d4c-19ff63554499",
+                    "name": "Edificaciones y construcciones (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 56283,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/3ede38bc-c75c-41f7-9d4c-19ff63554499\/download\/mapacyl5_edifcons_txt_pa.zip",
+                    "created": "2025-09-23T09:19:35.426651",
+                    "last_modified": "2025-10-21T07:40:34.134323"
+                },
+                {
+                    "id": "35178403-0953-413a-b66f-54d01e87cf85",
+                    "name": "Servicios e instalaciones - geometría línea 1:5000",
+                    "format": "SHP",
+                    "size": 966313,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/35178403-0953-413a-b66f-54d01e87cf85\/download\/mapacyl5_servinst_l_pa.zip",
+                    "created": "2025-09-23T09:19:36.696818",
+                    "last_modified": "2025-10-21T07:40:35.393533"
+                },
+                {
+                    "id": "5984412d-bb41-47cd-ae1a-a2df18530607",
+                    "name": "Servicios e instalaciones - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 67475,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/5984412d-bb41-47cd-ae1a-a2df18530607\/download\/mapacyl5_servinst_p_pa.zip",
+                    "created": "2025-09-23T09:19:37.483942",
+                    "last_modified": "2025-10-21T07:40:36.327225"
+                },
+                {
+                    "id": "08dffa28-e6c9-4055-9d82-f40577f861b0",
+                    "name": "Servicios e instalaciones - geometría polígono 1:5000",
+                    "format": "SHP",
+                    "size": 417964,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/08dffa28-e6c9-4055-9d82-f40577f861b0\/download\/mapacyl5_servinst_s_pa.zip",
+                    "created": "2025-09-23T09:19:38.553525",
+                    "last_modified": "2025-10-21T07:40:37.572383"
+                },
+                {
+                    "id": "03c5e42e-eb2f-4025-9a0b-817ba8292bb1",
+                    "name": "Servicios e instalaciones (textos) - geometría punto 1:5000",
+                    "format": "SHP",
+                    "size": 68650,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/875b1ac0-4e7d-4e5d-91f7-2e5785003a74\/resource\/03c5e42e-eb2f-4025-9a0b-817ba8292bb1\/download\/mapacyl5_servinst_txt_pa.zip",
+                    "created": "2025-09-23T09:19:39.391198",
+                    "last_modified": "2025-10-21T07:40:38.581930"
+                }
+            ]
+        },
+        {
+            "id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "name": "demografia_y_empleo",
+            "title": "demografia_y_empleo",
+            "private": false,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 5,
+            "metadata_created": "2025-08-20T08:07:09.199799",
+            "metadata_modified": "2025-10-21T07:36:10.744740",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "f5da57d8-d0e3-4115-afa5-0cc5a8c76fcf",
+                    "name": "Datos de Número de matrimonios en Castilla y León",
+                    "format": "CSV",
+                    "size": 6413,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/986f7a3f-c47f-469c-aa7d-f60dd4377e43\/resource\/f5da57d8-d0e3-4115-afa5-0cc5a8c76fcf\/download\/numero-de-matrimonios-en-castilla-y-leon_2020-03-18.csv",
+                    "created": "2025-08-20T08:07:21.110487",
+                    "last_modified": "2025-08-20T08:07:21.098564"
+                },
+                {
+                    "id": "d227ef59-bc49-42e0-be71-41ec3fde6e15",
+                    "name": "Datos de Número de defunciones en Castilla y León",
+                    "format": "CSV",
+                    "size": 6575,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/986f7a3f-c47f-469c-aa7d-f60dd4377e43\/resource\/d227ef59-bc49-42e0-be71-41ec3fde6e15\/download\/numero-de-defunciones-en-castilla-y-leon_2020-03-17.csv",
+                    "created": "2025-08-20T08:07:21.885832",
+                    "last_modified": "2025-08-20T08:07:21.871539"
+                },
+                {
+                    "id": "966d3cb5-d56c-4aaf-add8-3f3a70c118bd",
+                    "name": "Datos de Número de nacimientos en Castilla y León",
+                    "format": "CSV",
+                    "size": 7023,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/986f7a3f-c47f-469c-aa7d-f60dd4377e43\/resource\/966d3cb5-d56c-4aaf-add8-3f3a70c118bd\/download\/numero-de-nacimientos-en-castilla-y-leon_2024-08-01.csv",
+                    "created": "2025-08-20T08:07:22.539127",
+                    "last_modified": "2025-08-20T08:07:22.521378"
+                },
+                {
+                    "id": "771bfd9e-d306-4202-bc08-dab243d38a2a",
+                    "name": "Datos de Población Total por provincias y sexo",
+                    "format": "CSV",
+                    "size": 15579,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/986f7a3f-c47f-469c-aa7d-f60dd4377e43\/resource\/771bfd9e-d306-4202-bc08-dab243d38a2a\/download\/poblacion-total-por-provincias-y-sexo_2020-03-16.csv",
+                    "created": "2025-08-20T08:07:23.226917",
+                    "last_modified": "2025-08-20T08:07:23.207092"
+                },
+                {
+                    "id": "c39bf47b-cd0c-4e33-9a52-bb1b865d4bde",
+                    "name": "Número de parados y demandantes de empleo por sexo",
+                    "format": "CSV",
+                    "size": 107784,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/986f7a3f-c47f-469c-aa7d-f60dd4377e43\/resource\/c39bf47b-cd0c-4e33-9a52-bb1b865d4bde\/download\/1284176233251.csv",
+                    "created": "2025-08-20T08:07:39.605931",
+                    "last_modified": "2025-10-21T07:36:10.736015"
+                }
+            ]
+        },
+        {
+            "id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+            "name": "turismo_y_patrimonio",
+            "title": "turismo_y_patrimonio",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 6,
+            "metadata_created": "2025-08-05T08:06:36.610374",
+            "metadata_modified": "2025-10-21T07:36:09.723779",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "a9daa683-3bea-4ee8-878a-adb3a02f4361",
+                    "name": "Datos de Fiestas locales: Calendario de fiestas de caracter local",
+                    "format": "CSV",
+                    "size": 321320,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/a9daa683-3bea-4ee8-878a-adb3a02f4361\/download\/fiestas-locales-calendario-de-fiestas-de-caracter-local_2025-03-12.csv",
+                    "created": "2025-08-05T08:08:15.449169",
+                    "last_modified": "2025-08-05T08:08:15.437310"
+                },
+                {
+                    "id": "36eb1908-2707-45ef-9abc-dad2e29df446",
+                    "name": "Datos de Registro de Turismo de Castilla y León",
+                    "format": "CSV",
+                    "size": 6703511,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/36eb1908-2707-45ef-9abc-dad2e29df446\/download\/registro-de-turismo-de-castilla-y-leon_2025-10-20.csv",
+                    "created": "2025-08-05T08:08:31.548176",
+                    "last_modified": "2025-10-21T05:15:47.961769"
+                },
+                {
+                    "id": "f387c6c0-2877-4f2c-a004-00750d6e0a3a",
+                    "name": "Datos de Hostelería con entrega a domicilio",
+                    "format": "CSV",
+                    "size": 53581,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/f387c6c0-2877-4f2c-a004-00750d6e0a3a\/download\/hosteleria-a-domicilio_2022-07-11.csv",
+                    "created": "2025-08-05T08:08:32.175378",
+                    "last_modified": "2025-08-05T08:08:32.159234"
+                },
+                {
+                    "id": "c20d3a73-b678-4472-830a-b01037a00654",
+                    "name": "Miradores en espacios naturales",
+                    "format": "SHP",
+                    "size": 16418,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/c20d3a73-b678-4472-830a-b01037a00654\/download\/1284378314940.shp",
+                    "created": "2025-08-20T08:07:36.327746",
+                    "last_modified": "2025-10-21T07:36:06.857043"
+                },
+                {
+                    "id": "ffee67b6-9ff9-4b56-bfca-bbf555318d4f",
+                    "name": "Aparcamientos en espacios naturales",
+                    "format": "SHP",
+                    "size": 21604,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/ffee67b6-9ff9-4b56-bfca-bbf555318d4f\/download\/1284378117797.shp",
+                    "created": "2025-08-20T08:07:37.429409",
+                    "last_modified": "2025-10-21T07:36:08.050517"
+                },
+                {
+                    "id": "b7d3b20f-7828-465f-b5cf-6699f59bf659",
+                    "name": "Otros puntos de interés en espacios naturales",
+                    "format": "SHP",
+                    "size": 122237,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/a1b57aaa-ffc1-4378-9bd4-31b2a45028e3\/resource\/b7d3b20f-7828-465f-b5cf-6699f59bf659\/download\/1284378320232.shp",
+                    "created": "2025-08-20T08:07:38.652485",
+                    "last_modified": "2025-10-21T07:36:09.709020"
+                }
+            ]
+        },
+        {
+            "id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "name": "servicios_y_comercio",
+            "title": "servicios_y_comercio",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 9,
+            "metadata_created": "2025-08-05T07:53:13.230827",
+            "metadata_modified": "2025-10-21T07:36:05.612475",
+            "notes": "",
+            "tags": [
+                "economia"
+            ],
+            "resources": [
+                {
+                    "id": "9692e8e0-0508-4989-9312-78a19a78c5ff",
+                    "name": "Sanidad CyL: Áreas de Salud",
+                    "format": "SHP",
+                    "size": 458176,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/9692e8e0-0508-4989-9312-78a19a78c5ff\/download\/spagobcylcitdtshhars_none.zip",
+                    "created": "2025-08-05T08:06:18.066033",
+                    "last_modified": "2025-10-21T07:35:27.288368"
+                },
+                {
+                    "id": "2e2e7666-47a7-4709-95fc-616801b17aa4",
+                    "name": "Sanidad CyL: Centros de Salud",
+                    "format": "SHP",
+                    "size": 38391,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/2e2e7666-47a7-4709-95fc-616801b17aa4\/download\/spagobcylcitdtshhces_none.zip",
+                    "created": "2025-08-05T08:06:18.571076",
+                    "last_modified": "2025-10-21T07:35:27.893040"
+                },
+                {
+                    "id": "f88a2759-2870-40fc-9bc2-697af8cc445e",
+                    "name": "Sanidad CyL: Zonas Básicas de Salud",
+                    "format": "SHP",
+                    "size": 1712695,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/f88a2759-2870-40fc-9bc2-697af8cc445e\/download\/spagobcylcitdtshhzbs_none.zip",
+                    "created": "2025-08-05T08:06:19.492247",
+                    "last_modified": "2025-10-21T07:35:28.980651"
+                },
+                {
+                    "id": "e293d9fb-771d-4971-a650-b040325386ac",
+                    "name": "Datos de Registro de centros sanitarios de Castilla y León",
+                    "format": "CSV",
+                    "size": 2908483,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/e293d9fb-771d-4971-a650-b040325386ac\/download\/registro-de-centros-sanitarios-de-castilla-y-leon_2025-10-20.csv",
+                    "created": "2025-08-05T08:08:05.876028",
+                    "last_modified": "2025-10-21T05:15:30.385732"
+                },
+                {
+                    "id": "e213894d-2fc2-4094-a0f8-0b8a00358968",
+                    "name": "Datos de Centros de carácter social",
+                    "format": "CSV",
+                    "size": 828285,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/e213894d-2fc2-4094-a0f8-0b8a00358968\/download\/centros-de-caracter-social_2024-11-13.csv",
+                    "created": "2025-08-05T08:08:07.533771",
+                    "last_modified": "2025-08-05T08:08:07.514099"
+                },
+                {
+                    "id": "ef9612ab-af2a-4a8f-9f68-2499672c95da",
+                    "name": "Talleres de reparación de vehículos",
+                    "format": "CSV",
+                    "size": 971886,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/ef9612ab-af2a-4a8f-9f68-2499672c95da\/download\/1284993284985.csv",
+                    "created": "2025-08-20T08:07:32.744804",
+                    "last_modified": "2025-10-21T07:36:01.222783"
+                },
+                {
+                    "id": "8549b5a6-9e27-4491-897f-50268cb1d3ab",
+                    "name": "Directorio de talleres artesanos de Castilla y León",
+                    "format": "CSV",
+                    "size": 227553,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/8549b5a6-9e27-4491-897f-50268cb1d3ab\/download\/1285154430304.csv",
+                    "created": "2025-08-20T08:07:33.698837",
+                    "last_modified": "2025-10-21T07:36:02.005327"
+                },
+                {
+                    "id": "4e7c4cd0-82a8-4f34-a835-3885f22162fa",
+                    "name": "Cartera de servicios de atención primaria",
+                    "format": "CSV",
+                    "size": 4115,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/4e7c4cd0-82a8-4f34-a835-3885f22162fa\/download\/1285068216199.csv",
+                    "created": "2025-08-20T08:07:34.476701",
+                    "last_modified": "2025-10-21T07:36:03.988967"
+                },
+                {
+                    "id": "e008a4f0-b446-418b-bfbd-f1a0288737d5",
+                    "name": "Actividad Inspectora en los Mataderos",
+                    "format": "CSV",
+                    "size": 13526,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/90f5cbc4-0221-4246-992a-4cf586562650\/resource\/e008a4f0-b446-418b-bfbd-f1a0288737d5\/download\/1284839730829.csv",
+                    "created": "2025-09-23T09:32:41.700332",
+                    "last_modified": "2025-10-21T07:36:05.593878"
+                }
+            ]
+        },
+        {
+            "id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "name": "asociaciones_y_grupos_locales",
+            "title": "asociaciones_y_grupos_locales",
+            "private": false,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 10,
+            "metadata_created": "2025-08-05T08:06:36.347065",
+            "metadata_modified": "2025-10-21T07:36:00.074858",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "afee4c93-f6ab-45ad-ba21-c9e8099b4667",
+                    "name": "Datos de Registro de cooperativas",
+                    "format": "CSV",
+                    "size": 320141,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/afee4c93-f6ab-45ad-ba21-c9e8099b4667\/download\/registrocooperativas_2025-08-30.csv",
+                    "created": "2025-08-05T08:07:59.236628",
+                    "last_modified": "2025-09-01T05:20:27.900445"
+                },
+                {
+                    "id": "b551375f-6bbe-420e-9952-54ac9c17f99f",
+                    "name": "Datos de Registro de agentes de cooperación para el desarrollo de Castilla y León",
+                    "format": "CSV",
+                    "size": 52251,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/b551375f-6bbe-420e-9952-54ac9c17f99f\/download\/registro-de-agentes-de-cooperacion-para-el-desarrollo-de-castilla-y-leon_2025-10-21.csv",
+                    "created": "2025-08-20T08:07:20.017524",
+                    "last_modified": "2025-10-21T05:15:53.751986"
+                },
+                {
+                    "id": "84139f7d-4dda-47d9-8aee-ba853085e74b",
+                    "name": "Asociaciones de pacientes",
+                    "format": "CSV",
+                    "size": 66121,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/84139f7d-4dda-47d9-8aee-ba853085e74b\/download\/1285022095152.csv",
+                    "created": "2025-08-20T08:07:26.044959",
+                    "last_modified": "2025-10-21T07:35:40.266860"
+                },
+                {
+                    "id": "1275e3a3-68fe-4b21-b1a3-4aa5b8981fae",
+                    "name": "Registro de asociaciones de Castilla y León",
+                    "format": "CSV",
+                    "size": 21048741,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/1275e3a3-68fe-4b21-b1a3-4aa5b8981fae\/download\/1284273543253.csv",
+                    "created": "2025-08-20T08:07:29.961283",
+                    "last_modified": "2025-10-21T07:35:46.931950"
+                },
+                {
+                    "id": "44811d5c-f98d-48ae-88c6-56187988f436",
+                    "name": "Entidades Asociativas Agroalimentarias prioritarias de carácter regional",
+                    "format": "CSV",
+                    "size": 4198,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/44811d5c-f98d-48ae-88c6-56187988f436\/download\/1284932779494.csv",
+                    "created": "2025-08-20T08:07:31.617288",
+                    "last_modified": "2025-10-21T07:36:00.059071"
+                },
+                {
+                    "id": "85116a07-08ea-4d2e-9452-225994031d4e",
+                    "name": "Asociaciones Forestales",
+                    "format": "XLS",
+                    "size": 12549,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/85116a07-08ea-4d2e-9452-225994031d4e\/download\/asociacionesforestales.xls",
+                    "created": "2025-09-18T09:16:22.073685",
+                    "last_modified": "2025-09-18T09:16:22.048005"
+                },
+                {
+                    "id": "7d94d3e2-d8d6-4e65-84af-051d6b3b0ab9",
+                    "name": "Asociaciones de espeleogia",
+                    "format": "XLS",
+                    "size": 11013,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/7d94d3e2-d8d6-4e65-84af-051d6b3b0ab9\/download\/asociacionesespeleogia.xls",
+                    "created": "2025-09-18T09:24:56.941500",
+                    "last_modified": "2025-09-18T09:24:56.914670"
+                },
+                {
+                    "id": "d921621f-e04f-440e-bec1-c077b60a0849",
+                    "name": "Asociaciones de Escalada",
+                    "format": "XLS",
+                    "size": 11525,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/d921621f-e04f-440e-bec1-c077b60a0849\/download\/asociacionesescalada.xls",
+                    "created": "2025-09-18T09:27:09.467574",
+                    "last_modified": "2025-09-18T09:27:09.438590"
+                },
+                {
+                    "id": "1ffec1fc-4b8c-4c41-9f73-8a0b9df52709",
+                    "name": "Grupos de Acción Local",
+                    "format": "CSV",
+                    "size": 8141,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/1ffec1fc-4b8c-4c41-9f73-8a0b9df52709\/download\/1284266667008.csv",
+                    "created": "2025-09-22T14:06:28.701391",
+                    "last_modified": "2025-10-21T07:35:39.004413"
+                },
+                {
+                    "id": "89c84d12-9c6f-4f68-b906-a7ea79861572",
+                    "name": "Directorio de Asociaciones de Consumidores",
+                    "format": "CSV",
+                    "size": 25885,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/b38975d5-f06f-4c6f-9292-a28e6c7129b4\/resource\/89c84d12-9c6f-4f68-b906-a7ea79861572\/download\/1285100273029.csv",
+                    "created": "2025-09-23T09:32:34.471815",
+                    "last_modified": "2025-10-21T07:35:59.363202"
+                }
+            ]
+        },
+        {
+            "id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "name": "industria_y_economia",
+            "title": "industria_y_economia",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 6,
+            "metadata_created": "2025-08-05T07:53:12.993800",
+            "metadata_modified": "2025-10-21T07:35:38.192502",
+            "notes": "",
+            "tags": [
+                "economia"
+            ],
+            "resources": [
+                {
+                    "id": "f7d2bdfc-ff4b-422f-87ea-6f12889342b5",
+                    "name": "Aguas residuales CyL: EDARU",
+                    "format": "SHP",
+                    "size": 59586,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/f7d2bdfc-ff4b-422f-87ea-6f12889342b5\/download\/spagobcylcitdtsuseru_2021-02-25.zip",
+                    "created": "2025-08-05T08:06:15.543282",
+                    "last_modified": "2025-08-05T08:06:15.530444"
+                },
+                {
+                    "id": "fafa4eba-1a6a-4ebb-9d63-40ca2407e628",
+                    "name": "Residuos CyL: instalaciones de tratamiento",
+                    "format": "SHP",
+                    "size": 278132,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/fafa4eba-1a6a-4ebb-9d63-40ca2407e628\/download\/spagobcylcitdtsusrit_2021-02-25.zip",
+                    "created": "2025-08-05T08:06:17.265474",
+                    "last_modified": "2025-08-05T08:06:17.250955"
+                },
+                {
+                    "id": "4991497a-d348-4ed9-a09b-b84c5781b480",
+                    "name": "Datos de Registro de Artesanos Alimentarios",
+                    "format": "CSV",
+                    "size": 52485,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/4991497a-d348-4ed9-a09b-b84c5781b480\/download\/registro-de-artesanos-alimentarios_2025-02-06.csv",
+                    "created": "2025-08-20T08:07:17.451892",
+                    "last_modified": "2025-08-20T08:07:17.434477"
+                },
+                {
+                    "id": "72ce9681-6a75-4916-b596-7875a270770b",
+                    "name": "Directorio de talleres artesanos de CyL",
+                    "format": "CSV",
+                    "size": 227553,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/72ce9681-6a75-4916-b596-7875a270770b\/download\/1285154430304.csv",
+                    "created": "2025-08-20T08:07:24.279831",
+                    "last_modified": "2025-10-21T07:35:38.180660"
+                },
+                {
+                    "id": "c5daa405-632a-4d1b-a541-14347e406da3",
+                    "name": "Empresas de trabajo forestales",
+                    "format": "CSV",
+                    "size": 2488,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/c5daa405-632a-4d1b-a541-14347e406da3\/download\/pdfcyl.csv",
+                    "created": "2025-09-18T07:58:59.853097",
+                    "last_modified": "2025-09-18T07:58:59.827955"
+                },
+                {
+                    "id": "282d4572-8727-41ec-8468-26c2f57a9aac",
+                    "name": "Datos de Directorio de industrias culturales",
+                    "format": "CSV",
+                    "size": 211550,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/aa81852a-fc4b-40bf-8291-b190f425cc30\/resource\/282d4572-8727-41ec-8468-26c2f57a9aac\/download\/directorio-de-industrias-culturales_2025-10-20.csv",
+                    "created": "2025-09-22T14:06:24.962272",
+                    "last_modified": "2025-10-21T05:15:52.438248"
+                }
+            ]
+        },
+        {
+            "id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "name": "agricultura_y_ganaderia",
+            "title": "agricultura_y_ganaderia",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 28,
+            "metadata_created": "2025-08-05T07:53:12.726377",
+            "metadata_modified": "2025-10-21T07:35:24.697028",
+            "notes": "",
+            "tags": [
+                "medioambeinte"
+            ],
+            "resources": [
+                {
+                    "id": "cad0da5f-27e6-416b-9e01-d3384813b60b",
+                    "name": "Contaminación agraria CyL: factor agroambiental ganadero - Parte 1",
+                    "format": "SHP",
+                    "size": 5546586,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/cad0da5f-27e6-416b-9e01-d3384813b60b\/download\/spagobcylcitdtsefcng_2024-01-01_1.zip",
+                    "created": "2025-08-05T08:05:07.205110",
+                    "last_modified": "2025-10-21T07:35:17.327298"
+                },
+                {
+                    "id": "346f5616-d894-4169-9f95-7d266cf09b8b",
+                    "name": "Contaminación agraria CyL: factor agroambiental ganadero - Parte 2",
+                    "format": "SHP",
+                    "size": 1244642,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/346f5616-d894-4169-9f95-7d266cf09b8b\/download\/spagobcylcitdtsefcng_2024-01-01_2.zip",
+                    "created": "2025-08-05T08:05:07.700059",
+                    "last_modified": "2025-10-21T07:35:18.151611"
+                },
+                {
+                    "id": "1b147fa2-e6a8-4aea-8bcf-f0eecc39874b",
+                    "name": "Contaminación agraria CyL: índice carga ganadera",
+                    "format": "SHP",
+                    "size": 5550148,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/1b147fa2-e6a8-4aea-8bcf-f0eecc39874b\/download\/spagobcylcitdtseficg_2024-01-01.zip",
+                    "created": "2025-08-05T08:05:09.444538",
+                    "last_modified": "2025-08-05T08:05:09.426565"
+                },
+                {
+                    "id": "8d4f2269-61fb-4f14-aa3e-b80569bbd4e1",
+                    "name": "Contaminación agraria CyL: nitratos aguas subterráneas",
+                    "format": "SHP",
+                    "size": 5508482,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/8d4f2269-61fb-4f14-aa3e-b80569bbd4e1\/download\/spagobcylcitdtsefnas_2021-11-25.zip",
+                    "created": "2025-08-05T08:05:11.256483",
+                    "last_modified": "2025-08-05T08:05:11.238227"
+                },
+                {
+                    "id": "76f72b9a-f116-450a-90f1-3154c6fb80e3",
+                    "name": "Contaminación agraria CyL: zonas vulnerables 2020",
+                    "format": "SHP",
+                    "size": 935384,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/76f72b9a-f116-450a-90f1-3154c6fb80e3\/download\/spagobcylcitdtsefpzv_2020-10-26.zip",
+                    "created": "2025-08-05T08:05:11.941138",
+                    "last_modified": "2025-08-05T08:05:11.921706"
+                },
+                {
+                    "id": "eea5cb0b-7ca4-414d-a9d8-1893a2320c04",
+                    "name": "Caza CyL: terrenos cinegéticos",
+                    "format": "SHP",
+                    "size": 120273157,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/eea5cb0b-7ca4-414d-a9d8-1893a2320c04\/download\/spagobcylmnadtsamctc_2025-03-15.zip",
+                    "created": "2025-08-05T08:05:28.879551",
+                    "last_modified": "2025-08-05T08:05:28.858397"
+                },
+                {
+                    "id": "05181ece-f142-4007-a247-b967bf1a66f5",
+                    "name": "Flora CyL: material forestal de reproducción (MFR) de especies vegetales",
+                    "format": "SHP",
+                    "size": 6530744,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/05181ece-f142-4007-a247-b967bf1a66f5\/download\/spagobcylmnadtsammfr_2018-11-15.zip",
+                    "created": "2025-08-05T08:05:31.757264",
+                    "last_modified": "2025-08-05T08:05:31.734565"
+                },
+                {
+                    "id": "845f4396-9349-4c40-92ce-889bdc33d628",
+                    "name": "Flora CyL: potencialidad termopluviométrica de especies forestales",
+                    "format": "SHP",
+                    "size": 7756071,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/845f4396-9349-4c40-92ce-889bdc33d628\/download\/spagobcylmnadtsampef_2024-02-15.zip",
+                    "created": "2025-08-05T08:05:33.574979",
+                    "last_modified": "2025-08-05T08:05:33.551100"
+                },
+                {
+                    "id": "e26ef540-ac49-4f0f-afc7-fa402c6e7168",
+                    "name": "Micología CyL: zonas reguladas",
+                    "format": "SHP",
+                    "size": 536,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/e26ef540-ac49-4f0f-afc7-fa402c6e7168\/download\/spagobcylmnadtsammzr_2019-06-10-2021-01-01.zip",
+                    "created": "2025-08-05T08:05:43.401505",
+                    "last_modified": "2025-10-21T07:35:19.275148"
+                },
+                {
+                    "id": "c0bba05f-6f6c-44d2-8fc8-73d4dd36dddc",
+                    "name": "Montes CyL: certificación forestal sostenible - Parte 1",
+                    "format": "SHP",
+                    "size": 14382351,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/c0bba05f-6f6c-44d2-8fc8-73d4dd36dddc\/download\/spagobcylmnadtsammcf_2024-10-15_1.zip",
+                    "created": "2025-08-05T08:05:46.862157",
+                    "last_modified": "2025-10-21T07:35:23.986428"
+                },
+                {
+                    "id": "268e9d16-bb11-47bb-b255-177cc2d55ab6",
+                    "name": "Montes CyL: certificación forestal sostenible - Parte 2",
+                    "format": "SHP",
+                    "size": 342583,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/268e9d16-bb11-47bb-b255-177cc2d55ab6\/download\/spagobcylmnadtsammcf_2024-10-15_2.zip",
+                    "created": "2025-08-05T08:05:47.312118",
+                    "last_modified": "2025-10-21T07:35:24.656564"
+                },
+                {
+                    "id": "7a4627d3-3291-468a-b557-76a352ead4b4",
+                    "name": "Montes CyL: Parcelas inventario montes ordenados",
+                    "format": "SHP",
+                    "size": 149453,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/7a4627d3-3291-468a-b557-76a352ead4b4\/download\/spagobcylmnadtsammpi_2025-02-15.zip",
+                    "created": "2025-08-05T08:05:48.194659",
+                    "last_modified": "2025-08-05T08:05:48.163442"
+                },
+                {
+                    "id": "e46114cd-7c0a-4a8c-99d9-27b120d25afa",
+                    "name": "Montes CyL: Planificación forestal. Montes ordenados",
+                    "format": "SHP",
+                    "size": 27694944,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/e46114cd-7c0a-4a8c-99d9-27b120d25afa\/download\/spagobcylmnadtsammpf_2024-10-15.zip",
+                    "created": "2025-08-05T08:05:52.472040",
+                    "last_modified": "2025-08-05T08:05:52.439485"
+                },
+                {
+                    "id": "b89bcc87-a3c1-4b3f-af2a-7c2b3eef7d62",
+                    "name": "Pesca CyL: tramos de pesca",
+                    "format": "SHP",
+                    "size": 11276326,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/b89bcc87-a3c1-4b3f-af2a-7c2b3eef7d62\/download\/spagobcylmnadtsampzp_2024-10-15.zip",
+                    "created": "2025-08-05T08:05:56.726818",
+                    "last_modified": "2025-08-05T08:05:56.691289"
+                },
+                {
+                    "id": "69f9de37-9aa5-480c-a4b6-b147921aeb07",
+                    "name": "Pesca CyL: tramos pesca cangrejo",
+                    "format": "SHP",
+                    "size": 10845664,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/69f9de37-9aa5-480c-a4b6-b147921aeb07\/download\/spagobcylmnadtsampzc_2024-10-15.zip",
+                    "created": "2025-08-05T08:06:00.327192",
+                    "last_modified": "2025-08-05T08:06:00.290273"
+                },
+                {
+                    "id": "f8354d8c-fea2-4c44-966e-dc07490719fb",
+                    "name": "Vías pecuarias CyL: ejes",
+                    "format": "SHP",
+                    "size": 5380377,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/f8354d8c-fea2-4c44-966e-dc07490719fb\/download\/spagobcylmnadtsamvpe_2023-02-22.zip",
+                    "created": "2025-08-05T08:06:05.065860",
+                    "last_modified": "2025-08-05T08:06:05.028635"
+                },
+                {
+                    "id": "68999e9b-72a2-4573-b01c-265670f2673a",
+                    "name": "Vías pecuarias provincia de Valladolid: márgenes",
+                    "format": "SHP",
+                    "size": 935475,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/68999e9b-72a2-4573-b01c-265670f2673a\/download\/spagobcylmnadtsamvpm_2023-08-04.zip",
+                    "created": "2025-08-05T08:06:05.899921",
+                    "last_modified": "2025-08-05T08:06:05.858959"
+                },
+                {
+                    "id": "2741141b-5019-450f-8047-de69aaf1f5fc",
+                    "name": "Riego CyL: zonas regables - Parte 1",
+                    "format": "SHP",
+                    "size": 22261873,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/2741141b-5019-450f-8047-de69aaf1f5fc\/download\/spagobcylaygdtslcrzr_2023-04-11_1.zip",
+                    "created": "2025-08-05T08:06:09.990014",
+                    "last_modified": "2025-09-23T07:48:00.127711"
+                },
+                {
+                    "id": "646ff468-254e-4b05-a9ee-9668ddc02654",
+                    "name": "Riego CyL: zonas regables - Parte 2",
+                    "format": "SHP",
+                    "size": 22499798,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/646ff468-254e-4b05-a9ee-9668ddc02654\/download\/spagobcylaygdtslcrzr_2023-04-11_2.zip",
+                    "created": "2025-08-05T08:06:14.002900",
+                    "last_modified": "2025-09-23T07:48:08.214003"
+                },
+                {
+                    "id": "c8f3aed1-1342-4b14-abb4-7fa1e19475aa",
+                    "name": "Datos de Terrenos cinegéticos",
+                    "format": "CSV",
+                    "size": 13952,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/c8f3aed1-1342-4b14-abb4-7fa1e19475aa\/download\/terrenos-cinegeticos_2025-03-12.csv",
+                    "created": "2025-08-05T08:06:46.926826",
+                    "last_modified": "2025-08-05T08:06:46.882038"
+                },
+                {
+                    "id": "663f9cdc-fdc3-4472-9260-4cd1c143a5ec",
+                    "name": "Datos de Listado de cotos de caza de Castilla y León",
+                    "format": "CSV",
+                    "size": 1017097,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/663f9cdc-fdc3-4472-9260-4cd1c143a5ec\/download\/listado-de-cotos-de-caza-de-castilla-y-leon_2025-10-20.csv",
+                    "created": "2025-08-05T08:06:48.730280",
+                    "last_modified": "2025-10-21T05:15:24.472468"
+                },
+                {
+                    "id": "4bf1cec1-cab8-4745-8bd1-cefa624c2845",
+                    "name": "Datos de Resultados de temporadas cinegéticas",
+                    "format": "CSV",
+                    "size": 131074,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/4bf1cec1-cab8-4745-8bd1-cefa624c2845\/download\/resultados-temporadas-cinegeticas_2025-05-16.csv",
+                    "created": "2025-08-05T08:06:49.911883",
+                    "last_modified": "2025-08-05T08:06:49.863093"
+                },
+                {
+                    "id": "5e8dd115-4d0a-492d-8a95-53fa39dc1441",
+                    "name": "Datos de Licencias de caza y pesca",
+                    "format": "CSV",
+                    "size": 1839,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/5e8dd115-4d0a-492d-8a95-53fa39dc1441\/download\/licencias-caza-pesca_2025-02-26.csv",
+                    "created": "2025-08-05T08:06:50.932621",
+                    "last_modified": "2025-08-05T08:06:50.884254"
+                },
+                {
+                    "id": "2efe1793-b1ca-453f-96fa-2cbb3deee6ee",
+                    "name": "Datos de Censo de superficies agrarias en Castilla y León",
+                    "format": "CSV",
+                    "size": 1782,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/2efe1793-b1ca-453f-96fa-2cbb3deee6ee\/download\/censo-de-superficies-agrarias-en-castilla-y-leon_2020-10-05.csv",
+                    "created": "2025-08-05T08:06:51.956086",
+                    "last_modified": "2025-09-19T09:36:30.826088"
+                },
+                {
+                    "id": "7773f19b-84a9-48ef-be55-2c3893d66395",
+                    "name": "Datos de Explotaciones ganaderas de apícola",
+                    "format": "CSV",
+                    "size": 218360,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/7773f19b-84a9-48ef-be55-2c3893d66395\/download\/explotaciones-ganaderas-de-apicola_2025-02-17.csv",
+                    "created": "2025-08-05T08:06:53.378927",
+                    "last_modified": "2025-08-05T08:06:53.326374"
+                },
+                {
+                    "id": "421963f1-61ab-4b17-aa75-05e0a73b3e25",
+                    "name": "Datos de Superficies de cultivos herbáceos",
+                    "format": "CSV",
+                    "size": 25389393,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/421963f1-61ab-4b17-aa75-05e0a73b3e25\/download\/superficies-de-cultivos-herbaceos_2024-10-08.csv",
+                    "created": "2025-08-05T08:07:57.955940",
+                    "last_modified": "2025-08-05T08:07:57.901345"
+                },
+                {
+                    "id": "d89ff577-57ec-45ce-8a6a-3a7ddddf3b5d",
+                    "name": "Granjas estabuladas VS. extensivo",
+                    "format": "SHP",
+                    "size": 48024104,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/d89ff577-57ec-45ce-8a6a-3a7ddddf3b5d\/download\/num_exp_ganaderas_2020.zip",
+                    "created": "2025-09-18T06:20:14.176355",
+                    "last_modified": "2025-09-18T06:20:14.115725"
+                },
+                {
+                    "id": "46f20e86-0d2c-488e-9b6b-2eee06d2931f",
+                    "name": "Riego CyL: zonas regables",
+                    "format": "SHP",
+                    "size": 22261873,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/8d37364b-ae89-422c-93b1-bcc180083e0d\/resource\/46f20e86-0d2c-488e-9b6b-2eee06d2931f\/download\/spagobcylaygdtslcrzr_2023-04-11.zip",
+                    "created": "2025-09-23T09:14:58.670156",
+                    "last_modified": "2025-09-23T09:14:58.608894"
+                }
+            ]
+        },
+        {
+            "id": "38f32e49-5f02-4365-a955-ecfe11fb160a",
+            "name": "conservacion_y_espacios_naturales",
+            "title": "conservacion_y_espacios_naturales",
+            "private": true,
+            "organization": {
+                "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+                "name": "ordenacion_del_territorio",
+                "title": ""
+            },
+            "num_resources": 16,
+            "metadata_created": "2025-08-05T07:53:11.985881",
+            "metadata_modified": "2025-10-21T07:35:12.812436",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "7b541f0f-f92d-4eb6-8dbd-5e4d13359b7e",
+                    "name": "Bienes de Interés Cultural (BIC) CyL: bienes inmuebles",
+                    "format": "SHP",
+                    "size": 2051812,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/7b541f0f-f92d-4eb6-8dbd-5e4d13359b7e\/download\/spagobcylpcudtspsbici_2022-06-01.zip",
+                    "created": "2025-08-05T08:02:51.488717",
+                    "last_modified": "2025-08-05T08:02:51.476396"
+                },
+                {
+                    "id": "bfe5e011-5667-4975-ae24-914b00ee6c49",
+                    "name": "Bienes de Interés Cultural CyL: áreas de protección",
+                    "format": "SHP",
+                    "size": 582459,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/bfe5e011-5667-4975-ae24-914b00ee6c49\/download\/spagobcylpcudtspsbicp_2022-06-01.zip",
+                    "created": "2025-08-05T08:02:52.042775",
+                    "last_modified": "2025-08-05T08:02:52.028055"
+                },
+                {
+                    "id": "0baa3b1f-ccff-4aee-a64f-a21ecfa8362b",
+                    "name": "Bienes de Interés Cultural CyL: ejes",
+                    "format": "SHP",
+                    "size": 215456,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/0baa3b1f-ccff-4aee-a64f-a21ecfa8362b\/download\/spagobcylpcudtspsbice_2022-06-01.zip",
+                    "created": "2025-08-05T08:02:52.464506",
+                    "last_modified": "2025-08-05T08:02:52.448398"
+                },
+                {
+                    "id": "723134cd-272b-4bf6-8842-5aac139df37d",
+                    "name": "Catálogo de Zonas Húmedas de Interés Especial - Parte 1",
+                    "format": "SHP",
+                    "size": 796907,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/723134cd-272b-4bf6-8842-5aac139df37d\/download\/spagobcylmnadtspszhc_2024-08-12_1.zip",
+                    "created": "2025-08-05T08:02:53.354244",
+                    "last_modified": "2025-10-21T07:35:11.043775"
+                },
+                {
+                    "id": "9159e44c-995e-4053-b9b3-ad4320b1bd5b",
+                    "name": "Catálogo de Zonas Húmedas de Interés Especial - Parte 2",
+                    "format": "SHP",
+                    "size": 2377809,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/9159e44c-995e-4053-b9b3-ad4320b1bd5b\/download\/spagobcylmnadtspszhc_2024-08-12_2.zip",
+                    "created": "2025-08-05T08:02:54.474075",
+                    "last_modified": "2025-10-21T07:35:12.787873"
+                },
+                {
+                    "id": "9002a252-85a3-4efd-81ce-3ab66ce39781",
+                    "name": "Fauna CyL: ámbitos de aplicación de especies protegidas",
+                    "format": "SHP",
+                    "size": 2211316,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/9002a252-85a3-4efd-81ce-3ab66ce39781\/download\/spagobcylmnadtspsaae_2024-10-10.zip",
+                    "created": "2025-08-05T08:02:55.427398",
+                    "last_modified": "2025-08-05T08:02:55.406475"
+                },
+                {
+                    "id": "75bd7a24-8ae0-4f64-99ff-bb989b0e208f",
+                    "name": "Fauna CyL: áreas críticas de especies protegidas",
+                    "format": "SHP",
+                    "size": 1389914,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/75bd7a24-8ae0-4f64-99ff-bb989b0e208f\/download\/spagobcylmnadtspsace_2011-01-04.zip",
+                    "created": "2025-08-05T08:02:56.431445",
+                    "last_modified": "2025-08-05T08:02:56.408133"
+                },
+                {
+                    "id": "6cd30638-0db7-455e-b388-0f2a677a1f3a",
+                    "name": "Fauna CyL: distribución alondra ricotí",
+                    "format": "SHP",
+                    "size": 3152997,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/6cd30638-0db7-455e-b388-0f2a677a1f3a\/download\/spagobcylmnadtspsara_2023-10-01.zip",
+                    "created": "2025-08-05T08:02:58.107742",
+                    "last_modified": "2025-08-05T08:02:58.083068"
+                },
+                {
+                    "id": "4c30b206-731b-4c62-bdf0-35e0574e70e6",
+                    "name": "Flora CyL: árboles notables",
+                    "format": "SHP",
+                    "size": 23380,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/4c30b206-731b-4c62-bdf0-35e0574e70e6\/download\/spagobcylmnadtspsano_2018-11-01.zip",
+                    "created": "2025-08-05T08:02:58.523553",
+                    "last_modified": "2025-08-05T08:02:58.496300"
+                },
+                {
+                    "id": "d150066e-e0bb-47be-973e-ce0774a4a928",
+                    "name": "Montes CyL: montes de utilidad pública (MUP)",
+                    "format": "SHP",
+                    "size": 37852652,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/d150066e-e0bb-47be-973e-ce0774a4a928\/download\/spagobcylmnadtspsmup_2024-06-24.zip",
+                    "created": "2025-08-05T08:03:05.371538",
+                    "last_modified": "2025-08-05T08:03:05.343264"
+                },
+                {
+                    "id": "39405d9c-251c-4e8a-9578-b31a7cce415a",
+                    "name": "Montes CyL: montes protectores",
+                    "format": "SHP",
+                    "size": 29054,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/39405d9c-251c-4e8a-9578-b31a7cce415a\/download\/spagobcylmnadtspsmpc_2023-05-01.zip",
+                    "created": "2025-08-05T08:03:05.754663",
+                    "last_modified": "2025-08-05T08:03:05.724982"
+                },
+                {
+                    "id": "70a65911-b6cd-44a0-8248-02b3b3f8556b",
+                    "name": "Red de Espacios Naturales (REN) CyL",
+                    "format": "SHP",
+                    "size": 1673041,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/70a65911-b6cd-44a0-8248-02b3b3f8556b\/download\/spagobcylmnadtspsren_2024-12-15.zip",
+                    "created": "2025-08-05T08:03:06.694063",
+                    "last_modified": "2025-08-05T08:03:06.661658"
+                },
+                {
+                    "id": "eb0b5d0e-ec91-4891-b49f-55d64a8345c2",
+                    "name": "Red Natura 2000: ZEC CyL",
+                    "format": "SHP",
+                    "size": 23229639,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/eb0b5d0e-ec91-4891-b49f-55d64a8345c2\/download\/spagobcylmnadtspszec_2017-02-01.zip",
+                    "created": "2025-08-05T08:03:11.603323",
+                    "last_modified": "2025-08-05T08:03:11.570704"
+                },
+                {
+                    "id": "13ab32a0-40cd-412f-8745-22e0e93de821",
+                    "name": "Red Natura 2000: ZEPA CyL",
+                    "format": "SHP",
+                    "size": 3938309,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/13ab32a0-40cd-412f-8745-22e0e93de821\/download\/spagobcylmnadtspszep_2017-02-01.zip",
+                    "created": "2025-08-05T08:03:13.184518",
+                    "last_modified": "2025-08-05T08:03:13.150497"
+                },
+                {
+                    "id": "03d8f48b-591d-48f7-bc7d-42e05a3a13a7",
+                    "name": "Zonas Naturales de Esparcimiento CyL",
+                    "format": "SHP",
+                    "size": 40217,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/03d8f48b-591d-48f7-bc7d-42e05a3a13a7\/download\/spagobcylmnadtspszne_2015-12-21.zip",
+                    "created": "2025-08-05T08:03:14.083435",
+                    "last_modified": "2025-08-05T08:03:14.047927"
+                },
+                {
+                    "id": "9141e367-eb0e-481d-a433-ba0cb854fa76",
+                    "name": "Red Natura 2000",
+                    "format": "SHP",
+                    "size": 118604722,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/38f32e49-5f02-4365-a955-ecfe11fb160a\/resource\/9141e367-eb0e-481d-a433-ba0cb854fa76\/download\/es_lic_sci_zepa_spa_medalpatl_202412.zip",
+                    "created": "2025-09-17T10:42:26.886151",
+                    "last_modified": "2025-09-24T11:36:37.420640"
+                }
+            ]
+        },
+        {
+            "id": "ff470661-8371-4ac1-8a7f-ae6c42472174",
+            "name": "flora_y_fauna",
+            "title": "flora_y_fauna",
+            "private": true,
+            "organization": {
+                "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+                "name": "medio_natural",
+                "title": ""
+            },
+            "num_resources": 9,
+            "metadata_created": "2025-08-05T07:53:10.764129",
+            "metadata_modified": "2025-10-21T07:35:07.488200",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "5d482311-f2f4-4611-9eaf-090220cfc40f",
+                    "name": "Distribución de especies amenazadas - Parte 1",
+                    "format": "SHP",
+                    "size": 3265077,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/5d482311-f2f4-4611-9eaf-090220cfc40f\/download\/spagobcylpcudtssddea_2022-04-21_1.zip",
+                    "created": "2025-08-05T07:55:43.066051",
+                    "last_modified": "2025-10-21T07:35:05.539146"
+                },
+                {
+                    "id": "11977d02-9d19-4331-9f59-461fc669a95b",
+                    "name": "Distribución de especies amenazadas - Parte 2",
+                    "format": "SHP",
+                    "size": 6435562,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/11977d02-9d19-4331-9f59-461fc669a95b\/download\/spagobcylpcudtssddea_2022-04-21_2.zip",
+                    "created": "2025-08-05T07:55:44.005239",
+                    "last_modified": "2025-10-21T07:35:07.475788"
+                },
+                {
+                    "id": "8deda749-d46e-442f-aba3-e748c5fbc091",
+                    "name": "Fauna CyL: áreas críticas de especies protegidas",
+                    "format": "SHP",
+                    "size": 1389914,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/8deda749-d46e-442f-aba3-e748c5fbc091\/download\/spagobcylmnadtspsace_2011-01-04.zip",
+                    "created": "2025-08-05T07:55:44.826989",
+                    "last_modified": "2025-08-05T07:55:44.811089"
+                },
+                {
+                    "id": "d2885028-cc1b-465f-9f02-f6a8c044d087",
+                    "name": "Flora CyL: árboles notables",
+                    "format": "SHP",
+                    "size": 23380,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/d2885028-cc1b-465f-9f02-f6a8c044d087\/download\/spagobcylmnadtspsano_2018-11-01.zip",
+                    "created": "2025-08-05T07:55:45.405086",
+                    "last_modified": "2025-08-05T07:55:45.387817"
+                },
+                {
+                    "id": "be3c202e-eb55-4b76-a945-bb315a62d2d7",
+                    "name": "Vegetacion CyL en Red Natura 2000 - Parte 1",
+                    "format": "SHP",
+                    "size": 435044978,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/be3c202e-eb55-4b76-a945-bb315a62d2d7\/download\/spagobcyltemhabvegesprn2_2025-03-15_1.zip",
+                    "created": "2025-08-05T07:57:07.033504",
+                    "last_modified": "2025-09-23T07:40:43.308281"
+                },
+                {
+                    "id": "8135da3a-51ec-47b2-8997-e7a171e07c77",
+                    "name": "Vegetacion CyL en Red Natura 2000 - Parte 2",
+                    "format": "SHP",
+                    "size": 419440093,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/8135da3a-51ec-47b2-8997-e7a171e07c77\/download\/spagobcyltemhabvegesprn2_2025-03-15_2.zip",
+                    "created": "2025-08-05T07:58:22.943705",
+                    "last_modified": "2025-09-23T07:42:35.895773"
+                },
+                {
+                    "id": "59ba658c-226f-4ae8-a3d0-21fe96261788",
+                    "name": "Datos de Explotaciones acuícolas",
+                    "format": "CSV",
+                    "size": 896,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/59ba658c-226f-4ae8-a3d0-21fe96261788\/download\/explotaciones-acuicolas_2025-02-13.csv",
+                    "created": "2025-08-05T08:06:40.218128",
+                    "last_modified": "2025-08-05T08:06:40.193072"
+                },
+                {
+                    "id": "f74b444d-e0f9-4638-916e-ad595bf5f0dc",
+                    "name": "Datos de Incendios forestales",
+                    "format": "CSV",
+                    "size": 4598877,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/f74b444d-e0f9-4638-916e-ad595bf5f0dc\/download\/incendios-forestales_2025-10-21.csv",
+                    "created": "2025-08-05T08:06:44.395910",
+                    "last_modified": "2025-10-21T05:15:19.464846"
+                },
+                {
+                    "id": "eaff5bfe-261a-4d75-ba2d-5f5957fb3e2a",
+                    "name": "Vegetacion CyL en Red Natura 2000",
+                    "format": "SHP",
+                    "size": 419440093,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/ff470661-8371-4ac1-8a7f-ae6c42472174\/resource\/eaff5bfe-261a-4d75-ba2d-5f5957fb3e2a\/download\/spagobcyltemhabvegesprn2_2025-03-15.zip",
+                    "created": "2025-09-23T09:12:38.052516",
+                    "last_modified": "2025-09-23T09:12:38.026336"
+                }
+            ]
+        },
+        {
+            "id": "f5e1c716-1236-4f41-90db-a9706f068625",
+            "name": "educacion_y_cultura",
+            "title": "educacion_y_cultura",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 5,
+            "metadata_created": "2025-08-05T07:53:12.482353",
+            "metadata_modified": "2025-10-21T05:15:36.473576",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "b7df7e36-c28b-4fe6-97e7-0347faa8f740",
+                    "name": "Educación CyL: centros educativos",
+                    "format": "SHP",
+                    "size": 264019,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/f5e1c716-1236-4f41-90db-a9706f068625\/resource\/b7df7e36-c28b-4fe6-97e7-0347faa8f740\/download\/spagobcyltemeducenedureg_2025-04-15.zip",
+                    "created": "2025-08-05T08:06:20.651410",
+                    "last_modified": "2025-08-05T08:06:20.638980"
+                },
+                {
+                    "id": "da343c31-1955-4efa-ad61-49545ad02a88",
+                    "name": "Datos de Red de Teatros",
+                    "format": "CSV",
+                    "size": 6572,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/f5e1c716-1236-4f41-90db-a9706f068625\/resource\/da343c31-1955-4efa-ad61-49545ad02a88\/download\/red_teatros_2024-07-22.csv",
+                    "created": "2025-08-05T08:08:13.700003",
+                    "last_modified": "2025-08-05T08:08:13.680561"
+                },
+                {
+                    "id": "9c1d89fb-3667-4772-80a2-caf1f043862e",
+                    "name": "Datos de Directorio de Centros Docentes",
+                    "format": "CSV",
+                    "size": 524279,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/f5e1c716-1236-4f41-90db-a9706f068625\/resource\/9c1d89fb-3667-4772-80a2-caf1f043862e\/download\/directorio-de-centros-docentes_2025-10-20.csv",
+                    "created": "2025-09-22T14:06:19.742679",
+                    "last_modified": "2025-10-21T05:15:33.835917"
+                },
+                {
+                    "id": "1af32ff8-36f0-4d84-a73f-93874a9378cf",
+                    "name": "Datos de Registro de infraestructuras culturales",
+                    "format": "CSV",
+                    "size": 1032347,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/f5e1c716-1236-4f41-90db-a9706f068625\/resource\/1af32ff8-36f0-4d84-a73f-93874a9378cf\/download\/registro-de-infraestructuras-culturales_2025-10-20.csv",
+                    "created": "2025-09-22T14:06:20.259412",
+                    "last_modified": "2025-10-21T05:15:36.454884"
+                },
+                {
+                    "id": "0ccc69bc-ad8c-412d-bc6b-a07e4041a3f7",
+                    "name": "Datos de Red de Circuitos escénicos",
+                    "format": "CSV",
+                    "size": 25750,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/f5e1c716-1236-4f41-90db-a9706f068625\/resource\/0ccc69bc-ad8c-412d-bc6b-a07e4041a3f7\/download\/espacios-circuitos-escenicos_2024-07-24.csv",
+                    "created": "2025-09-22T14:06:21.092505",
+                    "last_modified": "2025-09-22T14:06:21.071126"
+                }
+            ]
+        },
+        {
+            "id": "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+            "name": "normativa_y_planificacion",
+            "title": "normativa_y_planificacion",
+            "private": true,
+            "organization": {
+                "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+                "name": "ordenacion_del_territorio",
+                "title": ""
+            },
+            "num_resources": 41,
+            "metadata_created": "2025-08-05T07:53:11.740019",
+            "metadata_modified": "2025-10-21T05:15:20.687883",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "ddc68ceb-1dac-46e4-b1b3-8044a868955a",
+                    "name": "Ordenación territorial CyL: áreas funcionales estables - Parte 1",
+                    "format": "SHP",
+                    "size": 726236,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/ddc68ceb-1dac-46e4-b1b3-8044a868955a\/download\/spagobcyltemotearefunest_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:00:07.497326",
+                    "last_modified": "2025-09-23T07:42:44.755714"
+                },
+                {
+                    "id": "49013176-5eba-49fb-9d59-5a93faae69e2",
+                    "name": "Ordenación territorial CyL: áreas funcionales estables - Parte 2",
+                    "format": "SHP",
+                    "size": 763936,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/49013176-5eba-49fb-9d59-5a93faae69e2\/download\/spagobcyltemotearefunest_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:00:08.077407",
+                    "last_modified": "2025-09-23T07:42:45.928136"
+                },
+                {
+                    "id": "30531b5e-7156-4358-b1be-47f277a10558",
+                    "name": "Ordenación territorial CyL: instrumentos - Parte 1",
+                    "format": "SHP",
+                    "size": 580064,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/30531b5e-7156-4358-b1be-47f277a10558\/download\/spagobcyltemotereginsamb_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:00:09.358233",
+                    "last_modified": "2025-09-23T07:42:47.365023"
+                },
+                {
+                    "id": "71a223fb-1d84-4ecd-ac75-6ef11e312722",
+                    "name": "Ordenación territorial CyL: instrumentos - Parte 2",
+                    "format": "SHP",
+                    "size": 594920,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/71a223fb-1d84-4ecd-ac75-6ef11e312722\/download\/spagobcyltemotereginsamb_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:00:10.139347",
+                    "last_modified": "2025-09-23T07:42:48.475032"
+                },
+                {
+                    "id": "842fb1f4-1b30-4e5e-b25f-67456c6f1dab",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo - Parte 1",
+                    "format": "SHP",
+                    "size": 283032787,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/842fb1f4-1b30-4e5e-b25f-67456c6f1dab\/download\/spagobcyltemplamuncatsue_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:00:54.971527",
+                    "last_modified": "2025-09-23T07:44:13.159854"
+                },
+                {
+                    "id": "16ec9c6f-98a0-4764-9a54-d692ba548e08",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo - Parte 2",
+                    "format": "SHP",
+                    "size": 285153390,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/16ec9c6f-98a0-4764-9a54-d692ba548e08\/download\/spagobcyltemplamuncatsue_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:01:45.697469",
+                    "last_modified": "2025-09-23T07:45:12.910785"
+                },
+                {
+                    "id": "8ba34004-3e4f-4304-b362-0072d2a3a01d",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo - Parte 1",
+                    "format": "SHP",
+                    "size": 39292405,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/8ba34004-3e4f-4304-b362-0072d2a3a01d\/download\/spagobcyltemplamunclasue_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:01:54.454268",
+                    "last_modified": "2025-09-23T07:45:35.329398"
+                },
+                {
+                    "id": "298c441b-6075-4db2-b034-b18643e90705",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo - Parte 2",
+                    "format": "SHP",
+                    "size": 39783406,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/298c441b-6075-4db2-b034-b18643e90705\/download\/spagobcyltemplamunclasue_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:02.991114",
+                    "last_modified": "2025-09-23T07:45:46.708679"
+                },
+                {
+                    "id": "36f2d0e9-7551-4acf-8478-75879b291d08",
+                    "name": "Planeamiento urbanístico CyL: grado de ejecución - Parte 1",
+                    "format": "SHP",
+                    "size": 23263827,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/36f2d0e9-7551-4acf-8478-75879b291d08\/download\/spagobcyltemplamungraeje_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:02:07.721035",
+                    "last_modified": "2025-09-23T07:45:54.148460"
+                },
+                {
+                    "id": "b50369ad-48b8-4b6d-9185-89b2077f1e4d",
+                    "name": "Planeamiento urbanístico CyL: grado de ejecución - Parte 2",
+                    "format": "SHP",
+                    "size": 23753470,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/b50369ad-48b8-4b6d-9185-89b2077f1e4d\/download\/spagobcyltemplamungraeje_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:13.994086",
+                    "last_modified": "2025-09-23T07:46:00.461488"
+                },
+                {
+                    "id": "31d2a5fb-2ce4-42ba-b214-31c2d0cc98e6",
+                    "name": "Planeamiento urbanístico CyL: instrumentos - Parte 1",
+                    "format": "SHP",
+                    "size": 11172779,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/31d2a5fb-2ce4-42ba-b214-31c2d0cc98e6\/download\/spagobcyltemplamuninsamb_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:02:17.903315",
+                    "last_modified": "2025-09-23T07:46:08.648444"
+                },
+                {
+                    "id": "2deb9a3c-aaca-4a5d-9893-730b578a5c6f",
+                    "name": "Planeamiento urbanístico CyL: instrumentos - Parte 2",
+                    "format": "SHP",
+                    "size": 11421463,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/2deb9a3c-aaca-4a5d-9893-730b578a5c6f\/download\/spagobcyltemplamuninsamb_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:21.420097",
+                    "last_modified": "2025-09-23T07:46:12.125813"
+                },
+                {
+                    "id": "d83f0f9e-f088-4da6-ba93-530d56101f0d",
+                    "name": "Planeamiento urbanístico CyL: planes parciales - Parte 1",
+                    "format": "SHP",
+                    "size": 1108281,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/d83f0f9e-f088-4da6-ba93-530d56101f0d\/download\/spagobcyltemplamunplapar_2025-06-09_1.zip",
+                    "created": "2025-08-05T08:02:22.526768",
+                    "last_modified": "2025-09-23T07:46:14.883894"
+                },
+                {
+                    "id": "9daf80f2-ee43-4e36-a8cb-5afcef8e2e2c",
+                    "name": "Planeamiento urbanístico CyL: planes parciales - Parte 2",
+                    "format": "SHP",
+                    "size": 1165950,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/9daf80f2-ee43-4e36-a8cb-5afcef8e2e2c\/download\/spagobcyltemplamunplapar_2025-06-09_2.zip",
+                    "created": "2025-08-05T08:02:23.498934",
+                    "last_modified": "2025-09-23T07:46:16.377816"
+                },
+                {
+                    "id": "196d4430-cb48-454b-b2dd-e7cfb636fa99",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo - Parte 1",
+                    "format": "SHP",
+                    "size": 8688397,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/196d4430-cb48-454b-b2dd-e7cfb636fa99\/download\/spagobcyltemplamunsecsue_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:02:28.221387",
+                    "last_modified": "2025-09-23T07:46:21.411150"
+                },
+                {
+                    "id": "d5b8383e-0e39-401e-88ce-e1d9c0dcaec9",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo - Parte 2",
+                    "format": "SHP",
+                    "size": 9046491,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/d5b8383e-0e39-401e-88ce-e1d9c0dcaec9\/download\/spagobcyltemplamunsecsue_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:32.169483",
+                    "last_modified": "2025-09-23T07:46:25.831892"
+                },
+                {
+                    "id": "e14030be-80ba-43eb-ab60-9c29845bea43",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado - Parte 1",
+                    "format": "SHP",
+                    "size": 3300213,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/e14030be-80ba-43eb-ab60-9c29845bea43\/download\/spagobcyltemplamunsecdes_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:02:34.963916",
+                    "last_modified": "2025-09-23T07:46:30.017030"
+                },
+                {
+                    "id": "98797f2b-68f7-484b-abb2-ca3aeabb2b28",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado - Parte 2",
+                    "format": "SHP",
+                    "size": 3342606,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/98797f2b-68f7-484b-abb2-ca3aeabb2b28\/download\/spagobcyltemplamunsecdes_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:37.587267",
+                    "last_modified": "2025-09-23T07:46:33.299382"
+                },
+                {
+                    "id": "5f2fb32e-ca07-45e7-b1fc-1987a63d639e",
+                    "name": "Vivienda CyL: municipios ITE obligatoria - Parte 1",
+                    "format": "SHP",
+                    "size": 427623,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/5f2fb32e-ca07-45e7-b1fc-1987a63d639e\/download\/spagobcyltemvivitemunobl_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:02:38.611246",
+                    "last_modified": "2025-09-23T07:46:41.125672"
+                },
+                {
+                    "id": "d07a0202-28f3-4225-a250-0086204f9142",
+                    "name": "Vivienda CyL: municipios ITE obligatoria - Parte 2",
+                    "format": "SHP",
+                    "size": 437617,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/d07a0202-28f3-4225-a250-0086204f9142\/download\/spagobcyltemvivitemunobl_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:02:39.441167",
+                    "last_modified": "2025-09-23T07:46:42.119299"
+                },
+                {
+                    "id": "1031b87c-a844-42c9-87cb-e0e09ea208b2",
+                    "name": "Vivienda CyL: programa REHABITARE - Parte 1",
+                    "format": "SHP",
+                    "size": 43618,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/1031b87c-a844-42c9-87cb-e0e09ea208b2\/download\/spagobcyltemvivalqrehact_2024-07-01_1.zip",
+                    "created": "2025-08-05T08:02:40.184839",
+                    "last_modified": "2025-09-23T07:46:43.545740"
+                },
+                {
+                    "id": "fa5bb657-6699-4946-b21c-c3da896a9c5a",
+                    "name": "Vivienda CyL: programa REHABITARE - Parte 2",
+                    "format": "SHP",
+                    "size": 56554,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/fa5bb657-6699-4946-b21c-c3da896a9c5a\/download\/spagobcyltemvivalqrehact_2024-07-01_2.zip",
+                    "created": "2025-08-05T08:02:40.910141",
+                    "last_modified": "2025-09-23T07:46:44.465418"
+                },
+                {
+                    "id": "d23da26e-0a4a-40b2-ab3f-cd908a06fb10",
+                    "name": "Fauna CyL: ámbitos de aplicación de especies protegidas",
+                    "format": "SHP",
+                    "size": 2211316,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/d23da26e-0a4a-40b2-ab3f-cd908a06fb10\/download\/spagobcylmnadtspsaae_2024-10-10.zip",
+                    "created": "2025-08-05T08:02:42.344796",
+                    "last_modified": "2025-08-05T08:02:42.294683"
+                },
+                {
+                    "id": "eb7711c3-fc55-43f9-864a-d87e3d198b6e",
+                    "name": "Bienes de Interés Cultural CyL: áreas de protección",
+                    "format": "SHP",
+                    "size": 582459,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/eb7711c3-fc55-43f9-864a-d87e3d198b6e\/download\/spagobcylpcudtspsbicp_2022-06-01.zip",
+                    "created": "2025-08-05T08:02:43.065304",
+                    "last_modified": "2025-08-05T08:02:43.013144"
+                },
+                {
+                    "id": "d140b90a-e770-4f9d-8622-cf77330e619c",
+                    "name": "Patrimonio Cultural CyL: yacimientos arqueológicos",
+                    "format": "SHP",
+                    "size": 17265560,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/d140b90a-e770-4f9d-8622-cf77330e619c\/download\/spagobcylpcudtspsyar_2022-06-01.zip",
+                    "created": "2025-08-05T08:02:49.781994",
+                    "last_modified": "2025-08-05T08:02:49.730296"
+                },
+                {
+                    "id": "5c96988a-7b8a-4f4c-8c77-5c6f73f98010",
+                    "name": "Datos de Planes y programas",
+                    "format": "CSV",
+                    "size": 830760,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/5c96988a-7b8a-4f4c-8c77-5c6f73f98010\/download\/planes-y-programas_2025-10-20.csv",
+                    "created": "2025-08-05T08:06:45.182716",
+                    "last_modified": "2025-10-21T05:15:20.645821"
+                },
+                {
+                    "id": "e666aa19-a09b-4159-91aa-ece964403385",
+                    "name": "Datos de Licitación de obras públicas",
+                    "format": "CSV",
+                    "size": 7807,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/e666aa19-a09b-4159-91aa-ece964403385\/download\/licitacion-de-obras-publicas_2025-06-03.csv",
+                    "created": "2025-08-05T08:06:46.015642",
+                    "last_modified": "2025-08-05T08:06:45.958334"
+                },
+                {
+                    "id": "327823ab-d3fa-4857-84d7-cea4fb593d5d",
+                    "name": "Vivienda CyL: ámbitos precio referencia - Parte 1",
+                    "format": "SHP",
+                    "size": 5601623,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/327823ab-d3fa-4857-84d7-cea4fb593d5d\/download\/spagobcyltemvivambpreref_2025-08-14_1.zip",
+                    "created": "2025-08-19T05:20:16.994251",
+                    "last_modified": "2025-09-23T07:46:36.319426"
+                },
+                {
+                    "id": "abf59a00-f3e2-44a1-a1d5-718ab3677a44",
+                    "name": "Vivienda CyL: ámbitos precio referencia - Parte 2",
+                    "format": "SHP",
+                    "size": 5463090,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/abf59a00-f3e2-44a1-a1d5-718ab3677a44\/download\/spagobcyltemvivambpreref_2025-08-14_2.zip",
+                    "created": "2025-08-19T05:20:18.477959",
+                    "last_modified": "2025-09-23T07:46:39.396129"
+                },
+                {
+                    "id": "e6be9c77-3816-4448-a6d6-634fc2dadeec",
+                    "name": "Ordenación territorial CyL: áreas funcionales estables",
+                    "format": "SHP",
+                    "size": 726236,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/e6be9c77-3816-4448-a6d6-634fc2dadeec\/download\/spagobcyltemotearefunest_2025-04-01.zip",
+                    "created": "2025-09-23T09:12:44.061656",
+                    "last_modified": "2025-09-23T09:12:44.000411"
+                },
+                {
+                    "id": "6fb77fb6-4c52-41bc-979e-b8258a858457",
+                    "name": "Ordenación territorial CyL: instrumentos",
+                    "format": "SHP",
+                    "size": 580064,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/6fb77fb6-4c52-41bc-979e-b8258a858457\/download\/spagobcyltemotereginsamb_2025-04-01.zip",
+                    "created": "2025-09-23T09:12:45.121570",
+                    "last_modified": "2025-09-23T09:12:45.056814"
+                },
+                {
+                    "id": "f920d403-3d3b-4751-bcd8-8e2cc3255958",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo",
+                    "format": "SHP",
+                    "size": 283032787,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/f920d403-3d3b-4751-bcd8-8e2cc3255958\/download\/spagobcyltemplamuncatsue_2025-04-01.zip",
+                    "created": "2025-09-23T09:13:41.491249",
+                    "last_modified": "2025-09-23T09:13:41.419193"
+                },
+                {
+                    "id": "ab0a0adc-b04b-4b33-a071-d4cd3b55e498",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo",
+                    "format": "SHP",
+                    "size": 39292405,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/ab0a0adc-b04b-4b33-a071-d4cd3b55e498\/download\/spagobcyltemplamunclasue_2025-04-01.zip",
+                    "created": "2025-09-23T09:13:54.580558",
+                    "last_modified": "2025-09-23T09:13:54.514307"
+                },
+                {
+                    "id": "f3b095a0-2ed4-44e9-af9b-9097b58de118",
+                    "name": "Planeamiento urbanístico CyL: grado de ejecución",
+                    "format": "SHP",
+                    "size": 23263827,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/f3b095a0-2ed4-44e9-af9b-9097b58de118\/download\/spagobcyltemplamungraeje_2025-04-01.zip",
+                    "created": "2025-09-23T09:13:59.425688",
+                    "last_modified": "2025-09-23T09:13:59.356494"
+                },
+                {
+                    "id": "3b19af37-39f1-4288-9799-42ab9ff7433e",
+                    "name": "Planeamiento urbanístico CyL: instrumentos",
+                    "format": "SHP",
+                    "size": 11172779,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/3b19af37-39f1-4288-9799-42ab9ff7433e\/download\/spagobcyltemplamuninsamb_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:03.806341",
+                    "last_modified": "2025-09-23T09:14:03.732028"
+                },
+                {
+                    "id": "eae49b24-0392-4112-ae0d-18f77ad62678",
+                    "name": "Planeamiento urbanístico CyL: planes parciales",
+                    "format": "SHP",
+                    "size": 1108281,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/eae49b24-0392-4112-ae0d-18f77ad62678\/download\/spagobcyltemplamunplapar_2025-06-09.zip",
+                    "created": "2025-09-23T09:14:05.606140",
+                    "last_modified": "2025-09-23T09:14:05.532501"
+                },
+                {
+                    "id": "86e097dd-8a24-4ab3-8c95-2f19338bca52",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo",
+                    "format": "SHP",
+                    "size": 8688397,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/86e097dd-8a24-4ab3-8c95-2f19338bca52\/download\/spagobcyltemplamunsecsue_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:10.445085",
+                    "last_modified": "2025-09-23T09:14:10.370025"
+                },
+                {
+                    "id": "6aa8fbb8-4fb5-44a1-812c-01f046d2307d",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado",
+                    "format": "SHP",
+                    "size": 3300213,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/6aa8fbb8-4fb5-44a1-812c-01f046d2307d\/download\/spagobcyltemplamunsecdes_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:14.766876",
+                    "last_modified": "2025-09-23T09:14:14.689533"
+                },
+                {
+                    "id": "10882f72-5230-4258-ab41-1baa19904057",
+                    "name": "Vivienda CyL: ámbitos precio referencia",
+                    "format": "SHP",
+                    "size": 5463090,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/10882f72-5230-4258-ab41-1baa19904057\/download\/spagobcyltemvivambpreref_2025-08-14.zip",
+                    "created": "2025-09-23T09:14:18.951445",
+                    "last_modified": "2025-09-23T09:14:18.873994"
+                },
+                {
+                    "id": "badea933-cdb4-42cd-a81a-92a807a359bf",
+                    "name": "Vivienda CyL: municipios ITE obligatoria",
+                    "format": "SHP",
+                    "size": 427623,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/badea933-cdb4-42cd-a81a-92a807a359bf\/download\/spagobcyltemvivitemunobl_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:20.298250",
+                    "last_modified": "2025-09-23T09:14:20.218137"
+                },
+                {
+                    "id": "2847298d-5902-4edb-bb06-5961336a2884",
+                    "name": "Vivienda CyL: programa REHABITARE",
+                    "format": "SHP",
+                    "size": 43618,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/c561dcd3-7d88-4e35-9877-66be06a0d1b6\/resource\/2847298d-5902-4edb-bb06-5961336a2884\/download\/spagobcyltemvivalqrehact_2024-07-01.zip",
+                    "created": "2025-09-23T09:14:21.175471",
+                    "last_modified": "2025-09-23T09:14:21.091004"
+                }
+            ]
+        },
+        {
+            "id": "d72f6b3d-5271-4038-8629-013e1abfe608",
+            "name": "general",
+            "title": "general",
+            "private": true,
+            "organization": {
+                "id": "13d5a17d-5b40-4e87-8b7c-eb9602867eea",
+                "name": "division_administrativa",
+                "title": ""
+            },
+            "num_resources": 12,
+            "metadata_created": "2025-08-05T07:53:10.301301",
+            "metadata_modified": "2025-10-21T05:15:11.445161",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "ad2143f0-4107-48dc-85af-20bd196369fd",
+                    "name": "Entidades de población CyL: Núcleos INE contornos",
+                    "format": "SHP",
+                    "size": 8267317,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/ad2143f0-4107-48dc-85af-20bd196369fd\/download\/spagobcylbasentnucinecon_2025-04-15.zip",
+                    "created": "2025-08-05T07:53:32.657713",
+                    "last_modified": "2025-08-05T07:53:32.629423"
+                },
+                {
+                    "id": "6c4634fa-1bc3-4a80-81a2-6f9fcfd51770",
+                    "name": "Entidades de población CyL: Núcleos INE puntos",
+                    "format": "SHP",
+                    "size": 523465,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/6c4634fa-1bc3-4a80-81a2-6f9fcfd51770\/download\/spagobcylbasentnucinepun_2025-04-15.zip",
+                    "created": "2025-08-05T07:53:35.277667",
+                    "last_modified": "2025-08-05T07:53:35.248121"
+                },
+                {
+                    "id": "2172fa94-e154-4cef-9656-2e73164f199b",
+                    "name": "Entidades de población CyL: Poblaciones contornos",
+                    "format": "SHP",
+                    "size": 8831735,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/2172fa94-e154-4cef-9656-2e73164f199b\/download\/spagobcylbasentnucpobcon_2025-04-15.zip",
+                    "created": "2025-08-05T07:53:42.951419",
+                    "last_modified": "2025-09-15T05:14:37.317769"
+                },
+                {
+                    "id": "93e1c172-4a25-485d-a339-d9052a8f5447",
+                    "name": "Entidades de población CyL: Poblaciones puntos",
+                    "format": "SHP",
+                    "size": 971377,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/93e1c172-4a25-485d-a339-d9052a8f5447\/download\/spagobcylbasentnucpobpun_2025-04-15.zip",
+                    "created": "2025-08-05T07:53:47.875610",
+                    "last_modified": "2025-09-22T05:14:53.147999"
+                },
+                {
+                    "id": "7485de19-4f5e-4df9-b5b4-62787a7742ca",
+                    "name": "Comarcas de Medio Ambiente CyL",
+                    "format": "SHP",
+                    "size": 1172682,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/7485de19-4f5e-4df9-b5b4-62787a7742ca\/download\/spagobcylmnadtssudtc_2021-01-20.zip",
+                    "created": "2025-08-05T07:53:48.721940",
+                    "last_modified": "2025-09-17T05:14:53.719408"
+                },
+                {
+                    "id": "c0c157fe-20eb-460e-8c2c-0c1dc4ac64fd",
+                    "name": "Datos de Asociaciones juveniles",
+                    "format": "CSV",
+                    "size": 207916,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/c0c157fe-20eb-460e-8c2c-0c1dc4ac64fd\/download\/asociaciones-juveniles_2025-02-25.csv",
+                    "created": "2025-08-05T08:06:37.825851",
+                    "last_modified": "2025-08-05T08:06:37.788016"
+                },
+                {
+                    "id": "41c0aa65-3964-4926-836d-d501f9e55e52",
+                    "name": "Datos de Registro de municipios de Castilla y León",
+                    "format": "CSV",
+                    "size": 325423,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/41c0aa65-3964-4926-836d-d501f9e55e52\/download\/registro-de-municipios-de-castilla-y-leon_2025-10-20.csv",
+                    "created": "2025-08-05T08:06:39.115572",
+                    "last_modified": "2025-10-21T05:15:11.425323"
+                },
+                {
+                    "id": "1a11975c-c3b2-44f7-927b-4095b10ef800",
+                    "name": "Comunidad Autónoma de CyL",
+                    "format": "SHP",
+                    "size": 377646,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/1a11975c-c3b2-44f7-927b-4095b10ef800\/download\/spagobcylbasuadlimautcyl_2025-06-17.zip",
+                    "created": "2025-09-23T07:35:04.016806",
+                    "last_modified": "2025-09-23T07:35:03.973076"
+                },
+                {
+                    "id": "3700f3e4-1357-4c7d-92cb-cb84cd393ceb",
+                    "name": "Lineas-límite municipales CyL",
+                    "format": "SHP",
+                    "size": 3603403,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/3700f3e4-1357-4c7d-92cb-cb84cd393ceb\/download\/spagobcylbasuadlinmuncyl_2025-06-17.zip",
+                    "created": "2025-09-23T09:09:39.994979",
+                    "last_modified": "2025-09-23T09:09:39.956748"
+                },
+                {
+                    "id": "1a6e673f-8b6e-44e1-a721-29ec61a34544",
+                    "name": "Municipios de CyL",
+                    "format": "SHP",
+                    "size": 5523061,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/1a6e673f-8b6e-44e1-a721-29ec61a34544\/download\/spagobcylbasuadlimmuncyl_2025-06-17.zip",
+                    "created": "2025-09-23T09:09:43.927521",
+                    "last_modified": "2025-09-23T09:09:43.895179"
+                },
+                {
+                    "id": "054d3018-503c-48ea-8f56-c3b6cec01337",
+                    "name": "Provincias de CyL",
+                    "format": "SHP",
+                    "size": 629984,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/054d3018-503c-48ea-8f56-c3b6cec01337\/download\/spagobcylbasuadlimprocyl_2025-06-17.zip",
+                    "created": "2025-09-23T09:09:44.938420",
+                    "last_modified": "2025-09-23T09:09:44.903769"
+                },
+                {
+                    "id": "f8ad73a3-e9f9-491e-880d-b8656cbcd56e",
+                    "name": "Territorios de CyL",
+                    "format": "SHP",
+                    "size": 65320,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/d72f6b3d-5271-4038-8629-013e1abfe608\/resource\/f8ad73a3-e9f9-491e-880d-b8656cbcd56e\/download\/spagobcylbasuadlimtercyl_2025-06-17.zip",
+                    "created": "2025-09-23T09:09:46.535499",
+                    "last_modified": "2025-09-23T09:09:46.499928"
+                }
+            ]
+        },
+        {
+            "id": "66e1a7da-dd46-4c60-8fda-2043aa38b229",
+            "name": "hidrografia_y_recursos_hidricos",
+            "title": "hidrografia_y_recursos_hidricos",
+            "private": false,
+            "organization": {
+                "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+                "name": "medio_natural",
+                "title": ""
+            },
+            "num_resources": 2,
+            "metadata_created": "2025-10-01T07:35:06.011854",
+            "metadata_modified": "2025-10-01T07:35:38.500798",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "c22262b5-717b-4de9-a42c-5b24e416f540",
+                    "name": "Hidrografía CyL: cursos fluviales",
+                    "format": "SHP",
+                    "size": 31255576,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/66e1a7da-dd46-4c60-8fda-2043aa38b229\/resource\/c22262b5-717b-4de9-a42c-5b24e416f540\/download\/spagobcylcitdtshycal_2012-11-14.zip",
+                    "created": "2025-10-01T07:35:27.876783",
+                    "last_modified": "2025-10-01T07:35:27.860862"
+                },
+                {
+                    "id": "62afb75a-7f46-448a-bd8a-d9605ebb5f87",
+                    "name": "Hidrografía CyL: masas de agua",
+                    "format": "SHP",
+                    "size": 14948427,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/66e1a7da-dd46-4c60-8fda-2043aa38b229\/resource\/62afb75a-7f46-448a-bd8a-d9605ebb5f87\/download\/spagobcylcitdtshymar_2012-11-14.zip",
+                    "created": "2025-10-01T07:35:38.509813",
+                    "last_modified": "2025-10-01T07:35:38.491780"
+                }
+            ]
+        },
+        {
+            "id": "2ccbd666-7e12-4c98-93bf-fb2049daa599",
+            "name": "transporte",
+            "title": "transporte",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 7,
+            "metadata_created": "2025-08-05T07:53:13.468090",
+            "metadata_modified": "2025-09-29T05:15:46.354869",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "92d85a54-b5be-4f11-84ca-2f8a52f8b264",
+                    "name": "Aeródromos CyL",
+                    "format": "SHP",
+                    "size": 640317,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/92d85a54-b5be-4f11-84ca-2f8a52f8b264\/download\/spagobcylcitdtstnpad_2023-03-01.zip",
+                    "created": "2025-08-05T08:06:21.672100",
+                    "last_modified": "2025-08-05T08:06:21.660314"
+                },
+                {
+                    "id": "8d4aef80-001a-4b0d-bee6-f690434972b5",
+                    "name": "Carreteras CyL: enlaces red viaria",
+                    "format": "SHP",
+                    "size": 40096,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/8d4aef80-001a-4b0d-bee6-f690434972b5\/download\/spagobcylcitdtstnrce_2024-12-15.zip",
+                    "created": "2025-08-05T08:06:22.173294",
+                    "last_modified": "2025-08-05T08:06:22.158716"
+                },
+                {
+                    "id": "70171cb5-e1be-4912-bb40-896cca024c26",
+                    "name": "Carreteras CyL: puertos de montaña",
+                    "format": "SHP",
+                    "size": 25189,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/70171cb5-e1be-4912-bb40-896cca024c26\/download\/spagobcylcitdtstnrcp_2023-09-21.zip",
+                    "created": "2025-08-05T08:06:22.523244",
+                    "last_modified": "2025-08-05T08:06:22.507708"
+                },
+                {
+                    "id": "0936cb71-f5df-434a-b2d0-0db760e9545f",
+                    "name": "Carreteras CyL: puntos kilométricos",
+                    "format": "SHP",
+                    "size": 1193730,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/0936cb71-f5df-434a-b2d0-0db760e9545f\/download\/spagobcylcitdtstncpk_2023-09-21.zip",
+                    "created": "2025-08-05T08:06:24.849154",
+                    "last_modified": "2025-08-05T08:06:24.831571"
+                },
+                {
+                    "id": "33366e35-40cb-4752-bf67-3097a3ceffe2",
+                    "name": "Carreteras CyL: red viaria",
+                    "format": "SHP",
+                    "size": 13699463,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/33366e35-40cb-4752-bf67-3097a3ceffe2\/download\/spagobcylcitdtstnrcv_2025-09-25.zip",
+                    "created": "2025-08-05T08:06:32.974224",
+                    "last_modified": "2025-09-29T05:15:46.342436"
+                },
+                {
+                    "id": "0eb197c2-06d4-4668-8292-341d634df217",
+                    "name": "Ferrocarril CyL: estaciones",
+                    "format": "SHP",
+                    "size": 34138,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/0eb197c2-06d4-4668-8292-341d634df217\/download\/spagobcylcitdtstnfet_2025-05-12.zip",
+                    "created": "2025-08-05T08:06:33.631727",
+                    "last_modified": "2025-08-05T08:06:33.610398"
+                },
+                {
+                    "id": "443313b7-5b41-4af4-860d-bc25e6f2fd72",
+                    "name": "Ferrocarril CyL: líneas",
+                    "format": "SHP",
+                    "size": 1200177,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/2ccbd666-7e12-4c98-93bf-fb2049daa599\/resource\/443313b7-5b41-4af4-860d-bc25e6f2fd72\/download\/spagobcylcitdtstnfvt_2025-05-12.zip",
+                    "created": "2025-08-05T08:06:35.477222",
+                    "last_modified": "2025-08-05T08:06:35.455074"
+                }
+            ]
+        },
+        {
+            "id": "6ceb9d64-0834-4737-a4a9-694d17e52b10",
+            "name": "hodrografia_y_recursos_hidricos",
+            "title": "hidrografia_y_recursos_hidricos",
+            "private": true,
+            "organization": {
+                "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+                "name": "medio_natural",
+                "title": ""
+            },
+            "num_resources": 8,
+            "metadata_created": "2025-08-05T07:53:11.236689",
+            "metadata_modified": "2025-09-24T11:37:20.251209",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "849a8e43-4d21-402f-ae88-bc36afe67f5e",
+                    "name": "Hidrografía CyL: cursos fluviales",
+                    "format": "SHP",
+                    "size": 31255576,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/849a8e43-4d21-402f-ae88-bc36afe67f5e\/download\/spagobcylcitdtshycal_2012-11-14.zip",
+                    "created": "2025-08-05T07:55:39.275503",
+                    "last_modified": "2025-08-05T07:55:39.263189"
+                },
+                {
+                    "id": "50b5f9e4-2d99-4a79-bae4-950fc82b893c",
+                    "name": "Hidrografía CyL: masas de agua",
+                    "format": "SHP",
+                    "size": 14948427,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/50b5f9e4-2d99-4a79-bae4-950fc82b893c\/download\/spagobcylcitdtshymar_2012-11-14.zip",
+                    "created": "2025-08-05T07:55:42.178267",
+                    "last_modified": "2025-08-05T07:55:42.164200"
+                },
+                {
+                    "id": "081aaa55-1d2f-470b-af26-0db92140f5f6",
+                    "name": "Puntos de agua recreativo - Censo de aguas de baño 2024",
+                    "format": "SHP",
+                    "size": 180207,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/081aaa55-1d2f-470b-af26-0db92140f5f6\/download\/censoaguasbano_2024.zip",
+                    "created": "2025-09-16T11:17:34.377929",
+                    "last_modified": "2025-09-16T11:17:34.359870"
+                },
+                {
+                    "id": "be65dc12-1b20-4447-92ee-ae1b5d997a41",
+                    "name": "Puntos de agua recreativo - Censo de aguas de baño 2023",
+                    "format": "SHP",
+                    "size": 186920,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/be65dc12-1b20-4447-92ee-ae1b5d997a41\/download\/censoaguasbano_2023.zip",
+                    "created": "2025-09-16T11:19:44.873090",
+                    "last_modified": "2025-09-16T11:19:44.853562"
+                },
+                {
+                    "id": "5df77b56-09a0-48e5-abb6-a084279af578",
+                    "name": "Puntos de agua recreativo - Censo de aguas de baño 2022",
+                    "format": "SHP",
+                    "size": 202830,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/5df77b56-09a0-48e5-abb6-a084279af578\/download\/censoaguasbano_2022.zip",
+                    "created": "2025-09-16T11:20:38.555076",
+                    "last_modified": "2025-09-16T11:20:38.534157"
+                },
+                {
+                    "id": "97f67b6b-8e21-4e50-91b8-f31d116ec20d",
+                    "name": "Puntos de agua recreativo - Censo de aguas de baño 2021",
+                    "format": "SHP",
+                    "size": 208440,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/97f67b6b-8e21-4e50-91b8-f31d116ec20d\/download\/censoaguasbano_2021.zip",
+                    "created": "2025-09-16T11:21:21.651350",
+                    "last_modified": "2025-09-16T11:21:21.628848"
+                },
+                {
+                    "id": "58434e58-0ad5-4f80-9f47-344426621605",
+                    "name": "Puntos recreativos",
+                    "format": "GEOJSON",
+                    "size": null,
+                    "datastore_active": false,
+                    "url": "https:\/\/incendioscyl.es\/tramos.visor.geojson",
+                    "created": "2025-09-16T11:27:42.264607",
+                    "last_modified": null
+                },
+                {
+                    "id": "e91b0500-3182-4ca4-a333-88bc5b5d39ab",
+                    "name": "Zonas inundables",
+                    "format": "SHP",
+                    "size": 7114262,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/es\/dataset\/6ceb9d64-0834-4737-a4a9-694d17e52b10\/resource\/e91b0500-3182-4ca4-a333-88bc5b5d39ab\/download\/informacion-arpsi.zip",
+                    "created": "2025-09-17T05:50:47.209687",
+                    "last_modified": "2025-09-24T11:29:29.093130"
+                }
+            ]
+        },
+        {
+            "id": "53627dbc-d688-46b1-a70b-12afddd8a9fd",
+            "name": "usos_del_suelo",
+            "title": "usos_del_suelo",
+            "private": true,
+            "organization": {
+                "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+                "name": "ordenacion_del_territorio",
+                "title": ""
+            },
+            "num_resources": 7,
+            "metadata_created": "2025-08-05T07:53:11.499253",
+            "metadata_modified": "2025-09-23T09:14:34.994369",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "2c1c013c-c14f-48ef-adbe-ba1ed35e86c2",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado - Parte 1",
+                    "format": "SHP",
+                    "size": 3300213,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/2c1c013c-c14f-48ef-adbe-ba1ed35e86c2\/download\/spagobcyltemplamunsecdes_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:04:57.393252",
+                    "last_modified": "2025-09-23T07:47:06.879860"
+                },
+                {
+                    "id": "123bdee4-d50a-49a8-b148-41c57661ea15",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado - Parte 2",
+                    "format": "SHP",
+                    "size": 3342606,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/123bdee4-d50a-49a8-b148-41c57661ea15\/download\/spagobcyltemplamunsecdes_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:04:59.304014",
+                    "last_modified": "2025-09-23T07:47:10.017482"
+                },
+                {
+                    "id": "5a218091-2f01-40da-aefc-e5110502493e",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo - Parte 1",
+                    "format": "SHP",
+                    "size": 8688397,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/5a218091-2f01-40da-aefc-e5110502493e\/download\/spagobcyltemplamunsecsue_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:05:02.211855",
+                    "last_modified": "2025-09-23T07:47:14.967603"
+                },
+                {
+                    "id": "8d72e5be-f92e-4027-8801-2da848b8ee55",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo - Parte 2",
+                    "format": "SHP",
+                    "size": 9046491,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/8d72e5be-f92e-4027-8801-2da848b8ee55\/download\/spagobcyltemplamunsecsue_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:05:04.941048",
+                    "last_modified": "2025-09-23T07:47:19.321850"
+                },
+                {
+                    "id": "04ab72b8-baa8-4035-8401-c1636c4f0adf",
+                    "name": "Edafología",
+                    "format": "SHP",
+                    "size": 3231511,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/04ab72b8-baa8-4035-8401-c1636c4f0adf\/download\/ptosmuestrassueloscyl_etrs89_h30.zip",
+                    "created": "2025-09-17T11:31:40.473825",
+                    "last_modified": "2025-09-17T12:03:32.266872"
+                },
+                {
+                    "id": "cbf36bb8-e037-4937-b662-6979454d6d6e",
+                    "name": "Planeamiento urbanístico CyL: suelo desclasificado",
+                    "format": "SHP",
+                    "size": 3300213,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/cbf36bb8-e037-4937-b662-6979454d6d6e\/download\/spagobcyltemplamunsecdes_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:31.195616",
+                    "last_modified": "2025-09-23T09:14:31.174454"
+                },
+                {
+                    "id": "de4167c4-b2a9-422a-97c4-f326b4206149",
+                    "name": "Planeamiento urbanístico CyL: sectores de desarrollo",
+                    "format": "SHP",
+                    "size": 8688397,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/53627dbc-d688-46b1-a70b-12afddd8a9fd\/resource\/de4167c4-b2a9-422a-97c4-f326b4206149\/download\/spagobcyltemplamunsecsue_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:35.004482",
+                    "last_modified": "2025-09-23T09:14:34.981228"
+                }
+            ]
+        },
+        {
+            "id": "4a39d746-debb-407d-b0fb-f2aa1f4693e5",
+            "name": "energia_e_infrastructuras",
+            "title": "energia_e_infrastructuras",
+            "private": true,
+            "organization": {
+                "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+                "name": "ordenacion_del_territorio",
+                "title": ""
+            },
+            "num_resources": 14,
+            "metadata_created": "2025-08-05T07:53:12.234553",
+            "metadata_modified": "2025-09-23T09:14:28.475451",
+            "notes": "",
+            "tags": [
+                "medioambeinte"
+            ],
+            "resources": [
+                {
+                    "id": "3faf79dd-feb6-444b-b538-d7af8fcde013",
+                    "name": "Renovables CyL: instalaciones puntual - Parte 1",
+                    "format": "SHP",
+                    "size": 2661543,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/3faf79dd-feb6-444b-b538-d7af8fcde013\/download\/spagobcyltemenerenipepun_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:03:15.867340",
+                    "last_modified": "2025-09-23T07:46:56.418154"
+                },
+                {
+                    "id": "80ea3231-9a77-48e3-a440-389839f9313e",
+                    "name": "Renovables CyL: instalaciones puntual - Parte 2",
+                    "format": "SHP",
+                    "size": 2713240,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/80ea3231-9a77-48e3-a440-389839f9313e\/download\/spagobcyltemenerenipepun_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:03:17.235024",
+                    "last_modified": "2025-09-23T07:46:59.361978"
+                },
+                {
+                    "id": "ea90e7b0-d39b-4110-a507-2d0e9ef99fe7",
+                    "name": "Renovables CyL: instalaciones recintos - Parte 1",
+                    "format": "SHP",
+                    "size": 254511,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/ea90e7b0-d39b-4110-a507-2d0e9ef99fe7\/download\/spagobcyltemenerenipepol_2025-04-01_1.zip",
+                    "created": "2025-08-05T08:03:18.119131",
+                    "last_modified": "2025-09-23T07:47:00.729379"
+                },
+                {
+                    "id": "32dbf7db-05de-4401-9e55-190a548d2c30",
+                    "name": "Renovables CyL: instalaciones recintos - Parte 2",
+                    "format": "SHP",
+                    "size": 223032,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/32dbf7db-05de-4401-9e55-190a548d2c30\/download\/spagobcyltemenerenipepol_2025-04-01_2.zip",
+                    "created": "2025-08-05T08:03:18.767174",
+                    "last_modified": "2025-09-23T07:47:01.959943"
+                },
+                {
+                    "id": "d8d53f1c-01a7-4a6c-9c22-9c221a5bf4e0",
+                    "name": "Renovables CyL: zonas exclusión eólica",
+                    "format": "SHP",
+                    "size": 62746224,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/d8d53f1c-01a7-4a6c-9c22-9c221a5bf4e0\/download\/spagobcyltemenerenexceol_2023-02-20.zip",
+                    "created": "2025-08-05T08:03:30.871965",
+                    "last_modified": "2025-08-05T08:03:30.852201"
+                },
+                {
+                    "id": "62f4ced4-05e9-476b-94a4-bd0a5611dda6",
+                    "name": "Renovables CyL: zonas exclusión fotovoltaica",
+                    "format": "SHP",
+                    "size": 365617361,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/62f4ced4-05e9-476b-94a4-bd0a5611dda6\/download\/spagobcyltemenerenexcfot_2023-02-20.zip",
+                    "created": "2025-08-05T08:04:21.245430",
+                    "last_modified": "2025-08-05T08:04:21.223556"
+                },
+                {
+                    "id": "339693d1-3933-434d-8a12-7ae3eeb55ca7",
+                    "name": "Renovables CyL: zonas sensibles actv críticas",
+                    "format": "SHP",
+                    "size": 452101,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/339693d1-3933-434d-8a12-7ae3eeb55ca7\/download\/spagobcyltemenerensenacr_2023-07-15.zip",
+                    "created": "2025-08-05T08:04:27.324430",
+                    "last_modified": "2025-08-05T08:04:27.300489"
+                },
+                {
+                    "id": "218fb711-c897-4adf-bbd5-7cc080de4bde",
+                    "name": "Renovables CyL: zonas sensibles aves esteparias",
+                    "format": "SHP",
+                    "size": 599011,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/218fb711-c897-4adf-bbd5-7cc080de4bde\/download\/spagobcyltemenerensenaes_2021-06-15.zip",
+                    "created": "2025-08-05T08:04:28.907758",
+                    "last_modified": "2025-08-05T08:04:28.883335"
+                },
+                {
+                    "id": "466b6958-51f1-4345-a556-ff83141cb79a",
+                    "name": "Renovables CyL: zonas sensibles aves planeadoras",
+                    "format": "SHP",
+                    "size": 555809,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/466b6958-51f1-4345-a556-ff83141cb79a\/download\/spagobcyltemenerensenapl_2024-02-27.zip",
+                    "created": "2025-08-05T08:04:29.596517",
+                    "last_modified": "2025-08-05T08:04:29.569780"
+                },
+                {
+                    "id": "5d93cd8d-04ad-45db-81b0-ae89d76b525e",
+                    "name": "Renovables CyL: zonas sensibles flora",
+                    "format": "SHP",
+                    "size": 74645,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/5d93cd8d-04ad-45db-81b0-ae89d76b525e\/download\/spagobcyltemenerensenafl_2021-12-20.zip",
+                    "created": "2025-08-05T08:04:30.073355",
+                    "last_modified": "2025-08-05T08:04:30.045950"
+                },
+                {
+                    "id": "17eb669f-65ce-45d4-8055-8d8c8d511d89",
+                    "name": "Renovables CyL: zonas sensibles montes",
+                    "format": "SHP",
+                    "size": 128219714,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/17eb669f-65ce-45d4-8055-8d8c8d511d89\/download\/spagobcyltemenerensenamo_2022-08-05.zip",
+                    "created": "2025-08-05T08:04:49.281471",
+                    "last_modified": "2025-08-05T08:04:49.252732"
+                },
+                {
+                    "id": "37719782-f5e8-400e-acce-66736ddf6cf3",
+                    "name": "Renovables CyL: zonas sensibles yacimientos",
+                    "format": "SHP",
+                    "size": 15561164,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/37719782-f5e8-400e-acce-66736ddf6cf3\/download\/spagobcyltemenerensenpcy_2025-03-10.zip",
+                    "created": "2025-08-05T08:04:55.340858",
+                    "last_modified": "2025-08-05T08:04:55.309226"
+                },
+                {
+                    "id": "d4c35cd1-edf5-4837-84b1-3c6bd650e954",
+                    "name": "Renovables CyL: instalaciones puntual",
+                    "format": "SHP",
+                    "size": 2661543,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/d4c35cd1-edf5-4837-84b1-3c6bd650e954\/download\/spagobcyltemenerenipepun_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:27.486537",
+                    "last_modified": "2025-09-23T09:14:27.451667"
+                },
+                {
+                    "id": "3445a97a-5df4-4284-8f62-f2415e501cae",
+                    "name": "Renovables CyL: instalaciones recintos",
+                    "format": "SHP",
+                    "size": 254511,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4a39d746-debb-407d-b0fb-f2aa1f4693e5\/resource\/3445a97a-5df4-4284-8f62-f2415e501cae\/download\/spagobcyltemenerenipepol_2025-04-01.zip",
+                    "created": "2025-09-23T09:14:28.489788",
+                    "last_modified": "2025-09-23T09:14:28.452789"
+                }
+            ]
+        },
+        {
+            "id": "4530ae16-e1df-49bc-941e-3fb684dd7778",
+            "name": "suelo_y_erosion",
+            "title": "suelo_y_erosion",
+            "private": true,
+            "organization": {
+                "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+                "name": "medio_natural",
+                "title": ""
+            },
+            "num_resources": 7,
+            "metadata_created": "2025-08-05T07:53:10.532070",
+            "metadata_modified": "2025-09-23T09:11:12.401138",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "c6fd2460-7fb2-4a4e-8fee-49f9216ad19a",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo - Parte 1",
+                    "format": "SHP",
+                    "size": 39292405,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/c6fd2460-7fb2-4a4e-8fee-49f9216ad19a\/download\/spagobcyltemplamunclasue_2025-04-01_1.zip",
+                    "created": "2025-08-05T07:53:54.955461",
+                    "last_modified": "2025-09-23T07:36:13.760322"
+                },
+                {
+                    "id": "d8f10c46-f816-4efc-99c8-56e69ca3f89c",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo - Parte 2",
+                    "format": "SHP",
+                    "size": 39783406,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/d8f10c46-f816-4efc-99c8-56e69ca3f89c\/download\/spagobcyltemplamunclasue_2025-04-01_2.zip",
+                    "created": "2025-08-05T07:54:01.749983",
+                    "last_modified": "2025-09-23T07:36:24.438400"
+                },
+                {
+                    "id": "2c120827-7b18-4a23-a741-866a215b961a",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo - Parte 1",
+                    "format": "SHP",
+                    "size": 283032787,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/2c120827-7b18-4a23-a741-866a215b961a\/download\/spagobcyltemplamuncatsue_2025-04-01_1.zip",
+                    "created": "2025-08-05T07:54:45.148242",
+                    "last_modified": "2025-09-23T07:37:44.071729"
+                },
+                {
+                    "id": "0f6e58b0-8bd1-40df-8ae5-b4767a418284",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo - Parte 2",
+                    "format": "SHP",
+                    "size": 285153390,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/0f6e58b0-8bd1-40df-8ae5-b4767a418284\/download\/spagobcyltemplamuncatsue_2025-04-01_2.zip",
+                    "created": "2025-08-05T07:55:32.948937",
+                    "last_modified": "2025-09-23T07:38:47.435603"
+                },
+                {
+                    "id": "89b21d31-f420-44bc-8a78-ae40b4368e95",
+                    "name": "Estados Erosivos",
+                    "format": "SHP",
+                    "size": 106331460,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/89b21d31-f420-44bc-8a78-ae40b4368e95\/download\/erosion_p_tcm30-381134.zip",
+                    "created": "2025-09-16T09:08:11.252895",
+                    "last_modified": "2025-09-16T09:08:11.233306"
+                },
+                {
+                    "id": "5092d390-cafa-42af-bab6-a131f1af9c2d",
+                    "name": "Planeamiento urbanístico CyL: clasificación de suelo",
+                    "format": "SHP",
+                    "size": 39292405,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/5092d390-cafa-42af-bab6-a131f1af9c2d\/download\/spagobcyltemplamunclasue_2025-04-01.zip",
+                    "created": "2025-09-23T09:10:03.069327",
+                    "last_modified": "2025-09-23T09:10:03.046069"
+                },
+                {
+                    "id": "9ba4096f-b579-4cdb-ab0c-d8d732ceed13",
+                    "name": "Planeamiento urbanístico CyL: categorías de suelo",
+                    "format": "SHP",
+                    "size": 283032787,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/4530ae16-e1df-49bc-941e-3fb684dd7778\/resource\/9ba4096f-b579-4cdb-ab0c-d8d732ceed13\/download\/spagobcyltemplamuncatsue_2025-04-01.zip",
+                    "created": "2025-09-23T09:11:12.413107",
+                    "last_modified": "2025-09-23T09:11:12.386420"
+                }
+            ]
+        },
+        {
+            "id": "29e69a68-c553-4f86-a3b3-b31448f18efe",
+            "name": "prueba1",
+            "title": "prueba1",
+            "private": false,
+            "organization": {
+                "id": "8567cf38-47b5-4f8d-abd2-35b002a4b890",
+                "name": "prueba",
+                "title": ""
+            },
+            "num_resources": 3,
+            "metadata_created": "2025-08-19T09:05:14.676340",
+            "metadata_modified": "2025-08-20T09:52:23.127815",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "d2797989-2c6d-4cdf-9adc-19f63325e14e",
+                    "name": "Puntos de Interés CSV",
+                    "format": "CSV",
+                    "size": 425328,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/29e69a68-c553-4f86-a3b3-b31448f18efe\/resource\/d2797989-2c6d-4cdf-9adc-19f63325e14e\/download\/1284378320232.csv",
+                    "created": "2025-08-19T09:05:15.924620",
+                    "last_modified": "2025-08-20T09:52:21.928342"
+                },
+                {
+                    "id": "251f9b60-1e74-42b3-8d7a-1631819cd6b2",
+                    "name": "Puntos de Interés SHP",
+                    "format": "SHP",
+                    "size": 122237,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/29e69a68-c553-4f86-a3b3-b31448f18efe\/resource\/251f9b60-1e74-42b3-8d7a-1631819cd6b2\/download\/1284378320232.shp",
+                    "created": "2025-08-19T09:05:17.275470",
+                    "last_modified": "2025-08-20T09:52:23.120362"
+                },
+                {
+                    "id": "5a248da1-f4e8-4bc4-82b9-534f13375b07",
+                    "name": "SIOSE_2005_CYL_etrs_hu30_B3_h50_0056.zip",
+                    "format": "SHP",
+                    "size": 16939,
+                    "datastore_active": false,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/29e69a68-c553-4f86-a3b3-b31448f18efe\/resource\/5a248da1-f4e8-4bc4-82b9-534f13375b07\/download\/siose_2005_cyl_etrs_hu30_b3_h50_0056.zip",
+                    "created": "2025-08-19T10:54:08.949787",
+                    "last_modified": "2025-08-19T10:54:08.933121"
+                }
+            ]
+        },
+        {
+            "id": "025d2c53-5397-40e3-95eb-e4e43ec6957c",
+            "name": "transportes",
+            "title": "transportes",
+            "private": true,
+            "organization": {
+                "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+                "name": "socioeconomica",
+                "title": ""
+            },
+            "num_resources": 2,
+            "metadata_created": "2025-08-05T08:06:36.844433",
+            "metadata_modified": "2025-08-05T08:08:33.531502",
+            "notes": "",
+            "tags": [],
+            "resources": [
+                {
+                    "id": "e65a35c6-f9cb-40a2-bbee-bc9f2516154c",
+                    "name": "Datos de Catálogo de carreteras sin clasificar",
+                    "format": "CSV",
+                    "size": 10254,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/025d2c53-5397-40e3-95eb-e4e43ec6957c\/resource\/e65a35c6-f9cb-40a2-bbee-bc9f2516154c\/download\/catalogo-de-carreteras-sin-clasificar_2024-08-10.csv",
+                    "created": "2025-08-05T08:08:32.727687",
+                    "last_modified": "2025-08-05T08:08:32.715273"
+                },
+                {
+                    "id": "af35d49b-730a-42c4-845a-06c185281531",
+                    "name": "Datos de Catálogo de la red regional de carreteras (tramificada)",
+                    "format": "CSV",
+                    "size": 134908,
+                    "datastore_active": true,
+                    "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/dataset\/025d2c53-5397-40e3-95eb-e4e43ec6957c\/resource\/af35d49b-730a-42c4-845a-06c185281531\/download\/catalogo-de-la-red-regional-de-carreteras-tramificada_2024-08-10.csv",
+                    "created": "2025-08-05T08:08:33.539278",
+                    "last_modified": "2025-08-05T08:08:33.525306"
+                }
+            ]
+        }
+    ],
+    "organizaciones": [
+        {
+            "id": "07428309-97aa-4ceb-81a0-ed41dbfb1078",
+            "name": "medio_natural",
+            "title": "",
+            "num_datasets": 5,
+            "datasets": [
+                "875b1ac0-4e7d-4e5d-91f7-2e5785003a74",
+                "ff470661-8371-4ac1-8a7f-ae6c42472174",
+                "66e1a7da-dd46-4c60-8fda-2043aa38b229",
+                "6ceb9d64-0834-4737-a4a9-694d17e52b10",
+                "4530ae16-e1df-49bc-941e-3fb684dd7778"
+            ]
+        },
+        {
+            "id": "43b5e87d-3c3a-4a7e-aef8-45f39aed5b2a",
+            "name": "socioeconomica",
+            "title": "",
+            "num_datasets": 9,
+            "datasets": [
+                "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+                "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+                "90f5cbc4-0221-4246-992a-4cf586562650",
+                "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+                "aa81852a-fc4b-40bf-8291-b190f425cc30",
+                "8d37364b-ae89-422c-93b1-bcc180083e0d",
+                "f5e1c716-1236-4f41-90db-a9706f068625",
+                "2ccbd666-7e12-4c98-93bf-fb2049daa599",
+                "025d2c53-5397-40e3-95eb-e4e43ec6957c"
+            ]
+        },
+        {
+            "id": "d6fe8c71-cf0b-4cec-abe5-34190e2ddb33",
+            "name": "ordenacion_del_territorio",
+            "title": "",
+            "num_datasets": 4,
+            "datasets": [
+                "38f32e49-5f02-4365-a955-ecfe11fb160a",
+                "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+                "53627dbc-d688-46b1-a70b-12afddd8a9fd",
+                "4a39d746-debb-407d-b0fb-f2aa1f4693e5"
+            ]
+        },
+        {
+            "id": "13d5a17d-5b40-4e87-8b7c-eb9602867eea",
+            "name": "division_administrativa",
+            "title": "",
+            "num_datasets": 1,
+            "datasets": [
+                "d72f6b3d-5271-4038-8629-013e1abfe608"
+            ]
+        },
+        {
+            "id": "8567cf38-47b5-4f8d-abd2-35b002a4b890",
+            "name": "prueba",
+            "title": "",
+            "num_datasets": 1,
+            "datasets": [
+                "29e69a68-c553-4f86-a3b3-b31448f18efe"
+            ]
+        }
+    ],
+    "estadisticas": {
+        "total_datasets": 20,
+        "datasets_privados": 16,
+        "datasets_publicos": 4,
+        "porcentaje_privados": 80,
+        "total_organizaciones": 5,
+        "total_recursos": 243,
+        "promedio_recursos_por_dataset": 12.15,
+        "recursos_por_formato": {
+            "SHP": 194,
+            "CSV": 45,
+            "XLS": 3,
+            "GEOJSON": 1
+        },
+        "recursos_datastore_activos": 47
+    },
+    "recursos_consultables": [
+        {
+            "dataset_title": "demografia_y_empleo",
+            "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "resource_name": "Datos de Número de matrimonios en Castilla y León",
+            "resource_id": "f5da57d8-d0e3-4115-afa5-0cc5a8c76fcf",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "demografia_y_empleo",
+            "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "resource_name": "Datos de Número de defunciones en Castilla y León",
+            "resource_id": "d227ef59-bc49-42e0-be71-41ec3fde6e15",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "demografia_y_empleo",
+            "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "resource_name": "Datos de Número de nacimientos en Castilla y León",
+            "resource_id": "966d3cb5-d56c-4aaf-add8-3f3a70c118bd",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "demografia_y_empleo",
+            "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "resource_name": "Datos de Población Total por provincias y sexo",
+            "resource_id": "771bfd9e-d306-4202-bc08-dab243d38a2a",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "demografia_y_empleo",
+            "dataset_id": "986f7a3f-c47f-469c-aa7d-f60dd4377e43",
+            "resource_name": "Número de parados y demandantes de empleo por sexo",
+            "resource_id": "c39bf47b-cd0c-4e33-9a52-bb1b865d4bde",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "turismo_y_patrimonio",
+            "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+            "resource_name": "Datos de Fiestas locales: Calendario de fiestas de caracter local",
+            "resource_id": "a9daa683-3bea-4ee8-878a-adb3a02f4361",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "turismo_y_patrimonio",
+            "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+            "resource_name": "Datos de Registro de Turismo de Castilla y León",
+            "resource_id": "36eb1908-2707-45ef-9abc-dad2e29df446",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "turismo_y_patrimonio",
+            "dataset_id": "a1b57aaa-ffc1-4378-9bd4-31b2a45028e3",
+            "resource_name": "Datos de Hostelería con entrega a domicilio",
+            "resource_id": "f387c6c0-2877-4f2c-a004-00750d6e0a3a",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "servicios_y_comercio",
+            "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "resource_name": "Datos de Registro de centros sanitarios de Castilla y León",
+            "resource_id": "e293d9fb-771d-4971-a650-b040325386ac",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "servicios_y_comercio",
+            "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "resource_name": "Datos de Centros de carácter social",
+            "resource_id": "e213894d-2fc2-4094-a0f8-0b8a00358968",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "servicios_y_comercio",
+            "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "resource_name": "Talleres de reparación de vehículos",
+            "resource_id": "ef9612ab-af2a-4a8f-9f68-2499672c95da",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "servicios_y_comercio",
+            "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "resource_name": "Directorio de talleres artesanos de Castilla y León",
+            "resource_id": "8549b5a6-9e27-4491-897f-50268cb1d3ab",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "servicios_y_comercio",
+            "dataset_id": "90f5cbc4-0221-4246-992a-4cf586562650",
+            "resource_name": "Cartera de servicios de atención primaria",
+            "resource_id": "4e7c4cd0-82a8-4f34-a835-3885f22162fa",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Datos de Registro de cooperativas",
+            "resource_id": "afee4c93-f6ab-45ad-ba21-c9e8099b4667",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Datos de Registro de agentes de cooperación para el desarrollo de Castilla y León",
+            "resource_id": "b551375f-6bbe-420e-9952-54ac9c17f99f",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Asociaciones de pacientes",
+            "resource_id": "84139f7d-4dda-47d9-8aee-ba853085e74b",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Registro de asociaciones de Castilla y León",
+            "resource_id": "1275e3a3-68fe-4b21-b1a3-4aa5b8981fae",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Entidades Asociativas Agroalimentarias prioritarias de carácter regional",
+            "resource_id": "44811d5c-f98d-48ae-88c6-56187988f436",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Asociaciones Forestales",
+            "resource_id": "85116a07-08ea-4d2e-9452-225994031d4e",
+            "format": "XLS"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Asociaciones de espeleogia",
+            "resource_id": "7d94d3e2-d8d6-4e65-84af-051d6b3b0ab9",
+            "format": "XLS"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Asociaciones de Escalada",
+            "resource_id": "d921621f-e04f-440e-bec1-c077b60a0849",
+            "format": "XLS"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Grupos de Acción Local",
+            "resource_id": "1ffec1fc-4b8c-4c41-9f73-8a0b9df52709",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "asociaciones_y_grupos_locales",
+            "dataset_id": "b38975d5-f06f-4c6f-9292-a28e6c7129b4",
+            "resource_name": "Directorio de Asociaciones de Consumidores",
+            "resource_id": "89c84d12-9c6f-4f68-b906-a7ea79861572",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "industria_y_economia",
+            "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "resource_name": "Datos de Registro de Artesanos Alimentarios",
+            "resource_id": "4991497a-d348-4ed9-a09b-b84c5781b480",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "industria_y_economia",
+            "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "resource_name": "Directorio de talleres artesanos de CyL",
+            "resource_id": "72ce9681-6a75-4916-b596-7875a270770b",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "industria_y_economia",
+            "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "resource_name": "Empresas de trabajo forestales",
+            "resource_id": "c5daa405-632a-4d1b-a541-14347e406da3",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "industria_y_economia",
+            "dataset_id": "aa81852a-fc4b-40bf-8291-b190f425cc30",
+            "resource_name": "Datos de Directorio de industrias culturales",
+            "resource_id": "282d4572-8727-41ec-8468-26c2f57a9aac",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Terrenos cinegéticos",
+            "resource_id": "c8f3aed1-1342-4b14-abb4-7fa1e19475aa",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Listado de cotos de caza de Castilla y León",
+            "resource_id": "663f9cdc-fdc3-4472-9260-4cd1c143a5ec",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Resultados de temporadas cinegéticas",
+            "resource_id": "4bf1cec1-cab8-4745-8bd1-cefa624c2845",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Licencias de caza y pesca",
+            "resource_id": "5e8dd115-4d0a-492d-8a95-53fa39dc1441",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Censo de superficies agrarias en Castilla y León",
+            "resource_id": "2efe1793-b1ca-453f-96fa-2cbb3deee6ee",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Explotaciones ganaderas de apícola",
+            "resource_id": "7773f19b-84a9-48ef-be55-2c3893d66395",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "agricultura_y_ganaderia",
+            "dataset_id": "8d37364b-ae89-422c-93b1-bcc180083e0d",
+            "resource_name": "Datos de Superficies de cultivos herbáceos",
+            "resource_id": "421963f1-61ab-4b17-aa75-05e0a73b3e25",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "flora_y_fauna",
+            "dataset_id": "ff470661-8371-4ac1-8a7f-ae6c42472174",
+            "resource_name": "Datos de Explotaciones acuícolas",
+            "resource_id": "59ba658c-226f-4ae8-a3d0-21fe96261788",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "flora_y_fauna",
+            "dataset_id": "ff470661-8371-4ac1-8a7f-ae6c42472174",
+            "resource_name": "Datos de Incendios forestales",
+            "resource_id": "f74b444d-e0f9-4638-916e-ad595bf5f0dc",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "educacion_y_cultura",
+            "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+            "resource_name": "Datos de Red de Teatros",
+            "resource_id": "da343c31-1955-4efa-ad61-49545ad02a88",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "educacion_y_cultura",
+            "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+            "resource_name": "Datos de Directorio de Centros Docentes",
+            "resource_id": "9c1d89fb-3667-4772-80a2-caf1f043862e",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "educacion_y_cultura",
+            "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+            "resource_name": "Datos de Registro de infraestructuras culturales",
+            "resource_id": "1af32ff8-36f0-4d84-a73f-93874a9378cf",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "educacion_y_cultura",
+            "dataset_id": "f5e1c716-1236-4f41-90db-a9706f068625",
+            "resource_name": "Datos de Red de Circuitos escénicos",
+            "resource_id": "0ccc69bc-ad8c-412d-bc6b-a07e4041a3f7",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "normativa_y_planificacion",
+            "dataset_id": "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+            "resource_name": "Datos de Planes y programas",
+            "resource_id": "5c96988a-7b8a-4f4c-8c77-5c6f73f98010",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "normativa_y_planificacion",
+            "dataset_id": "c561dcd3-7d88-4e35-9877-66be06a0d1b6",
+            "resource_name": "Datos de Licitación de obras públicas",
+            "resource_id": "e666aa19-a09b-4159-91aa-ece964403385",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "general",
+            "dataset_id": "d72f6b3d-5271-4038-8629-013e1abfe608",
+            "resource_name": "Datos de Asociaciones juveniles",
+            "resource_id": "c0c157fe-20eb-460e-8c2c-0c1dc4ac64fd",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "general",
+            "dataset_id": "d72f6b3d-5271-4038-8629-013e1abfe608",
+            "resource_name": "Datos de Registro de municipios de Castilla y León",
+            "resource_id": "41c0aa65-3964-4926-836d-d501f9e55e52",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "prueba1",
+            "dataset_id": "29e69a68-c553-4f86-a3b3-b31448f18efe",
+            "resource_name": "Puntos de Interés CSV",
+            "resource_id": "d2797989-2c6d-4cdf-9adc-19f63325e14e",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "transportes",
+            "dataset_id": "025d2c53-5397-40e3-95eb-e4e43ec6957c",
+            "resource_name": "Datos de Catálogo de carreteras sin clasificar",
+            "resource_id": "e65a35c6-f9cb-40a2-bbee-bc9f2516154c",
+            "format": "CSV"
+        },
+        {
+            "dataset_title": "transportes",
+            "dataset_id": "025d2c53-5397-40e3-95eb-e4e43ec6957c",
+            "resource_name": "Datos de Catálogo de la red regional de carreteras (tramificada)",
+            "resource_id": "af35d49b-730a-42c4-845a-06c185281531",
+            "format": "CSV"
+        }
+    ]
+}

@@ -1,0 +1,641 @@
+fid,ESTRATOIFN,FORARB,NAMEUNIT,IDmuni,FormArbNOM,Area_ha,Perc
+1,"00",0,Velilla del Río Carrión,"34199",Sin formación arbolada,12757.99105,64.13332
+29,"03",21,Velilla del Río Carrión,"34199",Pinares de pino albar (Pinus sylvestris),3537.46222,17.78252
+35,"14",20,Velilla del Río Carrión,"34199",Pinares de pino carrasco (Pinus halepensis),356.30017,1.79109
+40,"12",402,Velilla del Río Carrión,"34199",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,99.27438,0.49904
+44,"02",15,Velilla del Río Carrión,"34199",Melojares (Quercus pyrenaica),1865.08827,9.37564
+54,"09",1,Velilla del Río Carrión,"34199",Hayedos (Fagus sylvatica),572.78288,2.87933
+120,"11",33,Velilla del Río Carrión,"34199",Bosques ribereños,79.60303,0.40016
+134,"10",4,Velilla del Río Carrión,"34199",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,345.72264,1.73792
+143,"00",0,Santibáñez de la Peña,"34171",Sin formación arbolada,7170.79717,64.17301
+175,"08",44,Población de Campos,"34132",Choperas de producción,5.61551,0.24144
+176,"11",33,Población de Campos,"34132",Bosques ribereños,10.23401,0.44002
+178,"08",44,Revenga de Campos,"34152",Choperas de producción,14.34868,0.64039
+181,"08",44,Villovieco,"34246",Choperas de producción,2.81718,0.11974
+183,"00",0,Villovieco,"34246",Sin formación arbolada,2340.86203,99.49099
+186,"08",44,Marcilla de Campos,"34101",Choperas de producción,5.45575,0.24957
+187,"00",0,Lantadilla,"34092",Sin formación arbolada,2752.18138,95.0849
+188,"11",33,Itero de la Vega,"34089",Bosques ribereños,27.36549,1.30747
+189,"11",33,Lantadilla,"34092",Bosques ribereños,54.09808,1.86903
+190,"08",44,Itero de la Vega,"34089",Choperas de producción,58.67016,2.80314
+191,"00",0,Itero de la Vega,"34089",Sin formación arbolada,1984.51684,94.81621
+200,"08",44,Lantadilla,"34092",Choperas de producción,88.1667,3.04606
+223,"00",0,Guardo,"34080",Sin formación arbolada,2708.05217,43.10273
+288,"03",21,Santibáñez de la Peña,"34171",Pinares de pino albar (Pinus sylvestris),1006.33304,9.00589
+293,"02",15,Santibáñez de la Peña,"34171",Melojares (Quercus pyrenaica),2633.81316,23.57056
+296,"10",4,Santibáñez de la Peña,"34171",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,7.15781,0.06406
+358,"08",44,Boadilla del Camino,"34034",Choperas de producción,9.97539,0.34807
+361,"08",44,Frómista,"34074",Choperas de producción,28.15765,0.60438
+367,"00",0,Población de Campos,"34132",Sin formación arbolada,2304.52332,99.0844
+369,"15",23,Población de Campos,"34132",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,5.44559,0.23414
+373,"14",24,Boadilla del Camino,"34034",Pinares de pino carrasco (Pinus halepensis),3.9325,0.13722
+374,"14",24,Itero de la Vega,"34089",Pinares de pino carrasco (Pinus halepensis),18.9351,0.90468
+378,"00",0,Boadilla del Camino,"34034",Sin formación arbolada,2852.01178,99.51471
+385,"04",25,Itero de la Vega,"34089",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,3.52661,0.16849
+400,"04",22,Santibáñez de la Peña,"34171",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,22.79151,0.20397
+401,"04",22,Velilla del Río Carrión,"34199",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,63.26817,0.31804
+472,"00",0,Cervera de Pisuerga,"34056",Sin formación arbolada,19540.1821,59.91099
+639,"13",392,Santibáñez de la Peña,"34171",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,56.20348,0.50298
+640,"13",392,Velilla del Río Carrión,"34199",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,27.588,0.13868
+661,"12",402,Santibáñez de la Peña,"34171",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,5.87932,0.05262
+769,"00",0,Castrejón de la Peña,"34049",Sin formación arbolada,7184.06573,67.51552
+779,"01",15,Castrejón de la Peña,"34049",Melojares (Quercus pyrenaica),939.51259,8.8295
+795,"06",18,Castrejón de la Peña,"34049",Encinares (Quercus ilex),452.16738,4.24945
+806,"03",21,Cervera de Pisuerga,"34056",Pinares de pino albar (Pinus sylvestris),710.73721,2.17915
+808,"09",1,Cervera de Pisuerga,"34056",Hayedos (Fagus sylvatica),1086.1558,3.3302
+809,"01",15,Cervera de Pisuerga,"34056",Melojares (Quercus pyrenaica),7457.49699,22.86499
+811,"10",4,Cervera de Pisuerga,"34056",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,2126.15775,6.51889
+815,"10",4,Dehesa de Montejo,"34067",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,4.76202,0.10876
+816,"06",18,Cervera de Pisuerga,"34056",Encinares (Quercus ilex),402.21335,1.2332
+853,"02",15,Buenavista de Valdavia,"34037",Melojares (Quercus pyrenaica),835.24348,10.23124
+854,"02",15,La Puebla de Valdavia,"34140",Melojares (Quercus pyrenaica),1041.13768,35.29297
+855,"03",21,Buenavista de Valdavia,"34037",Pinares de pino albar (Pinus sylvestris),1625.4517,19.91082
+859,"00",0,Buenavista de Valdavia,"34037",Sin formación arbolada,4195.18441,51.38851
+863,"04",25,Buenavista de Valdavia,"34037",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,811.78692,9.94391
+865,"04",25,Báscones de Ojeda,"34028",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,128.94762,6.94587
+867,"04",25,Revilla de Collazos,"34154",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,117.06964,5.69442
+869,"03",21,Báscones de Ojeda,"34028",Pinares de pino albar (Pinus sylvestris),10.65534,0.57396
+873,"02",15,Báscones de Ojeda,"34028",Melojares (Quercus pyrenaica),599.97301,32.31803
+881,"13",393,Buenavista de Valdavia,"34037",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,414.93803,5.08274
+888,"00",0,Báscones de Ojeda,"34028",Sin formación arbolada,1062.47693,57.23117
+890,"02",15,Revilla de Collazos,"34154",Melojares (Quercus pyrenaica),792.89037,38.56722
+895,"13",393,Báscones de Ojeda,"34028",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,15.42079,0.83065
+896,"12",403,Báscones de Ojeda,"34028",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,1.99907,0.10768
+897,"12",403,Revilla de Collazos,"34154",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,74.43276,3.62051
+898,"03",21,Revilla de Collazos,"34154",Pinares de pino albar (Pinus sylvestris),13.27408,0.64567
+905,"08",44,Báscones de Ojeda,"34028",Choperas de producción,34.25711,1.84529
+906,"08",44,Revilla de Collazos,"34154",Choperas de producción,8.68453,0.42243
+915,"02",15,Collazos de Boedo,"34061",Melojares (Quercus pyrenaica),540.80337,25.75132
+917,"02",15,Villaeles de Valdavia,"34208",Melojares (Quercus pyrenaica),3.77584,0.18266
+919,"00",0,Revilla de Collazos,"34154",Sin formación arbolada,1027.37535,49.97287
+927,"13",393,Revilla de Collazos,"34154",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,1.06417,0.05176
+931,"12",403,Buenavista de Valdavia,"34037",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,120.53831,1.47652
+940,"03",21,Villaeles de Valdavia,"34208",Pinares de pino albar (Pinus sylvestris),342.27348,16.55795
+944,"12",403,Villaeles de Valdavia,"34208",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,75.9872,3.67599
+946,"12",403,Collazos de Boedo,"34061",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,5.95676,0.28364
+948,"13",393,Collazos de Boedo,"34061",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,0.05537,0.00264
+949,"13",393,Villaeles de Valdavia,"34208",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,476.89736,23.07057
+950,"13",393,Villameriel,"34222",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,38.98474,0.73331
+951,"13",393,Villasila de Valdavia,"34234",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,1.01434,0.03344
+952,"04",25,Collazos de Boedo,"34061",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,238.35725,11.3498
+953,"04",25,Villaeles de Valdavia,"34208",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,200.76662,9.71236
+954,"04",25,Villameriel,"34222",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,375.73201,7.06759
+955,"04",25,Villasila de Valdavia,"34234",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,877.20953,28.91761
+957,"04",25,La Puebla de Valdavia,"34140",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,174.08552,5.90123
+958,"11",33,Buenavista de Valdavia,"34037",Bosques ribereños,92.39111,1.13174
+995,"00",0,Villaeles de Valdavia,"34208",Sin formación arbolada,914.36389,44.23362
+999,"00",0,Villameriel,"34222",Sin formación arbolada,3186.93904,59.94693
+1000,"00",0,Villasila de Valdavia,"34234",Sin formación arbolada,1527.98467,50.3707
+1008,"04",25,Villanuño de Valdavia,"34228",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,726.79466,23.41471
+1014,"12",403,Villasila de Valdavia,"34234",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,172.08068,5.67272
+1049,"08",44,Buenavista de Valdavia,"34037",Choperas de producción,60.93342,0.7464
+1059,"02",15,Villasila de Valdavia,"34234",Melojares (Quercus pyrenaica),349.17741,11.51079
+1076,"08",44,Villasila de Valdavia,"34234",Choperas de producción,53.17375,1.7529
+1079,"08",44,Villaeles de Valdavia,"34208",Choperas de producción,28.29561,1.36884
+1081,"11",33,Villaeles de Valdavia,"34208",Bosques ribereños,24.76424,1.198
+1085,"08",44,Villanuño de Valdavia,"34228",Choperas de producción,81.66836,2.63106
+1087,"00",0,Villanuño de Valdavia,"34228",Sin formación arbolada,1762.6238,56.7854
+1094,"01",15,Villanuño de Valdavia,"34228",Melojares (Quercus pyrenaica),233.58994,7.52543
+1115,"11",33,Villanuño de Valdavia,"34228",Bosques ribereños,26.52259,0.85446
+1116,"11",33,Villasila de Valdavia,"34234",Bosques ribereños,12.22499,0.403
+1125,"12",403,Villanuño de Valdavia,"34228",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,116.45874,3.75188
+1129,"04",25,Loma de Ucieza,"34903",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,860.0125,12.07339
+1131,"02",15,Loma de Ucieza,"34903",Melojares (Quercus pyrenaica),194.15906,2.72573
+1139,"12",403,Saldaña,"34157",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,143.86845,1.09031
+1141,"12",403,Loma de Ucieza,"34903",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,155.98108,2.18976
+1150,"00",0,Saldaña,"34157",Sin formación arbolada,9233.58888,69.97688
+1151,"00",0,Loma de Ucieza,"34903",Sin formación arbolada,5761.10566,80.878
+1152,"13",393,Saldaña,"34157",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,442.41959,3.35288
+1153,"04",25,Saldaña,"34157",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,569.37822,4.31504
+1155,"01",15,Saldaña,"34157",Melojares (Quercus pyrenaica),2060.04857,15.61211
+1156,"01",15,Villabasta de Valdavia,"34202",Melojares (Quercus pyrenaica),320.87506,28.66508
+1172,"00",0,Villabasta de Valdavia,"34202",Sin formación arbolada,797.55108,71.2485
+1175,"03",21,Saldaña,"34157",Pinares de pino albar (Pinus sylvestris),325.43826,2.46634
+1179,"08",44,Saldaña,"34157",Choperas de producción,292.2849,2.21508
+1180,"08",44,Villabasta de Valdavia,"34202",Choperas de producción,0.96734,0.08642
+1182,"01",15,Valderrábano,"34190",Melojares (Quercus pyrenaica),716.92399,24.88095
+1188,"00",0,Valderrábano,"34190",Sin formación arbolada,1964.31233,68.17174
+1218,"03",21,La Puebla de Valdavia,"34140",Pinares de pino albar (Pinus sylvestris),82.80197,2.80686
+1220,"13",393,La Puebla de Valdavia,"34140",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,82.51997,2.7973
+1223,"00",0,La Puebla de Valdavia,"34140",Sin formación arbolada,1497.24985,50.75447
+1227,"12",403,La Puebla de Valdavia,"34140",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,2.51521,0.08526
+1236,"13",393,Ayuela,"34020",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,104.31171,5.28105
+1237,"13",393,Pino del Río,"34129",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,610.6264,11.74422
+1266,"03",21,Ayuela,"34020",Pinares de pino albar (Pinus sylvestris),716.44649,36.27194
+1267,"03",21,Valderrábano,"34190",Pinares de pino albar (Pinus sylvestris),18.27185,0.63413
+1268,"14",7,Ayuela,"34020",Pinares de pino carrasco (Pinus halepensis),22.99174,1.16402
+1269,"14",7,Valderrábano,"34190",Pinares de pino carrasco (Pinus halepensis),18.91645,0.6565
+1293,"00",0,Ayuela,"34020",Sin formación arbolada,745.31187,37.73332
+1295,"00",0,Tabanera de Valdavia,"34179",Sin formación arbolada,1354.17454,62.88758
+1296,"02",15,Ayuela,"34020",Melojares (Quercus pyrenaica),284.73905,14.41564
+1298,"02",15,Tabanera de Valdavia,"34179",Melojares (Quercus pyrenaica),536.71067,24.92473
+1304,"12",403,Ayuela,"34020",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,11.20006,0.56703
+1305,"12",403,Valderrábano,"34190",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,8.04117,0.27907
+1308,"07",31,Valderrábano,"34190",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,11.16597,0.38752
+1309,"05",16,Valderrábano,"34190",Quejigares de Quercus faginea,63.15757,2.19189
+1313,"11",56,Valderrábano,"34190",Bosques ribereños,19.1337,0.66404
+1334,"03",21,Tabanera de Valdavia,"34179",Pinares de pino albar (Pinus sylvestris),84.99429,3.94712
+1339,"03",21,Pino del Río,"34129",Pinares de pino albar (Pinus sylvestris),1142.07825,21.96567
+1342,"04",61,Ayuela,"34020",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,56.76174,2.87371
+1355,"14",7,Tabanera de Valdavia,"34179",Pinares de pino carrasco (Pinus halepensis),16.59747,0.77078
+1356,"08",44,Tabanera de Valdavia,"34179",Choperas de producción,8.857,0.41132
+1363,"08",44,Villaluenga de la Vega,"34218",Choperas de producción,100.29635,3.81136
+1370,"00",0,Villaluenga de la Vega,"34218",Sin formación arbolada,2524.70095,95.9411
+1374,"08",44,Santervás de la Vega,"34169",Choperas de producción,55.77966,0.78921
+1387,"01",15,Quintanilla de Onsoña,"34143",Melojares (Quercus pyrenaica),282.4787,5.53258
+1392,"00",0,Quintanilla de Onsoña,"34143",Sin formación arbolada,4662.64976,91.32193
+1410,"08",44,Pedrosa de la Vega,"34126",Choperas de producción,208.76616,9.91399
+1417,"00",0,Pedrosa de la Vega,"34126",Sin formación arbolada,1833.0594,87.04919
+1420,"11",33,Pedrosa de la Vega,"34126",Bosques ribereños,44.30959,2.10419
+1421,"11",33,Saldaña,"34157",Bosques ribereños,123.65106,0.93709
+1448,"13",393,Pedrosa de la Vega,"34126",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,0.61177,0.02905
+1454,"04",61,Pedrosa de la Vega,"34126",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,3.08158,0.14634
+1456,"04",25,Quintanilla de Onsoña,"34143",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,83.91446,1.64354
+1458,"14",24,Quintanilla de Onsoña,"34143",Pinares de pino carrasco (Pinus halepensis),27.73952,0.5433
+1463,"02",15,Pedrosa de la Vega,"34126",Melojares (Quercus pyrenaica),9.08143,0.43126
+1473,"12",403,Quintanilla de Onsoña,"34143",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,2.57832,0.0505
+1547,"13",393,Loma de Ucieza,"34903",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,1.66512,0.02338
+1584,"04",393,Pino del Río,"34129",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,132.27609,2.54408
+1585,"00",0,Fresno del Río,"34073",Sin formación arbolada,2740.06066,62.2376
+1586,"00",0,Pino del Río,"34129",Sin formación arbolada,2535.04939,48.75678
+1589,"03",21,Fresno del Río,"34073",Pinares de pino albar (Pinus sylvestris),693.3824,15.74945
+1614,"02",15,Pino del Río,"34129",Melojares (Quercus pyrenaica),396.50939,7.62609
+1657,"15",46,Saldaña,"34157",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,4.52226,0.03427
+1706,"08",44,Poza de la Vega,"34136",Choperas de producción,196.16314,8.07584
+1733,"08",44,Valderrábano,"34190",Choperas de producción,15.2193,0.52819
+1745,"04",25,Valderrábano,"34190",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,2.339,0.08118
+1766,"13",393,Valderrábano,"34190",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,42.92186,1.48961
+1769,"06",18,Valderrábano,"34190",Encinares (Quercus ilex),1.01418,0.0352
+1770,"11",33,Ayuela,"34020",Bosques ribereños,15.51168,0.78532
+1896,"03",21,Poza de la Vega,"34136",Pinares de pino albar (Pinus sylvestris),101.12775,4.16333
+1898,"12",403,Pino del Río,"34129",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,93.0309,1.78927
+1908,"12",403,Poza de la Vega,"34136",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,0.00011,0
+1910,"01",15,Poza de la Vega,"34136",Melojares (Quercus pyrenaica),306.495,12.6181
+1953,"04",25,Villaluenga de la Vega,"34218",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,1.81958,0.06915
+1954,"00",0,Santervás de la Vega,"34169",Sin formación arbolada,5533.26758,78.28834
+1955,"00",0,Poza de la Vega,"34136",Sin formación arbolada,1759.53718,72.43842
+1958,"00",0,Villota del Páramo,"34245",Sin formación arbolada,3688.27775,47.30925
+1959,"08",44,Villota del Páramo,"34245",Choperas de producción,81.49205,1.04529
+1960,"02",15,Villota del Páramo,"34245",Melojares (Quercus pyrenaica),1274.86349,16.35257
+1961,"04",25,Villota del Páramo,"34245",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,975.26725,12.50968
+1962,"02",15,Santervás de la Vega,"34169",Melojares (Quercus pyrenaica),380.05116,5.37722
+1964,"04",25,Santervás de la Vega,"34169",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,1034.72687,14.64
+1972,"15",23,Santervás de la Vega,"34169",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,16.27251,0.23023
+1977,"03",21,Santervás de la Vega,"34169",Pinares de pino albar (Pinus sylvestris),4.50853,0.06379
+1989,"04",25,Poza de la Vega,"34136",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,34.01473,1.40035
+2028,"08",44,Ayuela,"34020",Choperas de producción,17.93427,0.90797
+2085,"05",16,Buenavista de Valdavia,"34037",Quejigares de Quercus faginea,7.19437,0.08813
+2109,"04",25,Congosto de Valdavia,"34062",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,98.32494,1.42662
+2110,"04",25,Tabanera de Valdavia,"34179",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,92.9985,4.31883
+2112,"03",21,Villota del Páramo,"34245",Pinares de pino albar (Pinus sylvestris),179.28957,2.29973
+2114,"07",31,Poza de la Vega,"34136",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,0.16053,0.00661
+2115,"07",31,Villota del Páramo,"34245",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,39.09217,0.50143
+2142,"11",33,Poza de la Vega,"34136",Bosques ribereños,31.1341,1.28176
+2169,"08",44,Pino del Río,"34129",Choperas de producción,206.21395,3.96613
+2200,"11",33,Pino del Río,"34129",Bosques ribereños,83.59389,1.60777
+2216,"11",33,Villota del Páramo,"34245",Bosques ribereños,11.33722,0.14542
+2235,"02",15,Fresno del Río,"34073",Melojares (Quercus pyrenaica),314.21632,7.13709
+2241,"08",44,Fresno del Río,"34073",Choperas de producción,98.30203,2.23283
+2253,"11",33,Guardo,"34080",Bosques ribereños,23.34503,0.37157
+2254,"11",33,Mantinos,"34100",Bosques ribereños,18.66536,0.73116
+2255,"11",33,Villalba de Guardo,"34214",Bosques ribereños,16.13779,0.47673
+2291,"11",33,Tabanera de Valdavia,"34179",Bosques ribereños,10.02571,0.46559
+2338,"12",403,Villota del Páramo,"34245",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,136.5658,1.75172
+2405,"11",33,Villaluenga de la Vega,"34218",Bosques ribereños,4.69462,0.1784
+2416,"11",33,Congosto de Valdavia,"34062",Bosques ribereños,33.54806,0.48676
+2417,"11",33,La Puebla de Valdavia,"34140",Bosques ribereños,48.32359,1.6381
+2456,"08",44,Bárcena de Campos,"34025",Choperas de producción,40.45713,2.78285
+2462,"04",25,Bárcena de Campos,"34025",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,238.49803,16.40514
+2464,"00",0,Bárcena de Campos,"34025",Sin formación arbolada,966.43303,66.4763
+2469,"11",33,Bárcena de Campos,"34025",Bosques ribereños,40.04001,2.75416
+2471,"11",33,Loma de Ucieza,"34903",Bosques ribereños,32.37959,0.45456
+2475,"08",44,Loma de Ucieza,"34903",Choperas de producción,22.93394,0.32196
+2525,"15",23,Loma de Ucieza,"34903",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,0.93795,0.01317
+2540,"14",24,Loma de Ucieza,"34903",Pinares de pino carrasco (Pinus halepensis),94.0302,1.32005
+2554,"02",15,Villasarracino,"34233",Melojares (Quercus pyrenaica),1.12942,0.0551
+2563,"11",33,San Mamés de Campos,"34163",Bosques ribereños,13.88389,0.89352
+2564,"11",33,Valde-Ucieza,"34192",Bosques ribereños,26.94735,0.63273
+2565,"14",24,San Mamés de Campos,"34163",Pinares de pino carrasco (Pinus halepensis),24.70961,1.59023
+2566,"14",24,Valde-Ucieza,"34192",Pinares de pino carrasco (Pinus halepensis),0.96814,0.02273
+2567,"08",44,San Mamés de Campos,"34163",Choperas de producción,6.53664,0.42068
+2573,"15",23,Arconada,"34015",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,5.86595,0.30182
+2574,"15",23,Villaherreros,"34211",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,7.41623,0.18182
+2575,"15",23,Villalcázar de Sirga,"34215",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,12.83283,0.50495
+2585,"00",0,Nogal de las Huertas,"34112",Sin formación arbolada,1182.10262,85.6441
+2586,"00",0,Valde-Ucieza,"34192",Sin formación arbolada,4228.41651,99.28363
+2596,"06",18,Nogal de las Huertas,"34112",Encinares (Quercus ilex),5.15218,0.37328
+2597,"06",18,Valde-Ucieza,"34192",Encinares (Quercus ilex),1.00146,0.02351
+2611,"08",44,Valde-Ucieza,"34192",Choperas de producción,1.59264,0.0374
+2618,"00",0,La Serna,"34175",Sin formación arbolada,1091.42146,88.70462
+2642,"11",33,Quintanilla de Onsoña,"34143",Bosques ribereños,26.29829,0.51507
+2644,"03",21,Quintanilla de Onsoña,"34143",Pinares de pino albar (Pinus sylvestris),8.82741,0.17289
+2695,"00",0,Dehesa de Montejo,"34067",Sin formación arbolada,2497.17752,57.03491
+2703,"06",18,Dehesa de Montejo,"34067",Encinares (Quercus ilex),296.71398,6.77687
+2705,"01",15,Dehesa de Montejo,"34067",Melojares (Quercus pyrenaica),944.60408,21.57452
+2741,"09",1,Dehesa de Montejo,"34067",Hayedos (Fagus sylvatica),111.60707,2.54908
+2883,"03",21,Pedrosa de la Vega,"34126",Pinares de pino albar (Pinus sylvestris),6.86437,0.32598
+2899,"08",44,Quintanilla de Onsoña,"34143",Choperas de producción,11.24214,0.22019
+2900,"08",44,Renedo de la Vega,"34147",Choperas de producción,233.76046,10.50826
+2915,"11",33,Renedo de la Vega,"34147",Bosques ribereños,46.70149,2.09938
+2917,"00",0,Renedo de la Vega,"34147",Sin formación arbolada,1944.07748,87.39236
+2931,"08",44,La Serna,"34175",Choperas de producción,100.46191,8.16498
+2948,"11",33,La Serna,"34175",Bosques ribereños,38.51643,3.1304
+2952,"08",44,Nogal de las Huertas,"34112",Choperas de producción,156.00507,11.30267
+2961,"11",33,Nogal de las Huertas,"34112",Bosques ribereños,36.99007,2.67995
+2967,"08",44,Villamoronta,"34223",Choperas de producción,10.95587,0.82419
+2969,"11",33,Villamoronta,"34223",Bosques ribereños,4.17903,0.31438
+2976,"08",44,Villaturde,"34236",Choperas de producción,142.69228,5.45655
+3002,"00",0,Villaturde,"34236",Sin formación arbolada,2430.04688,92.925
+3015,"08",44,Carrión de los Condes,"34047",Choperas de producción,401.7993,6.34499
+3022,"11",33,Carrión de los Condes,"34047",Bosques ribereños,118.5598,1.87223
+3025,"11",33,Villaturde,"34236",Bosques ribereños,42.32342,1.61845
+3131,"00",0,Carrión de los Condes,"34047",Sin formación arbolada,5794.49997,91.50354
+3141,"08",44,Calzada de los Molinos,"34042",Choperas de producción,49.33979,1.90199
+3143,"11",33,Calzada de los Molinos,"34042",Bosques ribereños,50.07326,1.93026
+3176,"08",44,Villarrabé,"34231",Choperas de producción,137.64945,1.71433
+3177,"00",0,Villamoronta,"34223",Sin formación arbolada,1314.15164,98.86143
+3178,"00",0,Villarrabé,"34231",Sin formación arbolada,7055.204,87.86751
+3191,"07",31,Cervatos de la Cueza,"34055",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,195.94493,2.74194
+3192,"07",31,Ledigos,"34094",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,62.60817,2.21203
+3193,"05",16,Cervatos de la Cueza,"34055",Quejigares de Quercus faginea,139.99676,1.95903
+3194,"05",16,Ledigos,"34094",Quejigares de Quercus faginea,17.1306,0.60525
+3195,"05",16,Población de Arroyo,"34131",Quejigares de Quercus faginea,45.45302,1.9876
+3196,"07",31,Población de Arroyo,"34131",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,7.26194,0.31756
+3198,"11",33,Cervatos de la Cueza,"34055",Bosques ribereños,47.8916,0.67017
+3199,"11",33,Ledigos,"34094",Bosques ribereños,1.84252,0.0651
+3200,"04",25,Ledigos,"34094",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,685.64808,24.22488
+3201,"04",25,Cervatos de la Cueza,"34055",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,45.23988,0.63306
+3212,"00",0,Ledigos,"34094",Sin formación arbolada,1981.54634,70.01074
+3214,"02",15,Villarrabé,"34231",Melojares (Quercus pyrenaica),296.93204,3.69808
+3220,"12",403,Lagartos,"34091",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,58.99647,1.35533
+3221,"12",403,Ledigos,"34094",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,21.91425,0.77426
+3223,"02",15,Lagartos,"34091",Melojares (Quercus pyrenaica),782.2771,17.97128
+3224,"02",15,Ledigos,"34094",Melojares (Quercus pyrenaica),20.96127,0.74059
+3232,"04",25,Lagartos,"34091",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,799.52812,18.36759
+3234,"04",25,Villarrabé,"34231",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,486.01794,6.05301
+3253,"02",15,Bustillo del Páramo de Carrión,"34039",Melojares (Quercus pyrenaica),239.14267,7.66371
+3255,"00",0,Bustillo del Páramo de Carrión,"34039",Sin formación arbolada,2849.91079,91.33001
+3257,"08",44,Bustillo del Páramo de Carrión,"34039",Choperas de producción,0.20027,0.00642
+3265,"02",15,Cervatos de la Cueza,"34055",Melojares (Quercus pyrenaica),15.20678,0.21279
+3282,"00",0,Cervatos de la Cueza,"34055",Sin formación arbolada,6611.70063,92.5203
+3310,"08",44,Bustillo de la Vega,"34038",Choperas de producción,40.889,2.15353
+3314,"11",33,Cervera de Pisuerga,"34056",Bosques ribereños,156.01182,0.47834
+3316,"00",0,Lagartos,"34091",Sin formación arbolada,2574.38766,59.14151
+3333,"03",21,Villarrabé,"34231",Pinares de pino albar (Pinus sylvestris),1.07023,0.01333
+3334,"15",46,Villarrabé,"34231",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,22.41894,0.27921
+3350,"11",33,Bustillo de la Vega,"34038",Bosques ribereños,18.18161,0.95758
+3353,"00",0,Bustillo de la Vega,"34038",Sin formación arbolada,1839.62793,96.88889
+3454,"12",403,Santervás de la Vega,"34169",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,11.65192,0.16486
+3476,"11",33,Santervás de la Vega,"34169",Bosques ribereños,5.32616,0.07536
+3553,"02",15,Micieces de Ojeda,"34107",Melojares (Quercus pyrenaica),388.03822,18.71627
+3555,"00",0,Micieces de Ojeda,"34107",Sin formación arbolada,1385.10548,66.80786
+3557,"04",61,La Vid de Ojeda,"34093",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,120.27211,5.99
+3558,"04",61,Micieces de Ojeda,"34107",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,158.6768,7.65347
+3560,"04",61,Dehesa de Romanos,"34068",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,284.68814,13.59154
+3570,"02",15,La Vid de Ojeda,"34093",Melojares (Quercus pyrenaica),187.69605,9.34797
+3572,"00",0,La Vid de Ojeda,"34093",Sin formación arbolada,1668.1299,83.07911
+3587,"00",0,Collazos de Boedo,"34061",Sin formación arbolada,1292.08482,61.52492
+3605,"12",402,Cervera de Pisuerga,"34056",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,130.97038,0.40156
+3609,"11",33,Báscones de Ojeda,"34028",Bosques ribereños,2.73554,0.14735
+3610,"11",33,Collazos de Boedo,"34061",Bosques ribereños,7.83172,0.37292
+3611,"11",33,Revilla de Collazos,"34154",Bosques ribereños,21.07522,1.02513
+3637,"08",44,Collazos de Boedo,"34061",Choperas de producción,15.01069,0.71476
+3662,"02",15,Dehesa de Romanos,"34068",Melojares (Quercus pyrenaica),264.51203,12.62829
+3673,"00",0,Aguilar de Campoo,"34004",Sin formación arbolada,14553.2502,61.89974
+3674,"00",0,Barruelo de Santullán,"34027",Sin formación arbolada,2885.7334,54.14537
+3713,"02",15,Olmos de Ojeda,"34114",Melojares (Quercus pyrenaica),937.02579,9.04465
+3716,"00",0,Dehesa de Romanos,"34068",Sin formación arbolada,1539.6056,73.5036
+3751,"04",25,Prádanos de Ojeda,"34139",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,458.55298,21.51313
+3760,"04",61,Olea de Boedo,"34113",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,16.66204,2.04669
+3761,"04",61,Sotobañado y Priorato,"34176",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,160.23832,6.34248
+3762,"03",21,Olea de Boedo,"34113",Pinares de pino albar (Pinus sylvestris),2.90222,0.3565
+3763,"03",21,Sotobañado y Priorato,"34176",Pinares de pino albar (Pinus sylvestris),0.00114,5e-05
+3766,"00",0,Olea de Boedo,"34113",Sin formación arbolada,649.00282,79.7206
+3803,"08",44,Dehesa de Romanos,"34068",Choperas de producción,2.48367,0.11857
+3813,"02",15,Olea de Boedo,"34113",Melojares (Quercus pyrenaica),118.67168,14.5771
+3837,"08",44,Olea de Boedo,"34113",Choperas de producción,24.6007,3.02184
+3854,"02",15,Sotobañado y Priorato,"34176",Melojares (Quercus pyrenaica),481.66341,19.06499
+3855,"02",15,Villameriel,"34222",Melojares (Quercus pyrenaica),1150.92212,21.64906
+3884,"08",44,Sotobañado y Priorato,"34176",Choperas de producción,33.55791,1.32827
+3891,"11",33,Olea de Boedo,"34113",Bosques ribereños,2.25733,0.27728
+3942,"12",403,Villameriel,"34222",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,287.61082,5.41001
+4003,"00",0,Sotobañado y Priorato,"34176",Sin formación arbolada,1846.77609,73.0983
+4004,"11",33,Sotobañado y Priorato,"34176",Bosques ribereños,2.86537,0.11342
+4042,"03",21,Villasila de Valdavia,"34234",Pinares de pino albar (Pinus sylvestris),40.61378,1.33885
+4061,"13",393,Villanuño de Valdavia,"34228",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,41.61759,1.34077
+4077,"03",21,Villameriel,"34222",Pinares de pino albar (Pinus sylvestris),50.52524,0.95039
+4078,"03",21,Villanuño de Valdavia,"34228",Pinares de pino albar (Pinus sylvestris),106.00113,3.41498
+4138,"04",25,Páramo de Boedo,"34122",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,334.63408,14.69994
+4143,"03",21,Páramo de Boedo,"34122",Pinares de pino albar (Pinus sylvestris),25.86854,1.13636
+4163,"03",21,Calahorra de Boedo,"34041",Pinares de pino albar (Pinus sylvestris),60.90726,3.38496
+4172,"04",393,Calahorra de Boedo,"34041",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,235.0178,13.06128
+4191,"00",0,Mudá,"34110",Sin formación arbolada,517.94176,76.09894
+4194,"00",0,Calahorra de Boedo,"34041",Sin formación arbolada,1428.81186,79.4072
+4196,"13",393,Calahorra de Boedo,"34041",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,39.49694,2.19507
+4199,"13",393,Santa Cruz de Boedo,"34168",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,0.84376,0.03307
+4205,"00",0,Salinas de Pisuerga,"34158",Sin formación arbolada,1406.93147,66.35681
+4207,"00",0,Santa Cruz de Boedo,"34168",Sin formación arbolada,1987.56358,77.90653
+4210,"02",15,Calahorra de Boedo,"34041",Melojares (Quercus pyrenaica),2.0484,0.11384
+4211,"02",15,Santa Cruz de Boedo,"34168",Melojares (Quercus pyrenaica),415.28741,16.27802
+4234,"06",18,Villanuño de Valdavia,"34228",Encinares (Quercus ilex),8.73201,0.28131
+4311,"12",403,Bárcena de Campos,"34025",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,70.95222,4.88046
+4341,"02",15,Bárcena de Campos,"34025",Melojares (Quercus pyrenaica),76.08762,5.2337
+4351,"07",31,Bárcena de Campos,"34025",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,14.56766,1.00204
+4352,"07",31,Villameriel,"34222",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,163.60456,3.07743
+4395,"06",18,Villameriel,"34222",Encinares (Quercus ilex),58.24565,1.09561
+4477,"12",403,Villaprovedo,"34229",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,0.63811,0.02416
+4487,"02",15,Páramo de Boedo,"34122",Melojares (Quercus pyrenaica),4.81642,0.21158
+4493,"00",0,Páramo de Boedo,"34122",Sin formación arbolada,1875.03406,82.36725
+4505,"01",15,Villaprovedo,"34229",Melojares (Quercus pyrenaica),680.68541,25.76795
+4532,"00",0,Villaprovedo,"34229",Sin formación arbolada,1870.84644,70.82256
+4553,"02",15,Abia de las Torres,"34003",Melojares (Quercus pyrenaica),4.57517,0.16846
+4565,"10",3,Barruelo de Santullán,"34027",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,300.38938,5.63624
+4596,"00",0,Herrera de Pisuerga,"34083",Sin formación arbolada,7962.40577,80.36527
+4599,"00",0,Prádanos de Ojeda,"34139",Sin formación arbolada,1436.94574,67.41466
+4604,"06",18,Dehesa de Romanos,"34068",Encinares (Quercus ilex),3.30933,0.15799
+4605,"06",18,Sotobañado y Priorato,"34176",Encinares (Quercus ilex),1.32612,0.05249
+4608,"01",15,Salinas de Pisuerga,"34158",Melojares (Quercus pyrenaica),545.43925,25.72521
+4610,"08",44,Páramo de Boedo,"34122",Choperas de producción,6.26995,0.27543
+4612,"01",15,Barruelo de Santullán,"34027",Melojares (Quercus pyrenaica),1785.63985,33.50418
+4618,"11",33,Páramo de Boedo,"34122",Bosques ribereños,29.80855,1.30944
+4621,"08",44,Calahorra de Boedo,"34041",Choperas de producción,5.7481,0.31945
+4623,"11",33,Calahorra de Boedo,"34041",Bosques ribereños,27.31764,1.5182
+4658,"08",44,Villaprovedo,"34229",Choperas de producción,1.11839,0.04234
+4661,"11",33,Espinosa de Villagonzalo,"34071",Bosques ribereños,36.22068,0.95209
+4662,"11",33,Villaprovedo,"34229",Bosques ribereños,8.41468,0.31855
+4663,"11",33,San Cristóbal de Boedo,"34161",Bosques ribereños,16.09035,1.49314
+4664,"11",33,Santa Cruz de Boedo,"34168",Bosques ribereños,6.82965,0.2677
+4668,"00",0,San Cristóbal de Boedo,"34161",Sin formación arbolada,942.19894,87.43353
+4671,"04",25,San Cristóbal de Boedo,"34161",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,21.13533,1.9613
+4674,"04",393,Espinosa de Villagonzalo,"34071",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,127.86438,3.36103
+4675,"04",393,Santa Cruz de Boedo,"34168",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,48.24028,1.89087
+4677,"02",15,Espinosa de Villagonzalo,"34071",Melojares (Quercus pyrenaica),172.82742,4.54292
+4680,"03",21,Santa Cruz de Boedo,"34168",Pinares de pino albar (Pinus sylvestris),6.13582,0.24051
+4681,"03",21,Villaprovedo,"34229",Pinares de pino albar (Pinus sylvestris),2.88616,0.10926
+4692,"08",44,San Cristóbal de Boedo,"34161",Choperas de producción,5.77644,0.53604
+4694,"08",44,Santa Cruz de Boedo,"34168",Choperas de producción,6.90519,0.27066
+4720,"04",61,Herrera de Pisuerga,"34083",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,543.18882,5.48245
+4722,"08",44,Herrera de Pisuerga,"34083",Choperas de producción,391.98779,3.95637
+4727,"11",33,Herrera de Pisuerga,"34083",Bosques ribereños,92.85511,0.93719
+4730,"02",15,Herrera de Pisuerga,"34083",Melojares (Quercus pyrenaica),774.70193,7.81914
+4731,"02",15,San Cristóbal de Boedo,"34161",Melojares (Quercus pyrenaica),74.29651,6.89452
+4732,"13",393,Herrera de Pisuerga,"34083",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,59.7024,0.60258
+4737,"12",403,Herrera de Pisuerga,"34083",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,17.91519,0.18082
+4738,"12",403,San Cristóbal de Boedo,"34161",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,1.15367,0.10706
+4744,"07",31,San Cristóbal de Boedo,"34161",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,16.96618,1.57442
+4745,"07",31,Santa Cruz de Boedo,"34168",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,79.41006,3.11264
+4774,"03",21,Aguilar de Campoo,"34004",Pinares de pino albar (Pinus sylvestris),638.1854,2.71441
+4776,"09",1,Aguilar de Campoo,"34004",Hayedos (Fagus sylvatica),59.75372,0.25415
+4777,"01",15,Aguilar de Campoo,"34004",Melojares (Quercus pyrenaica),2792.18875,11.87609
+4779,"10",4,Aguilar de Campoo,"34004",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,236.51116,1.00596
+4783,"06",18,Aguilar de Campoo,"34004",Encinares (Quercus ilex),242.56024,1.03169
+4796,"01",15,Mudá,"34110",Melojares (Quercus pyrenaica),149.22392,21.92482
+4881,"03",21,Herrera de Pisuerga,"34083",Pinares de pino albar (Pinus sylvestris),60.63542,0.612
+4932,"00",0,Alar del Rey,"34005",Sin formación arbolada,3049.87467,52.66172
+4934,"04",25,Alar del Rey,"34005",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,787.74152,13.60181
+4941,"07",31,Alar del Rey,"34005",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,427.0457,7.37373
+4944,"01",15,Alar del Rey,"34005",Melojares (Quercus pyrenaica),193.44106,3.34012
+4945,"11",33,Aguilar de Campoo,"34004",Bosques ribereños,118.53106,0.50415
+4976,"04",25,Aguilar de Campoo,"34004",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,2467.28807,10.49418
+5035,"01",15,Pomar de Valdivia,"34135",Melojares (Quercus pyrenaica),1377.32585,17.01223
+5036,"04",25,Pomar de Valdivia,"34135",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,409.41932,5.057
+5040,"00",0,Pomar de Valdivia,"34135",Sin formación arbolada,5312.67436,65.62022
+5041,"03",21,Pomar de Valdivia,"34135",Pinares de pino albar (Pinus sylvestris),253.89648,3.13604
+5054,"12",402,Pomar de Valdivia,"34135",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,152.98803,1.88965
+5057,"11",33,Pomar de Valdivia,"34135",Bosques ribereños,81.966,1.01241
+5106,"03",21,Barruelo de Santullán,"34027",Pinares de pino albar (Pinus sylvestris),68.32206,1.28194
+5108,"12",402,Barruelo de Santullán,"34027",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,31.23483,0.58606
+5143,"08",44,La Vid de Ojeda,"34093",Choperas de producción,27.81106,1.38509
+5212,"04",25,Salinas de Pisuerga,"34158",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,31.75425,1.49766
+5252,"04",25,Barruelo de Santullán,"34027",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,191.49678,3.59308
+5253,"06",18,Alar del Rey,"34005",Encinares (Quercus ilex),442.41112,7.63905
+5261,"05",16,Alar del Rey,"34005",Quejigares de Quercus faginea,408.41338,7.05201
+5329,"09",1,Pomar de Valdivia,"34135",Hayedos (Fagus sylvatica),193.27096,2.38721
+5355,"08",44,Pomar de Valdivia,"34135",Choperas de producción,55.44279,0.68481
+5464,"11",33,Alar del Rey,"34005",Bosques ribereños,54.12359,0.93454
+5467,"08",44,Alar del Rey,"34005",Choperas de producción,81.32928,1.4043
+5495,"12",403,Alar del Rey,"34005",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,216.9767,3.7465
+5583,"08",44,Villameriel,"34222",Choperas de producción,1.44544,0.02719
+5584,"15",23,Herrera de Pisuerga,"34083",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,1.56346,0.01578
+5587,"00",0,Olmos de Ojeda,"34114",Sin formación arbolada,6836.4296,65.98869
+5640,"07",31,Dehesa de Montejo,"34067",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,82.70952,1.88906
+5653,"04",25,Osorno la Mayor,"34901",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,270.17097,3.03075
+5654,"14",7,Cervera de Pisuerga,"34056",Pinares de pino carrasco (Pinus halepensis),210.68091,0.64596
+5655,"14",7,Dehesa de Montejo,"34067",Pinares de pino carrasco (Pinus halepensis),161.52931,3.68929
+5656,"08",44,Osorno la Mayor,"34901",Choperas de producción,70.76697,0.79386
+5663,"05",16,Cervera de Pisuerga,"34056",Quejigares de Quercus faginea,398.10076,1.22059
+5664,"11",33,Osorno la Mayor,"34901",Bosques ribereños,66.6011,0.74712
+5667,"13",393,Osorno la Mayor,"34901",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,2.90175,0.03255
+5676,"12",403,Salinas de Pisuerga,"34158",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,55.28076,2.60727
+5686,"03",21,Osorno la Mayor,"34901",Pinares de pino albar (Pinus sylvestris),11.16689,0.12527
+5694,"02",15,Osorno la Mayor,"34901",Melojares (Quercus pyrenaica),30.29243,0.33982
+5702,"00",0,Espinosa de Villagonzalo,"34071",Sin formación arbolada,3459.40983,90.93364
+5745,"07",31,Herrera de Pisuerga,"34083",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,2.81322,0.02839
+5756,"13",392,Pomar de Valdivia,"34135",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,84.69859,1.04617
+5765,"03",21,Castrejón de la Peña,"34049",Pinares de pino albar (Pinus sylvestris),1140.74957,10.72071
+5766,"03",21,Dehesa de Montejo,"34067",Pinares de pino albar (Pinus sylvestris),15.86718,0.3624
+5767,"03",21,Olmos de Ojeda,"34114",Pinares de pino albar (Pinus sylvestris),530.39106,5.1196
+5768,"03",21,Payo de Ojeda,"34124",Pinares de pino albar (Pinus sylvestris),130.14117,6.7507
+5778,"12",403,Castrejón de la Peña,"34049",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,391.98822,3.68389
+5779,"12",403,Olmos de Ojeda,"34114",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,164.64168,1.58921
+5786,"01",15,Payo de Ojeda,"34124",Melojares (Quercus pyrenaica),277.9509,14.41791
+5791,"13",393,Congosto de Valdavia,"34062",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,682.28844,9.89948
+5798,"13",393,Fresno del Río,"34073",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,305.6442,6.94239
+5807,"05",16,Aguilar de Campoo,"34004",Quejigares de Quercus faginea,1258.6385,5.3534
+5938,"00",0,Osorno la Mayor,"34901",Sin formación arbolada,8462.42167,94.93063
+5962,"00",0,Abia de las Torres,"34003",Sin formación arbolada,2592.09688,95.44043
+5986,"08",44,Abia de las Torres,"34003",Choperas de producción,85.7801,3.1584
+5994,"11",33,Abia de las Torres,"34003",Bosques ribereños,17.37077,0.63959
+6010,"15",23,Abia de las Torres,"34003",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,5.99182,0.22062
+6014,"08",44,Villaherreros,"34211",Choperas de producción,13.53339,0.33178
+6018,"11",33,Castrillo de Villavega,"34052",Bosques ribereños,36.26036,1.06823
+6019,"11",33,Villaherreros,"34211",Bosques ribereños,4.48459,0.10994
+6020,"08",44,Castrillo de Villavega,"34052",Choperas de producción,85.83227,2.52861
+6023,"00",0,Villaherreros,"34211",Sin formación arbolada,4019.26156,98.53552
+6028,"00",0,Castrillo de Villavega,"34052",Sin formación arbolada,3236.42457,95.34484
+6077,"04",393,Castrillo de Villavega,"34052",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,1.61893,0.04769
+6079,"06",18,Bárcena de Campos,"34025",Encinares (Quercus ilex),6.76522,0.46535
+6080,"06",18,Castrillo de Villavega,"34052",Encinares (Quercus ilex),2.60528,0.07675
+6082,"07",31,Castrillo de Villavega,"34052",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,31.69983,0.93387
+6097,"11",33,Villameriel,"34222",Bosques ribereños,2.25775,0.04247
+6115,"04",61,Abia de las Torres,"34003",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,0.84898,0.03126
+6134,"04",25,Castrejón de la Peña,"34049",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,446.0203,4.19168
+6135,"04",25,Olmos de Ojeda,"34114",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,971.09074,9.37346
+6140,"03",21,Congosto de Valdavia,"34062",Pinares de pino albar (Pinus sylvestris),785.32965,11.39453
+6173,"13",393,Aguilar de Campoo,"34004",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,191.86835,0.81608
+6179,"07",31,Aguilar de Campoo,"34004",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,493.78808,2.10024
+6186,"04",25,Respenda de la Peña,"34151",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,131.71716,2.00619
+6197,"07",31,Pomar de Valdivia,"34135",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,98.51154,1.21678
+6205,"15",23,Pomar de Valdivia,"34135",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,2.16109,0.02669
+6211,"13",393,Castrejón de la Peña,"34049",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,25.76726,0.24216
+6213,"03",21,Respenda de la Peña,"34151",Pinares de pino albar (Pinus sylvestris),731.42514,11.14036
+6256,"04",61,Villaprovedo,"34229",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,77.00744,2.91519
+6362,"13",393,Abia de las Torres,"34003",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,9.26809,0.34125
+6371,"08",44,Espinosa de Villagonzalo,"34071",Choperas de producción,8.0012,0.21032
+6428,"08",44,Villasarracino,"34233",Choperas de producción,1.69466,0.08267
+6432,"04",25,Villaherreros,"34211",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,34.30182,0.84094
+6433,"04",25,Villasarracino,"34233",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,18.44908,0.90004
+6437,"00",0,Villasarracino,"34233",Sin formación arbolada,2028.54272,98.96219
+6467,"00",0,Marcilla de Campos,"34101",Sin formación arbolada,2180.63495,99.75043
+6486,"00",0,Osornillo,"34116",Sin formación arbolada,1751.65595,96.37475
+6491,"08",44,Osornillo,"34116",Choperas de producción,44.03628,2.42284
+6493,"11",33,Osornillo,"34116",Bosques ribereños,21.85434,1.20241
+6569,"12",402,Aguilar de Campoo,"34004",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,250.18824,1.06413
+6598,"08",44,Aguilar de Campoo,"34004",Choperas de producción,126.80604,0.53935
+6620,"01",15,Respenda de la Peña,"34151",Melojares (Quercus pyrenaica),1743.42093,26.55409
+6697,"01",15,Congosto de Valdavia,"34062",Melojares (Quercus pyrenaica),1596.77912,23.16804
+6789,"08",44,Cervera de Pisuerga,"34056",Choperas de producción,88.64043,0.27178
+6908,"15",65,Aguilar de Campoo,"34004",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,9.77248,0.04157
+6938,"11",33,Salinas de Pisuerga,"34158",Bosques ribereños,10.17847,0.48006
+6943,"03",21,Salinas de Pisuerga,"34158",Pinares de pino albar (Pinus sylvestris),4.61402,0.21762
+6983,"14",7,Pomar de Valdivia,"34135",Pinares de pino carrasco (Pinus halepensis),32.86725,0.40596
+6992,"05",16,Pomar de Valdivia,"34135",Quejigares de Quercus faginea,40.87175,0.50483
+7224,"00",0,Congosto de Valdavia,"34062",Sin formación arbolada,3672.85029,53.29025
+7256,"14",7,Aguilar de Campoo,"34004",Pinares de pino carrasco (Pinus halepensis),71.67201,0.30484
+7517,"00",0,Respenda de la Peña,"34151",Sin formación arbolada,3728.80368,56.79351
+7713,"03",21,Alar del Rey,"34005",Pinares de pino albar (Pinus sylvestris),67.31377,1.1623
+7714,"13",393,Alar del Rey,"34005",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,60.96513,1.05268
+7769,"01",15,Guardo,"34080",Melojares (Quercus pyrenaica),1831.73343,29.1548
+7794,"15",23,Alar del Rey,"34005",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,1.80917,0.03124
+7821,"12",403,Prádanos de Ojeda,"34139",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,98.50345,4.62131
+7839,"06",18,Guardo,"34080",Encinares (Quercus ilex),324.85972,5.17063
+7840,"06",18,Santibáñez de la Peña,"34171",Encinares (Quercus ilex),105.59811,0.94502
+7950,"06",18,Prádanos de Ojeda,"34139",Encinares (Quercus ilex),137.50104,6.4509
+7966,"00",0,Santibáñez de Ecla,"34170",Sin formación arbolada,1420.74743,55.63828
+7969,"06",18,Santibáñez de Ecla,"34170",Encinares (Quercus ilex),889.96036,34.85198
+7991,"13",393,Tabanera de Valdavia,"34179",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,48.86316,2.26919
+8024,"13",393,Respenda de la Peña,"34151",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,150.50699,2.29238
+8029,"03",21,Villalba de Guardo,"34214",Pinares de pino albar (Pinus sylvestris),706.21808,20.86259
+8112,"04",25,Santibáñez de Ecla,"34170",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,175.90522,6.88867
+8142,"08",44,Salinas de Pisuerga,"34158",Choperas de producción,46.05995,2.17238
+8164,"05",16,Dehesa de Montejo,"34067",Quejigares de Quercus faginea,235.48931,5.37852
+8168,"04",25,Cervera de Pisuerga,"34056",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,141.96053,0.43526
+8189,"11",33,Dehesa de Montejo,"34067",Bosques ribereños,11.29292,0.25793
+8194,"04",25,Dehesa de Montejo,"34067",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,1.36755,0.03123
+8196,"08",44,Dehesa de Montejo,"34067",Choperas de producción,8.87258,0.20265
+8214,"13",393,Villalba de Guardo,"34214",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,3.81916,0.11282
+8234,"12",403,Santibáñez de Ecla,"34170",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,66.81157,2.61643
+8269,"03",21,Guardo,"34080",Pinares de pino albar (Pinus sylvestris),874.90311,13.9254
+8270,"03",21,Mantinos,"34100",Pinares de pino albar (Pinus sylvestris),967.32012,37.89208
+8313,"00",0,Mantinos,"34100",Sin formación arbolada,1038.4101,40.67684
+8530,"14",7,Santibáñez de la Peña,"34171",Pinares de pino carrasco (Pinus halepensis),106.37859,0.952
+8576,"02",15,Villalba de Guardo,"34214",Melojares (Quercus pyrenaica),289.49823,8.55215
+8824,"01",15,Mantinos,"34100",Melojares (Quercus pyrenaica),431.23084,16.89227
+8830,"00",0,Villalba de Guardo,"34214",Sin formación arbolada,2254.2732,66.59414
+8870,"07",31,Guardo,"34080",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,417.90966,6.65166
+8871,"07",31,Velilla del Río Carrión,"34199",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,103.13653,0.51846
+8875,"06",18,Velilla del Río Carrión,"34199",Encinares (Quercus ilex),84.70396,0.4258
+9028,"04",25,Fresno del Río,"34073",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,217.51779,4.94069
+9050,"07",31,Castrejón de la Peña,"34049",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,29.06775,0.27318
+9088,"08",44,Guardo,"34080",Choperas de producción,7.3086,0.11633
+9089,"08",44,Mantinos,"34100",Choperas de producción,46.7193,1.8301
+9214,"03",21,Mudá,"34110",Pinares de pino albar (Pinus sylvestris),4.23186,0.62177
+9225,"11",33,Mudá,"34110",Bosques ribereños,7.98423,1.17309
+9229,"07",31,Salinas de Pisuerga,"34158",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,19.9937,0.94299
+9257,"08",44,Mudá,"34110",Choperas de producción,1.23453,0.18138
+9261,"07",31,Cervera de Pisuerga,"34056",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,146.68156,0.44973
+9292,"08",44,Barruelo de Santullán,"34027",Choperas de producción,17.75974,0.33323
+9298,"11",33,Barruelo de Santullán,"34027",Bosques ribereños,43.62766,0.81859
+9337,"13",392,Barruelo de Santullán,"34027",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,5.39998,0.10132
+9547,"11",33,Respenda de la Peña,"34151",Bosques ribereños,57.82143,0.88068
+9617,"13",393,Santibáñez de Ecla,"34170",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,0.11841,0.00464
+9677,"11",33,Santibáñez de la Peña,"34171",Bosques ribereños,43.88619,0.39275
+9737,"12",403,Mantinos,"34100",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,41.8054,1.63761
+9738,"12",403,Villalba de Guardo,"34214",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,43.67276,1.29015
+9749,"08",44,Villalba de Guardo,"34214",Choperas de producción,71.47323,2.11141
+9924,"12",403,Dehesa de Montejo,"34067",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,6.33899,0.14478
+10120,"11",33,Castrejón de la Peña,"34049",Bosques ribereños,24.7974,0.23304
+10192,"08",44,La Puebla de Valdavia,"34140",Choperas de producción,20.50193,0.69498
+10218,"13",393,Cervera de Pisuerga,"34056",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,19.36705,0.05938
+10264,"12",403,Tabanera de Valdavia,"34179",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,0.10469,0.00486
+10276,"11",33,Fresno del Río,"34073",Bosques ribereños,20.15268,0.45775
+10340,"04",25,Mantinos,"34100",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,7.52133,0.29463
+10365,"04",25,Guardo,"34080",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,4.01654,0.06393
+10408,"06",18,Olmos de Ojeda,"34114",Encinares (Quercus ilex),390.59323,3.7702
+10442,"09",8,Santibáñez de la Peña,"34171",Hayedos (Fagus sylvatica),2.11313,0.01891
+10454,"08",44,Santibáñez de la Peña,"34171",Choperas de producción,13.21293,0.11825
+10530,"08",44,Respenda de la Peña,"34151",Choperas de producción,21.85029,0.3328
+10597,"07",31,Olmos de Ojeda,"34114",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,100.84397,0.9734
+10647,"08",44,Olmos de Ojeda,"34114",Choperas de producción,43.76405,0.42243
+10683,"14",7,Olmos de Ojeda,"34114",Pinares de pino carrasco (Pinus halepensis),8.28145,0.07994
+10702,"11",33,Olmos de Ojeda,"34114",Bosques ribereños,68.35449,0.65979
+10757,"08",44,Congosto de Valdavia,"34062",Choperas de producción,23.04189,0.33432
+10838,"13",393,Olmos de Ojeda,"34114",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,6.57979,0.06351
+10842,"04",25,Payo de Ojeda,"34124",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,208.47884,10.81424
+10893,"05",16,Olmos de Ojeda,"34114",Quejigares de Quercus faginea,174.61865,1.68551
+10912,"08",44,Castrejón de la Peña,"34049",Choperas de producción,6.47798,0.06088
+10928,"07",31,La Puebla de Valdavia,"34140",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,0.85047,0.02883
+11056,"13",393,Payo de Ojeda,"34124",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,33.72297,1.74928
+11143,"00",0,Payo de Ojeda,"34124",Sin formación arbolada,1254.03764,65.0496
+11151,"12",403,Payo de Ojeda,"34124",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,10.9829,0.56971
+11179,"11",33,Payo de Ojeda,"34124",Bosques ribereños,6.97817,0.36197
+11188,"08",44,Payo de Ojeda,"34124",Choperas de producción,5.25357,0.27251
+11308,"03",21,Micieces de Ojeda,"34107",Pinares de pino albar (Pinus sylvestris),114.5327,5.52426
+11365,"11",33,Micieces de Ojeda,"34107",Bosques ribereños,9.52638,0.45949
+11373,"08",44,Micieces de Ojeda,"34107",Choperas de producción,11.61704,0.56033
+11379,"12",403,Micieces de Ojeda,"34107",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,4.59763,0.22176
+11452,"15",23,Micieces de Ojeda,"34107",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,1.17309,0.05658
+11815,"03",21,Lagartos,"34091",Pinares de pino albar (Pinus sylvestris),42.6082,0.97884
+11816,"03",21,Ledigos,"34094",Pinares de pino albar (Pinus sylvestris),10.96464,0.3874
+11822,"10",4,Olmos de Ojeda,"34114",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,127.38687,1.2296
+11823,"10",4,Payo de Ojeda,"34124",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,0.27134,0.01407
+11837,"11",33,La Vid de Ojeda,"34093",Bosques ribereños,3.97224,0.19783
+11885,"00",0,Calzada de los Molinos,"34042",Sin formación arbolada,2466.8123,95.09245
+11890,"00",0,Frómista,"34074",Sin formación arbolada,4625.62629,99.28479
+11907,"00",0,Requena de Campos,"34149",Sin formación arbolada,1341.55247,100
+11908,"00",0,Revenga de Campos,"34152",Sin formación arbolada,2217.00312,98.94635
+11911,"00",0,San Mamés de Campos,"34163",Sin formación arbolada,1508.71057,97.09557
+11920,"00",0,Villalcázar de Sirga,"34215",Sin formación arbolada,2505.66457,98.59389
+11926,"00",0,Villarmentero de Campos,"34230",Sin formación arbolada,763.94542,99.46064
+11992,"00",0,Moratinos,"34109",Sin formación arbolada,2822.18725,96.43465
+11993,"00",0,Población de Arroyo,"34131",Sin formación arbolada,2174.61439,95.0932
+12010,"00",0,Arconada,"34015",Sin formación arbolada,1937.63804,99.69818
+16358,"04",25,Población de Arroyo,"34131",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,46.493,2.03308
+16360,"08",44,Moratinos,"34109",Choperas de producción,20.83957,0.71209
+16361,"08",44,Población de Arroyo,"34131",Choperas de producción,3.35936,0.1469
+16378,"14",24,Población de Arroyo,"34131",Pinares de pino carrasco (Pinus halepensis),1.92124,0.08401
+16400,"08",44,Cervatos de la Cueza,"34055",Choperas de producción,56.02133,0.78393
+16404,"12",403,Cervatos de la Cueza,"34055",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,10.40681,0.14563
+16416,"15",393,Cervatos de la Cueza,"34055",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,11.53844,0.16146
+16417,"13",393,Cervatos de la Cueza,"34055",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,7.44847,0.10423
+16428,"06",18,Cervatos de la Cueza,"34055",Encinares (Quercus ilex),1.64935,0.02308
+16448,"05",16,Bustillo del Páramo de Carrión,"34039",Quejigares de Quercus faginea,1.63534,0.05241
+16449,"06",18,Bustillo del Páramo de Carrión,"34039",Encinares (Quercus ilex),29.56487,0.94745
+16452,"04",25,Calzada de los Molinos,"34042",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,4.98619,0.19221
+16454,"06",18,Calzada de los Molinos,"34042",Encinares (Quercus ilex),17.09652,0.65905
+16460,"14",24,Cervatos de la Cueza,"34055",Pinares de pino carrasco (Pinus halepensis),3.17143,0.04438
+16463,"07",31,Calzada de los Molinos,"34042",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,5.81189,0.22404
+16525,"15",23,Carrión de los Condes,"34047",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,17.68254,0.27923
+16538,"11",33,Frómista,"34074",Bosques ribereños,5.16341,0.11083
+16540,"11",33,Revenga de Campos,"34152",Bosques ribereños,9.25949,0.41326
+16542,"11",33,Villalcázar de Sirga,"34215",Bosques ribereños,22.90209,0.90116
+16543,"11",33,Villarmentero de Campos,"34230",Bosques ribereños,3.0417,0.39601
+16544,"11",33,Villovieco,"34246",Bosques ribereños,9.15892,0.38927
+16545,"15",23,Villarmentero de Campos,"34230",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,1.10109,0.14335
+16551,"11",33,Población de Arroyo,"34131",Bosques ribereños,7.6941,0.33645
+16567,"04",25,Moratinos,"34109",Pinares de pino salgareño (Pinus nigra) y otras masas de coníferas autóctonas puras o en mezcla,37.05036,1.26602
+16569,"15",23,Moratinos,"34109",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,38.48752,1.31513
+16571,"13",393,Moratinos,"34109",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,2.65857,0.09084
+16579,"11",33,Moratinos,"34109",Bosques ribereños,3.46774,0.11849
+16605,"07",31,Lagartos,"34091",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,74.21027,1.70484
+16613,"08",44,Lagartos,"34091",Choperas de producción,16.13994,0.37078
+16630,"15",23,Población de Arroyo,"34131",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,0.02714,0.00119
+16636,"14",24,Ledigos,"34094",Pinares de pino carrasco (Pinus halepensis),2.86648,0.10128
+16641,"15",23,Ledigos,"34094",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,1.94708,0.06879
+16643,"08",44,Ledigos,"34094",Choperas de producción,22.91694,0.80969
+16656,"11",33,Lagartos,"34091",Bosques ribereños,1.43769,0.03303
+16671,"12",403,Villarrabé,"34231",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,30.07363,0.37455
+16775,"13",393,Villota del Páramo,"34245",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,1362.54127,17.47721
+16852,"13",393,Poza de la Vega,"34136",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,0.14636,0.00603
+16909,"15",23,Villota del Páramo,"34245",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,45.09064,0.57837
+16922,"05",16,Villota del Páramo,"34245",Quejigares de Quercus faginea,2.28601,0.02932
+16966,"15",46,Lagartos,"34091",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,3.34281,0.07679
+16991,"12",403,Fresno del Río,"34073",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,13.30503,0.30221
+17034,"15",23,Poza de la Vega,"34136",Pinares de pino piñonero (Pinus pinea) puros o en mezcla,0.232,0.00955
+17071,"13",393,Santervás de la Vega,"34169",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,26.22129,0.371
+17082,"12",403,Guardo,"34080",Mezclas de coníferas y frondosas autóctonas en la región biogeográfica mediterránea,53.53409,0.85208
+17145,"10",4,Guardo,"34080",Robledales puros de Quercus robur y/o Quercus petraea y sus mezclas con otras frondosas autóctonas,1.4985,0.02385
+17181,"13",393,Guardo,"34080",Mezclas de coníferas autóctonas en la región biogeográfica mediterránea,5.55669,0.08844
+17255,"09",1,Guardo,"34080",Hayedos (Fagus sylvatica),30.06807,0.47858
+17341,"07",31,Mantinos,"34100",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,1.15654,0.0453
+17420,"07",31,Moratinos,"34109",Bosques mixtos de frondosas autóctonas en la región biogeográfica mediterránea,1.83716,0.06278

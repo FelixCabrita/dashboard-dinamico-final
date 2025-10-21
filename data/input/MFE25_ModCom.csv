@@ -1,0 +1,629 @@
+fid,n_MODCOM,ModeloComb,NAMEUNIT,IDmuni,Area_ha,Porc
+1,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Bárcena de Campos,"34025",4.01261284818726,0.27600841355658
+2,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Prádanos de Ojeda,"34139",423.250694506433,19.8569177923805
+3,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Pomar de Valdivia,"34135",762.064250530301,9.41273982715649
+4,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Lantadilla,"34092",0.0277909512401071,0.00096014745644073
+5,0,No aplica,Cervera de Pisuerga,"34056",5670.29880377776,17.3853650493507
+6,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Villaluenga de la Vega,"34218",2.45225819972005,0.0931882002291943
+7,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Olea de Boedo,"34113",20.3110211699499,2.49491579431528
+8,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Herrera de Pisuerga,"34083",1221.73850427793,12.331116013958
+9,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villameriel,"34222",92.6182150811586,1.74216623935384
+10,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Población de Campos,"34132",13.2203299545052,0.568416253141447
+11,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,La Puebla de Valdavia,"34140",27.6447062992946,0.937113074129942
+12,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Valde-Ucieza,"34192",9.86151431236368,0.23154931709
+13,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Villasila de Valdavia,"34234",13.5844557356368,0.447817671776492
+14,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",San Mamés de Campos,"34163",5.54369072187476,0.356773422433403
+15,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Alar del Rey,"34005",1614.53660455883,27.877959330868
+16,0,No aplica,Olea de Boedo,"34113",632.592299763027,77.7048335893637
+17,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Loma de Ucieza,"34903",719.944931106955,10.1070363683453
+18,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Frómista,"34074",33.3210592142818,0.715205747557234
+19,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Villaluenga de la Vega,"34218",3.44012647011494,0.130728156744432
+20,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Bustillo de la Vega,"34038",9.10287657342858,0.479427167220559
+21,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Respenda de la Peña,"34151",206.245744514146,3.14133442373487
+22,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Aguilar de Campoo,"34004",1297.25807760276,5.51766397098698
+23,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Saldaña,"34157",36.0329361201218,0.273076085041223
+24,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Dehesa de Montejo,"34067",944.738963217713,21.5776013689602
+25,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Buenavista de Valdavia,"34037",8.68855133698592,0.106429585208841
+26,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Cervatos de la Cueza,"34055",108.662533336429,1.52056035182999
+27,0,No aplica,Santervás de la Vega,"34169",5153.54539931187,72.9157766805597
+28,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villota del Páramo,"34245",2453.69301492244,31.4733263283112
+29,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villarrabé,"34231",10.7139553909751,0.133434636263821
+30,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Olmos de Ojeda,"34114",406.089978353025,3.9197869137583
+31,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Calzada de los Molinos,"34042",21.8346015664555,0.841695911198931
+32,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Tabanera de Valdavia,"34179",24.4727101652063,1.13650742076044
+33,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villanuño de Valdavia,"34228",81.4735821430577,2.6247857673592
+34,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villabasta de Valdavia,"34202",11.8146088809539,1.0554473617985
+35,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Dehesa de Romanos,"34068",267.341698342484,12.7633846412904
+36,0,No aplica,Pomar de Valdivia,"34135",3426.0919691277,42.3178390888539
+37,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Mudá,"34110",198.972080163834,29.2341043169702
+38,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Respenda de la Peña,"34151",237.738215249311,3.62099708364517
+39,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Lagartos,"34091",317.011972477829,7.28272909256501
+40,0,No aplica,Valderrábano,"34190",1851.72618582212,64.2644303474242
+41,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villalba de Guardo,"34214",139.486948314185,4.12062447933184
+42,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Barruelo de Santullán,"34027",72.3945399366759,1.35834752888652
+43,0,No aplica,Osornillo,"34116",1719.32425328634,94.5958842845059
+44,0,No aplica,Sotobañado y Priorato,"34176",1774.82282601671,70.2502734317586
+45,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Pomar de Valdivia,"34135",1586.6238437494,19.5973993457686
+46,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Congosto de Valdavia,"34062",475.651352198561,6.90133697819715
+47,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villaeles de Valdavia,"34208",374.982982680126,18.140321451908
+48,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Santibáñez de la Peña,"34171",1404.74036284794,12.571323515451
+49,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Prádanos de Ojeda,"34139",252.160835172056,11.830191986592
+50,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Respenda de la Peña,"34151",3.77644030790724,0.0575190628362044
+51,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Olea de Boedo,"34113",77.8968502597585,9.5685037406203
+52,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Santa Cruz de Boedo,"34168",420.518651821202,16.4830690611496
+53,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Calzada de los Molinos,"34042",59.8029742736511,2.3053280258156
+54,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Poza de la Vega,"34136",15.125208847133,0.622690064336736
+55,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Buenavista de Valdavia,"34037",25.0937449522179,0.307383447828885
+56,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Alar del Rey,"34005",103.602522321837,1.78888908167722
+57,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Mantinos,"34100",3.53746575267053,0.138570416969136
+58,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Poza de la Vega,"34136",149.412691202446,6.15117445569758
+59,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villanuño de Valdavia,"34228",671.655792055716,21.6383337663574
+60,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Aguilar de Campoo,"34004",2167.22822814783,9.21793228179767
+61,0,No aplica,Collazos de Boedo,"34061",1250.66319295163,59.552554668578
+62,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Santibáñez de la Peña,"34171",1503.17258266722,13.4522146127805
+63,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villaluenga de la Vega,"34218",1.71880246601524,0.0653161679205502
+64,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Payo de Ojeda,"34124",378.848156513016,19.6516606507627
+65,0,No aplica,Osorno la Mayor,"34901",8381.27989724397,94.0203892101813
+66,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Micieces de Ojeda,"34107",449.468532395246,21.6792366507396
+67,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Ayuela,"34020",34.8153773963045,1.76261773986748
+68,0,No aplica,Boadilla del Camino,"34034",2850.7878895871,99.4720094577309
+69,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Salinas de Pisuerga,"34158",313.733693641802,14.7970011737128
+70,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Dehesa de Romanos,"34068",63.2047712532649,3.01751208910458
+71,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Osornillo,"34116",29.1571700251876,1.60420483599551
+72,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Población de Campos,"34132",3.40551799740004,0.146422350028279
+73,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villalba de Guardo,"34214",0.116939637957513,0.00345454783114592
+74,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Páramo de Boedo,"34122",261.004791143565,11.4655232457035
+75,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Castrejón de la Peña,"34049",1089.47831743475,10.2388668669572
+76,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Osorno la Mayor,"34901",218.424271067866,2.45026239793088
+77,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Itero de la Vega,"34089",33.560051065266,1.60343160748056
+78,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Abia de las Torres,"34003",9.26809134624751,0.341249042817814
+79,0,No aplica,Frómista,"34074",4625.62628958555,99.2847942524428
+80,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Lagartos,"34091",261.409247888129,6.0053654118491
+81,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Quintanilla de Onsoña,"34143",2.54624915261591,0.0498704367800848
+82,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",La Puebla de Valdavia,"34140",39.5089513051701,1.33929275328141
+83,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Olmos de Ojeda,"34114",4.23633687393465,0.0408912771205724
+84,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,La Puebla de Valdavia,"34140",1287.41896017488,43.6415249415559
+85,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Saldaña,"34157",23.2974622756942,0.176560127335543
+86,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Espinosa de Villagonzalo,"34071",52.6484800062146,1.38391190614508
+87,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Prádanos de Ojeda,"34139",18.6112663375461,0.873152461350858
+88,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Abia de las Torres,"34003",33.8575475109324,1.24662729882807
+89,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",La Puebla de Valdavia,"34140",170.351942694822,5.77466915272765
+90,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Alar del Rey,"34005",140.420333597178,2.42461665978685
+91,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Abia de las Torres,"34003",68.5675394839148,2.5246414113875
+92,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Valde-Ucieza,"34192",26.947352455921,0.632726461769591
+93,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villasila de Valdavia,"34234",42.8723103081577,1.4133049243565
+94,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Cervera de Pisuerga,"34056",4026.86007340052,12.3465155543621
+95,0,No aplica,Villaprovedo,"34229",1828.90613741453,69.2348857023089
+96,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villalba de Guardo,"34214",4.16400704379875,0.123010142268934
+97,0,No aplica,Prádanos de Ojeda,"34139",1395.9636299831,65.4920013162699
+98,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,San Cristóbal de Boedo,"34161",22.4663200050796,2.08481416699909
+99,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Guardo,"34080",595.256810288386,9.47440819831358
+100,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Barruelo de Santullán,"34027",1.73573557138448,0.0325678169410686
+101,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Bustillo de la Vega,"34038",7.85470976704395,0.413689147883851
+102,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Mudá,"34110",110.002126659879,16.1621351257703
+103,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Bárcena de Campos,"34025",264.868270020929,18.2190193212831
+104,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villota del Páramo,"34245",14.3724642900551,0.184354463248616
+105,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Velilla del Río Carrión,"34199",144.001530148785,0.723883274153884
+106,0,No aplica,Villamoronta,"34223",1314.14497941419,98.8609259690226
+107,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Cervatos de la Cueza,"34055",105.568985223513,1.47727103708142
+108,0,No aplica,San Cristóbal de Boedo,"34161",920.222638251323,85.394189728708
+109,0,No aplica,Dehesa de Montejo,"34067",1345.0835770226,30.7213721069323
+110,0,No aplica,Tabanera de Valdavia,"34179",829.417690669852,38.5179799863953
+111,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Velilla del Río Carrión,"34199",3943.28328879196,19.8225450455819
+112,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Saldaña,"34157",379.537114109241,2.87632706097794
+113,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",La Vid de Ojeda,"34093",1.94223469141759,0.0967305513992177
+114,0,No aplica,Revilla de Collazos,"34154",1005.11787756583,48.8902397640317
+115,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Población de Campos,"34132",7.25542340772417,0.31195141139181
+116,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Calahorra de Boedo,"34041",28.9798744648611,1.61057640848934
+117,0,No aplica,Villalcázar de Sirga,"34215",2498.83431506576,98.3251284649583
+118,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Páramo de Boedo,"34122",52.5234352495677,2.30727054917118
+119,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Lantadilla,"34092",31.5702019384832,1.0907165008015
+120,0,No aplica,Saldaña,"34157",8307.53986788582,62.9588012446007
+121,0,No aplica,Mantinos,"34100",805.349515873628,31.5473353024696
+122,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Collazos de Boedo,"34061",399.393976531955,19.0178552913086
+123,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,San Cristóbal de Boedo,"34161",26.5487170401385,2.46364964927128
+124,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Lagartos,"34091",0.198934639235586,0.00457013365569734
+125,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Barruelo de Santullán,"34027",10.8730776623918,0.204012874272288
+126,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,La Vid de Ojeda,"34093",29.3120911266486,1.45985176244348
+127,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Micieces de Ojeda,"34107",8.9236000424143,0.430412416337816
+128,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Poza de la Vega,"34136",17.3315881893523,0.71352454526479
+129,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Revenga de Campos,"34152",14.3486778875002,0.640391215647182
+130,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Loma de Ucieza,"34903",12.9604224374092,0.181946500717225
+131,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Osorno la Mayor,"34901",24.1067960423705,0.270427712032317
+132,0,No aplica,Villaherreros,"34211",4009.77266625465,98.3028938091804
+133,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villasila de Valdavia,"34234",88.5572254355468,2.91932862716736
+134,0,No aplica,Salinas de Pisuerga,"34158",705.693166655391,33.2834592742308
+135,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Santibáñez de Ecla,"34170",401.234592693585,15.7128594816035
+136,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villaluenga de la Vega,"34218",1.75733598067996,0.0667804790116581
+137,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Boadilla del Camino,"34034",6.9825346315094,0.243640276935874
+138,0,No aplica,Pedrosa de la Vega,"34126",1800.49508908459,85.5027575169729
+139,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Congosto de Valdavia,"34062",2691.13395216977,39.0462934070205
+140,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villanuño de Valdavia,"34228",101.981283819881,3.28547015199884
+141,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Calahorra de Boedo,"34041",53.9560851168558,2.9986464533868
+142,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Calahorra de Boedo,"34041",74.8438973860655,4.15950095282691
+143,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Abia de las Torres,"34003",27.6771155054466,1.01906517980272
+144,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villaturde,"34236",54.8833339403342,2.0987388400347
+145,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villaeles de Valdavia,"34208",27.6899971539259,1.33954198610426
+146,0,No aplica,Abia de las Torres,"34003",2563.71960752323,94.3955804314318
+147,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Fresno del Río,"34073",870.092613773143,19.7632386654169
+148,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Ayuela,"34020",361.268952708036,18.2901669471525
+149,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Ayuela,"34020",276.542062789967,14.0006509234303
+150,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Cervera de Pisuerga,"34056",5361.91276145927,16.4398409936767
+151,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Buenavista de Valdavia,"34037",572.108313414294,7.00798650196334
+152,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Collazos de Boedo,"34061",148.316359884164,7.06234754490597
+153,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Sotobañado y Priorato,"34176",84.604150984536,3.34876510094506
+154,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Tabanera de Valdavia,"34179",63.5511840405929,2.951303381304
+155,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Poza de la Vega,"34136",251.48773654848,10.3535043009311
+156,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Valderrábano,"34190",85.9730622024755,2.98370780192471
+157,0,No aplica,Santa Cruz de Boedo,"34168",1854.49810411599,72.6907598308194
+158,0,No aplica,Lantadilla,"34092",2749.65826311221,94.9977337802794
+159,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Salinas de Pisuerga,"34158",254.638508395852,12.0098235668235
+160,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Bárcena de Campos,"34025",144.782960850052,9.9589262274082
+161,0,No aplica,Villabasta de Valdavia,"34202",668.407880606641,59.7116113872276
+162,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Saldaña,"34157",1918.71218571891,14.5409857872897
+163,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Poza de la Vega,"34136",57.4083864248591,2.36344715617858
+164,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Saldaña,"34157",139.604629886341,1.0579955420758
+165,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Quintanilla de Onsoña,"34143",301.545777965005,5.90602834010003
+166,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",San Cristóbal de Boedo,"34161",25.8357446504365,2.39748772607275
+167,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Aguilar de Campoo,"34004",3.393460002224,0.0144334980945791
+168,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Revilla de Collazos,"34154",328.41583543251,15.9745730276781
+169,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villaherreros,"34211",33.2777099850838,0.815830587705604
+170,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villarrabé,"34231",47.7037204172658,0.594115651038707
+171,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Santibáñez de Ecla,"34170",370.159103507859,14.4959036064397
+172,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Fresno del Río,"34073",74.6006349952997,1.69447496814191
+173,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Pedrosa de la Vega,"34126",31.6773602427945,1.50430938025747
+174,0,No aplica,Alar del Rey,"34005",2517.38937678495,43.4673815804545
+175,0,No aplica,Arconada,"34015",1937.63803841272,99.698176544171
+176,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Revilla de Collazos,"34154",284.67668771014,13.847044041327
+177,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Loma de Ucieza,"34903",232.665977365362,3.26631023194047
+178,0,No aplica,Báscones de Ojeda,"34028",1027.98717426344,55.3733548507316
+179,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Salinas de Pisuerga,"34158",6.30228977825703,0.297242505780775
+180,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Payo de Ojeda,"34124",145.085600031359,7.52589903926482
+181,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villamoronta,"34223",8.04745962526616,0.605396910321709
+182,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Mantinos,"34100",92.1707268684798,3.61053277897363
+183,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Población de Arroyo,"34131",38.5035199603029,1.68371141449509
+184,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",La Puebla de Valdavia,"34140",132.575531746025,4.49410685589739
+185,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Saldaña,"34157",1327.9845724368,10.0641487229146
+186,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villaherreros,"34211",23.0737872420418,0.565672980944504
+187,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Velilla del Río Carrión,"34199",2152.7343332748,10.8216098533421
+188,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villota del Páramo,"34245",696.046984898772,8.92813965004038
+189,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Buenavista de Valdavia,"34037",1429.07084806785,17.5052677592477
+190,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Báscones de Ojeda,"34028",78.7347834330146,4.24111235167467
+191,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Valderrábano,"34190",138.421688966846,4.80394512822276
+192,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Sotobañado y Priorato,"34176",56.5341213539337,2.2377092660294
+193,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Carrión de los Condes,"34047",3.04525152828991,0.048088930438099
+194,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Salinas de Pisuerga,"34158",481.807122080454,22.7240513066071
+195,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Arconada,"34015",5.86595090473308,0.301823455829035
+196,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Cervera de Pisuerga,"34056",4187.15267091959,12.8379791295658
+197,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Lagartos,"34091",306.792094221853,7.04794740872033
+198,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Ledigos,"34094",319.514154645855,11.2888731464719
+199,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Pino del Río,"34129",1635.76436946891,31.4607700684273
+200,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Santibáñez de la Peña,"34171",226.387513520426,2.0259905300606
+201,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Renedo de la Vega,"34147",14.9088628883832,0.670199984466807
+202,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Herrera de Pisuerga,"34083",138.581369335883,1.39871415746522
+203,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Collazos de Boedo,"34061",103.012302211624,4.9051141774755
+204,0,No aplica,Poza de la Vega,"34136",1668.37192937671,68.6852416082908
+205,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Calzada de los Molinos,"34042",3.04414880362952,0.117348035561706
+206,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Boadilla del Camino,"34034",2.99285764639864,0.104429222951177
+207,0,No aplica,Santibáñez de Ecla,"34170",986.107552046069,38.6172321160773
+208,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villabasta de Valdavia,"34202",27.8484963327783,2.48782014543616
+209,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Báscones de Ojeda,"34028",20.9937916812307,1.13084745173018
+210,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Castrillo de Villavega,"34052",1.61893038681831,0.0476935751185962
+211,0,No aplica,Cervatos de la Cueza,"34055",6516.6571402356,91.1903134379631
+212,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villalcázar de Sirga,"34215",1.07930195765738,0.0424688035534481
+213,0,No aplica,Ledigos,"34094",1918.84345003038,67.7953698775596
+214,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Tabanera de Valdavia,"34179",893.451231134553,41.4916838967683
+215,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Dehesa de Montejo,"34067",464.876446537676,10.6176616396175
+216,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Herrera de Pisuerga,"34083",24.5530367512931,0.24781599631593
+217,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villameriel,"34222",96.0661587421932,1.80702271533089
+218,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",La Vid de Ojeda,"34093",56.7186411944165,2.82480045361865
+219,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Velilla del Río Carrión,"34199",653.440596205954,3.28478952798559
+220,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Guardo,"34080",80.8735035121408,1.28722355033712
+221,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Dehesa de Montejo,"34067",477.42112428163,10.9041789382575
+222,0,No aplica,Velilla del Río Carrión,"34199",2883.13208515618,14.4932563665441
+223,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",San Cristóbal de Boedo,"34161",73.6286167937569,6.8325379213625
+224,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Osorno la Mayor,"34901",2.08419276345135,0.0233802733247432
+225,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villaherreros,"34211",2.31271469747024,0.0566981138930009
+226,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Collazos de Boedo,"34061",134.138735614115,6.38725472281687
+227,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Pino del Río,"34129",1.5917244912292,0.0306137480223418
+228,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Cervera de Pisuerga,"34056",1112.58903046094,3.41124288398696
+229,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,San Cristóbal de Boedo,"34161",8.91535289058864,0.827320807586335
+230,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Santa Cruz de Boedo,"34168",31.8900340028495,1.24999362229211
+231,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villanuño de Valdavia,"34228",2.2587116887811,0.0727675663366629
+232,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Revilla de Collazos,"34154",11.2414448767812,0.546798487607227
+233,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Renedo de la Vega,"34147",22.9713251831556,1.03263286383355
+234,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Payo de Ojeda,"34124",70.6302341887393,3.66374065730293
+235,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villasila de Valdavia,"34234",432.460525084714,14.2562550349829
+236,0,No aplica,Fresno del Río,"34073",2408.85034969613,54.7145023606992
+237,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Nogal de las Huertas,"34112",40.9029536137611,2.9634454129949
+238,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Villanuño de Valdavia,"34228",12.489557279015,0.402368612306922
+239,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Báscones de Ojeda,"34028",55.3592643953593,2.98197124281837
+240,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Báscones de Ojeda,"34028",167.719575620254,9.03434965799913
+241,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Olmos de Ojeda,"34114",796.428841309364,7.6875360543624
+242,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Respenda de la Peña,"34151",1566.36678464956,23.857374184402
+243,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Bárcena de Campos,"34025",29.6879385344034,2.04209105803659
+244,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Santervás de la Vega,"34169",424.307948565584,6.00339013711331
+245,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Carrión de los Condes,"34047",120.119874400885,1.89686672205405
+246,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Santervás de la Vega,"34169",1.11450706794895,0.0157687848226431
+247,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Guardo,"34080",34.5122168624537,0.549313883910362
+248,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Herrera de Pisuerga,"34083",95.7217126240034,0.96612780827346
+249,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villaherreros,"34211",9.08898134972433,0.222823896221061
+250,0,No aplica,Villaluenga de la Vega,"34218",2522.94879003427,95.8745115178153
+251,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Villasila de Valdavia,"34234",0.0742389202383907,0.00244731927898606
+252,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Olea de Boedo,"34113",20.1167284132641,2.47104973345499
+253,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Congosto de Valdavia,"34062",197.639247462528,2.86759417491745
+254,0,No aplica,Valde-Ucieza,"34192",4208.86592767428,98.8245821490636
+255,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Santervás de la Vega,"34169",205.649079338114,2.90965950267612
+256,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Osornillo,"34116",32.3316969657518,1.77886484125843
+257,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Cervera de Pisuerga,"34056",13.8634346333228,0.0425058502697516
+258,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Barruelo de Santullán,"34027",338.604796899164,6.3532828517098
+259,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Congosto de Valdavia,"34062",268.667799704213,3.89816409094434
+260,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Nogal de las Huertas,"34112",133.459449603566,9.66922333978964
+261,0,No aplica,Requena de Campos,"34149",1341.5524735293,100
+262,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Congosto de Valdavia,"34062",134.732272520595,1.95486212791162
+263,0,No aplica,Olmos de Ojeda,"34114",6037.8419286482,58.2803197341698
+264,0,No aplica,Villalba de Guardo,"34214",1911.67276790192,56.4732808272901
+265,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Nogal de las Huertas,"34112",102.005157308392,7.39033954324702
+266,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Velilla del Río Carrión,"34199",5293.62180049087,26.6105802980874
+267,0,No aplica,Villasarracino,"34233",2024.15514432645,98.7481435597368
+268,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Marcilla de Campos,"34101",5.45574665644248,0.249566345021614
+269,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Micieces de Ojeda,"34107",139.705974257052,6.73844476119507
+270,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Santa Cruz de Boedo,"34168",10.6409517447686,0.417093372019935
+271,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Guardo,"34080",2229.28652226763,35.4824508311459
+272,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Valderrábano,"34190",80.475224906601,2.79290454782193
+273,0,No aplica,Castrillo de Villavega,"34052",3232.97801930894,95.2433046387596
+274,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Tabanera de Valdavia,"34179",219.043160788034,10.1723174925005
+275,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Lantadilla,"34092",30.8378894342097,1.06541589190103
+276,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Pomar de Valdivia,"34135",1174.99619837568,14.5131247207986
+277,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Velilla del Río Carrión,"34199",2682.7164092816,13.4857840466739
+278,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villasila de Valdavia,"34234",69.4842634882081,2.29057988821478
+279,0,No aplica,Páramo de Boedo,"34122",1829.53362536253,80.3684875610283
+280,0,No aplica,Villameriel,"34222",2959.92523754547,55.676756622274
+281,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Santa Cruz de Boedo,"34168",212.114590078183,8.31425531779436
+282,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Bárcena de Campos,"34025",32.7118016375166,2.25008811369063
+283,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Abia de las Torres,"34003",12.437678599557,0.457952533958667
+284,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villarmentero de Campos,"34230",1.1010865532519,0.14335418013244
+285,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Santibáñez de la Peña,"34171",311.699386556559,2.78946482325452
+286,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villota del Páramo,"34245",24.3419321872658,0.312232039840426
+287,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Castrillo de Villavega,"34052",48.5465816692803,1.43017887516787
+288,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Santervás de la Vega,"34169",5.3261645661144,0.0753581070846032
+289,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Loma de Ucieza,"34903",158.925011693177,2.23108852305263
+290,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Fresno del Río,"34073",8.55072658849665,0.194220761854721
+291,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villaluenga de la Vega,"34218",25.9829311087522,0.987376690994518
+292,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Micieces de Ojeda,"34107",51.9174280616001,2.50413572502431
+293,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Espinosa de Villagonzalo,"34071",12.5631693240305,0.33023402773243
+294,0,No aplica,Calzada de los Molinos,"34042",2402.82379584502,92.6257783151556
+295,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",La Vid de Ojeda,"34093",88.5063864974721,4.4079490527502
+296,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villalba de Guardo,"34214",33.9453175696994,1.00278849187621
+297,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Velilla del Río Carrión,"34199",11.9800146628477,0.0602225006192191
+298,0,No aplica,Moratinos,"34109",2806.72557193493,95.9063233021365
+299,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Olmos de Ojeda,"34114",23.7494621597949,0.229241882206297
+300,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Mantinos,"34100",150.698452816542,5.90319423661621
+301,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villovieco,"34246",5.1009065365287,0.216798022812743
+302,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Alar del Rey,"34005",78.0938230684555,1.34843423019777
+303,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villaeles de Valdavia,"34208",6.80756701540181,0.329325488538602
+304,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Osorno la Mayor,"34901",57.1811972264003,0.641453153294422
+305,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,La Vid de Ojeda,"34093",206.394997343218,10.2792427646721
+306,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Saldaña,"34157",323.9494716829,2.45505537443392
+307,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Congosto de Valdavia,"34062",45.7081788415964,0.663190682392665
+308,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Santibáñez de Ecla,"34170",43.7543700881238,1.71347705661511
+309,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Moratinos,"34109",52.054533848443,1.77871288968557
+310,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Respenda de la Peña,"34151",730.347248354783,11.1239383772088
+311,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Santibáñez de Ecla,"34170",45.0189422636364,1.76299931930134
+312,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Ledigos,"34094",52.6658399872253,1.86075633308688
+313,0,No aplica,Itero de la Vega,"34089",1962.3557690419,93.7574039766635
+314,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Tabanera de Valdavia,"34179",16.8328442549683,0.781713683492027
+315,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villasila de Valdavia,"34234",733.787797546528,24.1896436243112
+316,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Pomar de Valdivia,"34135",9.9016515199844,0.122301590124356
+317,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Ayuela,"34020",44.9490241968328,2.27565958964672
+318,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Barruelo de Santullán,"34027",39.1545608507589,0.734661771768799
+319,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villaprovedo,"34229",0.638113083577676,0.0241563443321939
+320,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Santervás de la Vega,"34169",964.388466788399,13.6448073373021
+321,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Olea de Boedo,"34113",59.7662502782533,7.34142121848725
+322,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Cervera de Pisuerga,"34056",4862.83641356102,14.9096527626919
+323,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Payo de Ojeda,"34124",51.3742587798384,2.66489220646679
+324,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villalcázar de Sirga,"34215",21.8227848979426,0.8586916369831
+325,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Pino del Río,"34129",3.22011525226279,0.0619327009660731
+326,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Pedrosa de la Vega,"34126",69.9960446262371,3.32400508454994
+327,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Buenavista de Valdavia,"34037",2.52943654529117,0.030984092961671
+328,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Calzada de los Molinos,"34042",35.6879781414653,1.37572582623977
+329,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Ayuela,"34020",38.0459572193904,1.92617412592675
+330,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Ledigos,"34094",13.7313934106086,0.48514895532085
+331,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villalba de Guardo,"34214",668.520110424331,19.7489468744796
+332,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Espinosa de Villagonzalo,"34071",259.069331091223,6.80986671926455
+333,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Población de Arroyo,"34131",49.4479506857745,2.16229786468525
+334,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Pedrosa de la Vega,"34126",3.69334619104097,0.175391360805858
+335,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Pino del Río,"34129",76.1459504595567,1.46452036965921
+336,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Osornillo,"34116",1.06692673156593,0.0587014796344224
+337,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Báscones de Ojeda,"34028",402.317217310545,21.6711400632579
+338,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Sotobañado y Priorato,"34176",9.74967173235614,0.385907311438566
+339,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Dehesa de Romanos,"34068",25.6352297681724,1.22387304310413
+340,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Carrión de los Condes,"34047",80.4801610289923,1.27089825895057
+341,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Osornillo,"34116",21.7399458820198,1.19611492775498
+342,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Bustillo del Páramo de Carrión,"34039",31.2002132962231,0.99986136330715
+343,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Báscones de Ojeda,"34028",67.2538476020983,3.62268252132264
+344,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villota del Páramo,"34245",495.605362213579,6.35709080155731
+345,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Fresno del Río,"34073",584.751145582338,13.2820073025385
+346,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Saldaña,"34157",32.682919846377,0.24768794220965
+347,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Villarrabé,"34231",1.9894471758672,0.0247771388428158
+348,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Ayuela,"34020",0.0170031778075791,0.000860829469019086
+349,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Castrejón de la Peña,"34049",4.3208101103164,0.0406067736906404
+350,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Bustillo del Páramo de Carrión,"34039",330.543588797902,10.5928046129068
+351,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Mantinos,"34100",114.844166196039,4.49870192644096
+352,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villaprovedo,"34229",75.6730383341045,2.86467088311851
+353,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Ayuela,"34020",503.841356087567,25.508260393383
+354,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villaluenga de la Vega,"34218",34.6225421042016,1.31569032429716
+355,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Valde-Ucieza,"34192",13.2513109324852,0.311142072076836
+356,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Olmos de Ojeda,"34114",4.5982753560471,0.0443848913474583
+357,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Respenda de la Peña,"34151",18.0067956043168,0.274261983083574
+358,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Aguilar de Campoo,"34004",1.01389762712218,0.004312439062071
+359,0,No aplica,Loma de Ucieza,"34903",5728.39338281385,80.418762256258
+360,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Mantinos,"34100",791.054406176618,30.9873639981994
+361,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",La Puebla de Valdavia,"34140",70.0080404322197,2.37316502020225
+362,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villarrabé,"34231",226.032706723245,2.81507537643369
+363,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Mudá,"34110",55.2914325997912,8.12373025967305
+364,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",San Mamés de Campos,"34163",25.702562992865,1.65413112389023
+365,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Valderrábano,"34190",4.8049304419825,0.166755819557581
+366,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Mudá,"34110",7.98423446711185,1.17308892338315
+367,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Cervera de Pisuerga,"34056",4821.34621855848,14.7824421498037
+368,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villaherreros,"34211",1.47172729505203,0.0360806120554227
+369,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Villanuño de Valdavia,"34228",15.4106152774074,0.496474594370513
+370,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villaeles de Valdavia,"34208",696.837323681071,33.710471235024
+371,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Dehesa de Romanos,"34068",32.3817448454251,1.54596408783495
+372,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Osorno la Mayor,"34901",116.617598791038,1.30820497125929
+373,0,No aplica,Payo de Ojeda,"34124",1231.20724962714,63.8653419436664
+374,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villaluenga de la Vega,"34218",0.457362001097109,0.0173802015384546
+375,0,No aplica,Mudá,"34110",183.681885513411,26.9875823674123
+376,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villarmentero de Campos,"34230",3.04170019697701,0.396009229845316
+377,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Olea de Boedo,"34113",3.41331045436985,0.419275923758481
+378,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Loma de Ucieza,"34903",92.8449869109052,1.30341588471807
+379,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Lantadilla,"34092",78.9912931147552,2.72906416588006
+380,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Renedo de la Vega,"34147",42.1734194551461,1.89582701748331
+381,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Santibáñez de la Peña,"34171",736.329281474381,6.58956904502077
+382,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Bustillo del Páramo de Carrión,"34039",3.53522913720881,0.113292142947005
+383,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Moratinos,"34109",7.64515006763913,0.261236168370702
+384,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Castrillo de Villavega,"34052",33.7063826616502,0.992987658109837
+385,0,No aplica,Ayuela,"34020",706.472796034772,35.7669965443731
+386,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Calahorra de Boedo,"34041",16.1858868734769,0.89954176925466
+387,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Quintanilla de Onsoña,"34143",16.6581538751718,0.326263990643336
+388,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Guardo,"34080",279.587343712435,4.45005344857873
+389,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Santervás de la Vega,"34169",1.36099334035479,0.0192562360044969
+390,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villasila de Valdavia,"34234",104.051840613708,3.43011556108581
+391,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Bárcena de Campos,"34025",49.5111858194592,3.40563726637806
+392,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villalcázar de Sirga,"34215",15.9509853256264,0.627645727381329
+393,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Micieces de Ojeda,"34107",1.17308501867726,0.0565814643259122
+394,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Santa Cruz de Boedo,"34168",21.5534051919531,0.844828795924511
+395,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Báscones de Ojeda,"34028",14.2163869217341,0.765777100552369
+396,0,No aplica,Villaeles de Valdavia,"34208",850.462204361099,41.142287736745
+397,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Cervatos de la Cueza,"34055",39.5980552502862,0.554112176243299
+398,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Villaturde,"34236",3.2747387483958,0.125226018698073
+399,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villamoronta,"34223",2.95799412005246,0.222524943822916
+400,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Tabanera de Valdavia,"34179",106.557212562275,4.94849413877947
+401,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Castrejón de la Peña,"34049",303.586572957766,2.85309257960201
+402,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Alar del Rey,"34005",340.73819985531,5.88347495573512
+403,0,No aplica,Guardo,"34080",1693.39236044152,26.9528885439477
+404,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Espinosa de Villagonzalo,"34071",2.44802955729404,0.0643486241299729
+405,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Bustillo de la Vega,"34038",23.0476641158609,1.21386643320775
+406,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Respenda de la Peña,"34151",379.694798202285,5.78314157664519
+407,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Buenavista de Valdavia,"34037",290.101881174168,3.55357546778125
+408,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Abia de las Torres,"34003",0.404242056489387,0.014884101773507
+409,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Aguilar de Campoo,"34004",4919.94579440323,20.926142698724
+410,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Carrión de los Condes,"34047",271.802359889954,4.29215276841158
+411,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Pino del Río,"34129",740.911717186122,14.2500066699486
+412,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Calahorra de Boedo,"34041",253.651314630425,14.0968458583703
+413,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Barruelo de Santullán,"34027",1334.20398696736,25.0338311468365
+414,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Moratinos,"34109",10.9853548425023,0.375371573070251
+415,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Ledigos,"34094",88.1251551819519,3.1135825546285
+416,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Osornillo,"34116",13.9265803990594,0.766229630850727
+417,0,No aplica,Población de Campos,"34132",2301.9371550912,98.9732099854385
+418,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Alar del Rey,"34005",483.795372270832,8.35362151254151
+419,0,No aplica,Micieces de Ojeda,"34107",1314.29564385445,63.3924829849962
+420,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villalba de Guardo,"34214",519.715067871946,15.3530538651333
+421,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Buenavista de Valdavia,"34037",33.1638354484944,0.406237255650715
+422,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Guardo,"34080",824.600241324592,13.1247541425894
+423,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Espinosa de Villagonzalo,"34071",190.594711457871,5.00995072229436
+424,0,No aplica,Villasila de Valdavia,"34234",1397.40095969377,46.0659489409394
+425,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Santervás de la Vega,"34169",71.4708935004576,1.01121758049037
+426,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Villaeles de Valdavia,"34208",16.1322247423676,0.780418728522962
+427,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villaluenga de la Vega,"34218",31.4578151348917,1.1954276168382
+428,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villaeles de Valdavia,"34208",17.6503711876733,0.853861166715977
+429,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villameriel,"34222",196.266434163122,3.69180895159479
+430,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Salinas de Pisuerga,"34158",7.91899911682644,0.373493321250015
+431,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Pomar de Valdivia,"34135",4.55286192040543,0.0562352907854196
+432,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Valderrábano,"34190",26.2697421224407,0.911695274278828
+433,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Valderrábano,"34190",673.513157984231,23.3743734687938
+434,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Itero de la Vega,"34089",58.1535296649975,2.77845845258329
+435,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",San Mamés de Campos,"34163",10.4387800315875,0.671805023899216
+436,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,La Serna,"34175",115.020445124638,9.34821712959159
+437,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Revilla de Collazos,"34154",1.2764723968335,0.0620892762195157
+438,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villanuño de Valdavia,"34228",246.955690166885,7.95602407146207
+439,0,No aplica,Quintanilla de Onsoña,"34143",4481.36700718648,87.7713517511233
+440,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Fresno del Río,"34073",387.434664326329,8.80017094402472
+441,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Respenda de la Peña,"34151",3.18343776831808,0.0484870253735072
+442,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Cervera de Pisuerga,"34056",5.81010600546674,0.0178140195739186
+443,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Dehesa de Montejo,"34067",40.2389865795337,0.919048378132815
+444,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Velilla del Río Carrión,"34199",2128.01125821751,10.6973290870119
+445,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Castrejón de la Peña,"34049",723.587046367559,6.80023761450946
+446,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",La Serna,"34175",31.4754833647999,2.55815087860385
+447,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Revilla de Collazos,"34154",2.96306012767575,0.144127095249903
+448,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Aguilar de Campoo,"34004",94.6646012707805,0.402639589436868
+449,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Poza de la Vega,"34136",1.47687144472069,0.0608013538341675
+450,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Bustillo de la Vega,"34038",6.94563235862431,0.365810172135125
+451,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Castrejón de la Peña,"34049",598.532845729967,5.6249840174513
+452,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Olmos de Ojeda,"34114",733.232433822822,7.07753220234186
+453,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Población de Arroyo,"34131",81.759967836503,3.57526250163619
+454,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Santibáñez de la Peña,"34171",1403.70141748203,12.5620257700063
+455,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Lagartos,"34091",2.29628774708325,0.0527527129334313
+456,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villarrabé,"34231",446.1979629739,5.55707586212576
+457,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Quintanilla de Onsoña,"34143",117.40067291265,2.29939117718104
+458,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Sotobañado y Priorato,"34176",7.98960500722923,0.316241107642999
+459,0,No aplica,Buenavista de Valdavia,"34037",3855.08551820578,47.2225042741801
+460,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Pomar de Valdivia,"34135",176.021009673631,2.17414734652404
+461,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Castrejón de la Peña,"34049",1967.09853006195,18.4867010579106
+462,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villasarracino,"34233",7.8754503748783,0.384202814885934
+463,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villaprovedo,"34229",583.046917458684,22.0717651187946
+464,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Herrera de Pisuerga,"34083",39.1537071368027,0.395181868615819
+465,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Castrillo de Villavega,"34052",77.5913347004874,2.28583525284411
+466,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Collazos de Boedo,"34061",43.4616909772923,2.06950579700489
+467,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Alar del Rey,"34005",512.868490582749,8.85562264873912
+468,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Pino del Río,"34129",237.785864744276,4.57335210123857
+469,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Barruelo de Santullán,"34027",239.711138475236,4.49772915028159
+470,0,No aplica,Dehesa de Romanos,"34068",1512.87330843359,72.2273557353658
+471,0,No aplica,Pino del Río,"34129",2310.88338135255,44.4453810540493
+472,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Boadilla del Camino,"34034",3.93249964144175,0.137215975609702
+473,0,No aplica,Nogal de las Huertas,"34112",1103.88238213896,79.9769917039685
+474,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Osorno la Mayor,"34901",16.3118127531271,0.182984341601206
+475,0,No aplica,La Serna,"34175",1083.90387427662,88.0936319918046
+476,0,No aplica,Herrera de Pisuerga,"34083",7725.32255743871,77.9723716388269
+477,0,No aplica,Espinosa de Villagonzalo,"34071",3244.99025790535,85.2974416870142
+478,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Salinas de Pisuerga,"34158",238.373598588909,11.2427019780965
+479,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Lagartos,"34091",443.091535730896,10.1791600888587
+480,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Ledigos,"34094",437.465874752174,15.4562691329322
+481,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Guardo,"34080",60.4151492305138,0.96159804521112
+482,0,No aplica,Respenda de la Peña,"34151",2901.55903956991,44.193722954002
+483,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villaprovedo,"34229",31.9783700628098,1.21056994175473
+484,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Itero de la Vega,"34089",5.82081141661031,0.278106639004385
+485,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Payo de Ojeda,"34124",5.72295955845532,0.296862099570329
+486,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Congosto de Valdavia,"34062",310.426539312368,4.50405143361368
+487,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Payo de Ojeda,"34124",6.60294380894954,0.342508756605425
+488,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Loma de Ucieza,"34903",13.7422587124197,0.192922406406945
+489,0,No aplica,Villarmentero de Campos,"34230",763.945421235508,99.4606365900222
+490,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Pedrosa de la Vega,"34126",39.7284646855912,1.88664401426431
+491,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Guardo,"34080",1.35064283484638,0.0214975138902862
+492,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Quintanilla de Onsoña,"34143",0.301723270253721,0.005909504676245
+493,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villarrabé,"34231",117.310960608669,1.4610239437587
+494,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villaprovedo,"34229",18.9514256015325,0.717423250201778
+495,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villasarracino,"34233",17.0348295978058,0.831041930434402
+496,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Castrejón de la Peña,"34049",20.3167950449182,0.190936300703968
+497,0,No aplica,Villota del Páramo,"34245",3196.5676344031,41.0021203452246
+498,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Lagartos,"34091",708.564272437362,16.2778761965926
+499,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Saldaña,"34157",10.1208876523241,0.0767012815171438
+500,0,No aplica,Lagartos,"34091",2313.56391085259,53.149598954825
+501,0,No aplica,La Puebla de Valdavia,"34140",1222.47806031168,41.4401282022054
+502,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Salinas de Pisuerga,"34158",110.298838288238,5.20215734773333
+503,0,No aplica,Población de Arroyo,"34131",2091.98985484652,91.4801348355814
+504,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Espinosa de Villagonzalo,"34071",42.0090973246556,1.10424631341942
+505,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Olmos de Ojeda,"34114",1148.54853002326,11.0863742958162
+506,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Ayuela,"34020",9.25608249157132,0.468612906751146
+507,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Revilla de Collazos,"34154",422.174746533963,20.5351283078865
+508,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Páramo de Boedo,"34122",71.2170561499817,3.12845143263693
+509,0,No aplica,Bárcena de Campos,"34025",925.881343577096,63.6869417635934
+510,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Báscones de Ojeda,"34028",21.8833599288132,1.17876475991316
+511,0,No aplica,Bustillo de la Vega,"34038",1835.75020482007,96.6846593296123
+512,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Cervatos de la Cueza,"34055",285.615512802847,3.9967375258129
+513,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Guardo,"34080",483.511403963892,7.69581184207575
+514,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Quintanilla de Onsoña,"34143",185.909013612988,3.64118479949592
+515,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villalba de Guardo,"34214",107.471295397462,3.1748407717889
+516,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Santibáñez de Ecla,"34170",707.241511427911,27.6964815371995
+517,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Itero de la Vega,"34089",33.1240284216117,1.58259932426821
+518,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Aguilar de Campoo,"34004",42.1429628467318,0.179247839535334
+519,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Buenavista de Valdavia,"34037",1776.62960379895,21.7626557602484
+520,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Olmos de Ojeda,"34114",336.569873341668,3.24874351846987
+521,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Dehesa de Montejo,"34067",323.852646297994,7.39671335275564
+522,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Saldaña,"34157",695.73815260888,5.27266083160375
+523,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villameriel,"34222",161.677419492757,3.04118300767631
+524,0,No aplica,La Vid de Ojeda,"34093",1625.00698893344,80.9314254151163
+525,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villamoronta,"34223",4.1361039967062,0.311152176832746
+526,0,No aplica,Marcilla de Campos,"34101",2179.33147008834,99.6908074788026
+527,0,No aplica,Bustillo del Páramo de Carrión,"34039",2731.46842690433,87.5343293081142
+528,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Barruelo de Santullán,"34027",765.267794555144,14.3588123991074
+529,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Valderrábano,"34190",17.3141435452124,0.600889905001048
+530,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Valderrábano,"34190",2.68784043583128,0.0932818986932351
+531,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villota del Páramo,"34245",463.854941447969,5.94983066439266
+532,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Barruelo de Santullán,"34027",1038.43577117956,19.4842962593995
+533,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villaluenga de la Vega,"34218",6.67353011079654,0.253600644610531
+534,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Poza de la Vega,"34136",188.323250203223,7.75308413723992
+535,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villota del Páramo,"34245",362.074232788312,4.64429756058122
+536,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Aguilar de Campoo,"34004",2698.95194051801,11.4795275810815
+537,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Población de Arroyo,"34131",21.2649600900845,0.929890463764657
+538,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Mantinos,"34100",46.1741690421642,1.80874510305739
+539,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Pino del Río,"34129",3.50561779481353,0.0674237912555972
+540,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villabasta de Valdavia,"34202",61.0046195753936,5.44979232382104
+541,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villota del Páramo,"34245",89.5466769954917,1.1486081468036
+542,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Santibáñez de la Peña,"34171",2190.40180351414,19.6023766591125
+543,0,No aplica,Villarrabé,"34231",6524.47006064055,81.2575988592504
+544,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Moratinos,"34109",9.18116248433336,0.313721992031052
+545,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Cervera de Pisuerga,"34056",2552.68706835869,7.82664160671842
+546,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Pomar de Valdivia,"34135",488.488054594436,6.03362638172779
+547,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Páramo de Boedo,"34122",62.1526648214932,2.73026721146004
+548,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Salinas de Pisuerga,"34158",1.48565042821816,0.070069525765281
+549,0,No aplica,Villovieco,"34246",2335.76112634384,99.2741957391009
+550,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Boadilla del Camino,"34034",1.22389291060072,0.0427050667723152
+551,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Revenga de Campos,"34152",9.25949033917088,0.413257327334708
+552,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Castrejón de la Peña,"34049",1070.22890638931,10.0579617917413
+553,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Mudá,"34110",4.23186462304184,0.621769505266439
+554,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Pedrosa de la Vega,"34126",160.183989907759,7.60689264314952
+555,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Payo de Ojeda,"34124",25.3150916852661,1.31314771522374
+556,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Carrión de los Condes,"34047",118.817763667459,1.87630450842384
+557,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Santibáñez de Ecla,"34170",0.026732599477208,0.00104688276338161
+558,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Dehesa de Montejo,"34067",392.402727234802,8.9623800372613
+559,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Herrera de Pisuerga,"34083",434.903920885545,4.38952417770806
+560,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Mudá,"34110",120.452679474084,17.6975895015245
+561,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Bustillo del Páramo de Carrión,"34039",23.7064809009494,0.759712572724864
+562,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Poza de la Vega,"34136",80.0731271425035,3.29653237822631
+563,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villanuño de Valdavia,"34228",238.484446435912,7.68311106835088
+564,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Olmos de Ojeda,"34114",866.714729751295,8.36597118062167
+565,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villaturde,"34236",50.883248355028,1.94577555630868
+566,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Olmos de Ojeda,"34114",1.99099022297454,0.0192180497856361
+567,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Sotobañado y Priorato,"34176",537.467809494912,21.2738195747267
+568,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villabasta de Valdavia,"34202",106.013426091811,9.47061320533439
+569,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Renedo de la Vega,"34147",209.40025057035,9.41319574338199
+570,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Fresno del Río,"34073",68.3009829584321,1.55138499732399
+571,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villaturde,"34236",106.44860806157,4.07059506350915
+572,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Aguilar de Campoo,"34004",3091.74906854005,13.150222563532
+573,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Santervás de la Vega,"34169",240.642218561723,3.40476563394667
+574,0,No aplica,Castrejón de la Peña,"34049",4863.46433361559,45.7066129974334
+575,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Valderrábano,"34190",0.230968858136383,0.00801580828190303
+576,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Dehesa de Montejo,"34067",389.717239862157,8.90104417808286
+577,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Buenavista de Valdavia,"34037",171.190015748165,2.09697585492918
+578,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Villabasta de Valdavia,"34202",69.5153403788847,6.21008984272825
+579,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Osorno la Mayor,"34901",98.3158697175688,1.10289794037578
+580,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villasila de Valdavia,"34234",151.205540382127,4.98455840788649
+581,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Carrión de los Condes,"34047",8.02889277684623,0.126787840890612
+582,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Prádanos de Ojeda,"34139",39.0972079765256,1.83425580814888
+583,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Marcilla de Campos,"34101",1.30348229157004,0.0596261761757932
+584,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Prádanos de Ojeda,"34139",2.41884255089664,0.113480635257733
+585,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villaprovedo,"34229",102.402237949496,3.87652875948932
+586,0,No aplica,Calahorra de Boedo,"34041",1371.73094588926,76.234888557672
+587,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villabasta de Valdavia,"34202",174.789101325946,15.614625733654
+588,0,No aplica,San Mamés de Campos,"34163",1508.71057390967,97.0955743961824
+589,6,Parecido al modelo 5 pero con especies más inflamables o con restos de podasy pl de mayor talla,Mantinos,"34100",70.1640281974325,2.74848134889009
+590,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Población de Arroyo,"34131",3.85793918446942,0.168702919837357
+591,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,San Mamés de Campos,"34163",3.44511401647257,0.221716033594771
+592,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Pomar de Valdivia,"34135",467.354013349119,5.77258640826081
+593,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Moratinos,"34109",39.9364006661453,1.36463407470596
+594,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Villameriel,"34222",1245.96004054419,23.4367453131971
+595,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Sotobañado y Priorato,"34176",55.2601683772045,2.18728420745874
+596,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villameriel,"34222",328.102170900214,6.17166423149239
+597,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Congosto de Valdavia,"34062",23.805794469172,0.345403852855807
+598,0,No aplica,Barruelo de Santullán,"34027",1489.22228157964,27.9424582007965
+599,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Micieces de Ojeda,"34107",107.783073391449,5.19870599738111
+600,0,No aplica,Renedo de la Vega,"34147",1935.08556803325,86.9881443908343
+601,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Villalcázar de Sirga,"34215",3.71210449769982,0.146065367123822
+602,0,No aplica,Santibáñez de la Peña,"34171",3397.73209947077,30.4070350443139
+603,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Respenda de la Peña,"34151",518.627110911127,7.89922332906869
+604,9,Parecido al modelo 8 pero con hojarasca menos compacta formada por acículas largas y rígidas o follaje de frondosas de hojas grandes,Loma de Ucieza,"34903",163.728139429128,2.29851782856135
+605,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Calzada de los Molinos,"34042",70.926453236208,2.73412388602838
+606,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villaeles de Valdavia,"34208",76.5615732235538,3.70377220644116
+607,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Payo de Ojeda,"34124",13.0310233477349,0.675946931136915
+608,3,"Pasto denso, grueso, seco y alto (h>1m). Pl leñosas dispersas",Bárcena de Campos,"34025",2.34480404008298,0.161287836053442
+609,0,No aplica,Revenga de Campos,"34152",2217.00312326324,98.9463514570181
+610,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villasarracino,"34233",0.750472342968779,0.0366116949428562
+611,0,No aplica,Aguilar de Campoo,"34004",9194.65380648566,39.107877537749
+612,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Villovieco,"34246",11.9760928319497,0.509006238086353
+613,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Collazos de Boedo,"34061",21.1137289948794,1.00536779791019
+614,8,"Bosque demnso, sin matorral. Propagación del fuego por hojarasca muy compacta",Dehesa de Romanos,"34068",193.1620223373,9.22191040330016
+615,0,No aplica,Villaturde,"34236",2399.57264530373,91.7596645214494
+616,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Pino del Río,"34129",189.56929707681,3.64599949643312
+617,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Herrera de Pisuerga,"34083",227.7943090815,2.29914833883665
+618,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Cervatos de la Cueza,"34055",90.1141798630862,1.26100547106928
+619,0,No aplica,Carrión de los Condes,"34047",5730.24730357449,90.4889009708312
+620,2,"Pasto fino, seco y bajo. Pl leñosas cubren  1/3 a 2/3 de la superficie",Villameriel,"34222",229.173632802935,4.31079961613909
+621,4,Matorral o plantación joven muy densa (h>2 m). Propagación del fuego por las copas de las pl.,Villanuño de Valdavia,"34228",52.3292318522324,1.68585962921582
+622,7,"Matorral de especies muy inflamables (h: 0,5-2 m) situado como sotobosque de masas de coníferas",Bustillo de la Vega,"34038",15.9974417373798,0.842547749940457
+623,0,No aplica,Villanuño de Valdavia,"34228",1680.96992521092,54.1548047722417
+624,0,No aplica,Congosto de Valdavia,"34062",2744.39726172674,39.8191032521468
+625,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Lantadilla,"34092",3.36072736702277,0.116109513681592
+626,11,Bosque claro y fuertemente aclarado. Restos de poda o aclarado dispersos con pl herbáceas rebrotando,Villameriel,"34222",6.47804736727007,0.121853302941581
+627,1,"Pasto fino, seco y bajo. Pl leñosas < 1/3 de la superficie",Villarrabé,"34231",654.947241965239,8.15689853228614
+628,5,Matorral  denso y  verde (h<1 m). Propagación del fuego por la hojarasca y el pasto,Mantinos,"34100",478.836042275261,18.7570748883837

@@ -1,0 +1,50 @@
+{
+    "fecha_test": "2025-10-21 16:12:15",
+    "servidor": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com",
+    "tests": {
+        "ping_servidor": {
+            "nombre": "Ping al servidor",
+            "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com",
+            "http_code": 200,
+            "tiempo_respuesta_ms": 1292.48,
+            "exito": true
+        },
+        "help_show": {
+            "nombre": "Endpoint help_show",
+            "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/api\/3\/action\/help_show?name=help_show",
+            "http_code": 200,
+            "tiempo_respuesta_ms": 379.92,
+            "es_json_valido": true,
+            "tiene_campo_success": true,
+            "success_value": true,
+            "exito": true
+        },
+        "autenticacion": {
+            "nombre": "Autenticación con API Token",
+            "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/api\/3\/action\/package_search?q=*:*&rows=1",
+            "http_code": 200,
+            "tiempo_respuesta_ms": 419.38,
+            "es_json_valido": true,
+            "tiene_campo_success": true,
+            "success_value": true,
+            "num_datasets_encontrados": 4,
+            "exito": true
+        },
+        "datasets_privados": {
+            "nombre": "Acceso a datasets privados",
+            "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/api\/3\/action\/package_search?q=*:*&rows=1000&include_private=true",
+            "http_code": 200,
+            "tiempo_respuesta_ms": 917.64,
+            "total_datasets": 20,
+            "datasets_privados": 16,
+            "datasets_publicos": 4,
+            "exito": true
+        }
+    },
+    "resumen": {
+        "total_tests": 4,
+        "exitosos": 4,
+        "fallidos": 0,
+        "porcentaje_exito": 100
+    }
+}

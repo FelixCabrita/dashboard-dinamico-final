@@ -1,0 +1,27 @@
+{
+    "fecha_test": "2025-10-21 16:49:40",
+    "servidor": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com",
+    "tests": [
+        {
+            "nombre": "Verificación de endpoint",
+            "url": "http:\/\/ckan.dev.dipupalenciaindicadores.secmotic.com\/api\/3\/action\/spatial_filter_by_municipality?municipality=Palencia&format=geojson",
+            "http_code": 409,
+            "tiempo_ms": 410.27,
+            "exito": false,
+            "error": "HTTP 409",
+            "disponible": false
+        }
+    ],
+    "tests_exitosos": 0,
+    "tests_fallidos": 1,
+    "demo_municipios": {
+        "exitoso": true,
+        "total": 191,
+        "tiempo_ms": 416.45
+    },
+    "demo_incendios": {
+        "exitoso": true,
+        "total": 1952,
+        "tiempo_ms": 432.11
+    }
+}
