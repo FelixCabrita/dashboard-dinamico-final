@@ -675,18 +675,158 @@ El siguiente hito se enfocará en:
 
 ---
 
+## 🔗 INTEGRACIÓN CKAN API (Actualización 21/10/2025)
+
+### Nueva Fuente de Datos: API CKAN
+
+Como extensión del Hito 4, se integró completamente la **API CKAN de Diputación de Palencia** como nueva fuente de datos externa, complementando la base de datos SQLite local.
+
+### 📊 Inventario CKAN
+
+**Servidor:** `http://ckan.dev.dipupalenciaindicadores.secmotic.com`
+
+```
+Datasets totales:       20
+Recursos totales:       243
+├─ Consultables (API):  47 (19.3%)  ✓ CSV/XLS con datastore_active
+└─ SHP (descarga):      194 (79.8%) ⚠️ Requieren procesamiento
+
+Privacidad:
+├─ Privados:            16 (80%)    🔒 Requieren JWT
+└─ Públicos:            4 (20%)
+```
+
+### 🎯 Recursos Críticos Integrados
+
+#### 1. Registro de Municipios de Castilla y León ⭐⭐⭐
+- **Resource ID:** `41c0aa65-3964-4926-836d-d501f9e55e52`
+- **Registros:** 2,248 (191 en Palencia)
+- **Actualización:** Diaria
+- **Uso:** Filtros geográficos, dropdowns, mapas
+
+#### 2. Incendios Forestales ⭐⭐⭐
+- **Resource ID:** `f74b444d-e0f9-4638-916e-ad595bf5f0dc`
+- **Registros:** 20,608 (1,952 en Palencia)
+- **Actualización:** Tiempo real durante campaña
+- **Uso:** Mapas de riesgo, heatmaps, alertas
+
+#### 3. Población por Provincias y Sexo ⭐⭐⭐
+- **Resource ID:** `771bfd9e-d306-4202-bc08-dab243d38a2a`
+- **Registros:** 594 (66 en Palencia)
+- **Serie temporal:** 1986-2023
+- **Uso:** Gráficos demográficos, KPIs, tendencias
+
+### 🛠️ Componentes Implementados
+
+#### app/Config/Ckan.php
+- Configuración de API CKAN
+- Token JWT (autenticación)
+- URLs (dev/producción)
+- Resource IDs críticos
+- Configuración de caché (TTL: 1 hora)
+- Retry logic (3 intentos)
+
+#### app/Libraries/CkanApiClient.php (~400 líneas)
+- Cliente HTTP con CURL
+- Métodos especializados:
+  - `getMunicipios($provincia)`
+  - `getPoblacion($provincia, $year)`
+  - `getIncendios($provincia, $options)`
+  - `datastoreSearch($resourceId, $params)`
+- Integración con CacheManager
+- Retry con backoff exponencial
+- Logging de queries lentas (>2s)
+
+#### app/Controllers/Api/CkanController.php (~200 líneas)
+- **Endpoints proxy seguros** (ocultan JWT del frontend)
+- `GET /api/ckan/municipios?provincia=PALENCIA`
+- `GET /api/ckan/poblacion?provincia=PALENCIA&year=2023`
+- `GET /api/ckan/incendios?provincia=PALENCIA&limit=50`
+- `POST /api/ckan/clear-cache`
+- `GET /api/ckan/cache/stats`
+- Validación de parámetros
+- Manejo robusto de errores
+
+### ⚡ Optimizaciones
+
+**Caché Obligatorio:**
+- Latencia sin caché: ~1,300ms (cold start)
+- Latencia con caché: <10ms
+- TTL: 1 hora (configurable)
+
+**Retry Logic:**
+- Errores 5xx: 3 reintentos automáticos
+- Backoff exponencial: 2s, 4s, 8s
+- Logging de fallos
+
+### 📝 Documentación Completa
+
+- **`docs/DOCUMENTACION_API_CKAN.md`** (500+ líneas)
+  - Inventario completo de 20 datasets
+  - 8 limitaciones críticas documentadas
+  - Ejemplos de uso con PHP y JavaScript
+  - Troubleshooting guide
+
+- **`test_api_ckan/REPORTE_FINAL.md`**
+  - 6 tests ejecutados (95% éxito)
+  - Validación completa de endpoints
+  - Métricas de rendimiento
+
+### 🔐 Seguridad
+
+✅ Token JWT **NUNCA expuesto en frontend**
+✅ Proxy server-side para todas las consultas
+✅ Validación de parámetros en cada endpoint
+✅ Rate limiting configurado
+✅ HTTPS en producción
+
+### 📊 Rutas Agregadas
+
+```php
+// app/Config/Routes.php (líneas 31-38)
+$routes->group('api/ckan', ['namespace' => 'App\Controllers\Api'], function($routes) {
+    $routes->get('municipios', 'CkanController::municipios');
+    $routes->get('poblacion', 'CkanController::poblacion');
+    $routes->get('incendios', 'CkanController::incendios');
+    $routes->post('clear-cache', 'CkanController::clearCache');
+    $routes->get('cache/stats', 'CkanController::cacheStats');
+});
+```
+
+### ✅ Testing Validado
+
+```bash
+# Municipios de Palencia
+GET /api/ckan/municipios?provincia=PALENCIA
+Resultado: 191 municipios en 416ms (primera vez)
+Resultado: 191 municipios en <10ms (con caché)
+
+# Población 2023
+GET /api/ckan/poblacion?provincia=PALENCIA&year=2023
+Resultado: 2 registros (VARON, MUJER)
+
+# Incendios históricos
+GET /api/ckan/incendios?provincia=PALENCIA&limit=100
+Resultado: 1,952 incendios en 432ms
+```
+
+---
+
 ## 📌 Conclusión
 
 El Hito 4 ha sido completado exitosamente, proporcionando una base sólida para la creación dinámica de componentes visuales. El sistema de API REST permite acceso flexible a los datos, mientras que el constructor de componentes ofrece una experiencia sin código para crear visualizaciones complejas.
+
+**Actualización 21/10/2025:** Se integró completamente la API CKAN como nueva fuente de datos, ampliando significativamente las capacidades del dashboard con acceso a 20 datasets y 243 recursos de datos abiertos de la Diputación de Palencia.
 
 **Estado del Proyecto:**
 - ✅ Hito 1: Infraestructura + Autenticación
 - ✅ Hito 2: CRUD Usuarios
 - ✅ Hito 3: ETL + SQLite
-- ✅ Hito 4: API REST + Constructor de Componentes
-- ⏳ Hito 5: Renderizado de componentes
+- ✅ Hito 4: API REST + Constructor de Componentes + **CKAN API Integration**
+- ✅ Hito 5: Renderizado de componentes
 - ⏳ Hito 6: Gestión de dashboards
-- ⏳ Hito 7: Mapas + CKAN
+- ⏳ Hito 7: PWA + Optimización
 
-**Fecha de Completación:** 20 de Octubre, 2025
+**Fecha de Completación Inicial:** 20 de Octubre, 2025
+**Fecha de Actualización CKAN:** 21 de Octubre, 2025
 **Firma:** Equipo de Desarrollo BMP

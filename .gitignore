@@ -63,6 +63,9 @@ writable/uploads/*
 writable/debugbar/*
 !writable/debugbar/index.html
 
+writable/ckan_sync/*
+!writable/ckan_sync/.gitkeep
+
 php_errors.log
 
 #-------------------------

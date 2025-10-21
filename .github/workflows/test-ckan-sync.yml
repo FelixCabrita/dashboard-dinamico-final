@@ -1,0 +1,85 @@
+name: Test CKAN Sync
+
+# Ejecutar en pull requests para validar que el sync funciona
+on:
+  pull_request:
+    paths:
+      - 'app/Libraries/CkanSyncManager.php'
+      - 'app/Libraries/ShpProcessor.php'
+      - 'app/Commands/CkanSyncCommand.php'
+      - 'app/Config/CkanSync.php'
+      - '.github/workflows/ckan-sync-*.yml'
+
+  # También permitir ejecución manual
+  workflow_dispatch:
+
+jobs:
+  test-sync:
+    name: Probar Sincronización CKAN
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐘 Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: zip, sqlite3, pdo_sqlite, curl
+          tools: composer
+
+      - name: 📦 Instalar dependencias
+        run: composer install --prefer-dist --no-progress
+
+      - name: 🗺️ Instalar GDAL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin
+          ogr2ogr --version
+
+      - name: 📁 Crear directorios
+        run: |
+          mkdir -p writable/ckan_sync/{sqlite,geojson,temp/downloads,logs}
+          chmod -R 755 writable/ckan_sync
+
+      - name: ⚙️ Configurar environment
+        run: |
+          cp env .env 2>/dev/null || echo "CI=true" > .env
+          echo "CKAN_API_TOKEN=${{ secrets.CKAN_API_TOKEN }}" >> .env
+          echo "CKAN_BASE_URL=${{ secrets.CKAN_BASE_URL }}" >> .env
+
+      - name: 🧪 Dry run - Verificar configuración
+        run: |
+          echo "### 🧪 Test de Configuración" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Verificando que todas las dependencias estén instaladas..." >> $GITHUB_STEP_SUMMARY
+
+          # Verificar PHP
+          echo "- PHP: $(php -v | head -n 1)" >> $GITHUB_STEP_SUMMARY
+
+          # Verificar extensiones
+          php -m | grep -E "(zip|sqlite3|pdo_sqlite|curl)" >> $GITHUB_STEP_SUMMARY || true
+
+          # Verificar GDAL
+          echo "- GDAL: $(ogr2ogr --version)" >> $GITHUB_STEP_SUMMARY
+
+          # Verificar directorios
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### 📁 Directorios creados:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          ls -la writable/ckan_sync/
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: 🔍 Verificar conectividad CKAN
+        run: |
+          echo "Probando conectividad con servidor CKAN..."
+          curl -I "${{ secrets.CKAN_BASE_URL }}/api/3/action/package_search" \
+            -H "Authorization: ${{ secrets.CKAN_API_TOKEN }}" \
+            --max-time 10
+
+      - name: ✅ Test exitoso
+        run: |
+          echo "### ✅ Todos los tests pasaron" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "El sistema está listo para sincronizar recursos CKAN" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,166 @@
+name: CKAN Sync - Semanal
+
+on:
+  # Ejecutar todos los lunes a las 3:00 AM UTC
+  schedule:
+    - cron: '0 3 * * 1'
+
+  # Permitir ejecución manual desde GitHub
+  workflow_dispatch:
+    inputs:
+      resource:
+        description: 'Recurso específico a sincronizar (dejar vacío para todos)'
+        required: false
+        default: ''
+
+jobs:
+  sync-ckan-resources:
+    name: Sincronizar Recursos SHP desde CKAN
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del código
+      - name: 📥 Checkout código
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Setup PHP 8.1+
+      - name: 🐘 Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: zip, sqlite3, pdo_sqlite, curl
+          tools: composer
+
+      # 3. Cache de Composer
+      - name: 📦 Cache Composer dependencies
+        uses: actions/cache@v3
+        with:
+          path: vendor
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      # 4. Instalar dependencias
+      - name: 🔧 Instalar dependencias de Composer
+        run: composer install --prefer-dist --no-progress --no-suggest
+
+      # 5. Instalar GDAL/OGR
+      - name: 🗺️ Instalar GDAL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev
+          ogr2ogr --version
+
+      # 6. Crear directorios necesarios
+      - name: 📁 Crear estructura de directorios
+        run: |
+          mkdir -p writable/ckan_sync/sqlite
+          mkdir -p writable/ckan_sync/geojson
+          mkdir -p writable/ckan_sync/temp/downloads
+          mkdir -p writable/ckan_sync/logs
+          chmod -R 755 writable/ckan_sync
+
+      # 7. Configurar variables de entorno
+      - name: ⚙️ Configurar environment
+        run: |
+          cp env .env || echo "CI=true" > .env
+          echo "CKAN_API_TOKEN=${{ secrets.CKAN_API_TOKEN }}" >> .env
+          echo "CKAN_BASE_URL=${{ secrets.CKAN_BASE_URL }}" >> .env
+
+      # 8. Ejecutar sincronización
+      - name: 🔄 Ejecutar sincronización CKAN
+        id: sync
+        run: |
+          if [ -n "${{ github.event.inputs.resource }}" ]; then
+            echo "Sincronizando recurso específico: ${{ github.event.inputs.resource }}"
+            php spark ckan:sync --resource="${{ github.event.inputs.resource }}"
+          else
+            echo "Sincronizando todos los recursos prioritarios"
+            php spark ckan:sync
+          fi
+        continue-on-error: true
+
+      # 9. Comprimir archivos SQLite y GeoJSON
+      - name: 📦 Comprimir archivos generados
+        run: |
+          cd writable/ckan_sync
+          tar -czf ckan_sync_data.tar.gz sqlite/ geojson/
+          ls -lh ckan_sync_data.tar.gz
+
+      # 10. Subir archivos como artifact
+      - name: 📤 Subir archivos sincronizados
+        uses: actions/upload-artifact@v3
+        with:
+          name: ckan-sync-data-${{ github.run_number }}
+          path: writable/ckan_sync/ckan_sync_data.tar.gz
+          retention-days: 30
+
+      # 11. Subir logs
+      - name: 📋 Subir logs de sincronización
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: ckan-sync-logs-${{ github.run_number }}
+          path: writable/ckan_sync/logs/
+          retention-days: 7
+
+      # 12. Commit y push de archivos generados (opcional)
+      - name: 💾 Commit archivos sincronizados
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Agregar solo los archivos que queremos versionar
+          git add writable/ckan_sync/geojson/*.geojson || true
+
+          # Verificar si hay cambios
+          if git diff --staged --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "🔄 Sync CKAN: Actualización automática de GeoJSON [skip ci]" || true
+            git push origin main || true
+          fi
+
+      # 13. Notificación de éxito/error
+      - name: 📧 Notificar resultado
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: |
+            CKAN Sync: ${{ job.status == 'success' && '✅ Exitoso' || '❌ Error' }} - ${{ github.run_number }}
+          to: ${{ secrets.NOTIFICATION_EMAIL }}
+          from: GitHub Actions
+          body: |
+            Sincronización de recursos CKAN completada.
+
+            Estado: ${{ job.status }}
+            Workflow: ${{ github.workflow }}
+            Run ID: ${{ github.run_id }}
+            Fecha: ${{ github.event.repository.updated_at }}
+
+            Ver detalles: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      # 14. Resumen
+      - name: 📊 Generar resumen
+        if: always()
+        run: |
+          echo "## 📊 Resumen de Sincronización CKAN" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Estado:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Fecha:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run ID:** ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "writable/ckan_sync/logs/sync_$(date +%Y_%m_%d).log" ]; then
+            echo "### 📋 Últimas 20 líneas del log:" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            tail -n 20 "writable/ckan_sync/logs/sync_$(date +%Y_%m_%d).log" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi

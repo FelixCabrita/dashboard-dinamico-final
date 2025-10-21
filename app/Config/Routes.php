@@ -28,6 +28,15 @@ $routes->group('api/cache', function($routes) {
     $routes->get('stats', 'API\DataController::cacheStats');
 });
 
+// API CKAN (Hito 5 - Integración CKAN API)
+$routes->group('api/ckan', ['namespace' => 'App\Controllers\Api'], function($routes) {
+    $routes->get('municipios', 'CkanController::municipios');
+    $routes->get('poblacion', 'CkanController::poblacion');
+    $routes->get('incendios', 'CkanController::incendios');
+    $routes->post('clear-cache', 'CkanController::clearCache');
+    $routes->get('cache/stats', 'CkanController::cacheStats');
+});
+
 // Autenticación (Login)
 $routes->get('/admin-panel-bmp/login', 'Auth::login');
 $routes->post('/admin-panel-bmp/authenticate', 'Auth::authenticate');
