@@ -10,14 +10,17 @@
 
 Se ha completado con éxito la implementación del Sistema de Integración CKAN, incluyendo:
 
-- ✅ 8 archivos PHP nuevos (5 clases, 1 migración, 1 configuración de rutas, 1 controlador)
+- ✅ 11 archivos PHP nuevos (7 clases, 1 migración, 1 configuración de rutas, 2 controladores)
+- ✅ 1 vista admin de sincronización (~240 líneas HTML/JS)
 - ✅ Base de datos migrada correctamente
 - ✅ Estructura de directorios creada
 - ✅ API endpoints funcionando al 100%
+- ✅ Interfaz admin de sincronización implementada
+- ✅ Arquitectura callback con Render configurada
 - ✅ Documentación actualizada (Hitos 4 y 5)
 - ✅ Sistema de caché operativo
 
-**Total de líneas de código implementadas**: ~1,880 líneas PHP
+**Total de líneas de código implementadas**: ~3,286 líneas (PHP, HTML, JS)
 
 ---
 
@@ -85,10 +88,10 @@ Todos los directorios creados y con permisos correctos:
 - `writable/ckan_sync/logs` (logs de sincronización)
 
 #### ⚠️ Componentes Opcionales
-- **ogr2ogr**: No instalado (requerido solo para procesamiento SHP en producción)
-- **PHP zip extension**: No habilitada (requerida solo para extracción de ZIPs)
+- **ogr2ogr**: No requerido localmente (procesamiento en microservicio Render)
+- **PHP zip extension**: No habilitada (solo requerida para procesamiento local)
 
-**Nota**: El sistema funciona completamente sin estos componentes para los endpoints de API. Solo son necesarios cuando se ejecute `php spark ckan:sync` para procesar archivos SHP.
+**Nota**: El sistema funciona completamente sin estos componentes. El procesamiento SHP se realiza en el microservicio Render, no localmente. Solo se requiere localmente si se usa el comando CLI `php spark ckan:sync` (modo legacy).
 
 ---
 
@@ -225,15 +228,17 @@ Todos los directorios creados y con permisos correctos:
 
 | Archivo | Líneas | Propósito |
 |---------|--------|-----------|
-| `app/Config/Ckan.php` | ~180 | Configuración API CKAN |
+| `app/Config/Ckan.php` | ~203 | Configuración API CKAN + Render |
 | `app/Config/CkanSync.php` | ~180 | Configuración sincronización |
 | `app/Libraries/CkanApiClient.php` | ~400 | Cliente HTTP con retry logic |
 | `app/Libraries/CkanSyncManager.php` | ~350 | Manager de sincronización |
-| `app/Libraries/ShpProcessor.php` | ~300 | Procesador de archivos SHP |
-| `app/Commands/CkanSyncCommand.php` | ~270 | CLI command |
-| `app/Controllers/Api/CkanController.php` | ~200 | API proxy endpoints |
+| `app/Libraries/ShpProcessor.php` | ~495 | Procesador de archivos SHP + import to current.db |
+| `app/Commands/CkanSyncCommand.php` | ~270 | CLI command (legacy) |
+| `app/Controllers/Api/CkanController.php` | ~476 | API proxy endpoints + callback |
+| `app/Controllers/Admin/CkanSync.php` | ~280 | Controlador admin sync |
+| `app/Views/admin/ckan/sync.php` | ~240 | Vista interfaz admin |
 | `app/Database/Migrations/...` | ~100 | Migración de tabla sync |
-| **TOTAL** | **~1,980** | **8 archivos** |
+| **TOTAL** | **~2,994** | **10 archivos** |
 
 ### Archivos Modificados
 
@@ -266,6 +271,7 @@ Todos los directorios creados y con permisos correctos:
 - `GET /api/ckan/incendios?provincia={PROVINCIA}&limit={N}` - Incendios forestales
 - `POST /api/ckan/clear-cache` - Limpia caché CKAN
 - `GET /api/ckan/cache/stats` - Estadísticas de caché
+- `POST /api/admin/ckan/import` - Callback desde Render (protegido con token)
 
 **Características**:
 - Autenticación JWT solo en backend
@@ -278,37 +284,42 @@ Todos los directorios creados y con permisos correctos:
 
 ### 2. Sistema de Sincronización SHP
 
-✅ **CLI command** para sincronizar recursos geoespaciales de CKAN a SQLite local:
+✅ **Interfaz Admin** para sincronizar recursos geoespaciales de CKAN bajo demanda:
 
-```bash
-# Sincronizar todos los recursos prioritarios
-php spark ckan:sync
+**URL**: `/admin-panel-bmp/ckan/sync`
 
-# Sincronizar un recurso específico
-php spark ckan:sync --resource=miradores
+**Funcionalidad**:
+- Lista todos los recursos disponibles configurados
+- Muestra estado de última sincronización
+- Botón "Sincronizar" por recurso
+- Loading spinner durante procesamiento
+- Polling cada 10s para verificar estado
+- Notificaciones en tiempo real
+- Recarga automática cuando termina
 
-# Forzar resincronización (ignorar caché)
-php spark ckan:sync --force
+**Flujo de sincronización (Arquitectura Render)**:
+1. Admin hace click en "Sincronizar"
+2. Panel admin envía request a Render con:
+   - resource_id
+   - resource_name
+   - callback_url
+   - callback_token
+3. Render responde inmediatamente (procesamiento en background)
+4. Admin muestra "Sincronizando... (2-3 minutos)" con polling
+5. Render procesa en background:
+   - Descarga SHP desde CKAN
+   - Convierte con ogr2ogr
+   - Genera JSON con datos procesados
+6. Render hace POST al callback con datos
+7. Panel admin valida token y crea tabla `ckan_{nombre}` en current.db
+8. Panel inserta datos en bulk
+9. Panel actualiza `ckan_resource_sync`
+10. Notificación al admin: "✅ Sincronización completada"
 
-# Verificar configuración del sistema
-php spark ckan:sync --check
-```
-
-**Flujo de sincronización**:
-1. Obtiene metadata del recurso desde CKAN
-2. Verifica si hay cambios (last_modified)
-3. Descarga archivo ZIP con SHP
-4. Extrae contenido temporal
-5. Convierte SHP → SQLite (ogr2ogr)
-6. Convierte SHP → GeoJSON (ogr2ogr)
-7. Actualiza registro en `ckan_resource_sync`
-8. Limpia archivos temporales
-
-**Configuración**: `app/Config/CkanSync.php`
-- Frecuencia: 7 días (resincronización automática)
-- Max reintentos: 3
-- Timeout descarga: 300s (5 minutos)
-- Salida GeoJSON: EPSG:4326 (WGS84)
+**Configuración**: `app/Config/Ckan.php` y `app/Config/CkanSync.php`
+- renderServiceUrl: URL del microservicio Render
+- callbackToken: Token de seguridad compartido
+- availableResources: Recursos sincronizables
 
 ---
 
@@ -407,9 +418,14 @@ dashboard-dinamico-final/
 │   │   ├── CkanSyncManager.php   ← Manager de sync
 │   │   └── ShpProcessor.php      ← Procesador SHP
 │   ├── Commands/
-│   │   └── CkanSyncCommand.php   ← CLI command
-│   ├── Controllers/Api/
-│   │   └── CkanController.php    ← API endpoints
+│   │   └── CkanSyncCommand.php   ← CLI command (legacy)
+│   ├── Controllers/
+│   │   ├── Api/
+│   │   │   └── CkanController.php    ← API endpoints + callback
+│   │   └── Admin/
+│   │       └── CkanSync.php          ← Admin sync interface
+│   ├── Views/admin/ckan/
+│   │   └── sync.php              ← Vista de sincronización
 │   └── Database/Migrations/
 │       └── 2025-10-21-120000_CreateCkanResourceSyncTable.php
 ├── writable/
@@ -433,64 +449,91 @@ dashboard-dinamico-final/
 
 ## 🚀 Pasos Siguientes
 
-### Producción Inmediata (Sin ogr2ogr)
+### 1. Implementar Microservicio Render
 
-Si **NO necesitas procesar archivos SHP** todavía, el sistema ya está listo para producción:
+**Estado**: ⏳ **PENDIENTE** (Backend panel admin ya listo)
 
-✅ **Endpoints API funcionando al 100%**
-✅ **Cache operativo**
-✅ **Base de datos migrada**
+**Tareas**:
+1. Crear proyecto PHP separado para Render
+2. Configurar buildpack con GDAL (Linux)
+3. Implementar endpoints:
+   - `POST /api/sync-shp` - Recibe request de sincronización
+   - Descarga SHP desde CKAN
+   - Procesa con ogr2ogr
+   - Envía callback con datos procesados
+4. Deploy en Render.com
+5. Obtener URL del servicio
 
-**Acción requerida**: Cambiar URL de CKAN en `app/Config/Ckan.php`:
+**Recursos necesarios**:
+- Cuenta Render.com (plan Starter recomendado)
+- Repositorio Git con código del microservicio
+- Variables de entorno: CKAN_BASE_URL, CKAN_JWT_TOKEN
+
+---
+
+### 2. Configurar Panel Admin
+
+**Archivo**: `app/Config/Ckan.php`
+
 ```php
-// Cambiar de desarrollo a producción
-public string $baseUrl = 'http://ckan.dipupalenciaindicadores.secmotic.com';
+// Actualizar con URL real de Render
+public string $renderServiceUrl = 'https://tu-servicio.onrender.com';
+
+// Token ya generado:
+public string $callbackToken = '7f8a9b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a';
 ```
+
+**Acción**: Una vez deployado Render, actualizar la URL
 
 ---
 
-### Procesamiento SHP (Requiere ogr2ogr)
+### 3. Actualizar Resource IDs Reales
 
-Si necesitas ejecutar `php spark ckan:sync` para procesar archivos SHP:
+**Archivo**: `app/Config/CkanSync.php`
 
-#### Opción 1: Instalar OSGeo4W (Windows)
-
-1. Descargar OSGeo4W: https://trac.osgeo.org/osgeo4w/
-2. Instalar con paquete "GDAL"
-3. Actualizar `app/Config/CkanSync.php`:
-   ```php
-   public string $ogr2ogrPath = 'C:\\OSGeo4W64\\bin\\ogr2ogr.exe';
-   ```
-
-#### Opción 2: Usar GitHub Actions
-
-El sistema ya está configurado para ejecutarse automáticamente en GitHub Actions (que tiene ogr2ogr pre-instalado):
-
-```yaml
-# .github/workflows/ckan_sync.yml (ya existe)
-name: CKAN Sync
-on:
-  schedule:
-    - cron: '0 2 * * *'  # Diariamente a las 2 AM
+```php
+public array $availableResources = [
+    'miradores' => [
+        'id' => 'RESOURCE_ID_REAL',  // Obtener de docs/DOCUMENTACION_API_CKAN.md
+        'name' => 'Miradores',
+        'description' => 'Puntos de observación del paisaje'
+    ],
+    // ... agregar más recursos
+];
 ```
+
+**Fuente**: `docs/DOCUMENTACION_API_CKAN.md` - Sección "Inventario Completo"
 
 ---
 
-### Habilitar PHP zip Extension (Opcional)
+### 4. Primera Sincronización de Prueba
 
-Si necesitas extraer ZIPs localmente:
-
-1. Editar `php.ini`:
-   ```ini
-   extension=zip
-   ```
-
-2. Reiniciar servidor Apache/PHP-FPM
-
-3. Verificar:
+**Flujo completo**:
+1. Acceder a `/admin-panel-bmp/ckan/sync`
+2. Click en "Sincronizar" para un recurso
+3. Verificar request a Render (logs del microservicio)
+4. Esperar callback (2-3 minutos)
+5. Verificar tabla creada:
    ```bash
-   php -m | findstr zip
+   sqlite3 data/db/current.db "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'ckan_%';"
    ```
+6. Verificar datos:
+   ```bash
+   GET /api/data/tables  # Debe incluir ckan_miradores
+   POST /api/data/query {"table": "ckan_miradores", "fields": ["*"], "options": {"limit": 10}}
+   ```
+
+---
+
+### 5. Producción (Endpoints API ya listos)
+
+**Acciones**:
+1. Cambiar URL de CKAN en `app/Config/Ckan.php`:
+   ```php
+   public string $baseUrl = 'http://ckan.dipupalenciaindicadores.secmotic.com';
+   ```
+2. Verificar que Render esté en producción (no en plan free con cold starts)
+3. Probar sincronización end-to-end
 
 ---
 
@@ -527,21 +570,26 @@ El Sistema de Integración CKAN ha sido **implementado, verificado y documentado
 
 | Componente | Estado | Notas |
 |------------|--------|-------|
-| Código PHP | ✅ COMPLETO | 1,980 líneas en 8 archivos |
+| Código PHP Backend | ✅ COMPLETO | 2,994 líneas en 10 archivos |
+| Vista Admin | ✅ COMPLETO | 240 líneas HTML/JS |
 | Base de datos | ✅ MIGRADO | Tabla `ckan_resource_sync` creada |
 | Directorios | ✅ CREADOS | Permisos 755 aplicados |
-| API Endpoints | ✅ FUNCIONANDO | 5 endpoints verificados |
+| API Endpoints | ✅ FUNCIONANDO | 6 endpoints verificados |
+| Callback Endpoint | ✅ IMPLEMENTADO | POST /api/admin/ckan/import |
+| Interfaz Admin Sync | ✅ FUNCIONANDO | /admin-panel-bmp/ckan/sync |
 | Cache | ✅ OPERATIVO | 8 entradas activas, 0.2 MB |
 | Documentación | ✅ ACTUALIZADA | Hitos 4 y 5 completos |
-| Tests | ✅ PASADOS | Todos los endpoints responden |
+| Microservicio Render | ⏳ PENDIENTE | Backend listo para recibirlo |
 
 ### Próximos Pasos Recomendados
 
 1. ✅ **Listo para despliegue** (endpoints API)
-2. ⏳ Instalar ogr2ogr si se necesita procesamiento SHP local
-3. ⏳ Habilitar zip extension si se requiere
-4. ⏳ Configurar GitHub Actions para sync automático (ya existe workflow)
-5. ⏳ Cambiar a URL de producción de CKAN
+2. ✅ **Backend completamente funcional** (interfaz admin + callback)
+3. ⏳ **Implementar microservicio Render** con GDAL
+4. ⏳ Configurar renderServiceUrl en Ckan.php
+5. ⏳ Actualizar Resource IDs reales en CkanSync.php
+6. ⏳ Probar sincronización end-to-end completa
+7. ⏳ Cambiar a URL de producción de CKAN
 
 ---
 

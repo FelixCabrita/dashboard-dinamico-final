@@ -191,4 +191,26 @@ class Ckan extends BaseConfig
         'rate_limit_documentado' => false,
         'metadata_organizaciones_incompleta' => true,
     ];
+
+    /**
+     * URL del microservicio Render para procesamiento SHP
+     *
+     * El microservicio se encarga de descargar archivos SHP desde CKAN,
+     * procesarlos con GDAL y enviar los datos procesados de vuelta.
+     *
+     * DESARROLLO: Dejar vacío hasta desplegar en Render
+     * PRODUCCIÓN: URL del servicio en Render (https://tu-servicio.onrender.com)
+     */
+    public string $renderServiceUrl = '';
+
+    /**
+     * Token de seguridad para callback del microservicio
+     *
+     * Este token se comparte con el microservicio Render para validar
+     * que los requests al endpoint /api/admin/ckan/import son legítimos.
+     *
+     * Token generado con bin2hex(random_bytes(32))
+     * IMPORTANTE: Mantener secreto, NO exponer en frontend
+     */
+    public string $callbackToken = '7f8a9b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a';
 }

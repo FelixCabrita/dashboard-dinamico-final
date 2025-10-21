@@ -287,6 +287,191 @@ class ShpProcessor
     }
 
     /**
+     * Importar SHP directamente a la base de datos principal (current.db)
+     *
+     * En lugar de crear un archivo SQLite separado, importa los datos
+     * directamente a current.db con el prefijo 'ckan_'
+     *
+     * @param string $shpPath Ruta al archivo .shp
+     * @param string $resourceName Nombre del recurso (ej: 'miradores', 'aparcamientos')
+     * @return array [success: bool, table: string, rows: int, message: string]
+     * @throws \RuntimeException Si ogr2ogr falla
+     */
+    public function importToMainDatabase(string $shpPath, string $resourceName): array
+    {
+        $ogrPath = $this->config->ogr2ogrPath;
+        $mainDbPath = ROOTPATH . 'data/db/current.db';
+        $tableName = 'ckan_' . strtolower(preg_replace('/[^a-zA-Z0-9_]/', '_', $resourceName));
+
+        // Verificar que el archivo SHP existe
+        if (!file_exists($shpPath)) {
+            throw new \RuntimeException("Archivo SHP no encontrado: {$shpPath}");
+        }
+
+        // Verificar que current.db existe
+        if (!file_exists($mainDbPath)) {
+            throw new \RuntimeException("Base de datos principal no encontrada: {$mainDbPath}");
+        }
+
+        // Crear archivo SQLite temporal para la conversión inicial
+        $tempDbPath = sys_get_temp_dir() . '/temp_shp_' . uniqid() . '.db';
+
+        try {
+            // PASO 1: Convertir SHP a SQLite temporal
+            $cmd = sprintf(
+                '%s -f SQLite "%s" "%s" -nln "%s" -overwrite',
+                $ogrPath,
+                $tempDbPath,
+                $shpPath,
+                $tableName
+            );
+
+            if ($this->config->validateGeometries) {
+                $cmd .= ' -nlt PROMOTE_TO_MULTI';
+            }
+
+            exec($cmd . ' 2>&1', $output, $returnCode);
+
+            if ($returnCode !== 0) {
+                $errorMsg = "Error ejecutando ogr2ogr: " . implode("\n", $output);
+                log_message('error', $errorMsg);
+                throw new \RuntimeException($errorMsg);
+            }
+
+            // PASO 2: Leer datos del SQLite temporal
+            $tempDb = new \SQLite3($tempDbPath);
+            $result = $tempDb->query("SELECT * FROM {$tableName}");
+
+            $rows = [];
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                $rows[] = $row;
+            }
+
+            $columns = [];
+            if (!empty($rows)) {
+                $columns = array_keys($rows[0]);
+            }
+
+            $tempDb->close();
+
+            if (empty($rows)) {
+                return [
+                    'success' => true,
+                    'table' => $tableName,
+                    'rows' => 0,
+                    'message' => 'El archivo SHP no contiene datos'
+                ];
+            }
+
+            // PASO 3: Conectar a current.db e insertar datos
+            $mainDb = new \SQLite3($mainDbPath);
+            $mainDb->exec('BEGIN TRANSACTION');
+
+            // Eliminar tabla si existe (para reemplazar datos)
+            $mainDb->exec("DROP TABLE IF EXISTS {$tableName}");
+
+            // Crear tabla con las mismas columnas
+            $columnDefs = [];
+            foreach ($columns as $col) {
+                // Determinar tipo de dato (simplificado)
+                $type = 'TEXT';
+                if (stripos($col, 'geom') !== false || stripos($col, 'shape') !== false) {
+                    $type = 'BLOB'; // Geometrías
+                } elseif (stripos($col, 'id') !== false || stripos($col, 'cod') !== false) {
+                    $type = 'INTEGER';
+                }
+                $columnDefs[] = "\"{$col}\" {$type}";
+            }
+
+            $createTableSql = "CREATE TABLE {$tableName} (" . implode(', ', $columnDefs) . ")";
+            $mainDb->exec($createTableSql);
+
+            // PASO 4: Insertar datos en lotes
+            $placeholders = implode(',', array_fill(0, count($columns), '?'));
+            $insertSql = "INSERT INTO {$tableName} VALUES ({$placeholders})";
+            $stmt = $mainDb->prepare($insertSql);
+
+            foreach ($rows as $row) {
+                $values = array_values($row);
+                foreach ($values as $i => $value) {
+                    $stmt->bindValue($i + 1, $value);
+                }
+                $stmt->execute();
+                $stmt->reset();
+            }
+
+            // PASO 5: Crear índices
+            $this->createIndexesOnMainDb($mainDb, $tableName, $columns);
+
+            $mainDb->exec('COMMIT');
+            $mainDb->close();
+
+            log_message('info', "SHP importado a current.db exitosamente: {$tableName} ({count($rows)} registros)");
+
+            return [
+                'success' => true,
+                'table' => $tableName,
+                'rows' => count($rows),
+                'columns' => $columns,
+                'message' => "Importado correctamente: {count($rows)} registros"
+            ];
+
+        } catch (\Exception $e) {
+            // Rollback en caso de error
+            if (isset($mainDb)) {
+                try {
+                    $mainDb->exec('ROLLBACK');
+                    $mainDb->close();
+                } catch (\Exception $ignore) {}
+            }
+
+            log_message('error', "Error importando SHP a current.db: " . $e->getMessage());
+            throw $e;
+
+        } finally {
+            // Limpiar archivo temporal
+            if (file_exists($tempDbPath)) {
+                @unlink($tempDbPath);
+            }
+        }
+    }
+
+    /**
+     * Crear índices en tabla de la base de datos principal
+     *
+     * @param \SQLite3 $db Conexión a la base de datos
+     * @param string $tableName Nombre de la tabla
+     * @param array $columns Lista de columnas disponibles
+     * @return void
+     */
+    private function createIndexesOnMainDb(\SQLite3 $db, string $tableName, array $columns): void
+    {
+        // Columnas típicas que vale la pena indexar en datos geoespaciales
+        $indexableColumns = ['nombre', 'tipo', 'municipio', 'provincia', 'codigo', 'cod_ine', 'id'];
+
+        foreach ($indexableColumns as $col) {
+            // Buscar columna case-insensitive
+            $actualCol = null;
+            foreach ($columns as $c) {
+                if (strtolower($c) === strtolower($col)) {
+                    $actualCol = $c;
+                    break;
+                }
+            }
+
+            if ($actualCol) {
+                try {
+                    $indexName = "idx_{$tableName}_{$actualCol}";
+                    $db->exec("CREATE INDEX IF NOT EXISTS {$indexName} ON {$tableName}(\"{$actualCol}\")");
+                    log_message('debug', "Índice creado en current.db: {$indexName}");
+                } catch (\Exception $e) {
+                    log_message('warning', "No se pudo crear índice {$actualCol}: " . $e->getMessage());
+                }
+            }
+        }
+    }
+
+    /**
      * Verificar si ogr2ogr está disponible
      *
      * @return array [available: bool, version: string|null, path: string|null]

@@ -681,6 +681,8 @@ El siguiente hito se enfocará en:
 
 Como extensión del Hito 4, se integró completamente la **API CKAN de Diputación de Palencia** como nueva fuente de datos externa, complementando la base de datos SQLite local.
 
+**Arquitectura implementada:** Microservicio Render + Callback (documentación completa en [ARQUITECTURA_CKAN_RENDER.md](../ARQUITECTURA_CKAN_RENDER.md))
+
 ### 📊 Inventario CKAN
 
 **Servidor:** `http://ckan.dev.dipupalenciaindicadores.secmotic.com`
@@ -737,15 +739,37 @@ Privacidad:
 - Retry con backoff exponencial
 - Logging de queries lentas (>2s)
 
-#### app/Controllers/Api/CkanController.php (~200 líneas)
+#### app/Controllers/Api/CkanController.php (~476 líneas)
 - **Endpoints proxy seguros** (ocultan JWT del frontend)
 - `GET /api/ckan/municipios?provincia=PALENCIA`
 - `GET /api/ckan/poblacion?provincia=PALENCIA&year=2023`
 - `GET /api/ckan/incendios?provincia=PALENCIA&limit=50`
 - `POST /api/ckan/clear-cache`
 - `GET /api/ckan/cache/stats`
+- `POST /api/admin/ckan/import` - **Callback desde Render** (protegido con token)
 - Validación de parámetros
 - Manejo robusto de errores
+
+#### app/Controllers/Admin/CkanSync.php (~280 líneas) - NUEVO
+- **Interfaz admin de sincronización**
+- `GET /admin-panel-bmp/ckan/sync` - Vista de recursos disponibles
+- `POST /admin-panel-bmp/ckan/sync/trigger` - Iniciar sincronización en Render
+- `GET /admin-panel-bmp/ckan/sync/status/:resource` - Polling para verificar estado
+- Integración con microservicio Render
+
+#### app/Views/admin/ckan/sync.php (~240 líneas) - NUEVO
+- **Vista de sincronización CKAN**
+- Lista de recursos con estado de sincronización
+- Botones de sincronización individual
+- Polling automático cada 10s
+- Notificaciones en tiempo real
+
+#### app/Libraries/ShpProcessor.php (~495 líneas)
+- Procesador de archivos Shapefile
+- `processToSqlite()` - Conversión SHP → SQLite (legacy)
+- `importToMainDatabase()` - **Importación directa a current.db con prefijo ckan_***
+- Creación automática de índices
+- Query desde SQLite
 
 ### ⚡ Optimizaciones
 
@@ -783,7 +807,8 @@ Privacidad:
 ### 📊 Rutas Agregadas
 
 ```php
-// app/Config/Routes.php (líneas 31-38)
+// app/Config/Routes.php
+// API CKAN Endpoints
 $routes->group('api/ckan', ['namespace' => 'App\Controllers\Api'], function($routes) {
     $routes->get('municipios', 'CkanController::municipios');
     $routes->get('poblacion', 'CkanController::poblacion');
@@ -791,6 +816,14 @@ $routes->group('api/ckan', ['namespace' => 'App\Controllers\Api'], function($rou
     $routes->post('clear-cache', 'CkanController::clearCache');
     $routes->get('cache/stats', 'CkanController::cacheStats');
 });
+
+// Callback desde Render
+$routes->post('api/admin/ckan/import', 'Api\CkanController::import');
+
+// Admin CKAN Sync Interface
+$routes->get('admin-panel-bmp/ckan/sync', 'Admin\CkanSync::index');
+$routes->post('admin-panel-bmp/ckan/sync/trigger', 'Admin\CkanSync::triggerSync');
+$routes->get('admin-panel-bmp/ckan/sync/status/(:segment)', 'Admin\CkanSync::getStatus/$1');
 ```
 
 ### ✅ Testing Validado
@@ -817,6 +850,8 @@ Resultado: 1,952 incendios en 432ms
 El Hito 4 ha sido completado exitosamente, proporcionando una base sólida para la creación dinámica de componentes visuales. El sistema de API REST permite acceso flexible a los datos, mientras que el constructor de componentes ofrece una experiencia sin código para crear visualizaciones complejas.
 
 **Actualización 21/10/2025:** Se integró completamente la API CKAN como nueva fuente de datos, ampliando significativamente las capacidades del dashboard con acceso a 20 datasets y 243 recursos de datos abiertos de la Diputación de Palencia.
+
+**Refactorización Render (21/10/2025):** Se implementó arquitectura de sincronización SHP mediante microservicio Render con callback asíncrono. Los datos CKAN SHP procesados se importan directamente a `current.db` con prefijo `ckan_*`, permitiendo integración automática con QueryBuilder y componentes del dashboard. Ver documentación completa en [ARQUITECTURA_CKAN_RENDER.md](../ARQUITECTURA_CKAN_RENDER.md) y [REFACTORIZACION_CKAN_RENDER.md](../REFACTORIZACION_CKAN_RENDER.md).
 
 **Estado del Proyecto:**
 - ✅ Hito 1: Infraestructura + Autenticación

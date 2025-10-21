@@ -42,20 +42,36 @@ class CkanSync extends BaseConfig
     public string $logDir = WRITEPATH . 'ckan_sync/logs';
 
     /**
-     * Recursos SHP prioritarios para sincronizar
+     * Recursos SHP disponibles para sincronizar
      *
-     * Key: Nombre interno (usado como nombre de archivo)
-     * Value: Resource ID de CKAN
+     * Estructura:
+     * 'key' => [
+     *     'id' => 'resource-id-from-ckan',
+     *     'name' => 'Nombre descriptivo',
+     *     'description' => 'Descripción breve'
+     * ]
      *
-     * Nota: Estos IDs deben actualizarse según el inventario real de CKAN
+     * El admin puede sincronizar cualquiera de estos recursos bajo demanda
+     * Nota: Actualizar IDs desde docs/DOCUMENTACION_API_CKAN.md
      */
-    public array $priorityResources = [
-        // Recursos geoespaciales de ejemplo
-        // Actualizar con IDs reales desde docs/DOCUMENTACION_API_CKAN.md
-        'miradores' => 'c20d3a73-b678-4472-830a-b01037a00654',
-        'aparcamientos' => 'ffee67b6-9ff9-4b56-bfca-bbf555318d4f',
-        'puntos_interes' => 'b7d3b20f-7828-465f-b5cf-6699f59bf659',
+    public array $availableResources = [
+        'miradores' => [
+            'id' => 'c20d3a73-b678-4472-830a-b01037a00654',
+            'name' => 'Miradores',
+            'description' => 'Puntos de observación del paisaje',
+        ],
+        'aparcamientos' => [
+            'id' => 'ffee67b6-9ff9-4b56-bfca-bbf555318d4f',
+            'name' => 'Aparcamientos',
+            'description' => 'Zonas de estacionamiento',
+        ],
+        'puntos_interes' => [
+            'id' => 'b7d3b20f-7828-465f-b5cf-6699f59bf659',
+            'name' => 'Puntos de Interés',
+            'description' => 'Lugares destacados del territorio',
+        ],
         // Agregar más recursos SHP aquí según necesidad
+        // Consultar inventario completo en docs/DOCUMENTACION_API_CKAN.md
     ];
 
     /**

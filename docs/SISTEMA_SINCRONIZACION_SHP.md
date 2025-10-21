@@ -1,14 +1,18 @@
-# SISTEMA DE SINCRONIZACIÓN AUTOMÁTICA DE ARCHIVOS SHP
+# SISTEMA DE SINCRONIZACIÓN DE ARCHIVOS SHP CON RENDER
 
 **Proyecto:** Dashboard Dinámico Ambiental - Bosque Modelo Palencia
 **Fecha:** 21 de Octubre de 2025
-**Versión:** 1.0.0
+**Versión:** 2.0.0 (Refactorización Render)
+**Actualización:** 21 de Octubre de 2025
+
+> **Nota importante**: Este documento contiene tanto la implementación actual (Render + Callback) como código legacy (CkanSyncManager, cronjobs).
+> Para documentación completa de la nueva arquitectura, consultar: [**ARQUITECTURA_CKAN_RENDER.md**](ARQUITECTURA_CKAN_RENDER.md)
 
 ---
 
 ## 🎯 OBJETIVO
 
-Resolver la limitación de que **194 recursos SHP (79.8%)** no son consultables vía API CKAN, descargándolos automáticamente, convirtiéndolos a formato SQLite/GeoJSON y manteniéndolos actualizados mediante cronjob.
+Resolver la limitación de que **194 recursos SHP (79.8%)** no son consultables vía API CKAN, procesándolos mediante microservicio Render con GDAL e importándolos directamente a `current.db` para integración automática con QueryBuilder y componentes del dashboard.
 
 ---
 
@@ -42,143 +46,192 @@ Total recursos CKAN:        243
 
 ---
 
-## ✅ SOLUCIÓN PROPUESTA
+## ✅ SOLUCIÓN IMPLEMENTADA
 
-### Arquitectura del Sistema
+### Arquitectura del Sistema (Render + Callback)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     CRONJOB (Diario/Semanal)                │
+│               PANEL ADMIN - Interfaz Web                     │
+│            /admin-panel-bmp/ckan/sync                        │
+│  Admin hace click en "Sincronizar" para un recurso          │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  1. Obtener lista de recursos SHP desde API CKAN            │
-│     GET /api/3/action/package_search?...                    │
+│  1. Panel Admin → Render Microservice                        │
+│     POST https://tu-servicio.onrender.com/api/sync-shp      │
+│     Body: {                                                  │
+│       resource_id: "...",                                    │
+│       resource_name: "miradores",                            │
+│       callback_url: "https://panel.com/api/admin/ckan/...", │
+│       callback_token: "secret-token"                         │
+│     }                                                        │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  2. Verificar si el recurso ya existe en SQLite             │
-│     - Comparar hash MD5                                      │
-│     - Comparar fecha de modificación                         │
+│  2. Render responde inmediatamente (202 Accepted)           │
+│     { success: true, message: "Procesamiento iniciado" }    │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  3. Si hay cambios: Descargar archivo SHP (ZIP)             │
-│     - Descargar desde URL del recurso                        │
-│     - Guardar temporalmente                                  │
+│  3. Admin UI muestra: "Sincronizando... (2-3 minutos)"      │
+│     Polling cada 10s a GET /admin-panel-bmp/ckan/sync/...   │
+└─────────────────────────────────────────────────────────────┘
+
+         [Procesamiento en Render - Background]
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  4. Render procesa en background:                           │
+│     - Obtiene metadata del recurso desde CKAN API           │
+│     - Descarga archivo SHP (ZIP)                             │
+│     - Descomprime ZIP                                        │
+│     - Ejecuta ogr2ogr (GDAL) para convertir SHP             │
+│     - Genera JSON con datos procesados                       │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  4. Extraer y procesar SHP                                   │
-│     - Descomprimir ZIP                                       │
-│     - Leer SHP con ogr2ogr/PHP-GDAL                         │
-│     - Extraer geometrías y atributos                         │
+│  5. Render → Panel Admin Callback                           │
+│     POST https://panel.com/api/admin/ckan/import            │
+│     Headers: { Content-Type: application/json }             │
+│     Body: {                                                  │
+│       token: "secret-token",                                 │
+│       table_name: "ckan_miradores",                          │
+│       data: [{...}, {...}, ...],  // Todos los registros    │
+│       metadata: { rows: 150, ... }                           │
+│     }                                                        │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  5. Almacenar en SQLite/Spatialite                          │
-│     - Crear tabla si no existe                               │
-│     - Insertar/actualizar registros                          │
-│     - Indexar campos de búsqueda                             │
+│  6. Panel Admin (CkanController::import)                    │
+│     - Valida token de seguridad                              │
+│     - Abre conexión a data/db/current.db                     │
+│     - DROP TABLE IF EXISTS ckan_miradores                    │
+│     - CREATE TABLE ckan_miradores (...)                      │
+│     - INSERT en bulk todos los datos                         │
+│     - CREATE INDEX en campos comunes                         │
+│     - Actualiza ckan_resource_sync (tracking)                │
+│     - Crea notificación admin                                │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  6. Generar GeoJSON para mapas web                          │
-│     - Convertir geometrías a GeoJSON                         │
-│     - Guardar en directorio público                          │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│  7. Limpiar archivos temporales                              │
-│     - Eliminar ZIPs descargados                              │
-│     - Eliminar SHP extraídos                                 │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│  8. Logging y notificaciones                                 │
-│     - Registrar éxitos/errores                               │
-│     - Enviar email si hay errores críticos                   │
+│  7. Admin UI (polling detecta status = 'success')           │
+│     - Muestra: "✅ Sincronización completada"                │
+│     - Recarga página con datos actualizados                  │
+│     - Tabla ckan_miradores ahora en /api/data/tables         │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+### Beneficios de esta Arquitectura
+
+1. **No requiere GDAL local**: El procesamiento pesado se hace en Render (Linux, GDAL pre-instalado)
+2. **Integración automática**: Tablas `ckan_*` aparecen en QueryBuilder sin configuración adicional
+3. **Sincronización bajo demanda**: El admin decide cuándo actualizar cada recurso
+4. **Background processing**: La interfaz no se bloquea durante los 2-3 minutos de procesamiento
+5. **Notificaciones en tiempo real**: Polling muestra el progreso y resultado final
+6. **Escalable**: Render puede procesar múltiples recursos en paralelo
 
 ---
 
 ## 🗂️ ESTRUCTURA DE ARCHIVOS
 
-```
-writable/
-├── ckan_sync/
-│   ├── sqlite/
-│   │   ├── ckan_resources.db           ← Base de datos principal
-│   │   ├── shp_miradores.db            ← Ejemplo: Miradores
-│   │   ├── shp_aparcamientos.db        ← Ejemplo: Aparcamientos
-│   │   └── shp_espacios_naturales.db   ← Ejemplo: Espacios naturales
-│   ├── geojson/                        ← GeoJSON para mapas web
-│   │   ├── miradores.geojson
-│   │   ├── aparcamientos.geojson
-│   │   └── espacios_naturales.geojson
-│   ├── temp/                           ← Archivos temporales
-│   │   └── downloads/
-│   └── logs/                           ← Logs de sincronización
-│       ├── sync_2025_10_21.log
-│       └── errors.log
+### Panel Admin (Backend PHP - CodeIgniter 4)
 
+```
 app/
-├── Commands/
-│   └── CkanSyncCommand.php             ← Comando de CodeIgniter
-├── Libraries/
-│   ├── CkanSyncManager.php             ← Gestor principal
-│   └── ShpProcessor.php                ← Procesador de SHP
-└── Models/
-    └── CkanResourceSyncModel.php       ← Modelo de recursos sincronizados
+├── Config/
+│   ├── Ckan.php                        ← Config API CKAN + Render URL
+│   │   ├── renderServiceUrl            ← URL del microservicio Render
+│   │   └── callbackToken               ← Token de seguridad
+│   └── CkanSync.php                    ← Config recursos disponibles
+│       └── availableResources[]        ← Lista de recursos sincronizables
+├── Controllers/
+│   ├── Api/
+│   │   └── CkanController.php          ← API endpoints + callback import()
+│   └── Admin/
+│       └── CkanSync.php                ← Controlador interfaz admin
+├── Views/admin/ckan/
+│   └── sync.php                        ← Vista de sincronización (HTML/JS)
+└── Libraries/
+    └── ShpProcessor.php                ← Procesador con importToMainDatabase()
+
+data/db/
+└── current.db                          ← Base de datos principal SQLite
+    ├── ckan_miradores ←  Tablas CKAN (prefijo ckan_*)
+    ├── ckan_aparcamientos
+    └── ckan_resource_sync              ← Tracking de sincronización
+```
+
+### Microservicio Render (Pendiente de Implementación)
+
+```
+render-ckan-processor/  (Repositorio separado)
+├── index.php                           ← Entry point
+├── api/
+│   └── sync-shp.php                    ← Endpoint procesamiento SHP
+├── lib/
+│   ├── CkanClient.php                  ← Cliente HTTP CKAN
+│   └── ShpConverter.php                ← Convertidor SHP con ogr2ogr
+├── composer.json
+├── Dockerfile  (o usar buildpack GDAL)
+└── README.md
+
+Heroku/Render Build:
+- PHP 8.1+
+- GDAL 3.x (ogr2ogr)
+- Extensiones: zip, curl, json
 ```
 
 ---
 
 ## 🔧 REQUISITOS DEL SISTEMA
 
-### Software Necesario
+### Panel Admin (Servidor de Producción)
+
+**No requiere GDAL/OGR** - El procesamiento se hace en Render
 
 1. **PHP >= 8.1** con extensiones:
    ```bash
-   php -m | grep -E "(zip|sqlite3|pdo_sqlite)"
+   php -m | grep -E "(sqlite3|curl|json)"
    ```
 
-2. **GDAL/OGR** (para procesar archivos SHP):
+2. **Base de datos**: `data/db/current.db` (SQLite3)
+
+3. **Permisos de escritura**: El directorio `data/db/` debe ser escribible
+
+**No se requieren**:
+- ❌ GDAL/OGR (Windows: OSGeo4W ~500 MB)
+- ❌ PHP zip extension (se procesa en Render)
+- ❌ Librerías geoespaciales
+
+### Microservicio Render
+
+**Entorno Render.com** (Linux):
+
+1. **PHP >= 8.1** con extensiones:
    ```bash
-   # Windows (con OSGeo4W)
-   ogr2ogr --version
-
-   # Linux
-   sudo apt-get install gdal-bin
+   - ext-zip (para extraer archivos SHP)
+   - ext-curl (para descargar desde CKAN)
+   - ext-json (para callback)
    ```
 
-3. **SQLite3** con Spatialite (opcional, para geometrías):
+2. **GDAL/OGR** (~20 MB en Linux):
    ```bash
-   sqlite3 --version
+   # Instalación automática en Render con buildpack:
+   heroku/php + buildpack GDAL
    ```
 
-### Librerías PHP Recomendadas
-
-```json
-{
-  "require": {
-    "php": ">=8.1",
-    "ext-zip": "*",
-    "ext-sqlite3": "*",
-    "ext-pdo": "*",
-    "phayes/geophp": "^1.2"  // Para procesar geometrías
-  }
-}
-```
+3. **Variables de entorno**:
+   ```
+   CKAN_BASE_URL=http://ckan.dipupalenciaindicadores.secmotic.com
+   CKAN_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+   ```
 
 ---
 
@@ -978,134 +1031,262 @@ class CreateCkanResourceSyncTable extends Migration
 
 ---
 
-## ⏰ CONFIGURACIÓN DEL CRONJOB
+## ⚙️ CONFIGURACIÓN ACTUAL (RENDER + CALLBACK)
 
-### Windows (Programador de Tareas)
+### Panel Admin - Configuración
 
-**Crear tarea programada:**
+**Archivo: `app/Config/Ckan.php`**
 
-1. Abrir "Programador de tareas" (Task Scheduler)
-2. Crear tarea básica
-3. Configurar:
-   - **Nombre:** CKAN Sync - Bosque Modelo Palencia
-   - **Desencadenador:** Semanalmente, todos los lunes a las 03:00 AM
-   - **Acción:** Iniciar programa
-   - **Programa:** `C:\xampp\php\php.exe`
-   - **Argumentos:** `C:\xampp\htdocs\WP\dashboard-dinamico-final\spark ckan:sync`
-   - **Directorio:** `C:\xampp\htdocs\WP\dashboard-dinamico-final`
+```php
+<?php
 
-### Linux (Crontab)
+namespace Config;
+
+use CodeIgniter\Config\BaseConfig;
+
+class Ckan extends BaseConfig
+{
+    // ... (configuración API existente)
+
+    /**
+     * URL del microservicio Render para procesamiento SHP
+     * ACTUALIZAR cuando Render esté deployado
+     */
+    public string $renderServiceUrl = '';  // Ejemplo: 'https://ckan-processor.onrender.com'
+
+    /**
+     * Token de seguridad compartido con Render
+     * Ya generado, NO cambiar
+     */
+    public string $callbackToken = '7f8a9b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a';
+}
+```
+
+**Archivo: `app/Config/CkanSync.php`**
+
+```php
+<?php
+
+namespace Config;
+
+class CkanSync extends BaseConfig
+{
+    /**
+     * Recursos disponibles para sincronización
+     * El admin puede sincronizar cualquiera bajo demanda
+     */
+    public array $availableResources = [
+        'miradores' => [
+            'id' => 'c20d3a73-b678-4472-830a-b01037a00654',  // ACTUALIZAR con ID real
+            'name' => 'Miradores',
+            'description' => 'Puntos de observación del paisaje'
+        ],
+        'aparcamientos' => [
+            'id' => 'ffee67b6-9ff9-4b56-bfca-bbf555318d4f',  // ACTUALIZAR con ID real
+            'name' => 'Aparcamientos',
+            'description' => 'Áreas de estacionamiento'
+        ],
+        // ... agregar más recursos según necesidad
+    ];
+}
+```
+
+### Acceso a Interfaz Admin
+
+**URL**: `/admin-panel-bmp/ckan/sync`
+
+**Funcionalidad**:
+1. Lista todos los recursos configurados en `availableResources`
+2. Muestra última fecha de sincronización
+3. Botón "Sincronizar" por recurso
+4. Polling automático cada 10s para verificar estado
+5. Notificación cuando termina
+
+### ⏳ MODO LEGACY: Sincronización CLI (Opcional)
+
+**Comando disponible** (requiere ogr2ogr instalado localmente):
 
 ```bash
-# Editar crontab
-crontab -e
+# Sincronizar todos los recursos prioritarios
+php spark ckan:sync
 
-# Agregar línea (ejecutar todos los lunes a las 3 AM)
-0 3 * * 1 cd /var/www/dashboard && php spark ckan:sync >> /var/log/ckan_sync.log 2>&1
+# Sincronizar un recurso específico
+php spark ckan:sync --resource=miradores
+
+# Verificar configuración del sistema
+php spark ckan:sync --check
 ```
 
-### Frecuencias Recomendadas
-
-| Tipo de Dato | Frecuencia | Cronjob |
-|--------------|------------|---------|
-| Datos estáticos (miradores, aparcamientos) | Mensual | `0 3 1 * *` |
-| Datos semi-dinámicos (infraestructura) | Semanal | `0 3 * * 1` |
-| Datos dinámicos (si existen en SHP) | Diario | `0 3 * * *` |
+**Nota**: Este modo es legacy y no se recomienda. La sincronización debe hacerse desde la interfaz admin.
 
 ---
 
-## 📊 USO EN EL DASHBOARD
+## 📊 USO EN EL DASHBOARD (NUEVA ARQUITECTURA)
 
-### Consultar Datos Sincronizados
+### Consultar Datos Sincronizados con QueryBuilder
 
-```php
-// En Controller
-public function getMiradores()
-{
-    $shpProcessor = new \App\Libraries\ShpProcessor();
-    $sqlitePath = WRITEPATH . 'ckan_sync/sqlite/shp_miradores.db';
-
-    $miradores = $shpProcessor->queryFromSqlite($sqlitePath, 'miradores');
-
-    return $this->respond($miradores);
-}
-```
-
-### Servir GeoJSON para Mapas
-
-```php
-// En Routes.php
-$routes->get('geojson/(:segment)', 'GeoDataController::getGeoJSON/$1');
-
-// En Controller
-public function getGeoJSON($resource)
-{
-    $geojsonPath = WRITEPATH . "ckan_sync/geojson/{$resource}.geojson";
-
-    if (!file_exists($geojsonPath)) {
-        return $this->failNotFound("GeoJSON no encontrado");
-    }
-
-    header('Content-Type: application/json');
-    readfile($geojsonPath);
-    exit;
-}
-```
-
-### Usar en Leaflet
+**Las tablas CKAN aparecen automáticamente en `/api/data/tables`**
 
 ```javascript
-// Cargar GeoJSON en mapa
-fetch('/geojson/miradores')
+// 1. Listar todas las tablas disponibles (incluye ckan_*)
+fetch('/api/data/tables')
     .then(r => r.json())
-    .then(geojson => {
-        L.geoJSON(geojson, {
-            onEachFeature: function(feature, layer) {
-                layer.bindPopup(`
-                    <b>${feature.properties.nombre}</b><br>
-                    ${feature.properties.descripcion}
-                `);
-            }
-        }).addTo(map);
+    .then(data => {
+        // data.tables incluye:
+        // - dim_municipios
+        // - fact_existencias
+        // - ckan_miradores  ← Tabla CKAN sincronizada
+        // - ckan_aparcamientos
+        console.log(data.tables);
     });
+
+// 2. Consultar datos de tabla CKAN
+fetch('/api/data/query', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+        table: 'ckan_miradores',
+        fields: ['nombre', 'descripcion', 'latitud', 'longitud'],
+        options: {
+            orderBy: 'nombre',
+            direction: 'ASC',
+            limit: 100
+        }
+    })
+})
+.then(r => r.json())
+.then(data => {
+    // data.results contiene los miradores
+    console.log(data.results);
+});
+```
+
+### Crear Componentes del Dashboard con Datos CKAN
+
+**Los datos CKAN se integran sin configuración adicional:**
+
+1. Acceder al wizard de componentes
+2. Seleccionar tabla `ckan_miradores` (aparece automáticamente)
+3. Elegir campos y tipo de visualización
+4. Guardar componente
+
+**Ejemplo: Mapa con miradores**
+
+```javascript
+// El wizard genera automáticamente:
+{
+  "type": "map",
+  "data_source": {
+    "table": "ckan_miradores",
+    "fields": ["nombre", "latitud", "longitud", "descripcion"]
+  },
+  "config": {
+    "latitude_field": "latitud",
+    "longitude_field": "longitud",
+    "popup_template": "<b>{nombre}</b><br>{descripcion}"
+  }
+}
+```
+
+### Integración con Mapas Leaflet
+
+```javascript
+// Cargar puntos desde tabla CKAN
+async function loadMiradoresMap() {
+    const response = await fetch('/api/data/query', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            table: 'ckan_miradores',
+            fields: ['nombre', 'latitud', 'longitud', 'descripcion']
+        })
+    });
+
+    const {results} = await response.json();
+
+    results.forEach(mirador => {
+        L.marker([mirador.latitud, mirador.longitud])
+            .bindPopup(`
+                <b>${mirador.nombre}</b><br>
+                ${mirador.descripcion}
+            `)
+            .addTo(map);
+    });
+}
 ```
 
 ---
 
-## 🎯 VENTAJAS DE ESTA SOLUCIÓN
+## 🎯 VENTAJAS DE LA NUEVA ARQUITECTURA
 
-1. ✅ **Datos locales más rápidos**
-   - SQLite: <10ms vs API CKAN: ~400ms
-   - 40x más rápido
+1. ✅ **No requiere GDAL/OGR local**
+   - Procesamiento en Render (Linux, GDAL pre-instalado)
+   - Servidor de producción sin dependencias pesadas
 
-2. ✅ **Consultas SQL completas**
-   - WHERE, JOIN, GROUP BY, etc.
-   - Filtros avanzados no disponibles en API CKAN
+2. ✅ **Integración automática con dashboard**
+   - Tablas `ckan_*` aparecen en `/api/data/tables`
+   - QueryBuilder las reconoce sin configuración
+   - Wizard de componentes las lista automáticamente
 
-3. ✅ **Disponibilidad offline**
-   - Dashboard funciona aunque CKAN caiga
-   - Datos críticos siempre disponibles
+3. ✅ **Datos en current.db (única base de datos)**
+   - No hay archivos SQLite separados
+   - No requiere modificar QueryBuilder
+   - Joins posibles entre tablas CKAN y ETL
 
-4. ✅ **Optimizado para web**
-   - GeoJSON listos para Leaflet/Mapbox
-   - Sin procesamiento en tiempo real
+4. ✅ **Sincronización bajo demanda**
+   - Admin decide cuándo actualizar cada recurso
+   - No hay cronjobs automáticos
+   - Control total sobre el proceso
 
-5. ✅ **Actualización automática**
-   - Cronjob mantiene datos sincronizados
-   - Sin intervención manual
+5. ✅ **Background processing**
+   - Interfaz no se bloquea durante procesamiento
+   - Polling muestra progreso en tiempo real
+   - Notificaciones cuando termina
+
+6. ✅ **Escalable y mantenible**
+   - Render puede procesar múltiples recursos en paralelo
+   - Separación clara: Panel (UI) vs Render (Processing)
+   - Fácil debug con logs en Render
 
 ---
 
 ## 📝 PRÓXIMOS PASOS
 
-1. ✅ Instalar GDAL/OGR
-2. ✅ Configurar rutas en `CkanSync.php`
-3. ✅ Ejecutar migración: `php spark migrate`
-4. ✅ Probar sincronización manual: `php spark ckan:sync --resource=miradores`
-5. ✅ Configurar cronjob
-6. ✅ Monitorear logs de sincronización
+### Completados ✅
+
+1. ✅ ShpProcessor con `importToMainDatabase()`
+2. ✅ Endpoint callback `/api/admin/ckan/import`
+3. ✅ Controlador admin `Admin/CkanSync.php`
+4. ✅ Vista interfaz admin `admin/ckan/sync.php`
+5. ✅ Configuración `renderServiceUrl` y `callbackToken`
+6. ✅ Rutas configuradas
+7. ✅ Tabla `ckan_resource_sync` migrada
+
+### Pendientes ⏳
+
+1. ⏳ **Implementar microservicio Render**
+   - Crear repositorio separado
+   - Endpoint `/api/sync-shp`
+   - Integración con CKAN API
+   - Callback al panel
+
+2. ⏳ **Deploy en Render.com**
+   - Configurar buildpack con GDAL
+   - Variables de entorno
+   - Obtener URL del servicio
+
+3. ⏳ **Configurar Panel Admin**
+   - Actualizar `renderServiceUrl` en `Ckan.php`
+   - Verificar Resource IDs reales en `CkanSync.php`
+
+4. ⏳ **Probar flujo completo end-to-end**
+   - Sincronizar desde admin
+   - Verificar callback
+   - Verificar tabla en current.db
+   - Verificar integración con QueryBuilder
 
 ---
 
 **Última actualización:** 21 de Octubre de 2025
-**Estado:** ✅ Diseño completo - Listo para implementación
+**Estado:** ✅ Backend completado - ⏳ Microservicio Render pendiente
+**Versión:** 2.0.0 (Arquitectura Render + Callback)

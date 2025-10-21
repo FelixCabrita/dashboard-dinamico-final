@@ -37,6 +37,9 @@ $routes->group('api/ckan', ['namespace' => 'App\Controllers\Api'], function($rou
     $routes->get('cache/stats', 'CkanController::cacheStats');
 });
 
+// API Admin CKAN - Callback desde microservicio Render
+$routes->post('api/admin/ckan/import', 'Api\CkanController::import');
+
 // Autenticación (Login)
 $routes->get('/admin-panel-bmp/login', 'Auth::login');
 $routes->post('/admin-panel-bmp/authenticate', 'Auth::authenticate');
@@ -79,6 +82,11 @@ $routes->group('admin-panel-bmp', ['filter' => 'auth'], function($routes) {
 
     // Gestión de dashboards (futuro - Hito 6)
     // $routes->get('dashboards', 'Admin\Dashboards::index');
+
+    // Sincronización CKAN (Hito 5 - Arquitectura Render)
+    $routes->get('ckan/sync', 'Admin\CkanSync::index');
+    $routes->post('ckan/sync/trigger', 'Admin\CkanSync::triggerSync');
+    $routes->get('ckan/sync/status/(:segment)', 'Admin\CkanSync::getStatus/$1');
 });
 
 // Testing de Componentes (Hito 5)
